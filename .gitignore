@@ -1,0 +1,33 @@
+# LOCAL-ONLY strategy file — never commit
+CLAUDE.local.md
+
+# Node / frontend
+node_modules/
+dist/
+web/dist/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Data / recordings (regenerable)
+data/raw/
+recordings/
+
+# Env / secrets
+.env
+.env.*
+*.pem
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+.claude/
+
+# Logs / scratch
+*.log
+.cache/
+.playwright-mcp/

@@ -1,0 +1,55 @@
+# The ingestion worker: snapshot -> event digests -> index artifacts,
+# committed back to the repo and served via Pages.
+# Public repo = unlimited standard-runner minutes; schedules are best-effort
+# (UTC, minutes of jitter, occasional skips) — fine for 20-min snapshots.
+name: worker
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/20 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: worker
+  cancel-in-progress: false
+
+jobs:
+  worker:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: worker/requirements.txt
+
+      - run: pip install -r worker/requirements.txt
+
+      - name: Snapshot Saronic Gulf (3 min listen)
+        env:
+          AISSTREAM_API_KEY: ${{ secrets.AISSTREAM_API_KEY }}
+        run: python worker/snapshot.py --duration 180 --out data/snapshot.json
+
+      - name: Digest and build indexes
+        run: |
+          python worker/pipeline.py data/snapshot.json
+          python worker/build_index.py
+
+      - name: Commit artifacts
+        run: |
+          git config user.name "limenarchis-worker"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "no artifact changes"
+          else
+            git commit -m "worker: $(date -u +%FT%TZ)"
+            git pull --rebase origin main
+            git push
+          fi

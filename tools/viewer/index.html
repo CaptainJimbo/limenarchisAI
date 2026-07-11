@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Snapshot viewer — feed validation</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<style>
+  html, body { margin: 0; height: 100%; }
+  #map { height: 100%; }
+  #info {
+    position: absolute; top: 10px; right: 10px; z-index: 1000;
+    background: rgba(255,255,255,.92); padding: 10px 14px; border-radius: 6px;
+    font: 13px/1.5 system-ui, sans-serif; box-shadow: 0 1px 4px rgba(0,0,0,.3);
+    max-width: 220px;
+  }
+  #info h1 { font-size: 14px; margin: 0 0 4px; }
+  .dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%;
+         margin-right: 6px; vertical-align: -1px; }
+</style>
+</head>
+<body>
+<div id="map"></div>
+<div id="info"><h1>Loading snapshot…</h1></div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const COLORS = {
+  passenger: "#e63946", "high-speed craft": "#ff8800", tanker: "#6a0dad",
+  cargo: "#1d6f42", pleasure: "#2a9df4", "tug/tow": "#8d5524",
+  fishing: "#0a9396", "special craft": "#bc6c25", military: "#333",
+  other: "#888", unknown: "#aaa",
+};
+
+// Vessel names/destinations are raw radio broadcasts — escape before
+// interpolating into popup HTML.
+const esc = s => String(s).replace(/[&<>"']/g, c => "&#" + c.charCodeAt(0) + ";");
+
+const map = L.map("map").setView([37.65, 23.5], 9);
+L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+  attribution: "&copy; OpenStreetMap contributors",
+}).addTo(map);
+
+fetch("/data/snapshot.json").then(r => r.json()).then(snap => {
+  const counts = {};
+  for (const v of snap.vessels) {
+    if (v.lat == null || v.lon == null) continue;
+    const category = v.category ?? "unknown";
+    counts[category] = (counts[category] || 0) + 1;
+    const moving = (v.sog || 0) > 0.5;
+    L.circleMarker([v.lat, v.lon], {
+      radius: moving ? 7 : 5,
+      color: moving ? "#000" : COLORS[category] || "#888",
+      weight: moving ? 1.5 : 0,
+      fillColor: COLORS[category] || "#888",
+      fillOpacity: 0.85,
+    }).bindPopup(
+      `<b>${esc(v.name || "(no name)")}</b><br>` +
+      `MMSI ${v.mmsi} · ${esc(category)}<br>` +
+      `${(v.sog ?? 0).toFixed(1)} kn` +
+      (v.destination ? ` → ${esc(v.destination)}` : "") +
+      `<br><small>${esc(v.time_utc || "")}</small>`
+    ).addTo(map);
+  }
+  const legend = Object.entries(counts).sort((a, b) => b[1] - a[1])
+    .map(([c, n]) => `<span class="dot" style="background:${COLORS[c] || "#888"}"></span>${esc(c)}: ${n}`)
+    .join("<br>");
+  document.getElementById("info").innerHTML =
+    `<h1>${snap.vessel_count} vessels</h1>` +
+    `<small>${snap.generated_utc} · ${snap.window_seconds}s window<br>` +
+    `bold ring = moving &gt;0.5 kn</small><hr>` + legend;
+}).catch(e => {
+  document.getElementById("info").innerHTML = `<h1>Failed to load snapshot</h1>${e}`;
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LimenarchisAI — the Harbormaster's log</title>
+<style>
+  :root {
+    --ink: #1a2733; --paper: #f4f1ea; --accent: #0e5a8a;
+    --live: #b4552d; --static: #3d6b4f; --dim: #7a8794;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--paper); color: var(--ink);
+    font: 16px/1.55 Georgia, "Times New Roman", serif;
+  }
+  main { max-width: 720px; margin: 0 auto; padding: 24px 16px 80px; }
+  h1 { font-size: 26px; margin: 8px 0 2px; }
+  h1 .anchor { color: var(--accent); }
+  .sub { color: var(--dim); margin: 0 0 20px; font-style: italic; }
+  #box {
+    display: flex; gap: 8px;
+  }
+  #q {
+    flex: 1; font: inherit; padding: 10px 14px; border: 2px solid var(--ink);
+    border-radius: 4px; background: #fff;
+  }
+  #go {
+    font: inherit; padding: 10px 18px; border: 2px solid var(--ink);
+    background: var(--ink); color: var(--paper); border-radius: 4px;
+    cursor: pointer;
+  }
+  #go:disabled { opacity: .5; cursor: wait; }
+  #status { color: var(--dim); font-size: 14px; margin: 10px 2px; min-height: 1.4em; }
+  .hint { color: var(--dim); font-size: 14px; }
+  .hint a { color: var(--accent); cursor: pointer; text-decoration: underline; }
+  .result {
+    background: #fff; border: 1px solid #d8d2c4; border-radius: 6px;
+    padding: 12px 14px; margin: 12px 0;
+  }
+  .badges { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 6px; }
+  .badge {
+    font: 700 11px/1 system-ui, sans-serif; letter-spacing: .04em;
+    padding: 4px 7px; border-radius: 3px; color: #fff;
+  }
+  .badge.live { background: var(--live); }
+  .badge.static { background: var(--static); }
+  .badge.score { background: var(--dim); }
+  .text { margin: 2px 0; }
+  .sibling {
+    margin: 6px 0 0 14px; padding-left: 10px; font-size: 14.5px;
+    border-left: 3px solid #d8d2c4; color: #45525e;
+  }
+  .meta { color: var(--dim); font-size: 13px; margin-top: 6px; font-family: system-ui, sans-serif; }
+  footer { color: var(--dim); font-size: 13px; margin-top: 40px; }
+</style>
+</head>
+<body>
+<main>
+  <h1><span class="anchor">⚓</span> LimenarchisAI</h1>
+  <p class="sub">The Harbormaster's log of the Saronic Gulf — retrieval mode.
+    Every answer shows its evidence.</p>
+
+  <div id="box">
+    <input id="q" type="search" placeholder="Ask about the gulf…"
+           autocomplete="off">
+    <button id="go">Search</button>
+  </div>
+  <p id="status">Loading indexes…</p>
+  <p class="hint">Try:
+    <a>Where is BLUE STAR 1 now?</a> ·
+    <a>Did any ferry leave Salamina tonight?</a> ·
+    <a>How many ships wait at the Piraeus anchorage?</a> ·
+    <a>Which island has no cars?</a></p>
+
+  <div id="results"></div>
+
+  <footer>
+    Dense = semantic match (bge-small, in your browser) ·
+    Sparse = keyword match (BM25) · fused with Reciprocal Rank Fusion.
+    <span class="badge live" style="font-size:10px">LIVE</span> chunks come
+    from AIS event digests (rolling 48 h);
+    <span class="badge static" style="font-size:10px">STATIC</span> from the
+    port &amp; glossary layer. Chat mode arrives in step 5.
+  </footer>
+</main>
+
+<script type="module">
+import { loadLayer, loadEmbedder, search } from "./search.js";
+
+const $ = (id) => document.getElementById(id);
+const statusEl = $("status"), results = $("results"), q = $("q"), go = $("go");
+
+const LEG_LABEL = {
+  "dense-live": ["D", "live"], "bm25-live": ["B", "live"],
+  "dense-static": ["D", "static"], "bm25-static": ["B", "static"],
+};
+
+function esc(s) {
+  return String(s).replace(/[&<>"']/g, (c) => "&#" + c.charCodeAt(0) + ";");
+}
+
+let layers = null;
+
+async function boot() {
+  statusEl.textContent = "Loading indexes…";
+  const [staticLayer, liveLayer] = await Promise.all([
+    loadLayer("../data/static-index.json"),
+    loadLayer("../data/live-index.json"),
+  ]);
+  layers = { static: staticLayer, live: liveLayer };
+  statusEl.textContent =
+    `Indexes loaded (${staticLayer.chunks.length} static + ` +
+    `${liveLayer.chunks.length} live chunks). Warming up the embedder…`;
+  await loadEmbedder((p) => {
+    if (p.status === "progress" && p.file?.endsWith(".onnx")) {
+      statusEl.textContent =
+        `Downloading query embedder… ${Math.round(p.progress || 0)}%`;
+    }
+  });
+  statusEl.textContent =
+    `Ready. Live layer built ${layers.live.built_utc}.`;
+}
+
+async function run() {
+  const query = q.value.trim();
+  if (!query || !layers) return;
+  go.disabled = true;
+  statusEl.textContent = "Searching…";
+  const t0 = performance.now();
+  try {
+    const hits = await search(query, layers);
+    const ms = Math.round(performance.now() - t0);
+    statusEl.textContent = `${hits.length} results in ${ms} ms.`;
+    results.innerHTML = hits.map((h) => {
+      const badges = Object.entries(h.legs)
+        .sort((a, b) => a[1] - b[1])
+        .map(([leg, rank]) => {
+          const [kind, layer] = LEG_LABEL[leg];
+          return `<span class="badge ${layer}" title="${leg} rank ${rank}">` +
+                 `${kind}·${layer.toUpperCase()} #${rank}</span>`;
+        }).join("");
+      const siblings = h.siblings.map((s) =>
+        `<div class="sibling">${esc(s.text)}</div>`).join("");
+      const meta = h.chunk.time_utc
+        ? `<div class="meta">${esc(h.chunk.event_type || "")} · ` +
+          `${esc(h.chunk.time_utc)} · ${esc(h.chunk.id)}</div>`
+        : `<div class="meta">${esc(h.chunk.id)}</div>`;
+      return `<div class="result">
+        <div class="badges">${badges}
+          <span class="badge score">RRF ${h.score.toFixed(4)}</span></div>
+        <div class="text">${esc(h.chunk.text)}</div>
+        ${siblings}${meta}</div>`;
+    }).join("");
+  } catch (err) {
+    statusEl.textContent = `Search failed: ${err.message}`;
+  } finally {
+    go.disabled = false;
+  }
+}
+
+go.addEventListener("click", run);
+q.addEventListener("keydown", (e) => { if (e.key === "Enter") run(); });
+document.querySelectorAll(".hint a").forEach((a) =>
+  a.addEventListener("click", () => { q.value = a.textContent; run(); }));
+
+boot().catch((err) => {
+  statusEl.textContent = `Failed to load: ${err.message}`;
+});
+</script>
+</body>
+</html>
