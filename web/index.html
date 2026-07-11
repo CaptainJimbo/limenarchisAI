@@ -53,6 +53,27 @@
   }
   .meta { color: var(--dim); font-size: 13px; margin-top: 6px; font-family: system-ui, sans-serif; }
   footer { color: var(--dim); font-size: 13px; margin-top: 40px; }
+  #harbormaster {
+    background: var(--ink); color: var(--paper); border-radius: 6px;
+    padding: 14px 16px; margin: 14px 0; display: none;
+  }
+  #harbormaster.on { display: block; }
+  #hm-label {
+    font: 700 11px/1 system-ui, sans-serif; letter-spacing: .08em;
+    color: #b8c4cf; text-transform: uppercase; margin-bottom: 6px;
+  }
+  #hm-answer { min-height: 1.4em; }
+  #hm-answer a { color: #8fd0ff; text-decoration: none; font-weight: 700; }
+  #wake-box { margin: 10px 0; font-size: 14px; color: var(--dim); }
+  #wake-box select, #wake-box button {
+    font: inherit; padding: 5px 9px; border-radius: 4px;
+    border: 1px solid var(--ink); background: #fff; cursor: pointer;
+  }
+  .cite-n {
+    font: 700 12px/1 system-ui, sans-serif; color: var(--accent);
+    margin-right: 6px;
+  }
+  .result:target { outline: 3px solid var(--accent); }
 </style>
 </head>
 <body>
@@ -73,6 +94,11 @@
     <a>How many ships wait at the Piraeus anchorage?</a> ·
     <a>Which island has no cars?</a></p>
 
+  <div id="wake-box"></div>
+  <div id="harbormaster">
+    <div id="hm-label">The Harbormaster</div>
+    <div id="hm-answer"></div>
+  </div>
   <div id="results"></div>
 
   <footer>
@@ -81,15 +107,22 @@
     <span class="badge live" style="font-size:10px">LIVE</span> chunks come
     from AIS event digests (rolling 48 h);
     <span class="badge static" style="font-size:10px">STATIC</span> from the
-    port &amp; glossary layer. Chat mode arrives in step 5.
+    port &amp; glossary layer. The Harbormaster (WebLLM) answers from these
+    chunks only, citing them — no server, no API, nothing leaves your browser.
   </footer>
 </main>
 
 <script type="module">
 import { loadLayer, loadEmbedder, search } from "./search.js";
+import { MODELS, webgpuAvailable, loadEngine, buildMessages,
+         streamAnswer } from "./chat.js";
 
 const $ = (id) => document.getElementById(id);
 const statusEl = $("status"), results = $("results"), q = $("q"), go = $("go");
+const wakeBox = $("wake-box"), hmPanel = $("harbormaster"),
+      hmAnswer = $("hm-answer");
+let engine = null;
+let lastHits = null, lastQuery = null;
 
 const LEG_LABEL = {
   "dense-live": ["D", "live"], "bm25-live": ["B", "live"],
@@ -132,7 +165,8 @@ async function run() {
     const hits = await search(query, layers);
     const ms = Math.round(performance.now() - t0);
     statusEl.textContent = `${hits.length} results in ${ms} ms.`;
-    results.innerHTML = hits.map((h) => {
+    lastHits = hits; lastQuery = query;
+    results.innerHTML = hits.map((h, n) => {
       const badges = Object.entries(h.legs)
         .sort((a, b) => a[1] - b[1])
         .map(([leg, rank]) => {
@@ -146,12 +180,13 @@ async function run() {
         ? `<div class="meta">${esc(h.chunk.event_type || "")} · ` +
           `${esc(h.chunk.time_utc)} · ${esc(h.chunk.id)}</div>`
         : `<div class="meta">${esc(h.chunk.id)}</div>`;
-      return `<div class="result">
-        <div class="badges">${badges}
+      return `<div class="result" id="result-${n + 1}">
+        <div class="badges"><span class="cite-n">[${n + 1}]</span>${badges}
           <span class="badge score">RRF ${h.score.toFixed(4)}</span></div>
         <div class="text">${esc(h.chunk.text)}</div>
         ${siblings}${meta}</div>`;
     }).join("");
+    if (engine) await consultHarbormaster();
   } catch (err) {
     statusEl.textContent = `Search failed: ${err.message}`;
   } finally {
@@ -159,11 +194,61 @@ async function run() {
   }
 }
 
+function renderAnswer(text) {
+  const linked = esc(text).replace(/\[(\d+)\]/g,
+    (m, n) => `<a href="#result-${n}">[${n}]</a>`);
+  hmAnswer.innerHTML = linked;
+}
+
+async function consultHarbormaster() {
+  if (!engine || !lastHits) return;
+  hmPanel.classList.add("on");
+  hmAnswer.textContent = "…consulting the log…";
+  try {
+    const messages = buildMessages(lastQuery, lastHits,
+                                   layers.live.built_utc);
+    await streamAnswer(engine, messages, renderAnswer);
+  } catch (err) {
+    hmAnswer.textContent = `The Harbormaster is indisposed: ${err.message}`;
+  }
+}
+
+function setupWakeBox() {
+  if (!webgpuAvailable()) {
+    wakeBox.innerHTML = "No WebGPU in this browser — running in " +
+      "<b>retrieval-only mode</b>. The evidence below is the full answer.";
+    return;
+  }
+  const options = MODELS.map((m) =>
+    `<option value="${m.id}">${m.label}</option>`).join("");
+  wakeBox.innerHTML =
+    `<select id="model">${options}</select> ` +
+    `<button id="wake">Wake the Harbormaster</button> ` +
+    `<span>— loads an LLM into your browser; nothing leaves your machine.</span>`;
+  $("wake").addEventListener("click", async () => {
+    $("wake").disabled = true;
+    try {
+      engine = await loadEngine($("model").value, (p) => {
+        wakeBox.querySelector("span").textContent =
+          " — " + (p.text || "loading…");
+      });
+      wakeBox.innerHTML = "<b>The Harbormaster is on watch.</b> " +
+        "Ask, and he answers from the log — with citations.";
+      if (lastHits) await consultHarbormaster();
+    } catch (err) {
+      wakeBox.querySelector("span").textContent =
+        ` — failed to load: ${err.message}`;
+      $("wake").disabled = false;
+    }
+  });
+}
+
 go.addEventListener("click", run);
 q.addEventListener("keydown", (e) => { if (e.key === "Enter") run(); });
 document.querySelectorAll(".hint a").forEach((a) =>
   a.addEventListener("click", () => { q.value = a.textContent; run(); }));
 
+setupWakeBox();
 boot().catch((err) => {
   statusEl.textContent = `Failed to load: ${err.message}`;
 });
