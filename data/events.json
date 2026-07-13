@@ -1,55 +1,5 @@
 [
  {
-  "id": "2026-07-11T23:40:13+00:00-241675000-departure",
-  "type": "departure",
-  "mmsi": 241675000,
-  "name": "KOHYLI",
-  "lat": 37.95067166666667,
-  "lon": 23.58619,
-  "time_utc": "2026-07-11T23:40:13+00:00",
-  "text": "KOHYLI (tanker) departed Piraeus at 23:40 UTC, making 10.0 knots."
- },
- {
-  "id": "2026-07-11T23:40:13+00:00-311001189-arrival",
-  "type": "arrival",
-  "mmsi": 311001189,
-  "name": "SILVER NOVA",
-  "lat": 37.93790666666666,
-  "lon": 23.63658333333333,
-  "time_utc": "2026-07-11T23:40:13+00:00",
-  "text": "SILVER NOVA (passenger) arrived at Piraeus at 23:40 UTC."
- },
- {
-  "id": "2026-07-11T23:40:13+00:00-538008914-weighed_anchor",
-  "type": "weighed_anchor",
-  "mmsi": 538008914,
-  "name": "NISSOS IOS",
-  "lat": 37.86517666666667,
-  "lon": 23.533253333333334,
-  "time_utc": "2026-07-11T23:40:13+00:00",
-  "text": "NISSOS IOS (tanker) weighed anchor at open water (37.876, 23.517) at 23:40 UTC and is underway at 8.0 knots."
- },
- {
-  "id": "2026-07-11T23:40:13+00:00-census-Piraeus anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Piraeus anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-07-11T23:40:13+00:00",
-  "text": "10 vessels lying at Piraeus anchorage at 23:40 UTC (up 4 since the previous snapshot)."
- },
- {
-  "id": "2026-07-11T23:40:13+00:00-census-Elefsis Bay anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Elefsis Bay anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-07-11T23:40:13+00:00",
-  "text": "12 vessels lying at Elefsis Bay anchorage at 23:40 UTC (up 7 since the previous snapshot)."
- },
- {
   "id": "2026-07-12T00:05:01+00:00-237562900-departure",
   "type": "departure",
   "mmsi": 237562900,
@@ -8388,5 +8338,45 @@
   "lon": null,
   "time_utc": "2026-07-13T23:20:36+00:00",
   "text": "7 vessels lying at Elefsis Bay anchorage at 23:20 UTC (up 1 since the previous snapshot)."
+ },
+ {
+  "id": "2026-07-13T23:40:39+00:00-248551000-anchoring",
+  "type": "anchoring",
+  "mmsi": 248551000,
+  "name": "ADELE",
+  "lat": 38.01457333333334,
+  "lon": 23.531848333333336,
+  "time_utc": "2026-07-13T23:40:39+00:00",
+  "text": "ADELE anchored at 2 km off Elefsina at 23:40 UTC."
+ },
+ {
+  "id": "2026-07-13T23:40:39+00:00-319084600-weighed_anchor",
+  "type": "weighed_anchor",
+  "mmsi": 319084600,
+  "name": "MEDALTA ADVENTURER",
+  "lat": 37.894688333333335,
+  "lon": 23.065830000000002,
+  "time_utc": "2026-07-13T23:40:39+00:00",
+  "text": "MEDALTA ADVENTURER (tanker) weighed anchor at 4 km off Corinth Canal (Isthmia) at 23:40 UTC and is underway at 2.8 knots."
+ },
+ {
+  "id": "2026-07-13T23:40:39+00:00-census-Piraeus anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Piraeus anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-07-13T23:40:39+00:00",
+  "text": "5 vessels lying at Piraeus anchorage at 23:40 UTC (down 5 since the previous snapshot)."
+ },
+ {
+  "id": "2026-07-13T23:40:39+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-07-13T23:40:39+00:00",
+  "text": "10 vessels lying at Elefsis Bay anchorage at 23:40 UTC (up 3 since the previous snapshot)."
  }
 ]
