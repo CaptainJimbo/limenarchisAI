@@ -1,55 +1,5 @@
 [
  {
-  "id": "2026-07-13T00:55:09+00:00-248870000-anchoring",
-  "type": "anchoring",
-  "mmsi": 248870000,
-  "name": "LOUTRO",
-  "lat": 37.908993333333335,
-  "lon": 23.071106666666665,
-  "time_utc": "2026-07-13T00:55:09+00:00",
-  "text": "LOUTRO (tanker) anchored at 6 km off Corinth Canal (Isthmia) at 00:55 UTC."
- },
- {
-  "id": "2026-07-13T00:55:09+00:00-341973001-anchoring",
-  "type": "anchoring",
-  "mmsi": 341973001,
-  "name": "TEVFIK BEY",
-  "lat": 37.91334333333334,
-  "lon": 23.56516,
-  "time_utc": "2026-07-13T00:55:09+00:00",
-  "text": "TEVFIK BEY (cargo) anchored at Piraeus anchorage at 00:55 UTC."
- },
- {
-  "id": "2026-07-13T00:55:09+00:00-353657000-anchoring",
-  "type": "anchoring",
-  "mmsi": 353657000,
-  "name": "ALFA SEA",
-  "lat": 38.025863333333334,
-  "lon": 23.51556,
-  "time_utc": "2026-07-13T00:55:09+00:00",
-  "text": "ALFA SEA (tanker) anchored at Elefsis Bay anchorage at 00:55 UTC."
- },
- {
-  "id": "2026-07-13T00:55:09+00:00-538010830-anchoring",
-  "type": "anchoring",
-  "mmsi": 538010830,
-  "name": "CLEAN IMPERIAL",
-  "lat": 37.455333333333336,
-  "lon": 23.920704999999998,
-  "time_utc": "2026-07-13T00:55:09+00:00",
-  "text": "CLEAN IMPERIAL (tanker) anchored at open water (37.455, 23.921) at 00:55 UTC."
- },
- {
-  "id": "2026-07-13T00:55:09+00:00-census-Elefsis Bay anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Elefsis Bay anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-07-13T00:55:09+00:00",
-  "text": "7 vessels lying at Elefsis Bay anchorage at 00:55 UTC (down 2 since the previous snapshot)."
- },
- {
   "id": "2026-07-13T01:35:44+00:00-239028000-arrival",
   "type": "arrival",
   "mmsi": 239028000,
@@ -8028,5 +7978,55 @@
   "lon": null,
   "time_utc": "2026-07-15T00:51:08+00:00",
   "text": "8 vessels lying at Elefsis Bay anchorage at 00:51 UTC (down 1 since the previous snapshot)."
+ },
+ {
+  "id": "2026-07-15T01:35:06+00:00-239923000-arrival",
+  "type": "arrival",
+  "mmsi": 239923000,
+  "name": "BLUE STAR NAXOS",
+  "lat": 37.947876666666666,
+  "lon": 23.639416666666666,
+  "time_utc": "2026-07-15T01:35:06+00:00",
+  "text": "BLUE STAR NAXOS (passenger) arrived at Piraeus at 01:35 UTC."
+ },
+ {
+  "id": "2026-07-15T01:35:06+00:00-240053300-departure",
+  "type": "departure",
+  "mmsi": 240053300,
+  "name": "STAVROS N",
+  "lat": 37.95927,
+  "lon": 23.53962,
+  "time_utc": "2026-07-15T01:35:06+00:00",
+  "text": "STAVROS N (passenger) departed Salamina (Paloukia) at 01:35 UTC, making 6.4 knots."
+ },
+ {
+  "id": "2026-07-15T01:35:06+00:00-240484000-weighed_anchor",
+  "type": "weighed_anchor",
+  "mmsi": 240484000,
+  "name": "EYAGGELISTRIA<<",
+  "lat": 37.90466166666667,
+  "lon": 23.555094999999998,
+  "time_utc": "2026-07-15T01:35:06+00:00",
+  "text": "EYAGGELISTRIA<< weighed anchor at Piraeus anchorage at 01:35 UTC and is underway at 4.7 knots."
+ },
+ {
+  "id": "2026-07-15T01:35:06+00:00-census-Piraeus anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Piraeus anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-07-15T01:35:06+00:00",
+  "text": "7 vessels lying at Piraeus anchorage at 01:35 UTC (up 3 since the previous snapshot)."
+ },
+ {
+  "id": "2026-07-15T01:35:06+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-07-15T01:35:06+00:00",
+  "text": "11 vessels lying at Elefsis Bay anchorage at 01:35 UTC (up 3 since the previous snapshot)."
  }
 ]
