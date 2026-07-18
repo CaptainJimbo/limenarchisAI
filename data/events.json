@@ -1,55 +1,5 @@
 [
  {
-  "id": "2026-07-15T23:41:01+00:00-239998600-arrival",
-  "type": "arrival",
-  "mmsi": 239998600,
-  "name": "ACCORD",
-  "lat": 38.0416,
-  "lon": 23.524716666666666,
-  "time_utc": "2026-07-15T23:41:01+00:00",
-  "text": "ACCORD (tanker) arrived at Elefsina at 23:41 UTC."
- },
- {
-  "id": "2026-07-15T23:41:01+00:00-241699000-anchoring",
-  "type": "anchoring",
-  "mmsi": 241699000,
-  "name": "ZAKROS",
-  "lat": 37.921245,
-  "lon": 23.549766666666667,
-  "time_utc": "2026-07-15T23:41:01+00:00",
-  "text": "ZAKROS (tanker) anchored at Piraeus anchorage at 23:41 UTC."
- },
- {
-  "id": "2026-07-15T23:41:01+00:00-518159228-departure",
-  "type": "departure",
-  "mmsi": 518159228,
-  "name": "NEBULA C",
-  "lat": 37.93240333333333,
-  "lon": 23.649931666666664,
-  "time_utc": "2026-07-15T23:41:01+00:00",
-  "text": "NEBULA C (pleasure) departed Piraeus at 23:41 UTC, making 3.1 knots."
- },
- {
-  "id": "2026-07-15T23:41:01+00:00-census-Piraeus anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Piraeus anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-07-15T23:41:01+00:00",
-  "text": "9 vessels lying at Piraeus anchorage at 23:41 UTC (down 1 since the previous snapshot)."
- },
- {
-  "id": "2026-07-15T23:41:01+00:00-census-Elefsis Bay anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Elefsis Bay anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-07-15T23:41:01+00:00",
-  "text": "10 vessels lying at Elefsis Bay anchorage at 23:41 UTC (down 1 since the previous snapshot)."
- },
- {
   "id": "2026-07-16T00:06:49+00:00-239808200-departure",
   "type": "departure",
   "mmsi": 239808200,
@@ -9878,5 +9828,45 @@
   "lon": null,
   "time_utc": "2026-07-17T23:22:49+00:00",
   "text": "6 vessels lying at Piraeus anchorage at 23:22 UTC (down 1 since the previous snapshot)."
+ },
+ {
+  "id": "2026-07-18T00:00:04+00:00-241951000-departure",
+  "type": "departure",
+  "mmsi": 241951000,
+  "name": "SVS II",
+  "lat": 37.93821666666667,
+  "lon": 23.623093333333333,
+  "time_utc": "2026-07-18T00:00:04+00:00",
+  "text": "SVS II (tug/tow) departed Piraeus at 00:00 UTC, making 5.5 knots."
+ },
+ {
+  "id": "2026-07-18T00:00:04+00:00-311000706-anchoring",
+  "type": "anchoring",
+  "mmsi": 311000706,
+  "name": "IRINI",
+  "lat": 38.02353166666667,
+  "lon": 23.515516666666667,
+  "time_utc": "2026-07-18T00:00:04+00:00",
+  "text": "IRINI anchored at Elefsis Bay anchorage at 00:00 UTC."
+ },
+ {
+  "id": "2026-07-18T00:00:04+00:00-census-Piraeus anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Piraeus anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-07-18T00:00:04+00:00",
+  "text": "3 vessels lying at Piraeus anchorage at 00:00 UTC (down 3 since the previous snapshot)."
+ },
+ {
+  "id": "2026-07-18T00:00:04+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-07-18T00:00:04+00:00",
+  "text": "12 vessels lying at Elefsis Bay anchorage at 00:00 UTC (up 1 since the previous snapshot)."
  }
 ]
