@@ -1,75 +1,5 @@
 [
  {
-  "id": "2026-07-23T22:03:00+00:00-210746000-arrival",
-  "type": "arrival",
-  "mmsi": 210746000,
-  "name": "AERO 5 HIGHSPEED",
-  "lat": 37.943018333333335,
-  "lon": 23.641178333333336,
-  "time_utc": "2026-07-23T22:03:00+00:00",
-  "text": "AERO 5 HIGHSPEED (high-speed craft) arrived at Piraeus at 22:03 UTC."
- },
- {
-  "id": "2026-07-23T22:03:00+00:00-215705000-weighed_anchor",
-  "type": "weighed_anchor",
-  "mmsi": 215705000,
-  "name": "HOPE A",
-  "lat": 37.82165333333333,
-  "lon": 23.608558333333335,
-  "time_utc": "2026-07-23T22:03:00+00:00",
-  "text": "HOPE A (tanker) weighed anchor at Piraeus anchorage at 22:03 UTC and is underway at 12.8 knots."
- },
- {
-  "id": "2026-07-23T22:03:00+00:00-240732000-arrival",
-  "type": "arrival",
-  "mmsi": 240732000,
-  "name": "AEGEAN VIII",
-  "lat": 38.03716333333333,
-  "lon": 23.533293333333333,
-  "time_utc": "2026-07-23T22:03:00+00:00",
-  "text": "AEGEAN VIII arrived at Elefsina at 22:03 UTC."
- },
- {
-  "id": "2026-07-23T22:03:00+00:00-241087000-arrival",
-  "type": "arrival",
-  "mmsi": 241087000,
-  "name": "BLUE STAR DELOS",
-  "lat": 37.946905,
-  "lon": 23.64031333333333,
-  "time_utc": "2026-07-23T22:03:00+00:00",
-  "text": "BLUE STAR DELOS (passenger) arrived at Piraeus at 22:03 UTC."
- },
- {
-  "id": "2026-07-23T22:03:00+00:00-319339000-anchoring",
-  "type": "anchoring",
-  "mmsi": 319339000,
-  "name": "DREAM WEAVER",
-  "lat": 37.940131666666666,
-  "lon": 23.471923333333333,
-  "time_utc": "2026-07-23T22:03:00+00:00",
-  "text": "DREAM WEAVER anchored at 6 km off Salamina (Paloukia) at 22:03 UTC."
- },
- {
-  "id": "2026-07-23T22:03:00+00:00-census-Piraeus anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Piraeus anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-07-23T22:03:00+00:00",
-  "text": "9 vessels lying at Piraeus anchorage at 22:03 UTC (down 1 since the previous snapshot)."
- },
- {
-  "id": "2026-07-23T22:03:00+00:00-census-Elefsis Bay anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Elefsis Bay anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-07-23T22:03:00+00:00",
-  "text": "11 vessels lying at Elefsis Bay anchorage at 22:03 UTC (down 1 since the previous snapshot)."
- },
- {
   "id": "2026-07-23T22:39:32+00:00-239028000-weighed_anchor",
   "type": "weighed_anchor",
   "mmsi": 239028000,
@@ -7258,5 +7188,75 @@
   "lon": null,
   "time_utc": "2026-07-25T21:39:26+00:00",
   "text": "5 vessels lying at Elefsis Bay anchorage at 21:39 UTC (down 3 since the previous snapshot)."
+ },
+ {
+  "id": "2026-07-25T22:03:43+00:00-237453600-arrival",
+  "type": "arrival",
+  "mmsi": 237453600,
+  "name": "DIMITRIOS P",
+  "lat": 37.965289999999996,
+  "lon": 23.529735000000002,
+  "time_utc": "2026-07-25T22:03:43+00:00",
+  "text": "DIMITRIOS P (passenger) arrived at Salamina (Paloukia) at 22:03 UTC."
+ },
+ {
+  "id": "2026-07-25T22:03:43+00:00-237562900-departure",
+  "type": "departure",
+  "mmsi": 237562900,
+  "name": "AGIOS ELEFTHERIOS IV",
+  "lat": 37.96046666666667,
+  "lon": 23.54935,
+  "time_utc": "2026-07-25T22:03:43+00:00",
+  "text": "AGIOS ELEFTHERIOS IV (passenger) departed Salamina (Paloukia) at 22:03 UTC, making 7.8 knots."
+ },
+ {
+  "id": "2026-07-25T22:03:43+00:00-239737000-departure",
+  "type": "departure",
+  "mmsi": 239737000,
+  "name": "BLUE STAR 2",
+  "lat": 37.872883333333334,
+  "lon": 23.61113333333333,
+  "time_utc": "2026-07-25T22:03:43+00:00",
+  "text": "BLUE STAR 2 (passenger) departed Piraeus at 22:03 UTC, making 25.2 knots."
+ },
+ {
+  "id": "2026-07-25T22:03:43+00:00-240396300-anchoring",
+  "type": "anchoring",
+  "mmsi": 240396300,
+  "name": "ELEMENT",
+  "lat": 37.88754666666667,
+  "lon": 23.428446666666666,
+  "time_utc": "2026-07-25T22:03:43+00:00",
+  "text": "ELEMENT anchored at open water (37.888, 23.428) at 22:03 UTC."
+ },
+ {
+  "id": "2026-07-25T22:03:43+00:00-240949000-anchoring",
+  "type": "anchoring",
+  "mmsi": 240949000,
+  "name": "M\\T EVIAPETROL III",
+  "lat": 37.92393333333334,
+  "lon": 23.556083333333333,
+  "time_utc": "2026-07-25T22:03:43+00:00",
+  "text": "M\\T EVIAPETROL III anchored at Piraeus anchorage at 22:03 UTC."
+ },
+ {
+  "id": "2026-07-25T22:03:43+00:00-314663000-anchoring",
+  "type": "anchoring",
+  "mmsi": 314663000,
+  "name": "MEMNUNE K",
+  "lat": 37.91528,
+  "lon": 23.55901,
+  "time_utc": "2026-07-25T22:03:43+00:00",
+  "text": "MEMNUNE K (cargo) anchored at Piraeus anchorage at 22:03 UTC."
+ },
+ {
+  "id": "2026-07-25T22:03:43+00:00-census-Piraeus anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Piraeus anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-07-25T22:03:43+00:00",
+  "text": "9 vessels lying at Piraeus anchorage at 22:03 UTC (up 4 since the previous snapshot)."
  }
 ]
