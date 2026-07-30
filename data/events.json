@@ -1,65 +1,5 @@
 [
  {
-  "id": "2026-07-28T22:41:28+00:00-239458100-departure",
-  "type": "departure",
-  "mmsi": 239458100,
-  "name": "AG NIKOLAOS L",
-  "lat": 37.95990833333334,
-  "lon": 23.548331666666666,
-  "time_utc": "2026-07-28T22:41:28+00:00",
-  "text": "AG NIKOLAOS L (passenger) departed Salamina (Paloukia) at 22:41 UTC, making 8.1 knots."
- },
- {
-  "id": "2026-07-28T22:41:28+00:00-240031600-arrival",
-  "type": "arrival",
-  "mmsi": 240031600,
-  "name": "PROTOPOROS X",
-  "lat": 37.96550666666667,
-  "lon": 23.530395,
-  "time_utc": "2026-07-28T22:41:28+00:00",
-  "text": "PROTOPOROS X (passenger) arrived at Salamina (Paloukia) at 22:41 UTC."
- },
- {
-  "id": "2026-07-28T22:41:28+00:00-240897000-departure",
-  "type": "departure",
-  "mmsi": 240897000,
-  "name": "AEGEAN ACE",
-  "lat": 37.94723333333333,
-  "lon": 23.638208333333335,
-  "time_utc": "2026-07-28T22:41:28+00:00",
-  "text": "AEGEAN ACE (tanker) departed Piraeus at 22:41 UTC, making 4.1 knots."
- },
- {
-  "id": "2026-07-28T22:41:28+00:00-241699000-anchoring",
-  "type": "anchoring",
-  "mmsi": 241699000,
-  "name": "ZAKROS",
-  "lat": 37.92442166666667,
-  "lon": 23.555793333333334,
-  "time_utc": "2026-07-28T22:41:28+00:00",
-  "text": "ZAKROS (tanker) anchored at Piraeus anchorage at 22:41 UTC."
- },
- {
-  "id": "2026-07-28T22:41:28+00:00-census-Piraeus anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Piraeus anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-07-28T22:41:28+00:00",
-  "text": "8 vessels lying at Piraeus anchorage at 22:41 UTC (up 4 since the previous snapshot)."
- },
- {
-  "id": "2026-07-28T22:41:28+00:00-census-Elefsis Bay anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Elefsis Bay anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-07-28T22:41:28+00:00",
-  "text": "3 vessels lying at Elefsis Bay anchorage at 22:41 UTC (down 2 since the previous snapshot)."
- },
- {
   "id": "2026-07-28T23:07:58+00:00-237001000-arrival",
   "type": "arrival",
   "mmsi": 237001000,
@@ -5908,5 +5848,55 @@
   "lon": null,
   "time_utc": "2026-07-30T22:04:42+00:00",
   "text": "5 vessels lying at Elefsis Bay anchorage at 22:04 UTC (up 2 since the previous snapshot)."
+ },
+ {
+  "id": "2026-07-30T22:43:36+00:00-240053300-arrival",
+  "type": "arrival",
+  "mmsi": 240053300,
+  "name": "STAVROS N",
+  "lat": 37.96509833333334,
+  "lon": 23.529501666666665,
+  "time_utc": "2026-07-30T22:43:36+00:00",
+  "text": "STAVROS N (passenger) arrived at Salamina (Paloukia) at 22:43 UTC."
+ },
+ {
+  "id": "2026-07-30T22:43:36+00:00-241611000-weighed_anchor",
+  "type": "weighed_anchor",
+  "mmsi": 241611000,
+  "name": "KALIKRATIS",
+  "lat": 37.87887,
+  "lon": 23.53755,
+  "time_utc": "2026-07-30T22:43:36+00:00",
+  "text": "KALIKRATIS (tanker) weighed anchor at Piraeus anchorage at 22:43 UTC and is underway at 8.9 knots."
+ },
+ {
+  "id": "2026-07-30T22:43:36+00:00-241728000-weighed_anchor",
+  "type": "weighed_anchor",
+  "mmsi": 241728000,
+  "name": "PANORMITIS",
+  "lat": 37.984065,
+  "lon": 23.547735,
+  "time_utc": "2026-07-30T22:43:36+00:00",
+  "text": "PANORMITIS (special craft) weighed anchor at Elefsis Bay anchorage at 22:43 UTC and is underway at 10.2 knots."
+ },
+ {
+  "id": "2026-07-30T22:43:36+00:00-census-Piraeus anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Piraeus anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-07-30T22:43:36+00:00",
+  "text": "6 vessels lying at Piraeus anchorage at 22:43 UTC (down 2 since the previous snapshot)."
+ },
+ {
+  "id": "2026-07-30T22:43:36+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-07-30T22:43:36+00:00",
+  "text": "4 vessels lying at Elefsis Bay anchorage at 22:43 UTC (down 1 since the previous snapshot)."
  }
 ]
