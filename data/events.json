@@ -1,45 +1,5 @@
 [
  {
-  "id": "2026-07-29T00:06:02+00:00-237592700-departure",
-  "type": "departure",
-  "mmsi": 237592700,
-  "name": "AIAKOS",
-  "lat": 37.958931666666665,
-  "lon": 23.539578333333335,
-  "time_utc": "2026-07-29T00:06:02+00:00",
-  "text": "AIAKOS (passenger) departed Salamina (Paloukia) at 00:06 UTC, making 7.4 knots."
- },
- {
-  "id": "2026-07-29T00:06:02+00:00-240897000-arrival",
-  "type": "arrival",
-  "mmsi": 240897000,
-  "name": "AEGEAN ACE",
-  "lat": 38.03746666666667,
-  "lon": 23.533606666666667,
-  "time_utc": "2026-07-29T00:06:02+00:00",
-  "text": "AEGEAN ACE (tanker) arrived at Elefsina at 00:06 UTC."
- },
- {
-  "id": "2026-07-29T00:06:02+00:00-census-Piraeus anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Piraeus anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-07-29T00:06:02+00:00",
-  "text": "5 vessels lying at Piraeus anchorage at 00:06 UTC (up 2 since the previous snapshot)."
- },
- {
-  "id": "2026-07-29T00:06:02+00:00-census-Elefsis Bay anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Elefsis Bay anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-07-29T00:06:02+00:00",
-  "text": "5 vessels lying at Elefsis Bay anchorage at 00:06 UTC (down 1 since the previous snapshot)."
- },
- {
   "id": "2026-07-29T01:35:19+00:00-237592700-arrival",
   "type": "arrival",
   "mmsi": 237592700,
@@ -5868,5 +5828,45 @@
   "lon": null,
   "time_utc": "2026-07-31T00:02:11+00:00",
   "text": "4 vessels lying at Elefsis Bay anchorage at 00:02 UTC (up 1 since the previous snapshot)."
+ },
+ {
+  "id": "2026-07-31T00:59:15+00:00-240389000-arrival",
+  "type": "arrival",
+  "mmsi": 240389000,
+  "name": "BLUE STAR MYCONOS",
+  "lat": 37.944311666666664,
+  "lon": 23.63844333333333,
+  "time_utc": "2026-07-31T00:59:15+00:00",
+  "text": "BLUE STAR MYCONOS (passenger) arrived at Piraeus at 00:59 UTC."
+ },
+ {
+  "id": "2026-07-31T00:59:15+00:00-241927000-departure",
+  "type": "departure",
+  "mmsi": 241927000,
+  "name": "SVS I",
+  "lat": 37.93778666666666,
+  "lon": 23.620948333333335,
+  "time_utc": "2026-07-31T00:59:15+00:00",
+  "text": "SVS I (special craft) departed Piraeus at 00:59 UTC, making 5.6 knots."
+ },
+ {
+  "id": "2026-07-31T00:59:15+00:00-241972000-arrival",
+  "type": "arrival",
+  "mmsi": 241972000,
+  "name": "REA",
+  "lat": 37.93950333333333,
+  "lon": 23.63151,
+  "time_utc": "2026-07-31T00:59:15+00:00",
+  "text": "REA (special craft) arrived at Piraeus at 00:59 UTC."
+ },
+ {
+  "id": "2026-07-31T00:59:15+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-07-31T00:59:15+00:00",
+  "text": "7 vessels lying at Elefsis Bay anchorage at 00:59 UTC (up 3 since the previous snapshot)."
  }
 ]
