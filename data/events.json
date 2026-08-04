@@ -1,45 +1,5 @@
 [
  {
-  "id": "2026-08-02T00:06:04+00:00-240191100-arrival",
-  "type": "arrival",
-  "mmsi": 240191100,
-  "name": "GLYKOFILOUSA VIII",
-  "lat": 37.96549666666667,
-  "lon": 23.530160000000002,
-  "time_utc": "2026-08-02T00:06:04+00:00",
-  "text": "GLYKOFILOUSA VIII (passenger) arrived at Salamina (Paloukia) at 00:06 UTC."
- },
- {
-  "id": "2026-08-02T00:06:04+00:00-240706900-departure",
-  "type": "departure",
-  "mmsi": 240706900,
-  "name": "PILOT BOAT PY73",
-  "lat": 37.93738833333334,
-  "lon": 23.619298333333333,
-  "time_utc": "2026-08-02T00:06:04+00:00",
-  "text": "PILOT BOAT PY73 (special craft) departed Piraeus at 00:06 UTC, making 24.4 knots."
- },
- {
-  "id": "2026-08-02T00:06:04+00:00-241495000-arrival",
-  "type": "arrival",
-  "mmsi": 241495000,
-  "name": "KAPETAN CHRISTOS",
-  "lat": 38.033591666666666,
-  "lon": 23.542573333333333,
-  "time_utc": "2026-08-02T00:06:04+00:00",
-  "text": "KAPETAN CHRISTOS arrived at Elefsina at 00:06 UTC."
- },
- {
-  "id": "2026-08-02T00:06:04+00:00-248551000-anchoring",
-  "type": "anchoring",
-  "mmsi": 248551000,
-  "name": "ADELE",
-  "lat": 37.91094333333333,
-  "lon": 23.560926666666667,
-  "time_utc": "2026-08-02T00:06:04+00:00",
-  "text": "ADELE (tanker) anchored at Piraeus anchorage at 00:06 UTC."
- },
- {
   "id": "2026-08-02T01:00:40+00:00-239414100-arrival",
   "type": "arrival",
   "mmsi": 239414100,
@@ -7158,5 +7118,55 @@
   "lon": null,
   "time_utc": "2026-08-03T23:43:41+00:00",
   "text": "7 vessels lying at Piraeus anchorage at 23:43 UTC (down 2 since the previous snapshot)."
+ },
+ {
+  "id": "2026-08-04T00:30:25+00:00-237592700-departure",
+  "type": "departure",
+  "mmsi": 237592700,
+  "name": "AIAKOS",
+  "lat": 37.96104833333333,
+  "lon": 23.55262,
+  "time_utc": "2026-08-04T00:30:25+00:00",
+  "text": "AIAKOS (passenger) departed Salamina (Paloukia) at 00:30 UTC, making 7.7 knots."
+ },
+ {
+  "id": "2026-08-04T00:30:25+00:00-240942000-anchoring",
+  "type": "anchoring",
+  "mmsi": 240942000,
+  "name": "KRITI JADE",
+  "lat": 37.892633333333336,
+  "lon": 23.560166666666664,
+  "time_utc": "2026-08-04T00:30:25+00:00",
+  "text": "KRITI JADE anchored at Piraeus anchorage at 00:30 UTC."
+ },
+ {
+  "id": "2026-08-04T00:30:25+00:00-241442000-anchoring",
+  "type": "anchoring",
+  "mmsi": 241442000,
+  "name": "PANTANASSA",
+  "lat": 38.02460166666666,
+  "lon": 23.591428333333333,
+  "time_utc": "2026-08-04T00:30:25+00:00",
+  "text": "PANTANASSA (special craft) anchored at 5 km off Elefsina at 00:30 UTC."
+ },
+ {
+  "id": "2026-08-04T00:30:25+00:00-census-Piraeus anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Piraeus anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-08-04T00:30:25+00:00",
+  "text": "5 vessels lying at Piraeus anchorage at 00:30 UTC (down 2 since the previous snapshot)."
+ },
+ {
+  "id": "2026-08-04T00:30:25+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-08-04T00:30:25+00:00",
+  "text": "3 vessels lying at Elefsis Bay anchorage at 00:30 UTC (down 1 since the previous snapshot)."
  }
 ]
