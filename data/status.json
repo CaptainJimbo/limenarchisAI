@@ -1,15 +1,5 @@
 [
  {
-  "id": "status-207834370",
-  "type": "vessel_status",
-  "mmsi": 207834370,
-  "name": "LA FLEUR",
-  "lat": 37.941495,
-  "lon": 23.669116666666664,
-  "time_utc": "2026-08-18T07:38:32+00:00",
-  "text": "LA FLEUR is stationary at 3 km off Piraeus."
- },
- {
   "id": "status-209653000",
   "type": "vessel_status",
   "mmsi": 209653000,
@@ -24,20 +14,30 @@
   "type": "vessel_status",
   "mmsi": 210658000,
   "name": "MAGIC 5",
-  "lat": 37.84031166666667,
-  "lon": 23.528824999999998,
-  "time_utc": "2026-08-18T07:56:16+00:00",
-  "text": "MAGIC 5 (high-speed craft) is underway at 30 knots near open water (37.840, 23.529), heading northeast. Reported destination: GRPIR."
+  "lat": 37.94451166666667,
+  "lon": 23.640203333333332,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "MAGIC 5 (high-speed craft) is stationary at Piraeus. Reported destination: GRPIR."
  },
  {
   "id": "status-229709000",
   "type": "vessel_status",
   "mmsi": 229709000,
   "name": "JAAN",
-  "lat": 37.939103333333335,
+  "lat": 37.93911,
   "lon": 23.6689,
-  "time_utc": "2026-08-18T08:10:22+00:00",
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "JAAN is stationary at 3 km off Piraeus. Reported destination: ATHENS MARINA."
+ },
+ {
+  "id": "status-232044170",
+  "type": "vessel_status",
+  "mmsi": 232044170,
+  "name": "YUDI",
+  "lat": 37.93824166666666,
+  "lon": 23.686335,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "YUDI is stationary at 4 km off Piraeus."
  },
  {
   "id": "status-235011330",
@@ -50,23 +50,23 @@
   "text": "G FORCE (pleasure) is moored at Piraeus. Reported destination: ATHENS."
  },
  {
-  "id": "status-235106171",
+  "id": "status-235100415",
   "type": "vessel_status",
-  "mmsi": 235106171,
-  "name": "SPIRIT OF GALATEA",
-  "lat": 37.93262,
-  "lon": 23.684981666666665,
-  "time_utc": "2026-08-18T07:38:32+00:00",
-  "text": "SPIRIT OF GALATEA is stationary at 4 km off Piraeus."
+  "mmsi": 235100415,
+  "name": "LAMONA",
+  "lat": 37.93097,
+  "lon": 23.64865,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "LAMONA is stationary at Piraeus."
  },
  {
   "id": "status-237015200",
   "type": "vessel_status",
   "mmsi": 237015200,
   "name": "NISOS  KALYMNOS",
-  "lat": 37.94956333333334,
-  "lon": 23.603608333333334,
-  "time_utc": "2026-08-18T07:56:16+00:00",
+  "lat": 37.94958333333333,
+  "lon": 23.60360166666667,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "NISOS  KALYMNOS (passenger) is stationary at 3 km off Piraeus. Reported destination: PIRAEUS."
  },
  {
@@ -74,19 +74,19 @@
   "type": "vessel_status",
   "mmsi": 237023800,
   "name": "FLYING DOLPHIN XIX",
-  "lat": 37.921483333333335,
-  "lon": 23.596338333333332,
-  "time_utc": "2026-08-18T08:10:22+00:00",
-  "text": "FLYING DOLPHIN XIX (high-speed craft) is underway at 32 knots near Piraeus anchorage, heading southwest. Reported destination: ARGOSARONIKOS."
+  "lat": 37.77271333333333,
+  "lon": 23.428393333333336,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "FLYING DOLPHIN XIX (high-speed craft) is underway at 32 knots near 3 km off Souvala, heading southwest. Reported destination: ARGOSARONIKOS."
  },
  {
   "id": "status-237123700",
   "type": "vessel_status",
   "mmsi": 237123700,
   "name": "CHRISTOS V",
-  "lat": 37.935804999999995,
-  "lon": 23.621763333333334,
-  "time_utc": "2026-08-18T07:56:16+00:00",
+  "lat": 37.93581666666667,
+  "lon": 23.621768333333332,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "CHRISTOS V is stationary at Piraeus."
  },
  {
@@ -114,9 +114,9 @@
   "type": "vessel_status",
   "mmsi": 237599000,
   "name": "AG SPYRIDON",
-  "lat": 37.958005,
-  "lon": 23.613023333333334,
-  "time_utc": "2026-08-18T07:38:32+00:00",
+  "lat": 37.95802666666667,
+  "lon": 23.61304,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "AG SPYRIDON (fishing) is stationary at 3 km off Piraeus."
  },
  {
@@ -144,10 +144,20 @@
   "type": "vessel_status",
   "mmsi": 239056300,
   "name": "ACHAEOS",
-  "lat": 37.94489333333333,
-  "lon": 23.642151666666667,
-  "time_utc": "2026-08-18T08:10:22+00:00",
-  "text": "ACHAEOS (passenger) is stationary at Piraeus. Reported destination: PIRAEUS SARONIKOS."
+  "lat": 37.937628333333336,
+  "lon": 23.619656666666668,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "ACHAEOS (passenger) is underway at 13 knots near Piraeus, heading west. Reported destination: PIRAEUS SARONIKOS."
+ },
+ {
+  "id": "status-239378300",
+  "type": "vessel_status",
+  "mmsi": 239378300,
+  "name": "LOVA",
+  "lat": 37.93975833333333,
+  "lon": 23.663705,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "LOVA (sailing) is stationary at 2 km off Piraeus."
  },
  {
   "id": "status-239531000",
@@ -170,33 +180,13 @@
   "text": "ANTIGONE (passenger) is underway at 10 knots near Piraeus, heading east. Reported destination: ARGOSARONIKOS."
  },
  {
-  "id": "status-239864200",
-  "type": "vessel_status",
-  "mmsi": 239864200,
-  "name": "ECOSPIRIT",
-  "lat": 37.92659833333333,
-  "lon": 23.564933333333332,
-  "time_utc": "2026-08-18T07:38:32+00:00",
-  "text": "ECOSPIRIT is underway at 9 knots near Piraeus anchorage, heading southwest. Reported destination: PERIOCHI."
- },
- {
-  "id": "status-239958300",
-  "type": "vessel_status",
-  "mmsi": 239958300,
-  "name": "PANFILO",
-  "lat": 37.74472,
-  "lon": 23.42864666666667,
-  "time_utc": "2026-08-18T07:38:32+00:00",
-  "text": "PANFILO (sailing) is stationary at Aegina."
- },
- {
   "id": "status-240025700",
   "type": "vessel_status",
   "mmsi": 240025700,
   "name": "CHRISTOS XL",
-  "lat": 37.95086833333333,
+  "lat": 37.950876666666666,
   "lon": 23.548823333333335,
-  "time_utc": "2026-08-18T08:10:22+00:00",
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "CHRISTOS XL (special craft) is stationary at 2 km off Salamina (Paloukia). Reported destination: SALAMIS."
  },
  {
@@ -214,9 +204,9 @@
   "type": "vessel_status",
   "mmsi": 240151600,
   "name": "CHRISTOS XLV",
-  "lat": 38.02448833333334,
-  "lon": 23.59164333333333,
-  "time_utc": "2026-08-18T08:10:22+00:00",
+  "lat": 38.02448166666667,
+  "lon": 23.591665,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "CHRISTOS XLV (special craft) is stationary at 5 km off Elefsina. Reported destination: PERAMA."
  },
  {
@@ -224,9 +214,9 @@
   "type": "vessel_status",
   "mmsi": 240182500,
   "name": "AQUAHOLIC",
-  "lat": 37.91368833333333,
-  "lon": 23.70224,
-  "time_utc": "2026-08-18T08:10:22+00:00",
+  "lat": 37.91370666666667,
+  "lon": 23.702271666666665,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "AQUAHOLIC (sailing) is moored at 7 km off Piraeus."
  },
  {
@@ -234,9 +224,9 @@
   "type": "vessel_status",
   "mmsi": 240189900,
   "name": "ELVI",
-  "lat": 37.911605,
-  "lon": 23.702111666666667,
-  "time_utc": "2026-08-18T07:38:32+00:00",
+  "lat": 37.911653333333334,
+  "lon": 23.702125000000002,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "ELVI (pleasure) is moored at 7 km off Piraeus. Reported destination: ALIMOS."
  },
  {
@@ -254,9 +244,9 @@
   "type": "vessel_status",
   "mmsi": 240444300,
   "name": "SAIPH",
-  "lat": 37.91391833333333,
-  "lon": 23.705515,
-  "time_utc": "2026-08-18T07:56:16+00:00",
+  "lat": 37.91399833333333,
+  "lon": 23.705516666666664,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "SAIPH (sailing) is stationary at 7 km off Piraeus."
  },
  {
@@ -264,9 +254,9 @@
   "type": "vessel_status",
   "mmsi": 240471900,
   "name": "JULIANNA",
-  "lat": 37.713584999999995,
-  "lon": 23.34737,
-  "time_utc": "2026-08-18T08:10:22+00:00",
+  "lat": 37.71360166666667,
+  "lon": 23.347353333333334,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "JULIANNA is stationary at 1 km off Agistri (Skala)."
  },
  {
@@ -274,9 +264,9 @@
   "type": "vessel_status",
   "mmsi": 240605000,
   "name": "BELLA STELLA",
-  "lat": 37.93059,
-  "lon": 23.683384999999998,
-  "time_utc": "2026-08-18T08:10:22+00:00",
+  "lat": 37.93057833333333,
+  "lon": 23.683423333333334,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "BELLA STELLA is stationary at 4 km off Piraeus. Reported destination: AEGEAN-SEA."
  },
  {
@@ -284,20 +274,10 @@
   "type": "vessel_status",
   "mmsi": 240620300,
   "name": "GEORGIA G",
-  "lat": 37.93608,
-  "lon": 23.62348666666667,
-  "time_utc": "2026-08-18T08:10:22+00:00",
+  "lat": 37.93608833333334,
+  "lon": 23.623511666666666,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "GEORGIA G (tanker) is stationary at Piraeus. Reported destination: PERIOXI."
- },
- {
-  "id": "status-240651600",
-  "type": "vessel_status",
-  "mmsi": 240651600,
-  "name": "AKASTI",
-  "lat": 37.933105,
-  "lon": 23.682078333333333,
-  "time_utc": "2026-08-18T07:38:32+00:00",
-  "text": "AKASTI (pleasure) is stationary at 4 km off Piraeus."
  },
  {
   "id": "status-240671400",
@@ -305,8 +285,8 @@
   "mmsi": 240671400,
   "name": "OKIALOS",
   "lat": 37.94505166666667,
-  "lon": 23.641178333333336,
-  "time_utc": "2026-08-18T08:10:22+00:00",
+  "lon": 23.641174999999997,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "OKIALOS (passenger) is stationary at Piraeus. Reported destination: P-A-P."
  },
  {
@@ -324,10 +304,10 @@
   "type": "vessel_status",
   "mmsi": 240752600,
   "name": "ALEXANDRA G",
-  "lat": 37.957919999999994,
-  "lon": 23.6081,
-  "time_utc": "2026-08-18T07:56:16+00:00",
-  "text": "ALEXANDRA G (tanker) is underway at 2 knots near 3 km off Piraeus, heading east. Reported destination: PIRAEUS."
+  "lat": 37.958690000000004,
+  "lon": 23.611486666666668,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "ALEXANDRA G (tanker) is stationary at 3 km off Piraeus. Reported destination: PIRAEUS."
  },
  {
   "id": "status-240768900",
@@ -344,9 +324,9 @@
   "type": "vessel_status",
   "mmsi": 240897000,
   "name": "AEGEAN ACE",
-  "lat": 37.94103500000001,
-  "lon": 23.623996666666667,
-  "time_utc": "2026-08-18T08:10:22+00:00",
+  "lat": 37.94112666666667,
+  "lon": 23.624148333333334,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "AEGEAN ACE (tanker) is stationary at Piraeus. Reported destination: PERIOHI."
  },
  {
@@ -364,10 +344,10 @@
   "type": "vessel_status",
   "mmsi": 240922000,
   "name": "PROTUG 17",
-  "lat": 37.93514666666667,
-  "lon": 23.620986666666667,
-  "time_utc": "2026-08-18T08:10:22+00:00",
-  "text": "PROTUG 17 (special craft) is stationary at Piraeus. Reported destination: DRAPETSONA-PIRAEUS."
+  "lat": 37.93689,
+  "lon": 23.619021666666665,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "PROTUG 17 (special craft) is underway at 5 knots near Piraeus, heading northwest. Reported destination: DRAPETSONA-PIRAEUS."
  },
  {
   "id": "status-241192800",
@@ -384,9 +364,9 @@
   "type": "vessel_status",
   "mmsi": 241327000,
   "name": "CHRYSI",
-  "lat": 37.91713666666667,
-  "lon": 23.086886666666665,
-  "time_utc": "2026-08-18T08:10:22+00:00",
+  "lat": 37.917155,
+  "lon": 23.08688,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "CHRYSI (special craft) is stationary at 7 km off Corinth Canal (Isthmia). Reported destination: AGIOI THEODOROI."
  },
  {
@@ -394,9 +374,9 @@
   "type": "vessel_status",
   "mmsi": 241460000,
   "name": "OURANOS",
-  "lat": 37.93056166666667,
-  "lon": 23.683665,
-  "time_utc": "2026-08-18T07:56:16+00:00",
+  "lat": 37.93053833333333,
+  "lon": 23.683658333333334,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "OURANOS (pleasure) is moored at 4 km off Piraeus. Reported destination: FLISVOS."
  },
  {
@@ -414,9 +394,9 @@
   "type": "vessel_status",
   "mmsi": 241567000,
   "name": "CHRISTOS XLI",
-  "lat": 37.95345666666666,
-  "lon": 23.551653333333334,
-  "time_utc": "2026-08-18T08:10:22+00:00",
+  "lat": 37.953493333333334,
+  "lon": 23.551651666666665,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "CHRISTOS XLI (special craft) is stationary at 2 km off Perama. Reported destination: GRSAL."
  },
  {
@@ -428,6 +408,16 @@
   "lon": 23.56382,
   "time_utc": "2026-08-18T07:56:16+00:00",
   "text": "VERNICOS LIBERTY (special craft) is underway at 8 knots near 1 km off Perama, heading west. Reported destination: PIRAEUS."
+ },
+ {
+  "id": "status-241588000",
+  "type": "vessel_status",
+  "mmsi": 241588000,
+  "name": "CHRISTOS XLVI",
+  "lat": 37.95455166666667,
+  "lon": 23.55148,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "CHRISTOS XLVI (special craft) is stationary at 2 km off Perama. Reported destination: PIRAEUS."
  },
  {
   "id": "status-241634000",
@@ -464,30 +454,30 @@
   "type": "vessel_status",
   "mmsi": 241728000,
   "name": "PANORMITIS",
-  "lat": 37.93201,
-  "lon": 23.576528333333332,
-  "time_utc": "2026-08-18T08:10:22+00:00",
-  "text": "PANORMITIS (special craft) is underway at 11 knots near Piraeus anchorage, heading north. Reported destination: PIRAEUS."
+  "lat": 37.95865833333333,
+  "lon": 23.61298833333333,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "PANORMITIS (special craft) is stationary at 3 km off Piraeus. Reported destination: PIRAEUS."
  },
  {
   "id": "status-241803000",
   "type": "vessel_status",
   "mmsi": 241803000,
   "name": "AERO 2 HIGHSPEED",
-  "lat": 37.7571,
-  "lon": 23.567886666666666,
-  "time_utc": "2026-08-18T08:10:22+00:00",
-  "text": "AERO 2 HIGHSPEED is underway at 30 knots near open water (37.757, 23.568), heading south."
+  "lat": 37.78982666666666,
+  "lon": 23.582723333333334,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "AERO 2 HIGHSPEED is underway at 30 knots near open water (37.790, 23.583), heading north."
  },
  {
-  "id": "status-241807000",
+  "id": "status-241804000",
   "type": "vessel_status",
-  "mmsi": 241807000,
-  "name": "SATORI",
-  "lat": 37.9608,
-  "lon": 23.565051666666665,
-  "time_utc": "2026-08-18T07:38:32+00:00",
-  "text": "SATORI (pleasure) is moored at Perama. Reported destination: PERAMA ATSALAKIS."
+  "mmsi": 241804000,
+  "name": "AERO 3 HIGHSPEED",
+  "lat": 37.89171666666667,
+  "lon": 23.593518333333336,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "AERO 3 HIGHSPEED (high-speed craft) is underway at 29 knots near Piraeus anchorage, heading north. Reported destination: SARONIKOS."
  },
  {
   "id": "status-241873000",
@@ -504,9 +494,9 @@
   "type": "vessel_status",
   "mmsi": 241911000,
   "name": "CAPTAIN GIANNIS P.",
-  "lat": 37.968444999999996,
-  "lon": 23.404408333333333,
-  "time_utc": "2026-08-18T08:10:22+00:00",
+  "lat": 37.96845,
+  "lon": 23.40438,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "CAPTAIN GIANNIS P. (special craft) is stationary at open water (37.968, 23.404). Reported destination: GRPIR."
  },
  {
@@ -514,30 +504,30 @@
   "type": "vessel_status",
   "mmsi": 241917000,
   "name": "BENIK",
-  "lat": 37.26186666666667,
-  "lon": 23.164183333333334,
-  "time_utc": "2026-08-18T08:10:22+00:00",
-  "text": "BENIK (pleasure) is stationary at Spetses. Reported destination: AEGEAN SEA."
+  "lat": 37.26193333333333,
+  "lon": 23.1642,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "BENIK (pleasure) is underway at 0 knots near Spetses, heading north. Reported destination: AEGEAN SEA."
+ },
+ {
+  "id": "status-241925000",
+  "type": "vessel_status",
+  "mmsi": 241925000,
+  "name": "CHRISTOS 73",
+  "lat": 38.00483666666666,
+  "lon": 23.59095166666667,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "CHRISTOS 73 (special craft) is stationary at 5 km off Perama. Reported destination: SALAMIS."
  },
  {
   "id": "status-241927000",
   "type": "vessel_status",
   "mmsi": 241927000,
   "name": "SVS I",
-  "lat": 38.024541666666664,
-  "lon": 23.59179333333333,
-  "time_utc": "2026-08-18T08:10:22+00:00",
+  "lat": 38.024548333333335,
+  "lon": 23.5918,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "SVS I (special craft) is stationary at 5 km off Elefsina. Reported destination: PIRAEUS."
- },
- {
-  "id": "status-241967000",
-  "type": "vessel_status",
-  "mmsi": 241967000,
-  "name": "LIBERDADE",
-  "lat": 37.932763333333334,
-  "lon": 23.681881666666666,
-  "time_utc": "2026-08-18T07:38:32+00:00",
-  "text": "LIBERDADE (pleasure) is stationary at 4 km off Piraeus. Reported destination: SARONIK."
  },
  {
   "id": "status-241997000",
@@ -545,8 +535,8 @@
   "mmsi": 241997000,
   "name": "AXOS",
   "lat": 37.92044,
-  "lon": 23.053995,
-  "time_utc": "2026-08-18T08:10:22+00:00",
+  "lon": 23.054003333333334,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "AXOS (special craft) is stationary at 4 km off Corinth Canal (Isthmia). Reported destination: AGIO THEODOROI."
  },
  {
@@ -564,9 +554,9 @@
   "type": "vessel_status",
   "mmsi": 247048150,
   "name": "BOUKI",
-  "lat": 37.93089166666667,
-  "lon": 23.6843,
-  "time_utc": "2026-08-18T07:38:32+00:00",
+  "lat": 37.930854999999994,
+  "lon": 23.684289999999997,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "BOUKI is stationary at 4 km off Piraeus."
  },
  {
@@ -594,9 +584,9 @@
   "type": "vessel_status",
   "mmsi": 248989000,
   "name": "LADY G II",
-  "lat": 37.93282166666667,
-  "lon": 23.647711666666666,
-  "time_utc": "2026-08-18T07:38:32+00:00",
+  "lat": 37.932876666666665,
+  "lon": 23.647726666666664,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "LADY G II (pleasure) is moored at Piraeus. Reported destination: SARONIC."
  },
  {
@@ -620,13 +610,23 @@
   "text": "SEAS THE DAY JP (pleasure) is stationary at Spetses. Reported destination: AEGEAN."
  },
  {
+  "id": "status-249574000",
+  "type": "vessel_status",
+  "mmsi": 249574000,
+  "name": "R JUNIORS",
+  "lat": 37.80273833333333,
+  "lon": 23.773891666666668,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "R JUNIORS (pleasure) is moored at open water (37.803, 23.774). Reported destination: GRVLM."
+ },
+ {
   "id": "status-249867000",
   "type": "vessel_status",
   "mmsi": 249867000,
   "name": "BLADE6",
-  "lat": 37.941645,
-  "lon": 23.669045,
-  "time_utc": "2026-08-18T08:10:22+00:00",
+  "lat": 37.94160333333333,
+  "lon": 23.669046666666667,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "BLADE6 (pleasure) is stationary at 3 km off Piraeus. Reported destination: ATHENS MARINA."
  },
  {
@@ -644,9 +644,9 @@
   "type": "vessel_status",
   "mmsi": 256001340,
   "name": "4LEON",
-  "lat": 37.93234833333334,
-  "lon": 23.682505,
-  "time_utc": "2026-08-18T07:56:16+00:00",
+  "lat": 37.932341666666666,
+  "lon": 23.682498333333335,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "4LEON (pleasure) is stationary at 4 km off Piraeus."
  },
  {
@@ -654,9 +654,9 @@
   "type": "vessel_status",
   "mmsi": 256002020,
   "name": "SHALIMAR II",
-  "lat": 37.931315000000005,
-  "lon": 23.680476666666667,
-  "time_utc": "2026-08-18T07:56:16+00:00",
+  "lat": 37.931331666666665,
+  "lon": 23.68043,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "SHALIMAR II is stationary at 4 km off Piraeus."
  },
  {
@@ -664,9 +664,9 @@
   "type": "vessel_status",
   "mmsi": 256004044,
   "name": "O II",
-  "lat": 37.93332833333333,
-  "lon": 23.681968333333334,
-  "time_utc": "2026-08-18T07:38:32+00:00",
+  "lat": 37.93333,
+  "lon": 23.681971666666666,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "O II (pleasure) is stationary at 4 km off Piraeus."
  },
  {
@@ -694,20 +694,10 @@
   "type": "vessel_status",
   "mmsi": 310065000,
   "name": "GRAND OCEAN",
-  "lat": 37.960656666666665,
-  "lon": 23.564173333333333,
-  "time_utc": "2026-08-18T07:56:16+00:00",
+  "lat": 37.960636666666666,
+  "lon": 23.564218333333333,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "GRAND OCEAN (pleasure) is moored at Perama."
- },
- {
-  "id": "status-319178200",
-  "type": "vessel_status",
-  "mmsi": 319178200,
-  "name": "PALOMA",
-  "lat": 37.93331333333333,
-  "lon": 23.64857333333333,
-  "time_utc": "2026-08-18T07:38:32+00:00",
-  "text": "PALOMA (pleasure) is moored at Piraeus. Reported destination: ZEA MARINA."
  },
  {
   "id": "status-319288200",
@@ -718,16 +708,6 @@
   "lon": 23.684026666666668,
   "time_utc": "2026-08-18T08:10:22+00:00",
   "text": "SEXY ME (pleasure) is moored at 4 km off Piraeus. Reported destination: ATHENS."
- },
- {
-  "id": "status-319331800",
-  "type": "vessel_status",
-  "mmsi": 319331800,
-  "name": "P1",
-  "lat": 37.92903666666667,
-  "lon": 23.682996666666668,
-  "time_utc": "2026-08-18T07:38:32+00:00",
-  "text": "P1 (pleasure) is moored at 4 km off Piraeus. Reported destination: GR ATH."
  },
  {
   "id": "status-341166001",
@@ -744,9 +724,9 @@
   "type": "vessel_status",
   "mmsi": 357900000,
   "name": "EUROPEAN HIGHWAY",
-  "lat": 37.96045166666667,
-  "lon": 23.60467,
-  "time_utc": "2026-08-18T07:38:32+00:00",
+  "lat": 37.960445,
+  "lon": 23.604663333333335,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "EUROPEAN HIGHWAY (cargo) is moored at 3 km off Perama. Reported destination: GRPIR>>ITLIV."
  },
  {
@@ -754,9 +734,9 @@
   "type": "vessel_status",
   "mmsi": 377122000,
   "name": "SOLEA",
-  "lat": 37.80668333333333,
-  "lon": 23.814166666666665,
-  "time_utc": "2026-08-18T08:10:22+00:00",
+  "lat": 37.806733333333334,
+  "lon": 23.814283333333332,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "SOLEA (pleasure) is stationary at open water (37.807, 23.814). Reported destination: VARKIZA."
  },
  {
@@ -770,33 +750,43 @@
   "text": "AL WAAB (pleasure) is moored at Piraeus. Reported destination: ATHENS."
  },
  {
+  "id": "status-518100927",
+  "type": "vessel_status",
+  "mmsi": 518100927,
+  "name": "PHOTON",
+  "lat": 37.29400333333333,
+  "lon": 23.20034666666667,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "PHOTON is at anchor at 5 km off Spetses."
+ },
+ {
+  "id": "status-538070955",
+  "type": "vessel_status",
+  "mmsi": 538070955,
+  "name": "EROSSEA",
+  "lat": 37.862565000000004,
+  "lon": 23.742953333333332,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "EROSSEA (pleasure) is stationary at open water (37.863, 23.743)."
+ },
+ {
   "id": "status-538071660",
   "type": "vessel_status",
   "mmsi": 538071660,
   "name": "M/Y GOLDEN HORN",
-  "lat": 37.93204166666667,
+  "lat": 37.93203666666667,
   "lon": 23.650831666666665,
-  "time_utc": "2026-08-18T08:10:22+00:00",
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "M/Y GOLDEN HORN (pleasure) is stationary at Piraeus. Reported destination: ATHENS."
- },
- {
-  "id": "status-538072772",
-  "type": "vessel_status",
-  "mmsi": 538072772,
-  "name": "SOLAS",
-  "lat": 37.91354666666667,
-  "lon": 23.702516666666668,
-  "time_utc": "2026-08-18T07:38:32+00:00",
-  "text": "SOLAS is stationary at 7 km off Piraeus."
  },
  {
   "id": "status-631010093",
   "type": "vessel_status",
   "mmsi": 631010093,
   "name": "ICE",
-  "lat": 37.95252166666667,
-  "lon": 23.553001666666667,
-  "time_utc": "2026-08-18T07:56:16+00:00",
+  "lat": 37.95251666666666,
+  "lon": 23.55303,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "ICE (pleasure) is stationary at 2 km off Perama. Reported destination: GRPIR."
  },
  {
@@ -805,8 +795,8 @@
   "mmsi": 636019647,
   "name": "ADMIRAL GALAXY",
   "lat": 37.95617166666667,
-  "lon": 23.585418333333333,
-  "time_utc": "2026-08-18T08:10:22+00:00",
+  "lon": 23.585416666666667,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "ADMIRAL GALAXY is stationary at 2 km off Perama."
  },
  {
@@ -818,6 +808,16 @@
   "lon": 23.540385,
   "time_utc": "2026-08-18T07:56:16+00:00",
   "text": "DELONIX (tanker) is at anchor at Piraeus anchorage. Reported destination: PIRAEUS."
+ },
+ {
+  "id": "status-209939000",
+  "type": "vessel_status",
+  "mmsi": 209939000,
+  "name": "ILE ROUGE",
+  "lat": 37.960074999999996,
+  "lon": 23.560226666666665,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "ILE ROUGE is moored at Perama."
  },
  {
   "id": "status-210227000",
@@ -854,9 +854,9 @@
   "type": "vessel_status",
   "mmsi": 229104000,
   "name": "ANTHEYA III",
-  "lat": 37.93257166666667,
-  "lon": 23.647256666666667,
-  "time_utc": "2026-08-18T08:10:22+00:00",
+  "lat": 37.932625,
+  "lon": 23.647299999999998,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "ANTHEYA III (pleasure) is stationary at Piraeus. Reported destination: ATHENS."
  },
  {
@@ -864,19 +864,19 @@
   "type": "vessel_status",
   "mmsi": 229875000,
   "name": "T/T MARIU",
-  "lat": 37.269445000000005,
-  "lon": 23.154721666666667,
-  "time_utc": "2026-08-18T07:56:16+00:00",
-  "text": "T/T MARIU (pleasure) is stationary at Spetses. Reported destination: SPETSES."
+  "lat": 37.26953833333334,
+  "lon": 23.155551666666668,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "T/T MARIU (pleasure) is underway at 0 knots near Spetses, heading north. Reported destination: SPETSES."
  },
  {
   "id": "status-232014927",
   "type": "vessel_status",
   "mmsi": 232014927,
   "name": "YOUNAN",
-  "lat": 37.93113833333334,
-  "lon": 23.683339999999998,
-  "time_utc": "2026-08-18T08:10:22+00:00",
+  "lat": 37.931111666666666,
+  "lon": 23.683366666666664,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "YOUNAN (pleasure) is stationary at 4 km off Piraeus."
  },
  {
@@ -884,9 +884,9 @@
   "type": "vessel_status",
   "mmsi": 232055900,
   "name": "MA BELLE",
-  "lat": 37.93829,
-  "lon": 23.648286666666667,
-  "time_utc": "2026-08-18T07:56:16+00:00",
+  "lat": 37.93828499999999,
+  "lon": 23.648295,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "MA BELLE is stationary at Piraeus."
  },
  {
@@ -914,9 +914,9 @@
   "type": "vessel_status",
   "mmsi": 237353500,
   "name": "PSYTTALIA II",
-  "lat": 37.9429,
-  "lon": 23.588753333333333,
-  "time_utc": "2026-08-18T08:10:22+00:00",
+  "lat": 37.94289666666667,
+  "lon": 23.58875833333333,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "PSYTTALIA II (passenger) is stationary at 3 km off Perama. Reported destination: PSYTTALIA."
  },
  {
@@ -924,9 +924,9 @@
   "type": "vessel_status",
   "mmsi": 237500000,
   "name": "LINDOS",
-  "lat": 37.26832666666667,
-  "lon": 23.157016666666667,
-  "time_utc": "2026-08-18T07:56:16+00:00",
+  "lat": 37.26833666666666,
+  "lon": 23.15702333333333,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "LINDOS is stationary at Spetses."
  },
  {
@@ -935,8 +935,8 @@
   "mmsi": 237500621,
   "name": "IGNATIOS XXI",
   "lat": 37.93382,
-  "lon": 23.618246666666668,
-  "time_utc": "2026-08-18T07:56:16+00:00",
+  "lon": 23.618256666666664,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "IGNATIOS XXI (special craft) is stationary at 2 km off Piraeus."
  },
  {
@@ -944,9 +944,9 @@
   "type": "vessel_status",
   "mmsi": 237572800,
   "name": "GETAWAY",
-  "lat": 37.870086666666666,
-  "lon": 23.73432,
-  "time_utc": "2026-08-18T08:10:22+00:00",
+  "lat": 37.870088333333335,
+  "lon": 23.734313333333333,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "GETAWAY (sailing) is stationary at open water (37.870, 23.734)."
  },
  {
@@ -964,9 +964,9 @@
   "type": "vessel_status",
   "mmsi": 239878700,
   "name": "PROMISE",
-  "lat": 37.91176666666667,
-  "lon": 23.705901666666666,
-  "time_utc": "2026-08-18T07:38:32+00:00",
+  "lat": 37.91179833333333,
+  "lon": 23.705916666666667,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "PROMISE (sailing) is moored at 7 km off Piraeus. Reported destination: ERMIONE."
  },
  {
@@ -1004,9 +1004,9 @@
   "type": "vessel_status",
   "mmsi": 240381000,
   "name": "PANDION",
-  "lat": 37.93219666666666,
-  "lon": 23.682268333333333,
-  "time_utc": "2026-08-18T07:38:32+00:00",
+  "lat": 37.932201666666664,
+  "lon": 23.682264999999997,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "PANDION (pleasure) is stationary at 4 km off Piraeus. Reported destination: FLISVOS _____."
  },
  {
@@ -1018,6 +1018,16 @@
   "lon": 23.67045166666667,
   "time_utc": "2026-08-18T07:56:16+00:00",
   "text": "BEYOND (pleasure) is moored at 3 km off Piraeus."
+ },
+ {
+  "id": "status-240404400",
+  "type": "vessel_status",
+  "mmsi": 240404400,
+  "name": "CAVO D'ORO",
+  "lat": 37.91325333333334,
+  "lon": 23.70552,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "CAVO D'ORO is stationary at 7 km off Piraeus."
  },
  {
   "id": "status-240418200",
@@ -1040,13 +1050,23 @@
   "text": "ECODIAMOND (tanker) is stationary at 2 km off Piraeus. Reported destination: PERIOXI."
  },
  {
+  "id": "status-240588500",
+  "type": "vessel_status",
+  "mmsi": 240588500,
+  "name": "BABALU",
+  "lat": 37.9134,
+  "lon": 23.700256666666668,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "BABALU is stationary at 6 km off Piraeus."
+ },
+ {
   "id": "status-240593700",
   "type": "vessel_status",
   "mmsi": 240593700,
   "name": "PROTUG 40",
-  "lat": 37.950855000000004,
-  "lon": 23.548721666666665,
-  "time_utc": "2026-08-18T08:10:22+00:00",
+  "lat": 37.95086666666667,
+  "lon": 23.548771666666667,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "PROTUG 40 (special craft) is stationary at 2 km off Salamina (Paloukia). Reported destination: AGIOS KOSMAS."
  },
  {
@@ -1064,10 +1084,10 @@
   "type": "vessel_status",
   "mmsi": 241133000,
   "name": "PANORAMA",
-  "lat": 37.910465,
-  "lon": 23.592623333333332,
-  "time_utc": "2026-08-18T08:10:22+00:00",
-  "text": "PANORAMA (passenger) is underway at 15 knots near Piraeus anchorage, heading northeast. Reported destination: PIR-AIG."
+  "lat": 37.944555,
+  "lon": 23.64132,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "PANORAMA (passenger) is stationary at Piraeus. Reported destination: PIR-AIG."
  },
  {
   "id": "status-241324000",
@@ -1078,16 +1098,6 @@
   "lon": 23.55062333333333,
   "time_utc": "2026-08-18T08:10:22+00:00",
   "text": "ERATO (tanker) is stationary at Piraeus anchorage. Reported destination: GRPIR."
- },
- {
-  "id": "status-241506000",
-  "type": "vessel_status",
-  "mmsi": 241506000,
-  "name": "LYBOUSSAKIS LEON",
-  "lat": 37.953448333333334,
-  "lon": 23.5501,
-  "time_utc": "2026-08-18T07:38:32+00:00",
-  "text": "LYBOUSSAKIS LEON is stationary at 2 km off Perama."
  },
  {
   "id": "status-241524000",
@@ -1114,30 +1124,30 @@
   "type": "vessel_status",
   "mmsi": 241904000,
   "name": "DIAS",
-  "lat": 37.94612333333334,
-  "lon": 23.59886,
-  "time_utc": "2026-08-18T08:10:22+00:00",
-  "text": "DIAS (special craft) is underway at 11 knots near 3 km off Piraeus, heading southeast. Reported destination: GRPIR."
+  "lat": 37.938779999999994,
+  "lon": 23.63416833333333,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "DIAS (special craft) is stationary at Piraeus. Reported destination: GRPIR."
  },
  {
   "id": "status-241972000",
   "type": "vessel_status",
   "mmsi": 241972000,
   "name": "REA",
-  "lat": 38.005455,
-  "lon": 23.53812,
-  "time_utc": "2026-08-18T08:10:22+00:00",
-  "text": "REA (special craft) is underway at 8 knots near 3 km off Elefsina, heading southeast. Reported destination: PIRAEUS."
+  "lat": 37.99953333333334,
+  "lon": 23.544941666666666,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "REA (special craft) is underway at 0 knots near 4 km off Salamina (Paloukia), heading northeast. Reported destination: PIRAEUS."
  },
  {
-  "id": "status-247217500",
+  "id": "status-247212850",
   "type": "vessel_status",
-  "mmsi": 247217500,
-  "name": "GRANDE COLONIA",
-  "lat": 37.9603,
-  "lon": 23.561995000000003,
-  "time_utc": "2026-08-18T07:38:32+00:00",
-  "text": "GRANDE COLONIA (cargo) is moored at Perama. Reported destination: SYLTK-GRPIR."
+  "mmsi": 247212850,
+  "name": "VIA DEL PORTO",
+  "lat": 37.91323666666666,
+  "lon": 23.705148333333334,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "VIA DEL PORTO is stationary at 7 km off Piraeus."
  },
  {
   "id": "status-248666000",
@@ -1174,19 +1184,29 @@
   "type": "vessel_status",
   "mmsi": 256722000,
   "name": "WHISPER V",
-  "lat": 37.93924333333334,
-  "lon": 23.669428333333332,
-  "time_utc": "2026-08-18T08:10:22+00:00",
+  "lat": 37.93927,
+  "lon": 23.669449999999998,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "WHISPER V (pleasure) is moored at 3 km off Piraeus. Reported destination: SIFNOS."
+ },
+ {
+  "id": "status-305037300",
+  "type": "vessel_status",
+  "mmsi": 305037300,
+  "name": "CABO",
+  "lat": 37.96128,
+  "lon": 23.559205000000002,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "CABO (passenger) is moored at Perama. Reported destination: GRPIR."
  },
  {
   "id": "status-305579000",
   "type": "vessel_status",
   "mmsi": 305579000,
   "name": "SADALSUUD",
-  "lat": 37.95525,
+  "lat": 37.955216666666665,
   "lon": 23.594749999999998,
-  "time_utc": "2026-08-18T07:56:16+00:00",
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "SADALSUUD (cargo) is moored at 3 km off Perama. Reported destination: GRPIR."
  },
  {
@@ -1200,34 +1220,14 @@
   "text": "SERENITY (pleasure) is moored at 4 km off Piraeus. Reported destination: GRPIR."
  },
  {
-  "id": "status-319299700",
-  "type": "vessel_status",
-  "mmsi": 319299700,
-  "name": "MY PLEIADES",
-  "lat": 37.929806666666664,
-  "lon": 23.681233333333335,
-  "time_utc": "2026-08-18T07:38:32+00:00",
-  "text": "MY PLEIADES is moored at 4 km off Piraeus. Reported destination: FLISVOS MARINA."
- },
- {
   "id": "status-319363800",
   "type": "vessel_status",
   "mmsi": 319363800,
   "name": "ODYSSEY",
   "lat": 37.9383,
   "lon": 23.66835,
-  "time_utc": "2026-08-18T07:56:16+00:00",
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "ODYSSEY (pleasure) is moored at 3 km off Piraeus. Reported destination: GR PIR."
- },
- {
-  "id": "status-319959000",
-  "type": "vessel_status",
-  "mmsi": 319959000,
-  "name": "MARI CHA III",
-  "lat": 37.931891666666665,
-  "lon": 23.650808333333334,
-  "time_utc": "2026-08-18T07:38:32+00:00",
-  "text": "MARI CHA III is stationary at Piraeus."
  },
  {
   "id": "status-341553002",
@@ -1248,16 +1248,6 @@
   "lon": 23.530488333333334,
   "time_utc": "2026-08-18T07:56:16+00:00",
   "text": "WINNER (cargo) is at anchor at open water (37.854, 23.530). Reported destination: PIRAEUS.GR."
- },
- {
-  "id": "status-538072318",
-  "type": "vessel_status",
-  "mmsi": 538072318,
-  "name": "O3",
-  "lat": 37.34006333333333,
-  "lon": 23.434694999999998,
-  "time_utc": "2026-08-18T07:38:32+00:00",
-  "text": "O3 is stationary at 3 km off Hydra. Reported destination: CRUISING."
  },
  {
   "id": "status-210420000",
@@ -1284,29 +1274,19 @@
   "type": "vessel_status",
   "mmsi": 237021400,
   "name": "AG NEKTARIOS AIGINAS",
-  "lat": 37.960431666666665,
-  "lon": 23.568496666666665,
-  "time_utc": "2026-08-18T07:38:32+00:00",
+  "lat": 37.960465,
+  "lon": 23.56852,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "AG NEKTARIOS AIGINAS is at anchor at Perama."
- },
- {
-  "id": "status-237041100",
-  "type": "vessel_status",
-  "mmsi": 237041100,
-  "name": "PROTUG 18",
-  "lat": 37.951456666666665,
-  "lon": 23.548515000000002,
-  "time_utc": "2026-08-18T07:38:32+00:00",
-  "text": "PROTUG 18 (special craft) is stationary at 2 km off Salamina (Paloukia). Reported destination: SALAMIS."
  },
  {
   "id": "status-239550200",
   "type": "vessel_status",
   "mmsi": 239550200,
   "name": "ECODREAM",
-  "lat": 38.037683333333334,
-  "lon": 23.533305,
-  "time_utc": "2026-08-18T07:56:16+00:00",
+  "lat": 38.03767666666667,
+  "lon": 23.533326666666667,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "ECODREAM is stationary at Elefsina."
  },
  {
@@ -1324,30 +1304,20 @@
   "type": "vessel_status",
   "mmsi": 239875900,
   "name": "OCEANE 2",
-  "lat": 37.93323,
-  "lon": 23.68357,
-  "time_utc": "2026-08-18T08:10:22+00:00",
+  "lat": 37.93326166666667,
+  "lon": 23.683576666666667,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "OCEANE 2 (pleasure) is moored at 4 km off Piraeus. Reported destination: FLISVOS."
- },
- {
-  "id": "status-240226600",
-  "type": "vessel_status",
-  "mmsi": 240226600,
-  "name": "WHO CARES",
-  "lat": 37.93223833333333,
-  "lon": 23.684078333333332,
-  "time_utc": "2026-08-18T07:38:32+00:00",
-  "text": "WHO CARES (pleasure) is moored at 4 km off Piraeus. Reported destination: HYDRA."
  },
  {
   "id": "status-240376600",
   "type": "vessel_status",
   "mmsi": 240376600,
   "name": "ELEFSIS M 1",
-  "lat": 37.93484333333333,
-  "lon": 23.621096666666666,
-  "time_utc": "2026-08-18T08:10:22+00:00",
-  "text": "ELEFSIS M 1 is stationary at Piraeus."
+  "lat": 37.93604333333334,
+  "lon": 23.61944833333333,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "ELEFSIS M 1 is underway at 6 knots near Piraeus, heading southwest."
  },
  {
   "id": "status-240634100",
@@ -1370,16 +1340,6 @@
   "text": "MARY GRACE 2 is underway at 6 knots near 3 km off Porto Heli, heading northwest."
  },
  {
-  "id": "status-240792500",
-  "type": "vessel_status",
-  "mmsi": 240792500,
-  "name": "THADA",
-  "lat": 37.85254,
-  "lon": 23.730866666666667,
-  "time_utc": "2026-08-18T07:38:32+00:00",
-  "text": "THADA (sailing) is underway at 7 knots near open water (37.853, 23.731), heading southeast."
- },
- {
   "id": "status-240871000",
   "type": "vessel_status",
   "mmsi": 240871000,
@@ -1388,16 +1348,6 @@
   "lon": 23.637071666666667,
   "time_utc": "2026-08-18T08:10:22+00:00",
   "text": "ECOBREEZE (tanker) is stationary at Piraeus."
- },
- {
-  "id": "status-241370000",
-  "type": "vessel_status",
-  "mmsi": 241370000,
-  "name": "AGONISTIS",
-  "lat": 38.01583333333333,
-  "lon": 23.595063333333332,
-  "time_utc": "2026-08-18T07:38:32+00:00",
-  "text": "AGONISTIS (special craft) is stationary at 5 km off Elefsina. Reported destination: PIRAEUS."
  },
  {
   "id": "status-241571000",
@@ -1420,23 +1370,13 @@
   "text": "VERNICOS SCAFI II (special craft) is underway at 1 knots near 5 km off Perama, heading southeast. Reported destination: GRPIR."
  },
  {
-  "id": "status-249991000",
-  "type": "vessel_status",
-  "mmsi": 249991000,
-  "name": "OM",
-  "lat": 37.93324500000001,
-  "lon": 23.648385,
-  "time_utc": "2026-08-18T07:38:32+00:00",
-  "text": "OM (pleasure) is moored at Piraeus. Reported destination: PIREUS."
- },
- {
   "id": "status-256000827",
   "type": "vessel_status",
   "mmsi": 256000827,
   "name": "DELFIS",
-  "lat": 37.876275,
-  "lon": 23.727048333333336,
-  "time_utc": "2026-08-18T08:10:22+00:00",
+  "lat": 37.87629833333334,
+  "lon": 23.727086666666665,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "DELFIS is stationary at open water (37.876, 23.727)."
  },
  {
@@ -1444,20 +1384,10 @@
   "type": "vessel_status",
   "mmsi": 256002937,
   "name": "TWO KAY",
-  "lat": 37.93139,
-  "lon": 23.683061666666667,
-  "time_utc": "2026-08-18T08:10:22+00:00",
+  "lat": 37.93143833333333,
+  "lon": 23.683094999999998,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "TWO KAY is moored at 4 km off Piraeus. Reported destination: ATHENS."
- },
- {
-  "id": "status-256718000",
-  "type": "vessel_status",
-  "mmsi": 256718000,
-  "name": "SEAHORSE",
-  "lat": 37.93035166666667,
-  "lon": 23.683766666666667,
-  "time_utc": "2026-08-18T07:38:32+00:00",
-  "text": "SEAHORSE (pleasure) is moored at 4 km off Piraeus. Reported destination: FLOISVOS."
  },
  {
   "id": "status-304183000",
@@ -1470,13 +1400,23 @@
   "text": "RAINBOW (tanker) is at anchor at Piraeus anchorage. Reported destination: FOR ORDER."
  },
  {
+  "id": "status-310160000",
+  "type": "vessel_status",
+  "mmsi": 310160000,
+  "name": "FANTASIA",
+  "lat": 37.92917,
+  "lon": 23.682743333333335,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "FANTASIA (pleasure) is moored at 4 km off Piraeus. Reported destination: FLISVOS MARINA."
+ },
+ {
   "id": "status-319255000",
   "type": "vessel_status",
   "mmsi": 319255000,
   "name": "SAHAB IV",
-  "lat": 37.929025,
-  "lon": 23.683435,
-  "time_utc": "2026-08-18T08:10:22+00:00",
+  "lat": 37.92903,
+  "lon": 23.683448333333335,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "SAHAB IV (pleasure) is moored at 4 km off Piraeus. Reported destination: FLISVOS.PIRAEUS."
  },
  {
@@ -1494,9 +1434,9 @@
   "type": "vessel_status",
   "mmsi": 339000037,
   "name": "INFINITY",
-  "lat": 37.931365,
-  "lon": 23.649546666666666,
-  "time_utc": "2026-08-18T08:10:22+00:00",
+  "lat": 37.931360000000005,
+  "lon": 23.649553333333333,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "INFINITY (pleasure) is stationary at Piraeus. Reported destination: ZEA."
  },
  {
@@ -1504,10 +1444,10 @@
   "type": "vessel_status",
   "mmsi": 341602002,
   "name": "MILLENNIUM FALCON II",
-  "lat": 37.82836833333333,
-  "lon": 23.39454,
-  "time_utc": "2026-08-18T08:10:22+00:00",
-  "text": "MILLENNIUM FALCON II is underway at 8 knots near open water (37.828, 23.395), heading north."
+  "lat": 37.88661666666667,
+  "lon": 23.38243,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "MILLENNIUM FALCON II is underway at 9 knots near open water (37.887, 23.382), heading north."
  },
  {
   "id": "status-518999866",
@@ -1540,14 +1480,24 @@
   "text": "EVER CHAMP (cargo) is moored at 2 km off Perama. Reported destination: IT AOI>GR PIR."
  },
  {
+  "id": "status-636025786",
+  "type": "vessel_status",
+  "mmsi": 636025786,
+  "name": "MARTI WIND",
+  "lat": 37.955749999999995,
+  "lon": 23.58866,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "MARTI WIND (cargo) is moored at 2 km off Perama. Reported destination: GRPIR."
+ },
+ {
   "id": "status-229456000",
   "type": "vessel_status",
   "mmsi": 229456000,
   "name": "AMBER BEE",
-  "lat": 37.855243333333334,
-  "lon": 23.446203333333337,
-  "time_utc": "2026-08-18T08:10:22+00:00",
-  "text": "AMBER BEE (tanker) is underway at 10 knots near open water (37.855, 23.446), heading east. Reported destination: GRPIR."
+  "lat": 37.86753833333333,
+  "lon": 23.517155,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "AMBER BEE (tanker) is underway at 7 knots near open water (37.868, 23.517), heading east. Reported destination: GRPIR."
  },
  {
   "id": "status-232060636",
@@ -1560,34 +1510,24 @@
   "text": "LADY IRIS K is underway at 7 knots near 4 km off Spetses, heading northeast."
  },
  {
-  "id": "status-236623000",
-  "type": "vessel_status",
-  "mmsi": 236623000,
-  "name": "IVER BLESSING",
-  "lat": 37.914901666666665,
-  "lon": 23.085798333333333,
-  "time_utc": "2026-08-18T07:38:32+00:00",
-  "text": "IVER BLESSING (tanker) is moored at 7 km off Corinth Canal (Isthmia). Reported destination: FOR ORDERS."
- },
- {
   "id": "status-237002600",
   "type": "vessel_status",
   "mmsi": 237002600,
   "name": "APOLLON HELLAS",
-  "lat": 37.82474333333333,
-  "lon": 23.507918333333336,
-  "time_utc": "2026-08-18T08:10:22+00:00",
-  "text": "APOLLON HELLAS (passenger) is underway at 14 knots near 8 km off Souvala, heading southwest. Reported destination: ARGOSARONIKOS."
+  "lat": 37.774,
+  "lon": 23.425318333333333,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "APOLLON HELLAS (passenger) is underway at 13 knots near 3 km off Souvala, heading southwest. Reported destination: ARGOSARONIKOS."
  },
  {
   "id": "status-237808200",
   "type": "vessel_status",
   "mmsi": 237808200,
   "name": "PHIVOS",
-  "lat": 37.745,
-  "lon": 23.424333333333333,
-  "time_utc": "2026-08-18T07:56:16+00:00",
-  "text": "PHIVOS (passenger) is stationary at Aegina. Reported destination: PIRAEUS-AEGINA-PIRAE."
+  "lat": 37.8315,
+  "lon": 23.517333333333333,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "PHIVOS (passenger) is underway at 15 knots near open water (37.831, 23.517), heading northeast. Reported destination: PIRAEUS-AEGINA-PIRAE."
  },
  {
   "id": "status-237838900",
@@ -1604,9 +1544,9 @@
   "type": "vessel_status",
   "mmsi": 239112700,
   "name": "SUNCOCO",
-  "lat": 37.91347833333334,
-  "lon": 23.704448333333335,
-  "time_utc": "2026-08-18T07:38:32+00:00",
+  "lat": 37.91347333333333,
+  "lon": 23.704443333333334,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "SUNCOCO (pleasure) is stationary at 7 km off Piraeus. Reported destination: SPETSES."
  },
  {
@@ -1634,9 +1574,9 @@
   "type": "vessel_status",
   "mmsi": 240743000,
   "name": "SEAVEN PROGRESS",
-  "lat": 37.947325,
-  "lon": 23.613255,
-  "time_utc": "2026-08-18T07:38:32+00:00",
+  "lat": 37.947363333333335,
+  "lon": 23.613274999999998,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "SEAVEN PROGRESS (cargo) is moored at 2 km off Piraeus. Reported destination: GR PIR."
  },
  {
@@ -1644,9 +1584,9 @@
   "type": "vessel_status",
   "mmsi": 241443000,
   "name": "PANTOKRATOR",
-  "lat": 38.03603,
+  "lat": 38.03602333333333,
   "lon": 23.513939999999998,
-  "time_utc": "2026-08-18T07:56:16+00:00",
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "PANTOKRATOR (special craft) is stationary at Elefsis Bay anchorage. Reported destination: PIRAEUS."
  },
  {
@@ -1690,13 +1630,23 @@
   "text": "ETOILE-FILANTE is stationary at 1 km off Agistri (Skala)."
  },
  {
+  "id": "status-338374679",
+  "type": "vessel_status",
+  "mmsi": 338374679,
+  "name": "53 A3Y",
+  "lat": 37.786698333333334,
+  "lon": 23.768578333333334,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "53 A3Y is underway at 29 knots near open water (37.787, 23.769), heading southeast."
+ },
+ {
   "id": "status-352006851",
   "type": "vessel_status",
   "mmsi": 352006851,
   "name": "PERSEAS",
   "lat": 37.950691666666664,
-  "lon": 23.54375,
-  "time_utc": "2026-08-18T08:10:22+00:00",
+  "lon": 23.543760000000002,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "PERSEAS (passenger) is stationary at 2 km off Salamina (Paloukia). Reported destination: SALAMINA."
  },
  {
@@ -1704,19 +1654,29 @@
   "type": "vessel_status",
   "mmsi": 431476000,
   "name": "TETHYS HIGHWAY",
-  "lat": 37.83307333333333,
-  "lon": 23.533418333333334,
-  "time_utc": "2026-08-18T07:56:16+00:00",
-  "text": "TETHYS HIGHWAY (cargo) is underway at 4 knots near open water (37.833, 23.533), heading southwest. Reported destination: GR PIR."
+  "lat": 37.81834166666667,
+  "lon": 23.57909,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "TETHYS HIGHWAY (cargo) is underway at 6 knots near open water (37.818, 23.579), heading southwest. Reported destination: GR PIR."
+ },
+ {
+  "id": "status-636023742",
+  "type": "vessel_status",
+  "mmsi": 636023742,
+  "name": "C-INSPIRATION",
+  "lat": 37.95457333333333,
+  "lon": 23.604658333333337,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "C-INSPIRATION (cargo) is moored at 3 km off Piraeus. Reported destination: GR PIR."
  },
  {
   "id": "status-671541100",
   "type": "vessel_status",
   "mmsi": 671541100,
   "name": "BREST",
-  "lat": 38.04305,
-  "lon": 23.525253333333335,
-  "time_utc": "2026-08-18T08:10:22+00:00",
+  "lat": 38.04304833333333,
+  "lon": 23.525266666666667,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "BREST is moored at 2 km off Elefsina."
  },
  {
@@ -1760,23 +1720,13 @@
   "text": "AVATAR is underway at 1 knots near 4 km off Piraeus."
  },
  {
-  "id": "status-240796900",
-  "type": "vessel_status",
-  "mmsi": 240796900,
-  "name": "SEALINK VII",
-  "lat": 37.862595000000006,
-  "lon": 23.744008333333333,
-  "time_utc": "2026-08-18T07:38:32+00:00",
-  "text": "SEALINK VII was last heard near open water (37.863, 23.744)."
- },
- {
   "id": "status-241596000",
   "type": "vessel_status",
   "mmsi": 241596000,
   "name": "AEGIS II",
-  "lat": 37.96111833333334,
-  "lon": 23.569003333333335,
-  "time_utc": "2026-08-18T07:56:16+00:00",
+  "lat": 37.96111666666666,
+  "lon": 23.569015,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "AEGIS II (special craft) is moored at Perama. Reported destination: PERAMA."
  },
  {
@@ -1784,10 +1734,10 @@
   "type": "vessel_status",
   "mmsi": 255916596,
   "name": "LODUR",
-  "lat": 37.81046,
-  "lon": 23.550903333333334,
-  "time_utc": "2026-08-18T08:10:22+00:00",
-  "text": "LODUR (cargo) is stationary at open water (37.810, 23.551). Reported destination: GRPIR."
+  "lat": 37.81075666666666,
+  "lon": 23.552623333333333,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "LODUR (cargo) is stationary at open water (37.811, 23.553). Reported destination: GRPIR."
  },
  {
   "id": "status-256004914",
@@ -1804,9 +1754,9 @@
   "type": "vessel_status",
   "mmsi": 256004974,
   "name": "LOVE 2 LOVE",
-  "lat": 37.93980666666666,
-  "lon": 23.66868,
-  "time_utc": "2026-08-18T07:38:32+00:00",
+  "lat": 37.939836666666665,
+  "lon": 23.668678333333332,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "LOVE 2 LOVE is stationary at 3 km off Piraeus."
  },
  {
@@ -1814,9 +1764,9 @@
   "type": "vessel_status",
   "mmsi": 305058300,
   "name": "ACERS",
-  "lat": 37.875708333333336,
-  "lon": 23.53166333333333,
-  "time_utc": "2026-08-18T07:56:16+00:00",
+  "lat": 37.875735,
+  "lon": 23.531713333333336,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "ACERS (tanker) is at anchor at Piraeus anchorage. Reported destination: GRPIR."
  },
  {
@@ -1824,9 +1774,9 @@
   "type": "vessel_status",
   "mmsi": 372563000,
   "name": "ATHINA",
-  "lat": 37.294066666666666,
-  "lon": 23.200438333333334,
-  "time_utc": "2026-08-18T08:10:22+00:00",
+  "lat": 37.294108333333334,
+  "lon": 23.200388333333333,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "ATHINA (pleasure) is stationary at 5 km off Spetses. Reported destination: ZEA."
  },
  {
@@ -1834,9 +1784,9 @@
   "type": "vessel_status",
   "mmsi": 229000178,
   "name": "PASTA FLORA",
-  "lat": 37.94176,
-  "lon": 23.670015,
-  "time_utc": "2026-08-18T07:38:32+00:00",
+  "lat": 37.941741666666665,
+  "lon": 23.669998333333336,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "PASTA FLORA is moored at 3 km off Piraeus."
  },
  {
@@ -1850,24 +1800,14 @@
   "text": "BILMAR is moored at 7 km off Piraeus."
  },
  {
-  "id": "status-236112580",
-  "type": "vessel_status",
-  "mmsi": 236112580,
-  "name": "UNDICI",
-  "lat": 37.93257666666667,
-  "lon": 23.682365,
-  "time_utc": "2026-08-18T07:38:32+00:00",
-  "text": "UNDICI is stationary at 4 km off Piraeus."
- },
- {
   "id": "status-240340900",
   "type": "vessel_status",
   "mmsi": 240340900,
   "name": "CHRISTOS XXVIII",
-  "lat": 37.934758333333335,
-  "lon": 23.62259,
-  "time_utc": "2026-08-18T08:10:22+00:00",
-  "text": "CHRISTOS XXVIII is underway at 1 knots near Piraeus."
+  "lat": 37.93466,
+  "lon": 23.622625000000003,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "CHRISTOS XXVIII is stationary at Piraeus."
  },
  {
   "id": "status-241966000",
@@ -1920,44 +1860,34 @@
   "text": "M/Y ACHILLES is moored at Piraeus. Reported destination: VARKIZA."
  },
  {
-  "id": "status-518999690",
-  "type": "vessel_status",
-  "mmsi": 518999690,
-  "name": "JUSTA DELIA",
-  "lat": 37.928263333333334,
-  "lon": 23.649976666666664,
-  "time_utc": "2026-08-18T07:38:32+00:00",
-  "text": "JUSTA DELIA (pleasure) is at anchor at 2 km off Piraeus. Reported destination: ATHENS."
- },
- {
   "id": "status-237008100",
   "type": "vessel_status",
   "mmsi": 237008100,
   "name": "POSEIDONAS",
-  "lat": 37.744865,
-  "lon": 23.425023333333336,
-  "time_utc": "2026-08-18T08:10:22+00:00",
-  "text": "POSEIDONAS (passenger) is stationary at Aegina."
+  "lat": 37.715574999999994,
+  "lon": 23.390738333333335,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "POSEIDONAS (passenger) is underway at 16 knots near 3 km off Agistri (Skala), heading west."
  },
  {
   "id": "status-237622300",
   "type": "vessel_status",
   "mmsi": 237622300,
   "name": "THEOTOKOS",
-  "lat": 37.966073333333334,
-  "lon": 23.53087,
-  "time_utc": "2026-08-18T08:10:22+00:00",
-  "text": "THEOTOKOS (passenger) is stationary at Salamina (Paloukia). Reported destination: PERAMA-PALOUKIA."
+  "lat": 37.964155,
+  "lon": 23.532281666666666,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "THEOTOKOS (passenger) is underway at 5 knots near Salamina (Paloukia), heading south. Reported destination: PERAMA-PALOUKIA."
  },
  {
   "id": "status-240191100",
   "type": "vessel_status",
   "mmsi": 240191100,
   "name": "GLYKOFILOUSA VIII",
-  "lat": 37.96035,
-  "lon": 23.548726666666667,
-  "time_utc": "2026-08-18T08:10:22+00:00",
-  "text": "GLYKOFILOUSA VIII is underway at 7 knots near 2 km off Salamina (Paloukia), heading west."
+  "lat": 37.965203333333335,
+  "lon": 23.529594999999997,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "GLYKOFILOUSA VIII is stationary at Salamina (Paloukia)."
  },
  {
   "id": "status-248389000",
@@ -1974,9 +1904,9 @@
   "type": "vessel_status",
   "mmsi": 256817000,
   "name": "THIS IS IT I",
-  "lat": 37.93839833333333,
-  "lon": 23.666731666666667,
-  "time_utc": "2026-08-18T07:56:16+00:00",
+  "lat": 37.938415,
+  "lon": 23.666746666666665,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "THIS IS IT I (pleasure) is moored at 3 km off Piraeus. Reported destination: GR PIRAEUS."
  },
  {
@@ -2025,8 +1955,8 @@
   "mmsi": 240098600,
   "name": "PROTOPOROS XIV",
   "lat": 37.96555,
-  "lon": 23.530366666666666,
-  "time_utc": "2026-08-18T08:10:22+00:00",
+  "lon": 23.53035,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "PROTOPOROS XIV (passenger) is stationary at Salamina (Paloukia). Reported destination: PALOUKIA - PERAMA."
  },
  {
@@ -2040,14 +1970,24 @@
   "text": "FAMILIA (sailing) is moored at 7 km off Piraeus."
  },
  {
+  "id": "status-240721400",
+  "type": "vessel_status",
+  "mmsi": 240721400,
+  "name": "TRITONE",
+  "lat": 37.911728333333336,
+  "lon": 23.706228333333335,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "TRITONE is moored at 7 km off Piraeus."
+ },
+ {
   "id": "status-239546200",
   "type": "vessel_status",
   "mmsi": 239546200,
   "name": "KONSTANTINOS K",
-  "lat": 37.96508166666667,
-  "lon": 23.529598333333336,
-  "time_utc": "2026-08-18T07:38:32+00:00",
-  "text": "KONSTANTINOS K (passenger) is stationary at Salamina (Paloukia). Reported destination: PERAMA-PALOUKIA."
+  "lat": 37.96385,
+  "lon": 23.55558166666667,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "KONSTANTINOS K (passenger) is stationary at 1 km off Perama. Reported destination: PERAMA-PALOUKIA."
  },
  {
   "id": "status-240042300",
@@ -2090,24 +2030,24 @@
   "text": "ECOGLORY (tanker) is moored at 2 km off Piraeus. Reported destination: PIRAEUS."
  },
  {
-  "id": "status-319110100",
+  "id": "status-319218100",
   "type": "vessel_status",
-  "mmsi": 319110100,
-  "name": "MOONLIGHT",
-  "lat": 37.935453333333335,
-  "lon": 23.68091666666667,
-  "time_utc": "2026-08-18T07:38:32+00:00",
-  "text": "MOONLIGHT is stationary at 4 km off Piraeus."
+  "mmsi": 319218100,
+  "name": "STELLA",
+  "lat": 37.93295833333333,
+  "lon": 23.647883333333333,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "STELLA is stationary at Piraeus."
  },
  {
-  "id": "status-370901000",
+  "id": "status-232063333",
   "type": "vessel_status",
-  "mmsi": 370901000,
-  "name": "CHRISTOS XXIV",
-  "lat": 37.95451333333333,
-  "lon": 23.550906666666666,
-  "time_utc": "2026-08-18T07:38:32+00:00",
-  "text": "CHRISTOS XXIV (special craft) is moored at 2 km off Perama. Reported destination: SALAMINA."
+  "mmsi": 232063333,
+  "name": "LA BELLA LYNN",
+  "lat": 37.941633333333336,
+  "lon": 23.670268333333336,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "LA BELLA LYNN is stationary at 3 km off Piraeus."
  },
  {
   "id": "status-239951200",
@@ -2124,30 +2064,40 @@
   "type": "vessel_status",
   "mmsi": 240601900,
   "name": "PROTOPOROS XVII",
-  "lat": 37.965718333333335,
-  "lon": 23.530413333333335,
-  "time_utc": "2026-08-18T07:38:32+00:00",
-  "text": "PROTOPOROS XVII (passenger) is stationary at Salamina (Paloukia). Reported destination: PALOUKIA PERAMA."
+  "lat": 37.963785,
+  "lon": 23.556273333333333,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "PROTOPOROS XVII (passenger) is stationary at 1 km off Perama. Reported destination: PALOUKIA PERAMA."
  },
  {
-  "id": "status-247039840",
+  "id": "status-241654000",
   "type": "vessel_status",
-  "mmsi": 247039840,
-  "name": "GIORGIA",
-  "lat": 37.77307666666666,
-  "lon": 23.422413333333335,
-  "time_utc": "2026-08-18T07:38:32+00:00",
-  "text": "GIORGIA is underway at 6 knots near 3 km off Aegina, heading northeast."
+  "mmsi": 241654000,
+  "name": "APTERA",
+  "lat": 37.95277333333333,
+  "lon": 23.584566666666667,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "APTERA is moored at 2 km off Perama."
  },
  {
   "id": "status-239486100",
   "type": "vessel_status",
   "mmsi": 239486100,
   "name": "M/Y ELINA II",
-  "lat": 37.713795,
-  "lon": 23.346785,
-  "time_utc": "2026-08-18T07:38:32+00:00",
+  "lat": 37.71380333333333,
+  "lon": 23.346786666666667,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "M/Y ELINA II is stationary at 2 km off Agistri (Skala)."
+ },
+ {
+  "id": "status-319020000",
+  "type": "vessel_status",
+  "mmsi": 319020000,
+  "name": "LIGHTNING",
+  "lat": 37.933841666666666,
+  "lon": 23.68151333333333,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "LIGHTNING (pleasure) is moored at 4 km off Piraeus. Reported destination: GRPIR."
  },
  {
   "id": "status-512009723",
@@ -2164,20 +2114,10 @@
   "type": "vessel_status",
   "mmsi": 237070600,
   "name": "IFESTOS 2",
-  "lat": 37.95316666666667,
-  "lon": 23.573886666666667,
-  "time_utc": "2026-08-18T08:10:22+00:00",
-  "text": "IFESTOS 2 (special craft) is underway at 1 knots near 1 km off Perama, heading west. Reported destination: PIRAEUS."
- },
- {
-  "id": "status-240031600",
-  "type": "vessel_status",
-  "mmsi": 240031600,
-  "name": "PROTOPOROS X",
-  "lat": 37.965316666666666,
-  "lon": 23.53013,
-  "time_utc": "2026-08-18T07:38:32+00:00",
-  "text": "PROTOPOROS X is stationary at Salamina (Paloukia)."
+  "lat": 37.95648166666667,
+  "lon": 23.55721833333333,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "IFESTOS 2 (special craft) is underway at 9 knots near 1 km off Perama, heading east. Reported destination: PIRAEUS."
  },
  {
   "id": "status-241088000",
@@ -2188,6 +2128,16 @@
   "lon": 23.705688333333335,
   "time_utc": "2026-08-18T07:56:16+00:00",
   "text": "DADDYS TOY (sailing) is at anchor at 7 km off Piraeus. Reported destination: ALIMOS."
+ },
+ {
+  "id": "status-319238800",
+  "type": "vessel_status",
+  "mmsi": 319238800,
+  "name": "TOSUN",
+  "lat": 37.877921666666666,
+  "lon": 23.725875,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "TOSUN (pleasure) is moored at open water (37.878, 23.726). Reported destination: PUERTO BANUS MARBELL."
  },
  {
   "id": "status-229360000",
@@ -2214,10 +2164,10 @@
   "type": "vessel_status",
   "mmsi": 240071300,
   "name": "PAN.PARAVOUNIOTISSA",
-  "lat": 37.831761666666665,
-  "lon": 24.090296666666667,
-  "time_utc": "2026-08-18T07:56:16+00:00",
-  "text": "PAN.PARAVOUNIOTISSA is underway at 9 knots near open water (37.832, 24.090), heading north."
+  "lat": 37.92369166666666,
+  "lon": 24.088978333333333,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "PAN.PARAVOUNIOTISSA is underway at 9 knots near open water (37.924, 24.089), heading north."
  },
  {
   "id": "status-240584500",
@@ -2228,26 +2178,6 @@
   "lon": 23.633683333333334,
   "time_utc": "2026-08-18T08:10:22+00:00",
   "text": "CHRISTOS XXXI is moored at Piraeus."
- },
- {
-  "id": "status-241794000",
-  "type": "vessel_status",
-  "mmsi": 241794000,
-  "name": "AKTEA II OSRV",
-  "lat": 38.021503333333335,
-  "lon": 23.53344666666667,
-  "time_utc": "2026-08-18T07:38:32+00:00",
-  "text": "AKTEA II OSRV is at anchor at 2 km off Elefsina."
- },
- {
-  "id": "status-255916562",
-  "type": "vessel_status",
-  "mmsi": 255916562,
-  "name": "FRES",
-  "lat": 37.95283666666667,
-  "lon": 23.583033333333333,
-  "time_utc": "2026-08-18T07:38:32+00:00",
-  "text": "FRES is moored at 2 km off Perama."
  },
  {
   "id": "status-240260300",
@@ -2280,16 +2210,6 @@
   "text": "ESMERALDA II (pleasure) is underway at 8 knots near 5 km off Spetses, heading west. Reported destination: GRSPE."
  },
  {
-  "id": "status-207842620",
-  "type": "vessel_status",
-  "mmsi": 207842620,
-  "name": "MATTEA",
-  "lat": 37.27952833333333,
-  "lon": 23.175763333333336,
-  "time_utc": "2026-08-18T07:38:32+00:00",
-  "text": "MATTEA (pleasure) is underway at 7 knots near 2 km off Spetses, heading east."
- },
- {
   "id": "status-240136700",
   "type": "vessel_status",
   "mmsi": 240136700,
@@ -2304,20 +2224,20 @@
   "type": "vessel_status",
   "mmsi": 240806000,
   "name": "VERA",
-  "lat": 37.93814333333333,
-  "lon": 23.668225,
-  "time_utc": "2026-08-18T08:10:22+00:00",
+  "lat": 37.93815,
+  "lon": 23.66819333333333,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "VERA (pleasure) is stationary at 3 km off Piraeus. Reported destination: MARINA ATHINON."
  },
  {
-  "id": "status-249520000",
+  "id": "status-240416300",
   "type": "vessel_status",
-  "mmsi": 249520000,
-  "name": "CLELIA III",
-  "lat": 37.80425,
-  "lon": 23.77545,
-  "time_utc": "2026-08-18T07:38:32+00:00",
-  "text": "CLELIA III (pleasure) is moored at open water (37.804, 23.775). Reported destination: GR SPE."
+  "mmsi": 240416300,
+  "name": "",
+  "lat": 37.28463,
+  "lon": 23.152326666666667,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "MMSI 240416300 is underway at 5 knots near 2 km off Spetses, heading southeast."
  },
  {
   "id": "status-240763900",
@@ -2334,10 +2254,10 @@
   "type": "vessel_status",
   "mmsi": 538071793,
   "name": "AUGURI",
-  "lat": 37.85991166666667,
-  "lon": 23.41089,
-  "time_utc": "2026-08-18T08:10:22+00:00",
-  "text": "AUGURI is underway at 8 knots near open water (37.860, 23.411), heading west."
+  "lat": 37.86803833333333,
+  "lon": 23.34649166666667,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "AUGURI is underway at 8 knots near open water (37.868, 23.346), heading west."
  },
  {
   "id": "status-232060759",
@@ -2364,9 +2284,9 @@
   "type": "vessel_status",
   "mmsi": 240179800,
   "name": "DANCING QUEEN",
-  "lat": 37.270165,
-  "lon": 23.152851666666667,
-  "time_utc": "2026-08-18T07:56:16+00:00",
+  "lat": 37.2703,
+  "lon": 23.15265833333333,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "DANCING QUEEN is stationary at Spetses."
  },
  {
@@ -2374,10 +2294,10 @@
   "type": "vessel_status",
   "mmsi": 227989250,
   "name": "BEAUCAILLOU",
-  "lat": 37.70764,
-  "lon": 23.310875,
-  "time_utc": "2026-08-18T07:38:32+00:00",
-  "text": "BEAUCAILLOU is underway at 7 knots near 4 km off Agistri (Skala), heading north."
+  "lat": 37.79557833333333,
+  "lon": 23.263846666666666,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "BEAUCAILLOU is underway at 6 knots near open water (37.796, 23.264), heading northwest."
  },
  {
   "id": "status-240152200",
@@ -2390,13 +2310,23 @@
   "text": "MEGALO (sailing) is stationary at Aegina."
  },
  {
+  "id": "status-240966000",
+  "type": "vessel_status",
+  "mmsi": 240966000,
+  "name": "PROVIDENCE",
+  "lat": 37.91476333333333,
+  "lon": 23.08779333333333,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "PROVIDENCE is stationary at 7 km off Corinth Canal (Isthmia). Reported destination: GR AGT."
+ },
+ {
   "id": "status-339306000",
   "type": "vessel_status",
   "mmsi": 339306000,
   "name": "MARIA",
-  "lat": 37.930835,
-  "lon": 23.683198333333333,
-  "time_utc": "2026-08-18T07:56:16+00:00",
+  "lat": 37.930836666666664,
+  "lon": 23.683196666666667,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "MARIA is stationary at 4 km off Piraeus. Reported destination: FLISVOS."
  },
  {
@@ -2420,24 +2350,24 @@
   "text": "FORTUNE ONE is underway at 4 knots near Spetses, heading south."
  },
  {
+  "id": "status-636020898",
+  "type": "vessel_status",
+  "mmsi": 636020898,
+  "name": "MSC DORINE V",
+  "lat": 37.956575,
+  "lon": 23.599296666666664,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "MSC DORINE V (cargo) is moored at 3 km off Perama. Reported destination: GRPIR."
+ },
+ {
   "id": "status-215000815",
   "type": "vessel_status",
   "mmsi": 215000815,
   "name": "FOUR SEVEN",
-  "lat": 37.932745,
-  "lon": 23.684793333333335,
-  "time_utc": "2026-08-18T07:38:32+00:00",
+  "lat": 37.93278,
+  "lon": 23.684798333333333,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "FOUR SEVEN (pleasure) is stationary at 4 km off Piraeus. Reported destination: ATHENS."
- },
- {
-  "id": "status-237019100",
-  "type": "vessel_status",
-  "mmsi": 237019100,
-  "name": "ANNA II",
-  "lat": 37.78594666666667,
-  "lon": 23.328415,
-  "time_utc": "2026-08-18T07:38:32+00:00",
-  "text": "ANNA II (passenger) is underway at 10 knots near open water (37.786, 23.328), heading southeast."
  },
  {
   "id": "status-352005213",
@@ -2454,20 +2384,10 @@
   "type": "vessel_status",
   "mmsi": 256005202,
   "name": "ASTRAPI",
-  "lat": 37.26177333333333,
-  "lon": 23.164733333333334,
-  "time_utc": "2026-08-18T07:38:32+00:00",
+  "lat": 37.261763333333334,
+  "lon": 23.164701666666666,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "ASTRAPI is stationary at Spetses."
- },
- {
-  "id": "status-209630000",
-  "type": "vessel_status",
-  "mmsi": 209630000,
-  "name": "CAT I",
-  "lat": 37.67637333333333,
-  "lon": 24.082951666666666,
-  "time_utc": "2026-08-18T07:38:32+00:00",
-  "text": "CAT I (high-speed craft) is underway at 23 knots near 5 km off Lavrio, heading south. Reported destination: LAV KYT SER SIF KIM."
  },
  {
   "id": "status-240555900",
@@ -2484,9 +2404,9 @@
   "type": "vessel_status",
   "mmsi": 237829800,
   "name": "AGIOS NIKOLAOS",
-  "lat": 37.90519833333334,
-  "lon": 23.56030666666667,
-  "time_utc": "2026-08-18T08:10:22+00:00",
+  "lat": 37.905161666666665,
+  "lon": 23.560080000000003,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "AGIOS NIKOLAOS is stationary at Piraeus anchorage."
  },
  {
@@ -2494,9 +2414,9 @@
   "type": "vessel_status",
   "mmsi": 249641000,
   "name": "ELEVEN I",
-  "lat": 37.93306666666667,
-  "lon": 23.682185,
-  "time_utc": "2026-08-18T08:10:22+00:00",
+  "lat": 37.933078333333334,
+  "lon": 23.682166666666667,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "ELEVEN I is stationary at 4 km off Piraeus."
  },
  {
@@ -2514,9 +2434,9 @@
   "type": "vessel_status",
   "mmsi": 228164010,
   "name": "TIAHURA",
-  "lat": 37.27475333333334,
-  "lon": 23.146923333333334,
-  "time_utc": "2026-08-18T08:10:22+00:00",
+  "lat": 37.27478333333333,
+  "lon": 23.146793333333335,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "TIAHURA is stationary at 1 km off Spetses."
  },
  {
@@ -2554,9 +2474,9 @@
   "type": "vessel_status",
   "mmsi": 240595700,
   "name": "D2",
-  "lat": 37.91225166666666,
-  "lon": 23.70696333333333,
-  "time_utc": "2026-08-18T08:10:22+00:00",
+  "lat": 37.912213333333334,
+  "lon": 23.707,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "D2 (pleasure) is stationary at 7 km off Piraeus."
  },
  {
@@ -2584,39 +2504,59 @@
   "type": "vessel_status",
   "mmsi": 563221900,
   "name": "EVER CHART",
-  "lat": 37.779653333333336,
-  "lon": 23.686086666666665,
-  "time_utc": "2026-08-18T08:10:22+00:00",
-  "text": "EVER CHART is underway at 8 knots near open water (37.780, 23.686), heading northwest."
+  "lat": 37.81969166666667,
+  "lon": 23.664201666666667,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "EVER CHART is underway at 8 knots near open water (37.820, 23.664), heading north."
  },
  {
   "id": "status-205340000",
   "type": "vessel_status",
   "mmsi": 205340000,
   "name": "MANTA",
-  "lat": 37.92008,
-  "lon": 23.549581666666665,
-  "time_utc": "2026-08-18T07:38:32+00:00",
+  "lat": 37.92009333333333,
+  "lon": 23.549555,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "MANTA (tug/tow) is at anchor at Piraeus anchorage. Reported destination: PIRAEUS ANCHORAGE."
+ },
+ {
+  "id": "status-636015939",
+  "type": "vessel_status",
+  "mmsi": 636015939,
+  "name": "NAVIGATOR CAPRICORN",
+  "lat": 37.90119833333333,
+  "lon": 23.542711666666666,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "NAVIGATOR CAPRICORN (tanker) is at anchor at Piraeus anchorage. Reported destination: IT LIV - GR PIR."
  },
  {
   "id": "status-636023927",
   "type": "vessel_status",
   "mmsi": 636023927,
   "name": "BLUE ASPIRE",
-  "lat": 37.55552,
-  "lon": 23.647569999999998,
-  "time_utc": "2026-08-18T08:10:22+00:00",
-  "text": "BLUE ASPIRE (cargo) is stationary at open water (37.556, 23.648). Reported destination: GRPIR."
+  "lat": 37.554359999999996,
+  "lon": 23.645076666666668,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "BLUE ASPIRE (cargo) is stationary at open water (37.554, 23.645). Reported destination: GRPIR."
+ },
+ {
+  "id": "status-376038000",
+  "type": "vessel_status",
+  "mmsi": 376038000,
+  "name": "NORTHWIND II",
+  "lat": 37.92142666666667,
+  "lon": 23.391925,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "NORTHWIND II is underway at 8 knots near open water (37.921, 23.392), heading southwest."
  },
  {
   "id": "status-258215000",
   "type": "vessel_status",
   "mmsi": 258215000,
   "name": "VIKING SEA",
-  "lat": 37.940126666666664,
+  "lat": 37.94012333333333,
   "lon": 23.635503333333336,
-  "time_utc": "2026-08-18T07:56:16+00:00",
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "VIKING SEA (passenger) is moored at Piraeus. Reported destination: GR PIR."
  },
  {
@@ -2650,6 +2590,16 @@
   "text": "AZURA (passenger) is moored at Piraeus. Reported destination: GRPIR."
  },
  {
+  "id": "status-372091000",
+  "type": "vessel_status",
+  "mmsi": 372091000,
+  "name": "MUSTAFA SOFUOGLU",
+  "lat": 37.90510666666667,
+  "lon": 23.559951666666667,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "MUSTAFA SOFUOGLU (cargo) is at anchor at Piraeus anchorage. Reported destination: GRPIR."
+ },
+ {
   "id": "status-212004000",
   "type": "vessel_status",
   "mmsi": 212004000,
@@ -2658,16 +2608,6 @@
   "lon": 23.606378333333335,
   "time_utc": "2026-08-18T07:56:16+00:00",
   "text": "THALASSITIS is moored at 3 km off Piraeus."
- },
- {
-  "id": "status-240409400",
-  "type": "vessel_status",
-  "mmsi": 240409400,
-  "name": "METATRON II",
-  "lat": 37.93782833333333,
-  "lon": 23.685738333333333,
-  "time_utc": "2026-08-18T07:38:32+00:00",
-  "text": "METATRON II is stationary at 4 km off Piraeus."
  },
  {
   "id": "status-241726000",
@@ -2724,10 +2664,10 @@
   "type": "vessel_status",
   "mmsi": 241923000,
   "name": "PROTUG 85-1",
-  "lat": 37.91873,
-  "lon": 23.560656666666667,
-  "time_utc": "2026-08-18T08:10:22+00:00",
-  "text": "PROTUG 85-1 (special craft) is underway at 10 knots near Piraeus anchorage, heading northeast. Reported destination: SALAMIS."
+  "lat": 37.95901333333334,
+  "lon": 23.563476666666666,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "PROTUG 85-1 (special craft) is stationary at Perama. Reported destination: SALAMIS."
  },
  {
   "id": "status-240989000",
@@ -2744,9 +2684,9 @@
   "type": "vessel_status",
   "mmsi": 249902000,
   "name": "BLUE SYMPHONIE",
-  "lat": 37.93913166666667,
-  "lon": 23.669053333333334,
-  "time_utc": "2026-08-18T07:56:16+00:00",
+  "lat": 37.939165,
+  "lon": 23.669068333333332,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "BLUE SYMPHONIE (pleasure) is stationary at 3 km off Piraeus. Reported destination: PORT0 XBLI."
  },
  {
@@ -2754,9 +2694,9 @@
   "type": "vessel_status",
   "mmsi": 215367000,
   "name": "PAOLYRE",
-  "lat": 37.88728666666667,
-  "lon": 24.014801666666663,
-  "time_utc": "2026-08-18T08:10:22+00:00",
+  "lat": 37.88729166666667,
+  "lon": 24.014803333333337,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "PAOLYRE is at anchor at open water (37.887, 24.015)."
  },
  {
@@ -2774,10 +2714,10 @@
   "type": "vessel_status",
   "mmsi": 256841000,
   "name": "",
-  "lat": 37.74914166666667,
-  "lon": 23.406988333333334,
-  "time_utc": "2026-08-18T07:56:16+00:00",
-  "text": "MMSI 256841000 (pleasure) is underway at 18 knots near 2 km off Aegina, heading north."
+  "lat": 37.87408166666667,
+  "lon": 23.58650833333333,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "MMSI 256841000 (pleasure) is underway at 19 knots near Piraeus anchorage, heading northeast."
  },
  {
   "id": "status-271052854",
@@ -2804,20 +2744,20 @@
   "type": "vessel_status",
   "mmsi": 241216000,
   "name": "NAOUSSA",
-  "lat": 37.954316666666664,
-  "lon": 23.565316666666668,
-  "time_utc": "2026-08-18T07:56:16+00:00",
-  "text": "NAOUSSA (tanker) is underway at 9 knots near 1 km off Perama, heading west. Reported destination: GREEU."
+  "lat": 38.02703333333333,
+  "lon": 23.530233333333335,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "NAOUSSA (tanker) is underway at 7 knots near Elefsina, heading north. Reported destination: GREEU."
  },
  {
   "id": "status-255917294",
   "type": "vessel_status",
   "mmsi": 255917294,
   "name": "IVER BITUMEN",
-  "lat": 37.867065000000004,
-  "lon": 23.63256,
-  "time_utc": "2026-08-18T07:56:16+00:00",
-  "text": "IVER BITUMEN is underway at 12 knots near open water (37.867, 23.633), heading northwest."
+  "lat": 37.92222666666667,
+  "lon": 23.592398333333332,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "IVER BITUMEN is underway at 3 knots near Piraeus anchorage, heading north."
  },
  {
   "id": "status-249689000",
@@ -2834,10 +2774,10 @@
   "type": "vessel_status",
   "mmsi": 341425000,
   "name": "ZULFIKAR",
-  "lat": 37.87647333333334,
-  "lon": 23.583318333333334,
-  "time_utc": "2026-08-18T08:10:22+00:00",
-  "text": "ZULFIKAR is underway at 7 knots near Piraeus anchorage, heading northwest."
+  "lat": 37.88833666666667,
+  "lon": 23.554973333333333,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "ZULFIKAR is underway at 1 knots near Piraeus anchorage, heading west."
  },
  {
   "id": "status-239869900",
@@ -2864,59 +2804,59 @@
   "type": "vessel_status",
   "mmsi": 311001240,
   "name": "MIZU",
-  "lat": 37.269861666666664,
-  "lon": 23.155083333333334,
-  "time_utc": "2026-08-18T07:56:16+00:00",
-  "text": "MIZU is moored at Spetses."
+  "lat": 37.269885,
+  "lon": 23.15508833333333,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "MIZU (pleasure) is moored at Spetses."
  },
  {
   "id": "status-518903000",
   "type": "vessel_status",
   "mmsi": 518903000,
   "name": "ANNABEL II",
-  "lat": 37.88159666666666,
-  "lon": 23.69418166666667,
-  "time_utc": "2026-08-18T08:10:22+00:00",
-  "text": "ANNABEL II was last heard near open water (37.882, 23.694)."
+  "lat": 37.877685,
+  "lon": 23.72617166666667,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "ANNABEL II was last heard near open water (37.878, 23.726)."
  },
  {
   "id": "status-240677900",
   "type": "vessel_status",
   "mmsi": 240677900,
   "name": "ALDEBARAN",
-  "lat": 37.869416666666666,
-  "lon": 23.575086666666667,
-  "time_utc": "2026-08-18T07:38:32+00:00",
-  "text": "ALDEBARAN is underway at 6 knots near Piraeus anchorage, heading southwest."
+  "lat": 37.807865,
+  "lon": 23.491384999999998,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "ALDEBARAN is underway at 6 knots near 5 km off Souvala, heading southwest."
  },
  {
   "id": "status-636022080",
   "type": "vessel_status",
   "mmsi": 636022080,
   "name": "MAZU",
-  "lat": 37.81711,
-  "lon": 23.66982833333333,
-  "time_utc": "2026-08-18T07:38:32+00:00",
-  "text": "MAZU is underway at 10 knots near open water (37.817, 23.670), heading northwest."
+  "lat": 37.913333333333334,
+  "lon": 23.597473333333333,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "MAZU (tanker) is underway at 1 knots near Piraeus anchorage, heading northwest. Reported destination: TO ORDER."
  },
  {
   "id": "status-215314000",
   "type": "vessel_status",
   "mmsi": 215314000,
   "name": "VERTIGO",
-  "lat": 37.72434166666667,
-  "lon": 23.415721666666666,
-  "time_utc": "2026-08-18T08:10:22+00:00",
-  "text": "VERTIGO (pleasure) is underway at 11 knots near 3 km off Aegina, heading south. Reported destination: AEGINA."
+  "lat": 37.69340833333333,
+  "lon": 23.429160000000003,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "VERTIGO (pleasure) is underway at 0 knots near 6 km off Aegina, heading southwest. Reported destination: AEGINA."
  },
  {
   "id": "status-240694700",
   "type": "vessel_status",
   "mmsi": 240694700,
   "name": "JUST MARIE III",
-  "lat": 37.93792666666666,
-  "lon": 23.668943333333335,
-  "time_utc": "2026-08-18T08:10:22+00:00",
+  "lat": 37.93793,
+  "lon": 23.668951666666665,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "JUST MARIE III (pleasure) is stationary at 3 km off Piraeus."
  },
  {
@@ -2934,29 +2874,19 @@
   "type": "vessel_status",
   "mmsi": 240679700,
   "name": "RIVIERA",
-  "lat": 37.28638,
-  "lon": 23.214581666666668,
-  "time_utc": "2026-08-18T07:56:16+00:00",
-  "text": "RIVIERA is underway at 8 knots near 5 km off Spetses, heading west."
- },
- {
-  "id": "status-249328000",
-  "type": "vessel_status",
-  "mmsi": 249328000,
-  "name": "APMONIA",
-  "lat": 37.941833333333335,
-  "lon": 23.669949999999996,
-  "time_utc": "2026-08-18T07:38:32+00:00",
-  "text": "APMONIA is moored at 3 km off Piraeus."
+  "lat": 37.293953333333334,
+  "lon": 23.190573333333337,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "RIVIERA is stationary at 4 km off Spetses."
  },
  {
   "id": "status-237123000",
   "type": "vessel_status",
   "mmsi": 237123000,
   "name": "TEST",
-  "lat": 37.941206666666666,
-  "lon": 23.749093333333334,
-  "time_utc": "2026-08-18T08:10:22+00:00",
+  "lat": 37.941205,
+  "lon": 23.749073333333335,
+  "time_utc": "2026-08-18T08:32:34+00:00",
   "text": "TEST is stationary at open water (37.941, 23.749)."
  },
  {
@@ -2964,10 +2894,10 @@
   "type": "vessel_status",
   "mmsi": 239575000,
   "name": "LEFKA ORI",
-  "lat": 37.55641666666667,
-  "lon": 24.083688333333335,
-  "time_utc": "2026-08-18T07:56:16+00:00",
-  "text": "LEFKA ORI is underway at 21 knots near open water (37.556, 24.084), heading northwest."
+  "lat": 37.64618333333333,
+  "lon": 23.828991666666663,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "LEFKA ORI (passenger) is underway at 21 knots near open water (37.646, 23.829), heading northwest. Reported destination: RHO-KO-LE-PA-VA-PIR."
  },
  {
   "id": "status-240407900",
@@ -3028,5 +2958,45 @@
   "lon": 23.293736666666668,
   "time_utc": "2026-08-18T08:10:22+00:00",
   "text": "NAVIS is underway at 10 knots near open water (37.860, 23.294), heading east."
+ },
+ {
+  "id": "status-219021392",
+  "type": "vessel_status",
+  "mmsi": 219021392,
+  "name": "INUK",
+  "lat": 37.82754166666667,
+  "lon": 24.08082166666667,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "INUK is underway at 5 knots near open water (37.828, 24.081), heading north."
+ },
+ {
+  "id": "status-237558800",
+  "type": "vessel_status",
+  "mmsi": 237558800,
+  "name": "",
+  "lat": 37.806628333333336,
+  "lon": 24.08477333333333,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "MMSI 237558800 is underway at 5 knots near open water (37.807, 24.085), heading north."
+ },
+ {
+  "id": "status-240594200",
+  "type": "vessel_status",
+  "mmsi": 240594200,
+  "name": "",
+  "lat": 37.289208333333335,
+  "lon": 23.213023333333336,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "MMSI 240594200 is underway at 7 knots near 5 km off Spetses, heading southwest."
+ },
+ {
+  "id": "status-319227200",
+  "type": "vessel_status",
+  "mmsi": 319227200,
+  "name": "MISS. M",
+  "lat": 37.81524,
+  "lon": 23.807776666666665,
+  "time_utc": "2026-08-18T08:32:34+00:00",
+  "text": "MISS. M is stationary at open water (37.815, 23.808)."
  }
 ]
