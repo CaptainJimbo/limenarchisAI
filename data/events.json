@@ -1,65 +1,5 @@
 [
  {
-  "id": "2026-08-23T21:46:47+00:00-240042300-arrival",
-  "type": "arrival",
-  "mmsi": 240042300,
-  "name": "PROTOPOROS XIII",
-  "lat": 37.96525,
-  "lon": 23.529816666666665,
-  "time_utc": "2026-08-23T21:46:47+00:00",
-  "text": "PROTOPOROS XIII (passenger) arrived at Salamina (Paloukia) at 21:46 UTC."
- },
- {
-  "id": "2026-08-23T21:46:47+00:00-241699000-weighed_anchor",
-  "type": "weighed_anchor",
-  "mmsi": 241699000,
-  "name": "ZAKROS",
-  "lat": 37.910765,
-  "lon": 23.550643333333333,
-  "time_utc": "2026-08-23T21:46:47+00:00",
-  "text": "ZAKROS (tanker) weighed anchor at Piraeus anchorage at 21:46 UTC and is underway at 4.0 knots."
- },
- {
-  "id": "2026-08-23T21:46:47+00:00-247324300-departure",
-  "type": "departure",
-  "mmsi": 247324300,
-  "name": "AF MARINA",
-  "lat": 37.93772,
-  "lon": 23.615015000000003,
-  "time_utc": "2026-08-23T21:46:47+00:00",
-  "text": "AF MARINA (passenger) departed Piraeus at 21:46 UTC, making 4.4 knots."
- },
- {
-  "id": "2026-08-23T21:46:47+00:00-249343000-anchoring",
-  "type": "anchoring",
-  "mmsi": 249343000,
-  "name": "SARAJEVO",
-  "lat": 37.90353666666667,
-  "lon": 23.56148,
-  "time_utc": "2026-08-23T21:46:47+00:00",
-  "text": "SARAJEVO anchored at Piraeus anchorage at 21:46 UTC."
- },
- {
-  "id": "2026-08-23T21:46:47+00:00-319192000-weighed_anchor",
-  "type": "weighed_anchor",
-  "mmsi": 319192000,
-  "name": "MARAYA",
-  "lat": 37.281960000000005,
-  "lon": 23.23625,
-  "time_utc": "2026-08-23T21:46:47+00:00",
-  "text": "MARAYA (pleasure) weighed anchor at 2 km off Spetses at 21:46 UTC and is underway at 12.8 knots."
- },
- {
-  "id": "2026-08-23T21:46:47+00:00-319218500-anchoring",
-  "type": "anchoring",
-  "mmsi": 319218500,
-  "name": "JUICE",
-  "lat": 37.80569333333334,
-  "lon": 23.758546666666668,
-  "time_utc": "2026-08-23T21:46:47+00:00",
-  "text": "JUICE (pleasure) anchored at open water (37.806, 23.759) at 21:46 UTC."
- },
- {
   "id": "2026-08-23T22:05:30+00:00-240042300-departure",
   "type": "departure",
   "mmsi": 240042300,
@@ -11908,5 +11848,25 @@
   "lon": null,
   "time_utc": "2026-08-25T21:31:18+00:00",
   "text": "1 vessels lying at Elefsis Bay anchorage at 21:31 UTC (down 2 since the previous snapshot)."
+ },
+ {
+  "id": "2026-08-25T21:50:13+00:00-census-Piraeus anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Piraeus anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-08-25T21:50:13+00:00",
+  "text": "16 vessels lying at Piraeus anchorage at 21:50 UTC (down 2 since the previous snapshot)."
+ },
+ {
+  "id": "2026-08-25T21:50:13+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-08-25T21:50:13+00:00",
+  "text": "2 vessels lying at Elefsis Bay anchorage at 21:50 UTC (up 1 since the previous snapshot)."
  }
 ]
