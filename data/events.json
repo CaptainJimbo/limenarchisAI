@@ -1,35 +1,5 @@
 [
  {
-  "id": "2026-08-29T01:27:34+00:00-240685000-departure",
-  "type": "departure",
-  "mmsi": 240685000,
-  "name": "ELYROS",
-  "lat": 37.54043166666667,
-  "lon": 23.79145,
-  "time_utc": "2026-08-29T01:27:34+00:00",
-  "text": "ELYROS (passenger) departed Piraeus at 01:27 UTC, making 19.3 knots."
- },
- {
-  "id": "2026-08-29T01:27:34+00:00-241794000-anchoring",
-  "type": "anchoring",
-  "mmsi": 241794000,
-  "name": "AKTEA II OSRV",
-  "lat": 38.019753333333334,
-  "lon": 23.522556666666667,
-  "time_utc": "2026-08-29T01:27:34+00:00",
-  "text": "AKTEA II OSRV anchored at 2 km off Elefsina at 01:27 UTC."
- },
- {
-  "id": "2026-08-29T01:27:34+00:00-310811000-arrival",
-  "type": "arrival",
-  "mmsi": 310811000,
-  "name": "CELESTYAL JOURNEY",
-  "lat": 37.938856666666666,
-  "lon": 23.627104999999997,
-  "time_utc": "2026-08-29T01:27:34+00:00",
-  "text": "CELESTYAL JOURNEY (passenger) arrived at Piraeus at 01:27 UTC."
- },
- {
   "id": "2026-08-29T01:46:51+00:00-209262000-departure",
   "type": "departure",
   "mmsi": 209262000,
@@ -12688,5 +12658,65 @@
   "lon": null,
   "time_utc": "2026-08-31T01:15:29+00:00",
   "text": "4 vessels lying at Piraeus anchorage at 01:15 UTC (down 3 since the previous snapshot)."
+ },
+ {
+  "id": "2026-08-31T01:42:12+00:00-209630000-arrival",
+  "type": "arrival",
+  "mmsi": 209630000,
+  "name": "CAT I",
+  "lat": 37.71135666666667,
+  "lon": 24.063643333333335,
+  "time_utc": "2026-08-31T01:42:12+00:00",
+  "text": "CAT I arrived at Lavrio at 01:42 UTC."
+ },
+ {
+  "id": "2026-08-31T01:42:12+00:00-240075800-departure",
+  "type": "departure",
+  "mmsi": 240075800,
+  "name": "MICHAIL N",
+  "lat": 37.961,
+  "lon": 23.551586666666665,
+  "time_utc": "2026-08-31T01:42:12+00:00",
+  "text": "MICHAIL N (passenger) departed Salamina (Paloukia) at 01:42 UTC, making 6.5 knots."
+ },
+ {
+  "id": "2026-08-31T01:42:12+00:00-241675000-weighed_anchor",
+  "type": "weighed_anchor",
+  "mmsi": 241675000,
+  "name": "KOHYLI",
+  "lat": 37.940931666666664,
+  "lon": 23.633063333333332,
+  "time_utc": "2026-08-31T01:42:12+00:00",
+  "text": "KOHYLI weighed anchor at 1 km off Perama at 01:42 UTC and is underway at 5.2 knots."
+ },
+ {
+  "id": "2026-08-31T01:42:12+00:00-241911000-departure",
+  "type": "departure",
+  "mmsi": 241911000,
+  "name": "CAPTAIN GIANNIS P.",
+  "lat": 37.93148166666666,
+  "lon": 23.612211666666667,
+  "time_utc": "2026-08-31T01:42:12+00:00",
+  "text": "CAPTAIN GIANNIS P. (special craft) departed Piraeus at 01:42 UTC, making 5.2 knots."
+ },
+ {
+  "id": "2026-08-31T01:42:12+00:00-census-Piraeus anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Piraeus anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-08-31T01:42:12+00:00",
+  "text": "8 vessels lying at Piraeus anchorage at 01:42 UTC (up 4 since the previous snapshot)."
+ },
+ {
+  "id": "2026-08-31T01:42:12+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-08-31T01:42:12+00:00",
+  "text": "2 vessels lying at Elefsis Bay anchorage at 01:42 UTC (up 1 since the previous snapshot)."
  }
 ]
