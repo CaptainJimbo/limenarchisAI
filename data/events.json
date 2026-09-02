@@ -1,105 +1,5 @@
 [
  {
-  "id": "2026-08-31T15:29:39+00:00-234845000-arrival",
-  "type": "arrival",
-  "mmsi": 234845000,
-  "name": "S/Y ALEJANDRA",
-  "lat": 37.932955,
-  "lon": 23.64795666666667,
-  "time_utc": "2026-08-31T15:29:39+00:00",
-  "text": "S/Y ALEJANDRA arrived at Piraeus at 15:29 UTC."
- },
- {
-  "id": "2026-08-31T15:29:39+00:00-237002600-arrival",
-  "type": "arrival",
-  "mmsi": 237002600,
-  "name": "APOLLON HELLAS",
-  "lat": 37.94452666666667,
-  "lon": 23.641615,
-  "time_utc": "2026-08-31T15:29:39+00:00",
-  "text": "APOLLON HELLAS (passenger) arrived at Piraeus at 15:29 UTC."
- },
- {
-  "id": "2026-08-31T15:29:39+00:00-237013400-departure",
-  "type": "departure",
-  "mmsi": 237013400,
-  "name": "COSMOS",
-  "lat": 37.82449999999999,
-  "lon": 23.518351666666668,
-  "time_utc": "2026-08-31T15:29:39+00:00",
-  "text": "COSMOS (passenger) departed Aegina at 15:29 UTC, making 13.2 knots."
- },
- {
-  "id": "2026-08-31T15:29:39+00:00-239658000-arrival",
-  "type": "arrival",
-  "mmsi": 239658000,
-  "name": "HYPERSPEED JET 4",
-  "lat": 37.941183333333335,
-  "lon": 23.640283333333333,
-  "time_utc": "2026-08-31T15:29:39+00:00",
-  "text": "HYPERSPEED JET 4 (high-speed craft) arrived at Piraeus at 15:29 UTC."
- },
- {
-  "id": "2026-08-31T15:29:39+00:00-239737000-departure",
-  "type": "departure",
-  "mmsi": 239737000,
-  "name": "BLUE STAR 2",
-  "lat": 37.91415,
-  "lon": 23.611816666666666,
-  "time_utc": "2026-08-31T15:29:39+00:00",
-  "text": "BLUE STAR 2 (passenger) departed Piraeus at 15:29 UTC, making 21.7 knots."
- },
- {
-  "id": "2026-08-31T15:29:39+00:00-240042300-arrival",
-  "type": "arrival",
-  "mmsi": 240042300,
-  "name": "PROTOPOROS XIII",
-  "lat": 37.96511666666667,
-  "lon": 23.529366666666665,
-  "time_utc": "2026-08-31T15:29:39+00:00",
-  "text": "PROTOPOROS XIII (passenger) arrived at Salamina (Paloukia) at 15:29 UTC."
- },
- {
-  "id": "2026-08-31T15:29:39+00:00-240626600-arrival",
-  "type": "arrival",
-  "mmsi": 240626600,
-  "name": "SAHANA",
-  "lat": 37.742601666666665,
-  "lon": 23.42644,
-  "time_utc": "2026-08-31T15:29:39+00:00",
-  "text": "SAHANA arrived at Aegina at 15:29 UTC."
- },
- {
-  "id": "2026-08-31T15:29:39+00:00-241133000-departure",
-  "type": "departure",
-  "mmsi": 241133000,
-  "name": "PANORAMA",
-  "lat": 37.80211,
-  "lon": 23.465970000000002,
-  "time_utc": "2026-08-31T15:29:39+00:00",
-  "text": "PANORAMA (passenger) departed Aegina at 15:29 UTC, making 14.8 knots."
- },
- {
-  "id": "2026-08-31T15:29:39+00:00-241802000-departure",
-  "type": "departure",
-  "mmsi": 241802000,
-  "name": "AERO 1 HIGHSPEED",
-  "lat": 37.802299999999995,
-  "lon": 23.579141666666665,
-  "time_utc": "2026-08-31T15:29:39+00:00",
-  "text": "AERO 1 HIGHSPEED (high-speed craft) departed Spetses at 15:29 UTC, making 28.0 knots."
- },
- {
-  "id": "2026-08-31T15:29:39+00:00-255865000-weighed_anchor",
-  "type": "weighed_anchor",
-  "mmsi": 255865000,
-  "name": "NACC CAPRI",
-  "lat": 37.91823,
-  "lon": 23.58217833333333,
-  "time_utc": "2026-08-31T15:29:39+00:00",
-  "text": "NACC CAPRI (cargo) weighed anchor at Piraeus anchorage at 15:29 UTC and is underway at 4.0 knots."
- },
- {
   "id": "2026-08-31T15:44:02+00:00-241495000-departure",
   "type": "departure",
   "mmsi": 241495000,
@@ -9108,5 +9008,25 @@
   "lon": null,
   "time_utc": "2026-09-02T15:11:15+00:00",
   "text": "3 vessels lying at Elefsis Bay anchorage at 15:11 UTC (down 1 since the previous snapshot)."
+ },
+ {
+  "id": "2026-09-02T15:33:35+00:00-census-Piraeus anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Piraeus anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-09-02T15:33:35+00:00",
+  "text": "3 vessels lying at Piraeus anchorage at 15:33 UTC (down 2 since the previous snapshot)."
+ },
+ {
+  "id": "2026-09-02T15:33:35+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-09-02T15:33:35+00:00",
+  "text": "2 vessels lying at Elefsis Bay anchorage at 15:33 UTC (down 1 since the previous snapshot)."
  }
 ]
