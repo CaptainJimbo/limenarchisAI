@@ -1,85 +1,5 @@
 [
  {
-  "id": "2026-09-01T08:38:41+00:00-203246999-departure",
-  "type": "departure",
-  "mmsi": 203246999,
-  "name": "PAS DE DEUX",
-  "lat": 37.308081666666666,
-  "lon": 23.134431666666668,
-  "time_utc": "2026-09-01T08:38:41+00:00",
-  "text": "PAS DE DEUX departed Porto Heli at 08:38 UTC, making 6.2 knots."
- },
- {
-  "id": "2026-09-01T08:38:41+00:00-229875000-departure",
-  "type": "departure",
-  "mmsi": 229875000,
-  "name": "T/T MARIU",
-  "lat": 37.26089833333333,
-  "lon": 23.176921666666665,
-  "time_utc": "2026-09-01T08:38:41+00:00",
-  "text": "T/T MARIU (special craft) departed Spetses at 08:38 UTC, making 9.7 knots."
- },
- {
-  "id": "2026-09-01T08:38:41+00:00-240707200-arrival",
-  "type": "arrival",
-  "mmsi": 240707200,
-  "name": "PILOT BOAT PY75",
-  "lat": 37.937695,
-  "lon": 23.626461666666668,
-  "time_utc": "2026-09-01T08:38:41+00:00",
-  "text": "PILOT BOAT PY75 arrived at Piraeus at 08:38 UTC."
- },
- {
-  "id": "2026-09-01T08:38:41+00:00-240787100-departure",
-  "type": "departure",
-  "mmsi": 240787100,
-  "name": "AUGUST",
-  "lat": 37.26156,
-  "lon": 23.165713333333333,
-  "time_utc": "2026-09-01T08:38:41+00:00",
-  "text": "AUGUST departed Spetses at 08:38 UTC, making 5.9 knots."
- },
- {
-  "id": "2026-09-01T08:38:41+00:00-241133000-arrival",
-  "type": "arrival",
-  "mmsi": 241133000,
-  "name": "PANORAMA",
-  "lat": 37.944575,
-  "lon": 23.641283333333334,
-  "time_utc": "2026-09-01T08:38:41+00:00",
-  "text": "PANORAMA (passenger) arrived at Piraeus at 08:38 UTC."
- },
- {
-  "id": "2026-09-01T08:38:41+00:00-538010124-anchoring",
-  "type": "anchoring",
-  "mmsi": 538010124,
-  "name": "MARLA TIGER",
-  "lat": 37.894895,
-  "lon": 23.558985,
-  "time_utc": "2026-09-01T08:38:41+00:00",
-  "text": "MARLA TIGER (cargo) anchored at Piraeus anchorage at 08:38 UTC."
- },
- {
-  "id": "2026-09-01T08:38:41+00:00-census-Piraeus anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Piraeus anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-09-01T08:38:41+00:00",
-  "text": "7 vessels lying at Piraeus anchorage at 08:38 UTC (up 1 since the previous snapshot)."
- },
- {
-  "id": "2026-09-01T08:38:41+00:00-census-Elefsis Bay anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Elefsis Bay anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-09-01T08:38:41+00:00",
-  "text": "1 vessels lying at Elefsis Bay anchorage at 08:38 UTC (down 1 since the previous snapshot)."
- },
- {
   "id": "2026-09-01T08:50:38+00:00-239260500-weighed_anchor",
   "type": "weighed_anchor",
   "mmsi": 239260500,
@@ -8778,5 +8698,55 @@
   "lon": null,
   "time_utc": "2026-09-03T08:38:04+00:00",
   "text": "1 vessels lying at Elefsis Bay anchorage at 08:38 UTC (down 2 since the previous snapshot)."
+ },
+ {
+  "id": "2026-09-03T08:50:30+00:00-237038200-arrival",
+  "type": "arrival",
+  "mmsi": 237038200,
+  "name": "PLATYTERATONOURANON",
+  "lat": 37.707499999999996,
+  "lon": 23.368533333333335,
+  "time_utc": "2026-09-03T08:50:30+00:00",
+  "text": "PLATYTERATONOURANON (passenger) arrived at Agistri (Skala) at 08:50 UTC."
+ },
+ {
+  "id": "2026-09-03T08:50:30+00:00-240313300-arrival",
+  "type": "arrival",
+  "mmsi": 240313300,
+  "name": "SPEED CAT 1",
+  "lat": 37.26804666666667,
+  "lon": 23.156386666666666,
+  "time_utc": "2026-09-03T08:50:30+00:00",
+  "text": "SPEED CAT 1 (high-speed craft) arrived at Spetses at 08:50 UTC."
+ },
+ {
+  "id": "2026-09-03T08:50:30+00:00-240796900-weighed_anchor",
+  "type": "weighed_anchor",
+  "mmsi": 240796900,
+  "name": "SEALINK VII",
+  "lat": 37.734915,
+  "lon": 23.426038333333334,
+  "time_utc": "2026-09-03T08:50:30+00:00",
+  "text": "SEALINK VII weighed anchor at 6 km off Aegina at 08:50 UTC and is underway at 31.4 knots."
+ },
+ {
+  "id": "2026-09-03T08:50:30+00:00-240796900-speed_anomaly",
+  "type": "speed_anomaly",
+  "mmsi": 240796900,
+  "name": "SEALINK VII",
+  "lat": 37.734915,
+  "lon": 23.426038333333334,
+  "time_utc": "2026-09-03T08:50:30+00:00",
+  "text": "Speed anomaly: SEALINK VII recorded at 31.4 knots near 1 km off Aegina at 08:50 UTC."
+ },
+ {
+  "id": "2026-09-03T08:50:30+00:00-241923000-departure",
+  "type": "departure",
+  "mmsi": 241923000,
+  "name": "PROTUG 85-1",
+  "lat": 37.952040000000004,
+  "lon": 23.575731666666666,
+  "time_utc": "2026-09-03T08:50:30+00:00",
+  "text": "PROTUG 85-1 (special craft) departed Perama at 08:50 UTC, making 8.0 knots."
  }
 ]
