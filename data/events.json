@@ -1,25 +1,5 @@
 [
  {
-  "id": "2026-09-01T22:43:02+00:00-239617600-departure",
-  "type": "departure",
-  "mmsi": 239617600,
-  "name": "APOSTOLOS M",
-  "lat": 37.96201666666666,
-  "lon": 23.554491666666667,
-  "time_utc": "2026-09-01T22:43:02+00:00",
-  "text": "APOSTOLOS M (passenger) departed Salamina (Paloukia) at 22:43 UTC, making 6.7 knots."
- },
- {
-  "id": "2026-09-01T22:43:02+00:00-census-Piraeus anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Piraeus anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-09-01T22:43:02+00:00",
-  "text": "6 vessels lying at Piraeus anchorage at 22:43 UTC (down 1 since the previous snapshot)."
- },
- {
   "id": "2026-09-01T23:07:38+00:00-241324000-anchoring",
   "type": "anchoring",
   "mmsi": 241324000,
@@ -9498,5 +9478,45 @@
   "lon": null,
   "time_utc": "2026-09-03T22:27:41+00:00",
   "text": "6 vessels lying at Elefsis Bay anchorage at 22:27 UTC (down 3 since the previous snapshot)."
+ },
+ {
+  "id": "2026-09-03T22:43:34+00:00-240897000-arrival",
+  "type": "arrival",
+  "mmsi": 240897000,
+  "name": "AEGEAN ACE",
+  "lat": 38.03744,
+  "lon": 23.53362333333333,
+  "time_utc": "2026-09-03T22:43:34+00:00",
+  "text": "AEGEAN ACE (tanker) arrived at Elefsina at 22:43 UTC."
+ },
+ {
+  "id": "2026-09-03T22:43:34+00:00-241728000-arrival",
+  "type": "arrival",
+  "mmsi": 241728000,
+  "name": "PANORMITIS",
+  "lat": 38.035345,
+  "lon": 23.536753333333333,
+  "time_utc": "2026-09-03T22:43:34+00:00",
+  "text": "PANORMITIS (special craft) arrived at Elefsina at 22:43 UTC."
+ },
+ {
+  "id": "2026-09-03T22:43:34+00:00-249427000-anchoring",
+  "type": "anchoring",
+  "mmsi": 249427000,
+  "name": "MEL SPIRIT",
+  "lat": 37.90466166666667,
+  "lon": 23.552318333333336,
+  "time_utc": "2026-09-03T22:43:34+00:00",
+  "text": "MEL SPIRIT (cargo) anchored at Piraeus anchorage at 22:43 UTC."
+ },
+ {
+  "id": "2026-09-03T22:43:34+00:00-census-Piraeus anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Piraeus anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-09-03T22:43:34+00:00",
+  "text": "11 vessels lying at Piraeus anchorage at 22:43 UTC (up 1 since the previous snapshot)."
  }
 ]
