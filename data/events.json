@@ -1,85 +1,5 @@
 [
  {
-  "id": "2026-09-01T11:27:48+00:00-237562900-departure",
-  "type": "departure",
-  "mmsi": 237562900,
-  "name": "AGIOS ELEFTHERIOS IV",
-  "lat": 37.96483333333333,
-  "lon": 23.530966666666664,
-  "time_utc": "2026-09-01T11:27:48+00:00",
-  "text": "AGIOS ELEFTHERIOS IV (passenger) departed Salamina (Paloukia) at 11:27 UTC, making 5.1 knots."
- },
- {
-  "id": "2026-09-01T11:27:48+00:00-237622300-departure",
-  "type": "departure",
-  "mmsi": 237622300,
-  "name": "THEOTOKOS",
-  "lat": 37.960855,
-  "lon": 23.551364999999997,
-  "time_utc": "2026-09-01T11:27:48+00:00",
-  "text": "THEOTOKOS (passenger) departed Salamina (Paloukia) at 11:27 UTC, making 6.3 knots."
- },
- {
-  "id": "2026-09-01T11:27:48+00:00-240179400-departure",
-  "type": "departure",
-  "mmsi": 240179400,
-  "name": "MYKONOS II",
-  "lat": 38.03362666666667,
-  "lon": 23.528298333333332,
-  "time_utc": "2026-09-01T11:27:48+00:00",
-  "text": "MYKONOS II (cargo) departed Elefsina at 11:27 UTC, making 9.1 knots."
- },
- {
-  "id": "2026-09-01T11:27:48+00:00-240508300-departure",
-  "type": "departure",
-  "mmsi": 240508300,
-  "name": "GOLDEN PRINCESS",
-  "lat": 37.95147,
-  "lon": 23.574734999999997,
-  "time_utc": "2026-09-01T11:27:48+00:00",
-  "text": "GOLDEN PRINCESS (high-speed craft) departed Piraeus at 11:27 UTC, making 11.0 knots."
- },
- {
-  "id": "2026-09-01T11:27:48+00:00-240931000-departure",
-  "type": "departure",
-  "mmsi": 240931000,
-  "name": "SUPERRUNNER JET",
-  "lat": 38.01791333333333,
-  "lon": 24.053876666666667,
-  "time_utc": "2026-09-01T11:27:48+00:00",
-  "text": "SUPERRUNNER JET departed Rafina at 11:27 UTC, making 30.9 knots."
- },
- {
-  "id": "2026-09-01T11:27:48+00:00-240931000-speed_anomaly",
-  "type": "speed_anomaly",
-  "mmsi": 240931000,
-  "name": "SUPERRUNNER JET",
-  "lat": 38.01791333333333,
-  "lon": 24.053876666666667,
-  "time_utc": "2026-09-01T11:27:48+00:00",
-  "text": "Speed anomaly: SUPERRUNNER JET recorded at 30.9 knots near 4 km off Rafina at 11:27 UTC."
- },
- {
-  "id": "2026-09-01T11:27:48+00:00-census-Piraeus anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Piraeus anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-09-01T11:27:48+00:00",
-  "text": "7 vessels lying at Piraeus anchorage at 11:27 UTC (up 2 since the previous snapshot)."
- },
- {
-  "id": "2026-09-01T11:27:48+00:00-census-Elefsis Bay anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Elefsis Bay anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-09-01T11:27:48+00:00",
-  "text": "3 vessels lying at Elefsis Bay anchorage at 11:27 UTC (down 1 since the previous snapshot)."
- },
- {
   "id": "2026-09-01T11:43:41+00:00-237040100-arrival",
   "type": "arrival",
   "mmsi": 237040100,
@@ -8968,5 +8888,85 @@
   "lon": null,
   "time_utc": "2026-09-03T11:27:08+00:00",
   "text": "3 vessels lying at Elefsis Bay anchorage at 11:27 UTC (up 1 since the previous snapshot)."
+ },
+ {
+  "id": "2026-09-03T11:43:24+00:00-237040100-arrival",
+  "type": "arrival",
+  "mmsi": 237040100,
+  "name": "ELENI",
+  "lat": 37.944849999999995,
+  "lon": 23.64155333333333,
+  "time_utc": "2026-09-03T11:43:24+00:00",
+  "text": "ELENI (passenger) arrived at Piraeus at 11:43 UTC."
+ },
+ {
+  "id": "2026-09-03T11:43:24+00:00-237808200-departure",
+  "type": "departure",
+  "mmsi": 237808200,
+  "name": "PHIVOS",
+  "lat": 37.82866666666666,
+  "lon": 23.513333333333332,
+  "time_utc": "2026-09-03T11:43:24+00:00",
+  "text": "PHIVOS (passenger) departed Piraeus at 11:43 UTC, making 14.7 knots."
+ },
+ {
+  "id": "2026-09-03T11:43:24+00:00-237818200-departure",
+  "type": "departure",
+  "mmsi": 237818200,
+  "name": "FANEROMENI",
+  "lat": 37.96071666666667,
+  "lon": 23.552443333333333,
+  "time_utc": "2026-09-03T11:43:24+00:00",
+  "text": "FANEROMENI (passenger) departed Salamina (Paloukia) at 11:43 UTC, making 7.3 knots."
+ },
+ {
+  "id": "2026-09-03T11:43:24+00:00-241324000-anchoring",
+  "type": "anchoring",
+  "mmsi": 241324000,
+  "name": "ERATO",
+  "lat": 37.92722833333333,
+  "lon": 23.556715,
+  "time_utc": "2026-09-03T11:43:24+00:00",
+  "text": "ERATO (tanker) anchored at Piraeus anchorage at 11:43 UTC."
+ },
+ {
+  "id": "2026-09-03T11:43:24+00:00-241675000-weighed_anchor",
+  "type": "weighed_anchor",
+  "mmsi": 241675000,
+  "name": "KOHYLI",
+  "lat": 37.95338166666667,
+  "lon": 23.578288333333333,
+  "time_utc": "2026-09-03T11:43:24+00:00",
+  "text": "KOHYLI (tanker) weighed anchor at 1 km off Perama at 11:43 UTC and is underway at 9.2 knots."
+ },
+ {
+  "id": "2026-09-03T11:43:24+00:00-241804000-departure",
+  "type": "departure",
+  "mmsi": 241804000,
+  "name": "AERO 3 HIGHSPEED",
+  "lat": 37.93971333333333,
+  "lon": 23.626555,
+  "time_utc": "2026-09-03T11:43:24+00:00",
+  "text": "AERO 3 HIGHSPEED (high-speed craft) departed Piraeus at 11:43 UTC, making 10.7 knots."
+ },
+ {
+  "id": "2026-09-03T11:43:24+00:00-241911000-arrival",
+  "type": "arrival",
+  "mmsi": 241911000,
+  "name": "CAPTAIN GIANNIS P.",
+  "lat": 37.93915666666667,
+  "lon": 23.63345,
+  "time_utc": "2026-09-03T11:43:24+00:00",
+  "text": "CAPTAIN GIANNIS P. (special craft) arrived at Piraeus at 11:43 UTC."
+ },
+ {
+  "id": "2026-09-03T11:43:24+00:00-241927000-arrival",
+  "type": "arrival",
+  "mmsi": 241927000,
+  "name": "SVS I",
+  "lat": 37.95919166666667,
+  "lon": 23.563353333333335,
+  "time_utc": "2026-09-03T11:43:24+00:00",
+  "text": "SVS I (special craft) arrived at Perama at 11:43 UTC."
  }
 ]
