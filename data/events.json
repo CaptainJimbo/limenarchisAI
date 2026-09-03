@@ -1,45 +1,5 @@
 [
  {
-  "id": "2026-09-01T00:23:18+00:00-215725000-anchoring",
-  "type": "anchoring",
-  "mmsi": 215725000,
-  "name": "BARENTS",
-  "lat": 37.27925166666667,
-  "lon": 23.103863333333333,
-  "time_utc": "2026-09-01T00:23:18+00:00",
-  "text": "BARENTS anchored at 5 km off Spetses at 00:23 UTC."
- },
- {
-  "id": "2026-09-01T00:23:18+00:00-229739000-anchoring",
-  "type": "anchoring",
-  "mmsi": 229739000,
-  "name": "NATALIA V",
-  "lat": 37.69574,
-  "lon": 23.439385,
-  "time_utc": "2026-09-01T00:23:18+00:00",
-  "text": "NATALIA V anchored at 6 km off Aegina at 00:23 UTC."
- },
- {
-  "id": "2026-09-01T00:23:18+00:00-620797000-anchoring",
-  "type": "anchoring",
-  "mmsi": 620797000,
-  "name": "KUBROSLI_Y",
-  "lat": 37.91120333333333,
-  "lon": 23.547698333333337,
-  "time_utc": "2026-09-01T00:23:18+00:00",
-  "text": "KUBROSLI_Y (cargo) anchored at Piraeus anchorage at 00:23 UTC."
- },
- {
-  "id": "2026-09-01T00:23:18+00:00-census-Piraeus anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Piraeus anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-09-01T00:23:18+00:00",
-  "text": "4 vessels lying at Piraeus anchorage at 00:23 UTC (down 2 since the previous snapshot)."
- },
- {
   "id": "2026-09-01T01:21:09+00:00-240706900-departure",
   "type": "departure",
   "mmsi": 240706900,
@@ -9138,5 +9098,65 @@
   "lon": null,
   "time_utc": "2026-09-02T23:43:19+00:00",
   "text": "8 vessels lying at Piraeus anchorage at 23:43 UTC (up 2 since the previous snapshot)."
+ },
+ {
+  "id": "2026-09-03T01:07:16+00:00-237622300-departure",
+  "type": "departure",
+  "mmsi": 237622300,
+  "name": "THEOTOKOS",
+  "lat": 37.959915,
+  "lon": 23.544835,
+  "time_utc": "2026-09-03T01:07:16+00:00",
+  "text": "THEOTOKOS (passenger) departed Salamina (Paloukia) at 01:07 UTC, making 8.2 knots."
+ },
+ {
+  "id": "2026-09-03T01:07:16+00:00-237829800-weighed_anchor",
+  "type": "weighed_anchor",
+  "mmsi": 237829800,
+  "name": "AGIOS NIKOLAOS",
+  "lat": 37.91907666666667,
+  "lon": 23.563010000000002,
+  "time_utc": "2026-09-03T01:07:16+00:00",
+  "text": "AGIOS NIKOLAOS (tanker) weighed anchor at Piraeus anchorage at 01:07 UTC and is underway at 5.3 knots."
+ },
+ {
+  "id": "2026-09-03T01:07:16+00:00-241654000-weighed_anchor",
+  "type": "weighed_anchor",
+  "mmsi": 241654000,
+  "name": "APTERA",
+  "lat": 37.87351,
+  "lon": 23.543394999999997,
+  "time_utc": "2026-09-03T01:07:16+00:00",
+  "text": "APTERA (tanker) weighed anchor at Piraeus anchorage at 01:07 UTC and is underway at 3.4 knots."
+ },
+ {
+  "id": "2026-09-03T01:07:16+00:00-341648002-anchoring",
+  "type": "anchoring",
+  "mmsi": 341648002,
+  "name": "DRAGON",
+  "lat": 37.897965,
+  "lon": 23.538003333333332,
+  "time_utc": "2026-09-03T01:07:16+00:00",
+  "text": "DRAGON (cargo) anchored at Piraeus anchorage at 01:07 UTC."
+ },
+ {
+  "id": "2026-09-03T01:07:16+00:00-538071550-weighed_anchor",
+  "type": "weighed_anchor",
+  "mmsi": 538071550,
+  "name": "M55",
+  "lat": 37.787326666666665,
+  "lon": 23.76910666666667,
+  "time_utc": "2026-09-03T01:07:16+00:00",
+  "text": "M55 (pleasure) weighed anchor at open water (37.809, 23.761) at 01:07 UTC and is underway at 6.9 knots."
+ },
+ {
+  "id": "2026-09-03T01:07:16+00:00-census-Piraeus anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Piraeus anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-09-03T01:07:16+00:00",
+  "text": "3 vessels lying at Piraeus anchorage at 01:07 UTC (down 5 since the previous snapshot)."
  }
 ]
