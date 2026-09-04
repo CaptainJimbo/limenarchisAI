@@ -1,55 +1,5 @@
 [
  {
-  "id": "2026-09-02T18:10:45+00:00-209262000-departure",
-  "type": "departure",
-  "mmsi": 209262000,
-  "name": "ASTERION II",
-  "lat": 37.940801666666665,
-  "lon": 23.632103333333337,
-  "time_utc": "2026-09-02T18:10:45+00:00",
-  "text": "ASTERION II departed Piraeus at 18:10 UTC, making 8.6 knots."
- },
- {
-  "id": "2026-09-02T18:10:45+00:00-237002600-arrival",
-  "type": "arrival",
-  "mmsi": 237002600,
-  "name": "APOLLON HELLAS",
-  "lat": 37.74527333333333,
-  "lon": 23.424703333333333,
-  "time_utc": "2026-09-02T18:10:45+00:00",
-  "text": "APOLLON HELLAS (passenger) arrived at Aegina at 18:10 UTC."
- },
- {
-  "id": "2026-09-02T18:10:45+00:00-240098600-arrival",
-  "type": "arrival",
-  "mmsi": 240098600,
-  "name": "PROTOPOROS XIV",
-  "lat": 37.96429,
-  "lon": 23.527318333333334,
-  "time_utc": "2026-09-02T18:10:45+00:00",
-  "text": "PROTOPOROS XIV (passenger) arrived at Salamina (Paloukia) at 18:10 UTC."
- },
- {
-  "id": "2026-09-02T18:10:45+00:00-240601900-departure",
-  "type": "departure",
-  "mmsi": 240601900,
-  "name": "PROTOPOROS XVII",
-  "lat": 37.96055666666667,
-  "lon": 23.54984166666667,
-  "time_utc": "2026-09-02T18:10:45+00:00",
-  "text": "PROTOPOROS XVII (passenger) departed Salamina (Paloukia) at 18:10 UTC, making 6.9 knots."
- },
- {
-  "id": "2026-09-02T18:10:45+00:00-census-Piraeus anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Piraeus anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-09-02T18:10:45+00:00",
-  "text": "7 vessels lying at Piraeus anchorage at 18:10 UTC (up 2 since the previous snapshot)."
- },
- {
   "id": "2026-09-02T18:35:11+00:00-237002600-departure",
   "type": "departure",
   "mmsi": 237002600,
@@ -11458,5 +11408,95 @@
   "lon": null,
   "time_utc": "2026-09-04T18:10:17+00:00",
   "text": "13 vessels lying at Piraeus anchorage at 18:10 UTC (down 1 since the previous snapshot)."
+ },
+ {
+  "id": "2026-09-04T18:32:01+00:00-210096000-weighed_anchor",
+  "type": "weighed_anchor",
+  "mmsi": 210096000,
+  "name": "ENERGEIA",
+  "lat": 38.02437666666666,
+  "lon": 23.531718333333334,
+  "time_utc": "2026-09-04T18:32:01+00:00",
+  "text": "ENERGEIA (tanker) weighed anchor at 2 km off Elefsina at 18:32 UTC and is underway at 7.9 knots."
+ },
+ {
+  "id": "2026-09-04T18:32:01+00:00-237562900-arrival",
+  "type": "arrival",
+  "mmsi": 237562900,
+  "name": "AGIOS ELEFTHERIOS IV",
+  "lat": 37.96523333333334,
+  "lon": 23.529483333333335,
+  "time_utc": "2026-09-04T18:32:01+00:00",
+  "text": "AGIOS ELEFTHERIOS IV (passenger) arrived at Salamina (Paloukia) at 18:32 UTC."
+ },
+ {
+  "id": "2026-09-04T18:32:01+00:00-237816200-arrival",
+  "type": "arrival",
+  "mmsi": 237816200,
+  "name": "IOANNIS THIRESIA",
+  "lat": 37.96510333333333,
+  "lon": 23.52938333333333,
+  "time_utc": "2026-09-04T18:32:01+00:00",
+  "text": "IOANNIS THIRESIA (passenger) arrived at Salamina (Paloukia) at 18:32 UTC."
+ },
+ {
+  "id": "2026-09-04T18:32:01+00:00-239458100-arrival",
+  "type": "arrival",
+  "mmsi": 239458100,
+  "name": "AG NIKOLAOS L",
+  "lat": 37.964895,
+  "lon": 23.52879,
+  "time_utc": "2026-09-04T18:32:01+00:00",
+  "text": "AG NIKOLAOS L (passenger) arrived at Salamina (Paloukia) at 18:32 UTC."
+ },
+ {
+  "id": "2026-09-04T18:32:01+00:00-240313300-arrival",
+  "type": "arrival",
+  "mmsi": 240313300,
+  "name": "SPEED CAT 1",
+  "lat": 37.943023333333336,
+  "lon": 23.642668333333333,
+  "time_utc": "2026-09-04T18:32:01+00:00",
+  "text": "SPEED CAT 1 (high-speed craft) arrived at Piraeus at 18:32 UTC."
+ },
+ {
+  "id": "2026-09-04T18:32:01+00:00-241006000-anchoring",
+  "type": "anchoring",
+  "mmsi": 241006000,
+  "name": "ELIN POSEIDON",
+  "lat": 38.026885,
+  "lon": 23.524800000000003,
+  "time_utc": "2026-09-04T18:32:01+00:00",
+  "text": "ELIN POSEIDON (tanker) anchored at 2 km off Elefsina at 18:32 UTC."
+ },
+ {
+  "id": "2026-09-04T18:32:01+00:00-241804000-arrival",
+  "type": "arrival",
+  "mmsi": 241804000,
+  "name": "AERO 3 HIGHSPEED",
+  "lat": 37.94287,
+  "lon": 23.641845,
+  "time_utc": "2026-09-04T18:32:01+00:00",
+  "text": "AERO 3 HIGHSPEED (high-speed craft) arrived at Piraeus at 18:32 UTC."
+ },
+ {
+  "id": "2026-09-04T18:32:01+00:00-census-Piraeus anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Piraeus anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-09-04T18:32:01+00:00",
+  "text": "12 vessels lying at Piraeus anchorage at 18:32 UTC (down 1 since the previous snapshot)."
+ },
+ {
+  "id": "2026-09-04T18:32:01+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-09-04T18:32:01+00:00",
+  "text": "4 vessels lying at Elefsis Bay anchorage at 18:32 UTC (up 1 since the previous snapshot)."
  }
 ]
