@@ -1,65 +1,5 @@
 [
  {
-  "id": "2026-09-03T01:07:16+00:00-237622300-departure",
-  "type": "departure",
-  "mmsi": 237622300,
-  "name": "THEOTOKOS",
-  "lat": 37.959915,
-  "lon": 23.544835,
-  "time_utc": "2026-09-03T01:07:16+00:00",
-  "text": "THEOTOKOS (passenger) departed Salamina (Paloukia) at 01:07 UTC, making 8.2 knots."
- },
- {
-  "id": "2026-09-03T01:07:16+00:00-237829800-weighed_anchor",
-  "type": "weighed_anchor",
-  "mmsi": 237829800,
-  "name": "AGIOS NIKOLAOS",
-  "lat": 37.91907666666667,
-  "lon": 23.563010000000002,
-  "time_utc": "2026-09-03T01:07:16+00:00",
-  "text": "AGIOS NIKOLAOS (tanker) weighed anchor at Piraeus anchorage at 01:07 UTC and is underway at 5.3 knots."
- },
- {
-  "id": "2026-09-03T01:07:16+00:00-241654000-weighed_anchor",
-  "type": "weighed_anchor",
-  "mmsi": 241654000,
-  "name": "APTERA",
-  "lat": 37.87351,
-  "lon": 23.543394999999997,
-  "time_utc": "2026-09-03T01:07:16+00:00",
-  "text": "APTERA (tanker) weighed anchor at Piraeus anchorage at 01:07 UTC and is underway at 3.4 knots."
- },
- {
-  "id": "2026-09-03T01:07:16+00:00-341648002-anchoring",
-  "type": "anchoring",
-  "mmsi": 341648002,
-  "name": "DRAGON",
-  "lat": 37.897965,
-  "lon": 23.538003333333332,
-  "time_utc": "2026-09-03T01:07:16+00:00",
-  "text": "DRAGON (cargo) anchored at Piraeus anchorage at 01:07 UTC."
- },
- {
-  "id": "2026-09-03T01:07:16+00:00-538071550-weighed_anchor",
-  "type": "weighed_anchor",
-  "mmsi": 538071550,
-  "name": "M55",
-  "lat": 37.787326666666665,
-  "lon": 23.76910666666667,
-  "time_utc": "2026-09-03T01:07:16+00:00",
-  "text": "M55 (pleasure) weighed anchor at open water (37.809, 23.761) at 01:07 UTC and is underway at 6.9 knots."
- },
- {
-  "id": "2026-09-03T01:07:16+00:00-census-Piraeus anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Piraeus anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-09-03T01:07:16+00:00",
-  "text": "3 vessels lying at Piraeus anchorage at 01:07 UTC (down 5 since the previous snapshot)."
- },
- {
   "id": "2026-09-03T01:44:05+00:00-239923000-arrival",
   "type": "arrival",
   "mmsi": 239923000,
@@ -11658,5 +11598,45 @@
   "lon": null,
   "time_utc": "2026-09-05T01:01:41+00:00",
   "text": "8 vessels lying at Elefsis Bay anchorage at 01:01 UTC (up 1 since the previous snapshot)."
+ },
+ {
+  "id": "2026-09-05T01:26:56+00:00-239546200-arrival",
+  "type": "arrival",
+  "mmsi": 239546200,
+  "name": "KONSTANTINOS K",
+  "lat": 37.965111666666665,
+  "lon": 23.529745,
+  "time_utc": "2026-09-05T01:26:56+00:00",
+  "text": "KONSTANTINOS K (passenger) arrived at Salamina (Paloukia) at 01:26 UTC."
+ },
+ {
+  "id": "2026-09-05T01:26:56+00:00-241927000-departure",
+  "type": "departure",
+  "mmsi": 241927000,
+  "name": "SVS I",
+  "lat": 37.939615,
+  "lon": 23.627501666666667,
+  "time_utc": "2026-09-05T01:26:56+00:00",
+  "text": "SVS I (special craft) departed Piraeus at 01:26 UTC, making 3.4 knots."
+ },
+ {
+  "id": "2026-09-05T01:26:56+00:00-census-Piraeus anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Piraeus anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-09-05T01:26:56+00:00",
+  "text": "14 vessels lying at Piraeus anchorage at 01:26 UTC (up 1 since the previous snapshot)."
+ },
+ {
+  "id": "2026-09-05T01:26:56+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-09-05T01:26:56+00:00",
+  "text": "4 vessels lying at Elefsis Bay anchorage at 01:26 UTC (down 4 since the previous snapshot)."
  }
 ]
