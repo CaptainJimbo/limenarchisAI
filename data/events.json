@@ -1,25 +1,5 @@
 [
  {
-  "id": "2026-09-08T22:07:37+00:00-237365500-arrival",
-  "type": "arrival",
-  "mmsi": 237365500,
-  "name": "ALEXANDROS M",
-  "lat": 37.965313333333334,
-  "lon": 23.52979,
-  "time_utc": "2026-09-08T22:07:37+00:00",
-  "text": "ALEXANDROS M (passenger) arrived at Salamina (Paloukia) at 22:07 UTC."
- },
- {
-  "id": "2026-09-08T22:07:37+00:00-240053300-departure",
-  "type": "departure",
-  "mmsi": 240053300,
-  "name": "STAVROS N",
-  "lat": 37.95928333333333,
-  "lon": 23.54579,
-  "time_utc": "2026-09-08T22:07:37+00:00",
-  "text": "STAVROS N (passenger) departed Salamina (Paloukia) at 22:07 UTC, making 6.7 knots."
- },
- {
   "id": "2026-09-08T22:27:05+00:00-240191100-arrival",
   "type": "arrival",
   "mmsi": 240191100,
@@ -12898,5 +12878,35 @@
   "lon": 23.57535,
   "time_utc": "2026-09-10T22:07:20+00:00",
   "text": "SIARGAO (cargo) weighed anchor at Piraeus anchorage at 22:07 UTC and is underway at 9.5 knots."
+ },
+ {
+  "id": "2026-09-10T22:26:30+00:00-477967800-weighed_anchor",
+  "type": "weighed_anchor",
+  "mmsi": 477967800,
+  "name": "CSCL ATLANTIC OCEAN",
+  "lat": 37.87370833333333,
+  "lon": 23.580265,
+  "time_utc": "2026-09-10T22:26:30+00:00",
+  "text": "CSCL ATLANTIC OCEAN (cargo) weighed anchor at Piraeus anchorage at 22:26 UTC and is underway at 2.6 knots."
+ },
+ {
+  "id": "2026-09-10T22:26:30+00:00-563052000-weighed_anchor",
+  "type": "weighed_anchor",
+  "mmsi": 563052000,
+  "name": "ELISALEX SCHULTE",
+  "lat": 38.01402666666667,
+  "lon": 23.565583333333333,
+  "time_utc": "2026-09-10T22:26:30+00:00",
+  "text": "ELISALEX SCHULTE (tanker) weighed anchor at 5 km off Elefsina at 22:26 UTC and is underway at 6.5 knots."
+ },
+ {
+  "id": "2026-09-10T22:26:30+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-09-10T22:26:30+00:00",
+  "text": "5 vessels lying at Elefsis Bay anchorage at 22:26 UTC (up 3 since the previous snapshot)."
  }
 ]
