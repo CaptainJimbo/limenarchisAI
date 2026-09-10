@@ -1,45 +1,5 @@
 [
  {
-  "id": "2026-09-08T23:07:30+00:00-240191100-departure",
-  "type": "departure",
-  "mmsi": 240191100,
-  "name": "GLYKOFILOUSA VIII",
-  "lat": 37.95929,
-  "lon": 23.542761666666667,
-  "time_utc": "2026-09-08T23:07:30+00:00",
-  "text": "GLYKOFILOUSA VIII (passenger) departed Salamina (Paloukia) at 23:07 UTC, making 6.8 knots."
- },
- {
-  "id": "2026-09-08T23:07:30+00:00-240804100-arrival",
-  "type": "arrival",
-  "mmsi": 240804100,
-  "name": "ORION IV",
-  "lat": 37.96523,
-  "lon": 23.529786666666666,
-  "time_utc": "2026-09-08T23:07:30+00:00",
-  "text": "ORION IV (passenger) arrived at Salamina (Paloukia) at 23:07 UTC."
- },
- {
-  "id": "2026-09-08T23:07:30+00:00-240897000-departure",
-  "type": "departure",
-  "mmsi": 240897000,
-  "name": "AEGEAN ACE",
-  "lat": 37.948305,
-  "lon": 23.585874999999998,
-  "time_utc": "2026-09-08T23:07:30+00:00",
-  "text": "AEGEAN ACE (tanker) departed Piraeus at 23:07 UTC, making 9.4 knots."
- },
- {
-  "id": "2026-09-08T23:07:30+00:00-census-Piraeus anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Piraeus anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-09-08T23:07:30+00:00",
-  "text": "10 vessels lying at Piraeus anchorage at 23:07 UTC (up 1 since the previous snapshot)."
- },
- {
   "id": "2026-09-08T23:26:46+00:00-319801000-weighed_anchor",
   "type": "weighed_anchor",
   "mmsi": 319801000,
@@ -12908,5 +12868,35 @@
   "lon": null,
   "time_utc": "2026-09-10T23:06:59+00:00",
   "text": "10 vessels lying at Piraeus anchorage at 23:06 UTC (down 1 since the previous snapshot)."
+ },
+ {
+  "id": "2026-09-10T23:25:35+00:00-240075800-arrival",
+  "type": "arrival",
+  "mmsi": 240075800,
+  "name": "MICHAIL N",
+  "lat": 37.96550666666667,
+  "lon": 23.530185,
+  "time_utc": "2026-09-10T23:25:35+00:00",
+  "text": "MICHAIL N (passenger) arrived at Salamina (Paloukia) at 23:25 UTC."
+ },
+ {
+  "id": "2026-09-10T23:25:35+00:00-240493000-arrival",
+  "type": "arrival",
+  "mmsi": 240493000,
+  "name": "EVIAPETROL II",
+  "lat": 38.02629,
+  "lon": 23.544195,
+  "time_utc": "2026-09-10T23:25:35+00:00",
+  "text": "EVIAPETROL II (tanker) arrived at Elefsina at 23:25 UTC."
+ },
+ {
+  "id": "2026-09-10T23:25:35+00:00-240493000-anchoring",
+  "type": "anchoring",
+  "mmsi": 240493000,
+  "name": "EVIAPETROL II",
+  "lat": 38.02629,
+  "lon": 23.544195,
+  "time_utc": "2026-09-10T23:25:35+00:00",
+  "text": "EVIAPETROL II (tanker) anchored at Elefsina at 23:25 UTC."
  }
 ]
