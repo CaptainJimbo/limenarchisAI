@@ -1,75 +1,5 @@
 [
  {
-  "id": "2026-09-10T21:25:22+00:00-240017200-arrival",
-  "type": "arrival",
-  "mmsi": 240017200,
-  "name": "VERONICA",
-  "lat": 37.74487833333333,
-  "lon": 23.428693333333335,
-  "time_utc": "2026-09-10T21:25:22+00:00",
-  "text": "VERONICA (sailing) arrived at Aegina at 21:25 UTC."
- },
- {
-  "id": "2026-09-10T21:25:22+00:00-240075800-arrival",
-  "type": "arrival",
-  "mmsi": 240075800,
-  "name": "MICHAIL N",
-  "lat": 37.965475,
-  "lon": 23.530171666666668,
-  "time_utc": "2026-09-10T21:25:22+00:00",
-  "text": "MICHAIL N (passenger) arrived at Salamina (Paloukia) at 21:25 UTC."
- },
- {
-  "id": "2026-09-10T21:25:22+00:00-240708000-departure",
-  "type": "departure",
-  "mmsi": 240708000,
-  "name": "AEGEAN III",
-  "lat": 38.023826666666665,
-  "lon": 23.502358333333333,
-  "time_utc": "2026-09-10T21:25:22+00:00",
-  "text": "AEGEAN III departed Elefsina at 21:25 UTC, making 9.7 knots."
- },
- {
-  "id": "2026-09-10T21:25:22+00:00-241911000-arrival",
-  "type": "arrival",
-  "mmsi": 241911000,
-  "name": "CAPTAIN GIANNIS P.",
-  "lat": 37.93890833333333,
-  "lon": 23.633993333333333,
-  "time_utc": "2026-09-10T21:25:22+00:00",
-  "text": "CAPTAIN GIANNIS P. (special craft) arrived at Piraeus at 21:25 UTC."
- },
- {
-  "id": "2026-09-10T21:25:22+00:00-241972000-arrival",
-  "type": "arrival",
-  "mmsi": 241972000,
-  "name": "REA",
-  "lat": 37.93873166666666,
-  "lon": 23.634523333333334,
-  "time_utc": "2026-09-10T21:25:22+00:00",
-  "text": "REA (special craft) arrived at Piraeus at 21:25 UTC."
- },
- {
-  "id": "2026-09-10T21:25:22+00:00-census-Piraeus anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Piraeus anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-09-10T21:25:22+00:00",
-  "text": "11 vessels lying at Piraeus anchorage at 21:25 UTC (up 1 since the previous snapshot)."
- },
- {
-  "id": "2026-09-10T21:25:22+00:00-census-Elefsis Bay anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Elefsis Bay anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-09-10T21:25:22+00:00",
-  "text": "2 vessels lying at Elefsis Bay anchorage at 21:25 UTC (down 1 since the previous snapshot)."
- },
- {
   "id": "2026-09-10T21:43:24+00:00-237562900-departure",
   "type": "departure",
   "mmsi": 237562900,
@@ -13888,5 +13818,45 @@
   "lon": null,
   "time_utc": "2026-09-12T21:07:34+00:00",
   "text": "5 vessels lying at Elefsis Bay anchorage at 21:07 UTC (up 2 since the previous snapshot)."
+ },
+ {
+  "id": "2026-09-12T21:27:11+00:00-241322000-anchoring",
+  "type": "anchoring",
+  "mmsi": 241322000,
+  "name": "KRITI",
+  "lat": 37.90056666666667,
+  "lon": 23.041249999999998,
+  "time_utc": "2026-09-12T21:27:11+00:00",
+  "text": "KRITI (tanker) anchored at 4 km off Corinth Canal (Isthmia) at 21:27 UTC."
+ },
+ {
+  "id": "2026-09-12T21:27:11+00:00-241951000-weighed_anchor",
+  "type": "weighed_anchor",
+  "mmsi": 241951000,
+  "name": "SVS II",
+  "lat": 37.93324666666667,
+  "lon": 23.578129999999998,
+  "time_utc": "2026-09-12T21:27:11+00:00",
+  "text": "SVS II (tug/tow) weighed anchor at Piraeus anchorage at 21:27 UTC and is underway at 5.0 knots."
+ },
+ {
+  "id": "2026-09-12T21:27:11+00:00-538071082-anchoring",
+  "type": "anchoring",
+  "mmsi": 538071082,
+  "name": "MAGNA GRECIA",
+  "lat": 37.858225,
+  "lon": 23.739265,
+  "time_utc": "2026-09-12T21:27:11+00:00",
+  "text": "MAGNA GRECIA (pleasure) anchored at open water (37.858, 23.739) at 21:27 UTC."
+ },
+ {
+  "id": "2026-09-12T21:27:11+00:00-census-Piraeus anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Piraeus anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-09-12T21:27:11+00:00",
+  "text": "10 vessels lying at Piraeus anchorage at 21:27 UTC (down 2 since the previous snapshot)."
  }
 ]
