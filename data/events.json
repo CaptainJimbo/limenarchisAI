@@ -1,35 +1,5 @@
 [
  {
-  "id": "2026-09-10T23:06:59+00:00-239780000-arrival",
-  "type": "arrival",
-  "mmsi": 239780000,
-  "name": "HARMONY G",
-  "lat": 37.93319833333333,
-  "lon": 23.650246666666664,
-  "time_utc": "2026-09-10T23:06:59+00:00",
-  "text": "HARMONY G (passenger) arrived at Piraeus at 23:06 UTC."
- },
- {
-  "id": "2026-09-10T23:06:59+00:00-271052266-weighed_anchor",
-  "type": "weighed_anchor",
-  "mmsi": 271052266,
-  "name": "MEDKON ANKARA",
-  "lat": 37.901316666666666,
-  "lon": 23.590683333333335,
-  "time_utc": "2026-09-10T23:06:59+00:00",
-  "text": "MEDKON ANKARA (cargo) weighed anchor at Piraeus anchorage at 23:06 UTC and is underway at 4.7 knots."
- },
- {
-  "id": "2026-09-10T23:06:59+00:00-census-Piraeus anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Piraeus anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-09-10T23:06:59+00:00",
-  "text": "10 vessels lying at Piraeus anchorage at 23:06 UTC (down 1 since the previous snapshot)."
- },
- {
   "id": "2026-09-10T23:25:35+00:00-240075800-arrival",
   "type": "arrival",
   "mmsi": 240075800,
@@ -13928,5 +13898,35 @@
   "lon": 23.529474999999998,
   "time_utc": "2026-09-12T22:44:10+00:00",
   "text": "VELOS AURORA (tanker) weighed anchor at 3 km off Elefsina at 22:44 UTC and is underway at 3.0 knots."
+ },
+ {
+  "id": "2026-09-12T23:07:09+00:00-237453600-departure",
+  "type": "departure",
+  "mmsi": 237453600,
+  "name": "DIMITRIOS P",
+  "lat": 37.95934,
+  "lon": 23.537699999999997,
+  "time_utc": "2026-09-12T23:07:09+00:00",
+  "text": "DIMITRIOS P (passenger) departed Salamina (Paloukia) at 23:07 UTC, making 6.4 knots."
+ },
+ {
+  "id": "2026-09-12T23:07:09+00:00-census-Piraeus anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Piraeus anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-09-12T23:07:09+00:00",
+  "text": "10 vessels lying at Piraeus anchorage at 23:07 UTC (down 1 since the previous snapshot)."
+ },
+ {
+  "id": "2026-09-12T23:07:09+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-09-12T23:07:09+00:00",
+  "text": "7 vessels lying at Elefsis Bay anchorage at 23:07 UTC (up 2 since the previous snapshot)."
  }
 ]
