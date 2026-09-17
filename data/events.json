@@ -1,55 +1,5 @@
 [
  {
-  "id": "2026-09-15T02:40:16+00:00-239546200-departure",
-  "type": "departure",
-  "mmsi": 239546200,
-  "name": "KONSTANTINOS K",
-  "lat": 37.96196333333333,
-  "lon": 23.554405,
-  "time_utc": "2026-09-15T02:40:16+00:00",
-  "text": "KONSTANTINOS K (passenger) departed Salamina (Paloukia) at 02:40 UTC, making 7.0 knots."
- },
- {
-  "id": "2026-09-15T02:40:16+00:00-240031600-arrival",
-  "type": "arrival",
-  "mmsi": 240031600,
-  "name": "PROTOPOROS X",
-  "lat": 37.964785,
-  "lon": 23.528818333333334,
-  "time_utc": "2026-09-15T02:40:16+00:00",
-  "text": "PROTOPOROS X (passenger) arrived at Salamina (Paloukia) at 02:40 UTC."
- },
- {
-  "id": "2026-09-15T02:40:16+00:00-240804100-arrival",
-  "type": "arrival",
-  "mmsi": 240804100,
-  "name": "ORION IV",
-  "lat": 37.963453333333334,
-  "lon": 23.526113333333335,
-  "time_utc": "2026-09-15T02:40:16+00:00",
-  "text": "ORION IV (passenger) arrived at Salamina (Paloukia) at 02:40 UTC."
- },
- {
-  "id": "2026-09-15T02:40:16+00:00-319904000-anchoring",
-  "type": "anchoring",
-  "mmsi": 319904000,
-  "name": "ATLANTIS",
-  "lat": 37.860525,
-  "lon": 23.73928,
-  "time_utc": "2026-09-15T02:40:16+00:00",
-  "text": "ATLANTIS (pleasure) anchored at open water (37.861, 23.739) at 02:40 UTC."
- },
- {
-  "id": "2026-09-15T02:40:16+00:00-352002597-anchoring",
-  "type": "anchoring",
-  "mmsi": 352002597,
-  "name": "MARWIN",
-  "lat": 37.901848333333334,
-  "lon": 23.556441666666668,
-  "time_utc": "2026-09-15T02:40:16+00:00",
-  "text": "MARWIN (cargo) anchored at Piraeus anchorage at 02:40 UTC."
- },
- {
   "id": "2026-09-15T02:52:31+00:00-237040100-arrival",
   "type": "arrival",
   "mmsi": 237040100,
@@ -12438,5 +12388,55 @@
   "lon": null,
   "time_utc": "2026-09-17T02:38:39+00:00",
   "text": "14 vessels lying at Piraeus anchorage at 02:38 UTC (up 4 since the previous snapshot)."
+ },
+ {
+  "id": "2026-09-17T02:51:04+00:00-240804100-departure",
+  "type": "departure",
+  "mmsi": 240804100,
+  "name": "ORION IV",
+  "lat": 37.958913333333335,
+  "lon": 23.540531666666666,
+  "time_utc": "2026-09-17T02:51:04+00:00",
+  "text": "ORION IV (passenger) departed Salamina (Paloukia) at 02:51 UTC, making 6.5 knots."
+ },
+ {
+  "id": "2026-09-17T02:51:04+00:00-241442000-arrival",
+  "type": "arrival",
+  "mmsi": 241442000,
+  "name": "PANTANASSA",
+  "lat": 38.03531666666667,
+  "lon": 23.536681666666667,
+  "time_utc": "2026-09-17T02:51:04+00:00",
+  "text": "PANTANASSA (special craft) arrived at Elefsina at 02:51 UTC."
+ },
+ {
+  "id": "2026-09-17T02:51:04+00:00-241442000-anchoring",
+  "type": "anchoring",
+  "mmsi": 241442000,
+  "name": "PANTANASSA",
+  "lat": 38.03531666666667,
+  "lon": 23.536681666666667,
+  "time_utc": "2026-09-17T02:51:04+00:00",
+  "text": "PANTANASSA (special craft) anchored at Elefsina at 02:51 UTC."
+ },
+ {
+  "id": "2026-09-17T02:51:04+00:00-census-Piraeus anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Piraeus anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-09-17T02:51:04+00:00",
+  "text": "11 vessels lying at Piraeus anchorage at 02:51 UTC (down 3 since the previous snapshot)."
+ },
+ {
+  "id": "2026-09-17T02:51:04+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-09-17T02:51:04+00:00",
+  "text": "9 vessels lying at Elefsis Bay anchorage at 02:51 UTC (up 1 since the previous snapshot)."
  }
 ]
