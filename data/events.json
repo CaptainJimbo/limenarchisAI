@@ -1,75 +1,5 @@
 [
  {
-  "id": "2026-09-17T15:30:08+00:00-210658000-arrival",
-  "type": "arrival",
-  "mmsi": 210658000,
-  "name": "MAGIC 5",
-  "lat": 37.94307833333333,
-  "lon": 23.642756666666667,
-  "time_utc": "2026-09-17T15:30:08+00:00",
-  "text": "MAGIC 5 (high-speed craft) arrived at Piraeus at 15:30 UTC."
- },
- {
-  "id": "2026-09-17T15:30:08+00:00-237040100-arrival",
-  "type": "arrival",
-  "mmsi": 237040100,
-  "name": "ELENI",
-  "lat": 37.944426666666665,
-  "lon": 23.642321666666664,
-  "time_utc": "2026-09-17T15:30:08+00:00",
-  "text": "ELENI (passenger) arrived at Piraeus at 15:30 UTC."
- },
- {
-  "id": "2026-09-17T15:30:08+00:00-237966000-departure",
-  "type": "departure",
-  "mmsi": 237966000,
-  "name": "PAN ORAMA",
-  "lat": 37.762013333333336,
-  "lon": 23.408185,
-  "time_utc": "2026-09-17T15:30:08+00:00",
-  "text": "PAN ORAMA departed Aegina at 15:30 UTC, making 9.2 knots."
- },
- {
-  "id": "2026-09-17T15:30:08+00:00-240707100-arrival",
-  "type": "arrival",
-  "mmsi": 240707100,
-  "name": "PILOT BOAT PY74",
-  "lat": 37.937935,
-  "lon": 23.626401666666666,
-  "time_utc": "2026-09-17T15:30:08+00:00",
-  "text": "PILOT BOAT PY74 (special craft) arrived at Piraeus at 15:30 UTC."
- },
- {
-  "id": "2026-09-17T15:30:08+00:00-241324000-weighed_anchor",
-  "type": "weighed_anchor",
-  "mmsi": 241324000,
-  "name": "ERATO",
-  "lat": 37.95277,
-  "lon": 23.569628333333334,
-  "time_utc": "2026-09-17T15:30:08+00:00",
-  "text": "ERATO (tanker) weighed anchor at Piraeus anchorage at 15:30 UTC and is underway at 7.1 knots."
- },
- {
-  "id": "2026-09-17T15:30:08+00:00-241344000-anchoring",
-  "type": "anchoring",
-  "mmsi": 241344000,
-  "name": "EVIAPETROL V",
-  "lat": 38.02362333333333,
-  "lon": 23.534188333333336,
-  "time_utc": "2026-09-17T15:30:08+00:00",
-  "text": "EVIAPETROL V (tanker) anchored at Elefsina at 15:30 UTC."
- },
- {
-  "id": "2026-09-17T15:30:08+00:00-census-Piraeus anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Piraeus anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-09-17T15:30:08+00:00",
-  "text": "9 vessels lying at Piraeus anchorage at 15:30 UTC (down 2 since the previous snapshot)."
- },
- {
   "id": "2026-09-17T15:45:21+00:00-237562900-departure",
   "type": "departure",
   "mmsi": 237562900,
@@ -13658,5 +13588,55 @@
   "lon": null,
   "time_utc": "2026-09-19T15:26:33+00:00",
   "text": "8 vessels lying at Piraeus anchorage at 15:26 UTC (down 2 since the previous snapshot)."
+ },
+ {
+  "id": "2026-09-19T15:43:31+00:00-240099800-weighed_anchor",
+  "type": "weighed_anchor",
+  "mmsi": 240099800,
+  "name": "OCEAN SONG",
+  "lat": 37.90152333333333,
+  "lon": 23.704636666666666,
+  "time_utc": "2026-09-19T15:43:31+00:00",
+  "text": "OCEAN SONG (sailing) weighed anchor at 7 km off Piraeus at 15:43 UTC and is underway at 5.9 knots."
+ },
+ {
+  "id": "2026-09-19T15:43:31+00:00-241802000-departure",
+  "type": "departure",
+  "mmsi": 241802000,
+  "name": "AERO 1 HIGHSPEED",
+  "lat": 37.94052333333333,
+  "lon": 23.632108333333335,
+  "time_utc": "2026-09-19T15:43:31+00:00",
+  "text": "AERO 1 HIGHSPEED (high-speed craft) departed Piraeus at 15:43 UTC, making 10.0 knots."
+ },
+ {
+  "id": "2026-09-19T15:43:31+00:00-241803000-arrival",
+  "type": "arrival",
+  "mmsi": 241803000,
+  "name": "AERO 2 HIGHSPEED",
+  "lat": 37.942793333333334,
+  "lon": 23.64235,
+  "time_utc": "2026-09-19T15:43:31+00:00",
+  "text": "AERO 2 HIGHSPEED (high-speed craft) arrived at Piraeus at 15:43 UTC."
+ },
+ {
+  "id": "2026-09-19T15:43:31+00:00-census-Piraeus anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Piraeus anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-09-19T15:43:31+00:00",
+  "text": "9 vessels lying at Piraeus anchorage at 15:43 UTC (up 1 since the previous snapshot)."
+ },
+ {
+  "id": "2026-09-19T15:43:31+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-09-19T15:43:31+00:00",
+  "text": "15 vessels lying at Elefsis Bay anchorage at 15:43 UTC (up 3 since the previous snapshot)."
  }
 ]
