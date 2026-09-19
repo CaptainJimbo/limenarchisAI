@@ -1,55 +1,5 @@
 [
  {
-  "id": "2026-09-17T21:07:46+00:00-237932700-departure",
-  "type": "departure",
-  "mmsi": 237932700,
-  "name": "ATHINA P",
-  "lat": 37.95912333333333,
-  "lon": 23.54324666666667,
-  "time_utc": "2026-09-17T21:07:46+00:00",
-  "text": "ATHINA P (passenger) departed Salamina (Paloukia) at 21:07 UTC, making 7.0 knots."
- },
- {
-  "id": "2026-09-17T21:07:46+00:00-240601900-arrival",
-  "type": "arrival",
-  "mmsi": 240601900,
-  "name": "PROTOPOROS XVII",
-  "lat": 37.96557333333333,
-  "lon": 23.53028833333333,
-  "time_utc": "2026-09-17T21:07:46+00:00",
-  "text": "PROTOPOROS XVII (passenger) arrived at Salamina (Paloukia) at 21:07 UTC."
- },
- {
-  "id": "2026-09-17T21:07:46+00:00-240707100-arrival",
-  "type": "arrival",
-  "mmsi": 240707100,
-  "name": "PILOT BOAT PY74",
-  "lat": 37.93788166666666,
-  "lon": 23.62639666666667,
-  "time_utc": "2026-09-17T21:07:46+00:00",
-  "text": "PILOT BOAT PY74 (special craft) arrived at Piraeus at 21:07 UTC."
- },
- {
-  "id": "2026-09-17T21:07:46+00:00-census-Piraeus anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Piraeus anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-09-17T21:07:46+00:00",
-  "text": "10 vessels lying at Piraeus anchorage at 21:07 UTC (down 1 since the previous snapshot)."
- },
- {
-  "id": "2026-09-17T21:07:46+00:00-census-Elefsis Bay anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Elefsis Bay anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-09-17T21:07:46+00:00",
-  "text": "11 vessels lying at Elefsis Bay anchorage at 21:07 UTC (up 1 since the previous snapshot)."
- },
- {
   "id": "2026-09-17T21:27:46+00:00-237453600-arrival",
   "type": "arrival",
   "mmsi": 237453600,
@@ -13648,5 +13598,55 @@
   "lon": 23.58501,
   "time_utc": "2026-09-19T21:07:03+00:00",
   "text": "MARTI WIND (cargo) weighed anchor at Piraeus anchorage at 21:07 UTC and is underway at 7.3 knots."
+ },
+ {
+  "id": "2026-09-19T21:25:51+00:00-240707200-arrival",
+  "type": "arrival",
+  "mmsi": 240707200,
+  "name": "PILOT BOAT PY75",
+  "lat": 37.93785833333333,
+  "lon": 23.626331666666665,
+  "time_utc": "2026-09-19T21:25:51+00:00",
+  "text": "PILOT BOAT PY75 (special craft) arrived at Piraeus at 21:25 UTC."
+ },
+ {
+  "id": "2026-09-19T21:25:51+00:00-241192800-weighed_anchor",
+  "type": "weighed_anchor",
+  "mmsi": 241192800,
+  "name": "CAPTAIN VAGGELIS Z",
+  "lat": 38.03535,
+  "lon": 23.50813833333333,
+  "time_utc": "2026-09-19T21:25:51+00:00",
+  "text": "CAPTAIN VAGGELIS Z (tug/tow) weighed anchor at Elefsis Bay anchorage at 21:25 UTC and is underway at 3.5 knots."
+ },
+ {
+  "id": "2026-09-19T21:25:51+00:00-241804000-arrival",
+  "type": "arrival",
+  "mmsi": 241804000,
+  "name": "AERO 3 HIGHSPEED",
+  "lat": 37.94287,
+  "lon": 23.641858333333335,
+  "time_utc": "2026-09-19T21:25:51+00:00",
+  "text": "AERO 3 HIGHSPEED (high-speed craft) arrived at Piraeus at 21:25 UTC."
+ },
+ {
+  "id": "2026-09-19T21:25:51+00:00-636022180-anchoring",
+  "type": "anchoring",
+  "mmsi": 636022180,
+  "name": "MINERVA ANNA",
+  "lat": 37.887335,
+  "lon": 23.53441666666667,
+  "time_utc": "2026-09-19T21:25:51+00:00",
+  "text": "MINERVA ANNA (tanker) anchored at Piraeus anchorage at 21:25 UTC."
+ },
+ {
+  "id": "2026-09-19T21:25:51+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-09-19T21:25:51+00:00",
+  "text": "9 vessels lying at Elefsis Bay anchorage at 21:25 UTC (down 5 since the previous snapshot)."
  }
 ]
