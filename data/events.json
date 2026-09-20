@@ -1,55 +1,5 @@
 [
  {
-  "id": "2026-09-18T20:44:22+00:00-237562900-departure",
-  "type": "departure",
-  "mmsi": 237562900,
-  "name": "AGIOS ELEFTHERIOS IV",
-  "lat": 37.96038333333333,
-  "lon": 23.5344,
-  "time_utc": "2026-09-18T20:44:22+00:00",
-  "text": "AGIOS ELEFTHERIOS IV (passenger) departed Salamina (Paloukia) at 20:44 UTC, making 6.3 knots."
- },
- {
-  "id": "2026-09-18T20:44:22+00:00-240711800-arrival",
-  "type": "arrival",
-  "mmsi": 240711800,
-  "name": "PARALOS III",
-  "lat": 37.965223333333334,
-  "lon": 23.529778333333336,
-  "time_utc": "2026-09-18T20:44:22+00:00",
-  "text": "PARALOS III (passenger) arrived at Salamina (Paloukia) at 20:44 UTC."
- },
- {
-  "id": "2026-09-18T20:44:22+00:00-241087000-arrival",
-  "type": "arrival",
-  "mmsi": 241087000,
-  "name": "BLUE STAR DELOS",
-  "lat": 37.946855,
-  "lon": 23.64028,
-  "time_utc": "2026-09-18T20:44:22+00:00",
-  "text": "BLUE STAR DELOS (passenger) arrived at Piraeus at 20:44 UTC."
- },
- {
-  "id": "2026-09-18T20:44:22+00:00-255915759-arrival",
-  "type": "arrival",
-  "mmsi": 255915759,
-  "name": "WHITE SKY",
-  "lat": 38.030121666666666,
-  "lon": 23.526856666666667,
-  "time_utc": "2026-09-18T20:44:22+00:00",
-  "text": "WHITE SKY (tanker) arrived at Elefsina at 20:44 UTC."
- },
- {
-  "id": "2026-09-18T20:44:22+00:00-census-Piraeus anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Piraeus anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-09-18T20:44:22+00:00",
-  "text": "14 vessels lying at Piraeus anchorage at 20:44 UTC (up 2 since the previous snapshot)."
- },
- {
   "id": "2026-09-18T21:07:25+00:00-237453600-arrival",
   "type": "arrival",
   "mmsi": 237453600,
@@ -13068,5 +13018,75 @@
   "lon": null,
   "time_utc": "2026-09-20T20:43:25+00:00",
   "text": "16 vessels lying at Elefsis Bay anchorage at 20:43 UTC (up 2 since the previous snapshot)."
+ },
+ {
+  "id": "2026-09-20T21:07:13+00:00-237818200-departure",
+  "type": "departure",
+  "mmsi": 237818200,
+  "name": "FANEROMENI",
+  "lat": 37.95939,
+  "lon": 23.540751666666665,
+  "time_utc": "2026-09-20T21:07:13+00:00",
+  "text": "FANEROMENI (passenger) departed Salamina (Paloukia) at 21:07 UTC, making 6.9 knots."
+ },
+ {
+  "id": "2026-09-20T21:07:13+00:00-240897000-arrival",
+  "type": "arrival",
+  "mmsi": 240897000,
+  "name": "AEGEAN ACE",
+  "lat": 37.947115000000004,
+  "lon": 23.640576666666668,
+  "time_utc": "2026-09-20T21:07:13+00:00",
+  "text": "AEGEAN ACE (tanker) arrived at Piraeus at 21:07 UTC."
+ },
+ {
+  "id": "2026-09-20T21:07:13+00:00-241087000-arrival",
+  "type": "arrival",
+  "mmsi": 241087000,
+  "name": "BLUE STAR DELOS",
+  "lat": 37.94689166666667,
+  "lon": 23.64028,
+  "time_utc": "2026-09-20T21:07:13+00:00",
+  "text": "BLUE STAR DELOS (passenger) arrived at Piraeus at 21:07 UTC."
+ },
+ {
+  "id": "2026-09-20T21:07:13+00:00-241344000-weighed_anchor",
+  "type": "weighed_anchor",
+  "mmsi": 241344000,
+  "name": "EVIAPETROL V",
+  "lat": 38.02941166666667,
+  "lon": 23.522098333333336,
+  "time_utc": "2026-09-20T21:07:13+00:00",
+  "text": "EVIAPETROL V (tanker) weighed anchor at Elefsis Bay anchorage at 21:07 UTC and is underway at 3.5 knots."
+ },
+ {
+  "id": "2026-09-20T21:07:13+00:00-241699000-weighed_anchor",
+  "type": "weighed_anchor",
+  "mmsi": 241699000,
+  "name": "ZAKROS",
+  "lat": 37.92122333333334,
+  "lon": 23.549899999999997,
+  "time_utc": "2026-09-20T21:07:13+00:00",
+  "text": "ZAKROS (tanker) weighed anchor at Piraeus anchorage at 21:07 UTC and is underway at 3.9 knots."
+ },
+ {
+  "id": "2026-09-20T21:07:13+00:00-census-Piraeus anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Piraeus anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-09-20T21:07:13+00:00",
+  "text": "10 vessels lying at Piraeus anchorage at 21:07 UTC (down 2 since the previous snapshot)."
+ },
+ {
+  "id": "2026-09-20T21:07:13+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-09-20T21:07:13+00:00",
+  "text": "15 vessels lying at Elefsis Bay anchorage at 21:07 UTC (down 1 since the previous snapshot)."
  }
 ]
