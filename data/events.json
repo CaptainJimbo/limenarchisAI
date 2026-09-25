@@ -1,85 +1,5 @@
 [
  {
-  "id": "2026-09-23T01:39:34+00:00-240706900-departure",
-  "type": "departure",
-  "mmsi": 240706900,
-  "name": "PILOT BOAT PY73",
-  "lat": 37.93584666666666,
-  "lon": 23.61508,
-  "time_utc": "2026-09-23T01:39:34+00:00",
-  "text": "PILOT BOAT PY73 (special craft) departed Piraeus at 01:39 UTC, making 25.5 knots."
- },
- {
-  "id": "2026-09-23T01:39:34+00:00-census-Piraeus anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Piraeus anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-09-23T01:39:34+00:00",
-  "text": "5 vessels lying at Piraeus anchorage at 01:39 UTC (down 2 since the previous snapshot)."
- },
- {
-  "id": "2026-09-23T01:39:34+00:00-census-Elefsis Bay anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Elefsis Bay anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-09-23T01:39:34+00:00",
-  "text": "6 vessels lying at Elefsis Bay anchorage at 01:39 UTC (down 1 since the previous snapshot)."
- },
- {
-  "id": "2026-09-23T01:54:08+00:00-240075800-arrival",
-  "type": "arrival",
-  "mmsi": 240075800,
-  "name": "MICHAIL N",
-  "lat": 37.96548,
-  "lon": 23.53017,
-  "time_utc": "2026-09-23T01:54:08+00:00",
-  "text": "MICHAIL N (passenger) arrived at Salamina (Paloukia) at 01:54 UTC."
- },
- {
-  "id": "2026-09-23T01:54:08+00:00-240706900-arrival",
-  "type": "arrival",
-  "mmsi": 240706900,
-  "name": "PILOT BOAT PY73",
-  "lat": 37.937673333333336,
-  "lon": 23.626433333333335,
-  "time_utc": "2026-09-23T01:54:08+00:00",
-  "text": "PILOT BOAT PY73 (special craft) arrived at Piraeus at 01:54 UTC."
- },
- {
-  "id": "2026-09-23T01:54:08+00:00-538011104-anchoring",
-  "type": "anchoring",
-  "mmsi": 538011104,
-  "name": "LYDIA KA",
-  "lat": 37.875276666666664,
-  "lon": 23.54881,
-  "time_utc": "2026-09-23T01:54:08+00:00",
-  "text": "LYDIA KA anchored at Piraeus anchorage at 01:54 UTC."
- },
- {
-  "id": "2026-09-23T01:54:08+00:00-census-Piraeus anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Piraeus anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-09-23T01:54:08+00:00",
-  "text": "7 vessels lying at Piraeus anchorage at 01:54 UTC (up 2 since the previous snapshot)."
- },
- {
-  "id": "2026-09-23T01:54:08+00:00-census-Elefsis Bay anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Elefsis Bay anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-09-23T01:54:08+00:00",
-  "text": "10 vessels lying at Elefsis Bay anchorage at 01:54 UTC (up 4 since the previous snapshot)."
- },
- {
   "id": "2026-09-23T02:11:26+00:00-240601900-arrival",
   "type": "arrival",
   "mmsi": 240601900,
@@ -11028,5 +10948,45 @@
   "lon": null,
   "time_utc": "2026-09-25T01:38:53+00:00",
   "text": "13 vessels lying at Elefsis Bay anchorage at 01:38 UTC (up 4 since the previous snapshot)."
+ },
+ {
+  "id": "2026-09-25T01:54:09+00:00-240053300-arrival",
+  "type": "arrival",
+  "mmsi": 240053300,
+  "name": "STAVROS N",
+  "lat": 37.96552333333333,
+  "lon": 23.530421666666665,
+  "time_utc": "2026-09-25T01:54:09+00:00",
+  "text": "STAVROS N (passenger) arrived at Salamina (Paloukia) at 01:54 UTC."
+ },
+ {
+  "id": "2026-09-25T01:54:09+00:00-311085000-arrival",
+  "type": "arrival",
+  "mmsi": 311085000,
+  "name": "STAR LEGEND",
+  "lat": 37.93978333333334,
+  "lon": 23.635466666666666,
+  "time_utc": "2026-09-25T01:54:09+00:00",
+  "text": "STAR LEGEND (passenger) arrived at Piraeus at 01:54 UTC."
+ },
+ {
+  "id": "2026-09-25T01:54:09+00:00-667001656-anchoring",
+  "type": "anchoring",
+  "mmsi": 667001656,
+  "name": "MARGAUX",
+  "lat": 37.91321000000001,
+  "lon": 23.547283333333333,
+  "time_utc": "2026-09-25T01:54:09+00:00",
+  "text": "MARGAUX (cargo) anchored at Piraeus anchorage at 01:54 UTC."
+ },
+ {
+  "id": "2026-09-25T01:54:09+00:00-census-Piraeus anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Piraeus anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-09-25T01:54:09+00:00",
+  "text": "7 vessels lying at Piraeus anchorage at 01:54 UTC (up 1 since the previous snapshot)."
  }
 ]
