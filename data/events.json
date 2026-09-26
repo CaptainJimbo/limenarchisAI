@@ -1,55 +1,5 @@
 [
  {
-  "id": "2026-09-24T09:34:03+00:00-240576700-arrival",
-  "type": "arrival",
-  "mmsi": 240576700,
-  "name": "AMARYLLIS",
-  "lat": 37.753865000000005,
-  "lon": 23.422295000000002,
-  "time_utc": "2026-09-24T09:34:03+00:00",
-  "text": "AMARYLLIS arrived at Aegina at 09:34 UTC."
- },
- {
-  "id": "2026-09-24T09:34:03+00:00-241469000-departure",
-  "type": "departure",
-  "mmsi": 241469000,
-  "name": "CHRISTOS XXX",
-  "lat": 38.027833333333334,
-  "lon": 23.578866666666666,
-  "time_utc": "2026-09-24T09:34:03+00:00",
-  "text": "CHRISTOS XXX (special craft) departed Elefsina at 09:34 UTC, making 9.5 knots."
- },
- {
-  "id": "2026-09-24T09:34:03+00:00-241803000-departure",
-  "type": "departure",
-  "mmsi": 241803000,
-  "name": "AERO 2 HIGHSPEED",
-  "lat": 37.938563333333335,
-  "lon": 23.624756666666666,
-  "time_utc": "2026-09-24T09:34:03+00:00",
-  "text": "AERO 2 HIGHSPEED (high-speed craft) departed Piraeus at 09:34 UTC, making 10.2 knots."
- },
- {
-  "id": "2026-09-24T09:34:03+00:00-241911000-departure",
-  "type": "departure",
-  "mmsi": 241911000,
-  "name": "CAPTAIN GIANNIS P.",
-  "lat": 37.97536,
-  "lon": 23.54744833333333,
-  "time_utc": "2026-09-24T09:34:03+00:00",
-  "text": "CAPTAIN GIANNIS P. (special craft) departed Perama at 09:34 UTC, making 9.4 knots."
- },
- {
-  "id": "2026-09-24T09:34:03+00:00-538071082-weighed_anchor",
-  "type": "weighed_anchor",
-  "mmsi": 538071082,
-  "name": "MAGNA GRECIA",
-  "lat": 37.958205,
-  "lon": 23.576115,
-  "time_utc": "2026-09-24T09:34:03+00:00",
-  "text": "MAGNA GRECIA (pleasure) weighed anchor at 1 km off Perama at 09:34 UTC and is underway at 3.3 knots."
- },
- {
   "id": "2026-09-24T09:47:35+00:00-237683100-arrival",
   "type": "arrival",
   "mmsi": 237683100,
@@ -11158,5 +11108,55 @@
   "lon": null,
   "time_utc": "2026-09-26T09:30:01+00:00",
   "text": "10 vessels lying at Elefsis Bay anchorage at 09:30 UTC (down 1 since the previous snapshot)."
+ },
+ {
+  "id": "2026-09-26T09:44:47+00:00-212769000-departure",
+  "type": "departure",
+  "mmsi": 212769000,
+  "name": "MAGIC 3",
+  "lat": 37.90474666666667,
+  "lon": 23.600383333333333,
+  "time_utc": "2026-09-26T09:44:47+00:00",
+  "text": "MAGIC 3 (high-speed craft) departed Piraeus at 09:44 UTC, making 31.1 knots."
+ },
+ {
+  "id": "2026-09-26T09:44:47+00:00-237592700-departure",
+  "type": "departure",
+  "mmsi": 237592700,
+  "name": "AIAKOS",
+  "lat": 37.960945,
+  "lon": 23.55037666666667,
+  "time_utc": "2026-09-26T09:44:47+00:00",
+  "text": "AIAKOS (passenger) departed Salamina (Paloukia) at 09:44 UTC, making 10.1 knots."
+ },
+ {
+  "id": "2026-09-26T09:44:47+00:00-241469000-arrival",
+  "type": "arrival",
+  "mmsi": 241469000,
+  "name": "CHRISTOS XXX",
+  "lat": 37.95911666666667,
+  "lon": 23.56201666666667,
+  "time_utc": "2026-09-26T09:44:47+00:00",
+  "text": "CHRISTOS XXX (special craft) arrived at Perama at 09:44 UTC."
+ },
+ {
+  "id": "2026-09-26T09:44:47+00:00-census-Piraeus anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Piraeus anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-09-26T09:44:47+00:00",
+  "text": "8 vessels lying at Piraeus anchorage at 09:44 UTC (down 2 since the previous snapshot)."
+ },
+ {
+  "id": "2026-09-26T09:44:47+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-09-26T09:44:47+00:00",
+  "text": "9 vessels lying at Elefsis Bay anchorage at 09:44 UTC (down 1 since the previous snapshot)."
  }
 ]
