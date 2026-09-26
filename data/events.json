@@ -1,45 +1,5 @@
 [
  {
-  "id": "2026-09-24T20:32:19+00:00-237453600-arrival",
-  "type": "arrival",
-  "mmsi": 237453600,
-  "name": "DIMITRIOS P",
-  "lat": 37.965286666666664,
-  "lon": 23.529745,
-  "time_utc": "2026-09-24T20:32:19+00:00",
-  "text": "DIMITRIOS P (passenger) arrived at Salamina (Paloukia) at 20:32 UTC."
- },
- {
-  "id": "2026-09-24T20:32:19+00:00-240053300-departure",
-  "type": "departure",
-  "mmsi": 240053300,
-  "name": "STAVROS N",
-  "lat": 37.96367166666666,
-  "lon": 23.55582,
-  "time_utc": "2026-09-24T20:32:19+00:00",
-  "text": "STAVROS N (passenger) departed Salamina (Paloukia) at 20:32 UTC, making 2.6 knots."
- },
- {
-  "id": "2026-09-24T20:32:19+00:00-241344000-anchoring",
-  "type": "anchoring",
-  "mmsi": 241344000,
-  "name": "EVIAPETROL V",
-  "lat": 38.02365333333333,
-  "lon": 23.53931833333333,
-  "time_utc": "2026-09-24T20:32:19+00:00",
-  "text": "EVIAPETROL V (tanker) anchored at Elefsina at 20:32 UTC."
- },
- {
-  "id": "2026-09-24T20:32:19+00:00-census-Piraeus anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Piraeus anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-09-24T20:32:19+00:00",
-  "text": "8 vessels lying at Piraeus anchorage at 20:32 UTC (up 1 since the previous snapshot)."
- },
- {
   "id": "2026-09-24T20:47:21+00:00-240707100-arrival",
   "type": "arrival",
   "mmsi": 240707100,
@@ -11348,5 +11308,55 @@
   "lon": null,
   "time_utc": "2026-09-26T20:29:17+00:00",
   "text": "10 vessels lying at Elefsis Bay anchorage at 20:29 UTC (down 1 since the previous snapshot)."
+ },
+ {
+  "id": "2026-09-26T20:44:47+00:00-229140000-departure",
+  "type": "departure",
+  "mmsi": 229140000,
+  "name": "VENTUM MARIS",
+  "lat": 37.860975,
+  "lon": 23.614565000000002,
+  "time_utc": "2026-09-26T20:44:47+00:00",
+  "text": "VENTUM MARIS (pleasure) departed Piraeus at 20:44 UTC, making 12.0 knots."
+ },
+ {
+  "id": "2026-09-26T20:44:47+00:00-237829800-weighed_anchor",
+  "type": "weighed_anchor",
+  "mmsi": 237829800,
+  "name": "AGIOS NIKOLAOS",
+  "lat": 38.03514666666667,
+  "lon": 23.517405,
+  "time_utc": "2026-09-26T20:44:47+00:00",
+  "text": "AGIOS NIKOLAOS (tanker) weighed anchor at 2 km off Elefsina at 20:44 UTC and is underway at 3.3 knots."
+ },
+ {
+  "id": "2026-09-26T20:44:47+00:00-241951000-arrival",
+  "type": "arrival",
+  "mmsi": 241951000,
+  "name": "SVS II",
+  "lat": 37.93820166666667,
+  "lon": 23.62526666666667,
+  "time_utc": "2026-09-26T20:44:47+00:00",
+  "text": "SVS II (tug/tow) arrived at Piraeus at 20:44 UTC."
+ },
+ {
+  "id": "2026-09-26T20:44:47+00:00-census-Piraeus anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Piraeus anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-09-26T20:44:47+00:00",
+  "text": "6 vessels lying at Piraeus anchorage at 20:44 UTC (up 3 since the previous snapshot)."
+ },
+ {
+  "id": "2026-09-26T20:44:47+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-09-26T20:44:47+00:00",
+  "text": "11 vessels lying at Elefsis Bay anchorage at 20:44 UTC (up 1 since the previous snapshot)."
  }
 ]
