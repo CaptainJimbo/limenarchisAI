@@ -1,65 +1,5 @@
 [
  {
-  "id": "2026-09-26T19:07:05+00:00-239617600-departure",
-  "type": "departure",
-  "mmsi": 239617600,
-  "name": "APOSTOLOS M",
-  "lat": 37.959788333333336,
-  "lon": 23.546316666666666,
-  "time_utc": "2026-09-26T19:07:05+00:00",
-  "text": "APOSTOLOS M (passenger) departed Salamina (Paloukia) at 19:07 UTC, making 6.7 knots."
- },
- {
-  "id": "2026-09-26T19:07:05+00:00-239672000-departure",
-  "type": "departure",
-  "mmsi": 239672000,
-  "name": "KISSAMOS",
-  "lat": 37.94441666666667,
-  "lon": 23.636816666666668,
-  "time_utc": "2026-09-26T19:07:05+00:00",
-  "text": "KISSAMOS (passenger) departed Piraeus at 19:07 UTC, making 6.1 knots."
- },
- {
-  "id": "2026-09-26T19:07:05+00:00-240043800-anchoring",
-  "type": "anchoring",
-  "mmsi": 240043800,
-  "name": "ARCHON MICHAIL",
-  "lat": 38.02054,
-  "lon": 23.51906166666667,
-  "time_utc": "2026-09-26T19:07:05+00:00",
-  "text": "ARCHON MICHAIL (tanker) anchored at Elefsis Bay anchorage at 19:07 UTC."
- },
- {
-  "id": "2026-09-26T19:07:05+00:00-248785000-departure",
-  "type": "departure",
-  "mmsi": 248785000,
-  "name": "STAR FLYER",
-  "lat": 37.92234333333333,
-  "lon": 23.609109999999998,
-  "time_utc": "2026-09-26T19:07:05+00:00",
-  "text": "STAR FLYER (passenger) departed Piraeus at 19:07 UTC, making 8.7 knots."
- },
- {
-  "id": "2026-09-26T19:07:05+00:00-census-Piraeus anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Piraeus anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-09-26T19:07:05+00:00",
-  "text": "9 vessels lying at Piraeus anchorage at 19:07 UTC (down 1 since the previous snapshot)."
- },
- {
-  "id": "2026-09-26T19:07:05+00:00-census-Elefsis Bay anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Elefsis Bay anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-09-26T19:07:05+00:00",
-  "text": "16 vessels lying at Elefsis Bay anchorage at 19:07 UTC (up 2 since the previous snapshot)."
- },
- {
   "id": "2026-09-26T19:26:16+00:00-237365500-arrival",
   "type": "arrival",
   "mmsi": 237365500,
@@ -11278,5 +11218,55 @@
   "lon": null,
   "time_utc": "2026-09-28T18:53:26+00:00",
   "text": "17 vessels lying at Elefsis Bay anchorage at 18:53 UTC (up 7 since the previous snapshot)."
+ },
+ {
+  "id": "2026-09-28T19:07:47+00:00-239430000-arrival",
+  "type": "arrival",
+  "mmsi": 239430000,
+  "name": "SUPER JET",
+  "lat": 37.94497833333333,
+  "lon": 23.638896666666668,
+  "time_utc": "2026-09-28T19:07:47+00:00",
+  "text": "SUPER JET arrived at Piraeus at 19:07 UTC."
+ },
+ {
+  "id": "2026-09-28T19:07:47+00:00-239672000-departure",
+  "type": "departure",
+  "mmsi": 239672000,
+  "name": "KISSAMOS",
+  "lat": 37.942750000000004,
+  "lon": 23.635949999999998,
+  "time_utc": "2026-09-28T19:07:47+00:00",
+  "text": "KISSAMOS (passenger) departed Piraeus at 19:07 UTC, making 6.1 knots."
+ },
+ {
+  "id": "2026-09-28T19:07:47+00:00-240031600-arrival",
+  "type": "arrival",
+  "mmsi": 240031600,
+  "name": "PROTOPOROS X",
+  "lat": 37.96563166666667,
+  "lon": 23.530528333333333,
+  "time_utc": "2026-09-28T19:07:47+00:00",
+  "text": "PROTOPOROS X (passenger) arrived at Salamina (Paloukia) at 19:07 UTC."
+ },
+ {
+  "id": "2026-09-28T19:07:47+00:00-census-Piraeus anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Piraeus anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-09-28T19:07:47+00:00",
+  "text": "10 vessels lying at Piraeus anchorage at 19:07 UTC (up 1 since the previous snapshot)."
+ },
+ {
+  "id": "2026-09-28T19:07:47+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-09-28T19:07:47+00:00",
+  "text": "15 vessels lying at Elefsis Bay anchorage at 19:07 UTC (down 2 since the previous snapshot)."
  }
 ]
