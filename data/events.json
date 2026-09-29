@@ -1,35 +1,5 @@
 [
  {
-  "id": "2026-09-27T19:26:19+00:00-210746000-arrival",
-  "type": "arrival",
-  "mmsi": 210746000,
-  "name": "AERO 5 HIGHSPEED",
-  "lat": 37.942978333333336,
-  "lon": 23.641305,
-  "time_utc": "2026-09-27T19:26:19+00:00",
-  "text": "AERO 5 HIGHSPEED (high-speed craft) arrived at Piraeus at 19:26 UTC."
- },
- {
-  "id": "2026-09-27T19:26:19+00:00-237562900-departure",
-  "type": "departure",
-  "mmsi": 237562900,
-  "name": "AGIOS ELEFTHERIOS IV",
-  "lat": 37.960116666666664,
-  "lon": 23.545666666666666,
-  "time_utc": "2026-09-27T19:26:19+00:00",
-  "text": "AGIOS ELEFTHERIOS IV (passenger) departed Salamina (Paloukia) at 19:26 UTC, making 6.5 knots."
- },
- {
-  "id": "2026-09-27T19:26:19+00:00-239458100-arrival",
-  "type": "arrival",
-  "mmsi": 239458100,
-  "name": "AG NIKOLAOS L",
-  "lat": 37.96552333333333,
-  "lon": 23.530278333333335,
-  "time_utc": "2026-09-27T19:26:19+00:00",
-  "text": "AG NIKOLAOS L (passenger) arrived at Salamina (Paloukia) at 19:26 UTC."
- },
- {
   "id": "2026-09-27T19:43:36+00:00-237746400-arrival",
   "type": "arrival",
   "mmsi": 237746400,
@@ -12178,5 +12148,45 @@
   "lon": null,
   "time_utc": "2026-09-29T19:07:20+00:00",
   "text": "15 vessels lying at Elefsis Bay anchorage at 19:07 UTC (down 2 since the previous snapshot)."
+ },
+ {
+  "id": "2026-09-29T19:30:51+00:00-240235400-arrival",
+  "type": "arrival",
+  "mmsi": 240235400,
+  "name": "OMIROS 2",
+  "lat": 37.505808333333334,
+  "lon": 23.463128333333334,
+  "time_utc": "2026-09-29T19:30:51+00:00",
+  "text": "OMIROS 2 (sailing) arrived at Poros at 19:30 UTC."
+ },
+ {
+  "id": "2026-09-29T19:30:51+00:00-240685000-departure",
+  "type": "departure",
+  "mmsi": 240685000,
+  "name": "ELYROS",
+  "lat": 37.92928666666667,
+  "lon": 23.61059,
+  "time_utc": "2026-09-29T19:30:51+00:00",
+  "text": "ELYROS (passenger) departed Piraeus at 19:30 UTC, making 13.2 knots."
+ },
+ {
+  "id": "2026-09-29T19:30:51+00:00-518101009-anchoring",
+  "type": "anchoring",
+  "mmsi": 518101009,
+  "name": "RASHA",
+  "lat": 37.67389333333333,
+  "lon": 23.476383333333334,
+  "time_utc": "2026-09-29T19:30:51+00:00",
+  "text": "RASHA (pleasure) anchored at open water (37.674, 23.476) at 19:30 UTC."
+ },
+ {
+  "id": "2026-09-29T19:30:51+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-09-29T19:30:51+00:00",
+  "text": "16 vessels lying at Elefsis Bay anchorage at 19:30 UTC (up 1 since the previous snapshot)."
  }
 ]
