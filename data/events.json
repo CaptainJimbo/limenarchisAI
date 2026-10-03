@@ -1,55 +1,5 @@
 [
  {
-  "id": "2026-09-30T23:46:36+00:00-237746400-arrival",
-  "type": "arrival",
-  "mmsi": 237746400,
-  "name": "THEOMITOR",
-  "lat": 37.965286666666664,
-  "lon": 23.52971,
-  "time_utc": "2026-09-30T23:46:36+00:00",
-  "text": "THEOMITOR (passenger) arrived at Salamina (Paloukia) at 23:46 UTC."
- },
- {
-  "id": "2026-09-30T23:46:36+00:00-239780000-departure",
-  "type": "departure",
-  "mmsi": 239780000,
-  "name": "HARMONY G",
-  "lat": 37.509009999999996,
-  "lon": 23.4348,
-  "time_utc": "2026-09-30T23:46:36+00:00",
-  "text": "HARMONY G (passenger) departed Poros at 23:46 UTC, making 6.5 knots."
- },
- {
-  "id": "2026-09-30T23:46:36+00:00-240043800-anchoring",
-  "type": "anchoring",
-  "mmsi": 240043800,
-  "name": "ARCHON MICHAIL",
-  "lat": 38.02727166666667,
-  "lon": 23.579508333333333,
-  "time_utc": "2026-09-30T23:46:36+00:00",
-  "text": "ARCHON MICHAIL (tanker) anchored at 4 km off Elefsina at 23:46 UTC."
- },
- {
-  "id": "2026-09-30T23:46:36+00:00-census-Piraeus anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Piraeus anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-09-30T23:46:36+00:00",
-  "text": "7 vessels lying at Piraeus anchorage at 23:46 UTC (up 1 since the previous snapshot)."
- },
- {
-  "id": "2026-09-30T23:46:36+00:00-census-Elefsis Bay anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Elefsis Bay anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-09-30T23:46:36+00:00",
-  "text": "17 vessels lying at Elefsis Bay anchorage at 23:46 UTC (up 2 since the previous snapshot)."
- },
- {
   "id": "2026-10-01T00:24:41+00:00-census-Piraeus anchorage",
   "type": "anchorage_census",
   "mmsi": null,
@@ -9528,5 +9478,45 @@
   "lon": null,
   "time_utc": "2026-10-02T23:44:49+00:00",
   "text": "15 vessels lying at Elefsis Bay anchorage at 23:44 UTC (up 3 since the previous snapshot)."
+ },
+ {
+  "id": "2026-10-03T00:19:33+00:00-240937000-departure",
+  "type": "departure",
+  "mmsi": 240937000,
+  "name": "HARMONY V",
+  "lat": 37.922405000000005,
+  "lon": 23.648723333333333,
+  "time_utc": "2026-10-03T00:19:33+00:00",
+  "text": "HARMONY V (passenger) departed Piraeus at 00:19 UTC, making 7.9 knots."
+ },
+ {
+  "id": "2026-10-03T00:19:33+00:00-309163000-arrival",
+  "type": "arrival",
+  "mmsi": 309163000,
+  "name": "WIND STAR",
+  "lat": 37.938023333333334,
+  "lon": 23.624283333333334,
+  "time_utc": "2026-10-03T00:19:33+00:00",
+  "text": "WIND STAR (passenger) arrived at Piraeus at 00:19 UTC."
+ },
+ {
+  "id": "2026-10-03T00:19:33+00:00-census-Piraeus anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Piraeus anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-10-03T00:19:33+00:00",
+  "text": "2 vessels lying at Piraeus anchorage at 00:19 UTC (down 3 since the previous snapshot)."
+ },
+ {
+  "id": "2026-10-03T00:19:33+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-10-03T00:19:33+00:00",
+  "text": "12 vessels lying at Elefsis Bay anchorage at 00:19 UTC (down 3 since the previous snapshot)."
  }
 ]
