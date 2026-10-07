@@ -1,35 +1,5 @@
 [
  {
-  "id": "2026-10-05T01:23:29+00:00-241087000-departure",
-  "type": "departure",
-  "mmsi": 241087000,
-  "name": "BLUE STAR DELOS",
-  "lat": 37.85872166666666,
-  "lon": 23.653951666666668,
-  "time_utc": "2026-10-05T01:23:29+00:00",
-  "text": "BLUE STAR DELOS (passenger) departed Piraeus at 01:23 UTC, making 23.4 knots."
- },
- {
-  "id": "2026-10-05T01:23:29+00:00-census-Piraeus anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Piraeus anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-10-05T01:23:29+00:00",
-  "text": "2 vessels lying at Piraeus anchorage at 01:23 UTC (down 5 since the previous snapshot)."
- },
- {
-  "id": "2026-10-05T01:23:29+00:00-census-Elefsis Bay anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Elefsis Bay anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-10-05T01:23:29+00:00",
-  "text": "7 vessels lying at Elefsis Bay anchorage at 01:23 UTC (down 3 since the previous snapshot)."
- },
- {
   "id": "2026-10-05T02:07:06+00:00-212912000-departure",
   "type": "departure",
   "mmsi": 212912000,
@@ -12078,5 +12048,55 @@
   "lon": null,
   "time_utc": "2026-10-07T01:21:05+00:00",
   "text": "11 vessels lying at Elefsis Bay anchorage at 01:21 UTC (down 3 since the previous snapshot)."
+ },
+ {
+  "id": "2026-10-07T01:51:58+00:00-215176000-anchoring",
+  "type": "anchoring",
+  "mmsi": 215176000,
+  "name": "GABRIEL A",
+  "lat": 37.902116666666664,
+  "lon": 23.554765,
+  "time_utc": "2026-10-07T01:51:58+00:00",
+  "text": "GABRIEL A anchored at Piraeus anchorage at 01:51 UTC."
+ },
+ {
+  "id": "2026-10-07T01:51:58+00:00-239719900-arrival",
+  "type": "arrival",
+  "mmsi": 239719900,
+  "name": "ANTIGONE",
+  "lat": 37.94457,
+  "lon": 23.642363333333332,
+  "time_utc": "2026-10-07T01:51:58+00:00",
+  "text": "ANTIGONE (passenger) arrived at Piraeus at 01:51 UTC."
+ },
+ {
+  "id": "2026-10-07T01:51:58+00:00-256235000-arrival",
+  "type": "arrival",
+  "mmsi": 256235000,
+  "name": "MEIN SCHIFF 5",
+  "lat": 37.93720833333334,
+  "lon": 23.624343333333336,
+  "time_utc": "2026-10-07T01:51:58+00:00",
+  "text": "MEIN SCHIFF 5 (passenger) arrived at Piraeus at 01:51 UTC."
+ },
+ {
+  "id": "2026-10-07T01:51:58+00:00-census-Piraeus anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Piraeus anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-10-07T01:51:58+00:00",
+  "text": "14 vessels lying at Piraeus anchorage at 01:51 UTC (up 6 since the previous snapshot)."
+ },
+ {
+  "id": "2026-10-07T01:51:58+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-10-07T01:51:58+00:00",
+  "text": "13 vessels lying at Elefsis Bay anchorage at 01:51 UTC (up 2 since the previous snapshot)."
  }
 ]
