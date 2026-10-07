@@ -1,405 +1,5 @@
 [
  {
-  "id": "2026-10-05T14:52:56+00:00-237008100-departure",
-  "type": "departure",
-  "mmsi": 237008100,
-  "name": "POSEIDONAS",
-  "lat": 37.749736666666664,
-  "lon": 23.415525,
-  "time_utc": "2026-10-05T14:52:56+00:00",
-  "text": "POSEIDONAS (passenger) departed Aegina at 14:52 UTC, making 11.1 knots."
- },
- {
-  "id": "2026-10-05T14:52:56+00:00-237453600-arrival",
-  "type": "arrival",
-  "mmsi": 237453600,
-  "name": "DIMITRIOS P",
-  "lat": 37.965286666666664,
-  "lon": 23.529780000000002,
-  "time_utc": "2026-10-05T14:52:56+00:00",
-  "text": "DIMITRIOS P (passenger) arrived at Salamina (Paloukia) at 14:52 UTC."
- },
- {
-  "id": "2026-10-05T14:52:56+00:00-237932700-departure",
-  "type": "departure",
-  "mmsi": 237932700,
-  "name": "ATHINA P",
-  "lat": 37.95912833333333,
-  "lon": 23.53998,
-  "time_utc": "2026-10-05T14:52:56+00:00",
-  "text": "ATHINA P (passenger) departed Salamina (Paloukia) at 14:52 UTC, making 6.7 knots."
- },
- {
-  "id": "2026-10-05T14:52:56+00:00-239808200-weighed_anchor",
-  "type": "weighed_anchor",
-  "mmsi": 239808200,
-  "name": "LEON",
-  "lat": 38.03013,
-  "lon": 23.50075,
-  "time_utc": "2026-10-05T14:52:56+00:00",
-  "text": "LEON (special craft) weighed anchor at Elefsis Bay anchorage at 14:52 UTC and is underway at 3.4 knots."
- },
- {
-  "id": "2026-10-05T14:52:56+00:00-239923000-departure",
-  "type": "departure",
-  "mmsi": 239923000,
-  "name": "BLUE STAR NAXOS",
-  "lat": 37.93549666666667,
-  "lon": 23.615695000000002,
-  "time_utc": "2026-10-05T14:52:56+00:00",
-  "text": "BLUE STAR NAXOS (passenger) departed Piraeus at 14:52 UTC, making 15.9 knots."
- },
- {
-  "id": "2026-10-05T14:52:56+00:00-240085300-arrival",
-  "type": "arrival",
-  "mmsi": 240085300,
-  "name": "",
-  "lat": 37.26156666666667,
-  "lon": 23.164933333333334,
-  "time_utc": "2026-10-05T14:52:56+00:00",
-  "text": "MMSI 240085300 (pleasure) arrived at Spetses at 14:52 UTC."
- },
- {
-  "id": "2026-10-05T14:52:56+00:00-240679200-arrival",
-  "type": "arrival",
-  "mmsi": 240679200,
-  "name": "KOS46CAT12",
-  "lat": 37.323526666666666,
-  "lon": 23.144675,
-  "time_utc": "2026-10-05T14:52:56+00:00",
-  "text": "KOS46CAT12 arrived at Porto Heli at 14:52 UTC."
- },
- {
-  "id": "2026-10-05T14:52:56+00:00-241816000-weighed_anchor",
-  "type": "weighed_anchor",
-  "mmsi": 241816000,
-  "name": "NEPTUNE ETHOS",
-  "lat": 38.03053666666666,
-  "lon": 23.499466666666667,
-  "time_utc": "2026-10-05T14:52:56+00:00",
-  "text": "NEPTUNE ETHOS weighed anchor at Elefsis Bay anchorage at 14:52 UTC and is underway at 2.3 knots."
- },
- {
-  "id": "2026-10-05T14:52:56+00:00-241872000-arrival",
-  "type": "arrival",
-  "mmsi": 241872000,
-  "name": "VERNICOS SCAFI III",
-  "lat": 37.94001333333333,
-  "lon": 23.636353333333332,
-  "time_utc": "2026-10-05T14:52:56+00:00",
-  "text": "VERNICOS SCAFI III (special craft) arrived at Piraeus at 14:52 UTC."
- },
- {
-  "id": "2026-10-05T14:52:56+00:00-241925000-arrival",
-  "type": "arrival",
-  "mmsi": 241925000,
-  "name": "CHRISTOS 73",
-  "lat": 37.95883333333334,
-  "lon": 23.563346666666668,
-  "time_utc": "2026-10-05T14:52:56+00:00",
-  "text": "CHRISTOS 73 (special craft) arrived at Perama at 14:52 UTC."
- },
- {
-  "id": "2026-10-05T14:52:56+00:00-275049149-arrival",
-  "type": "arrival",
-  "mmsi": 275049149,
-  "name": "LOJA SEPTINI",
-  "lat": 37.38591666666667,
-  "lon": 23.249325,
-  "time_utc": "2026-10-05T14:52:56+00:00",
-  "text": "LOJA SEPTINI arrived at Ermioni at 14:52 UTC."
- },
- {
-  "id": "2026-10-05T14:52:56+00:00-census-Piraeus anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Piraeus anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-10-05T14:52:56+00:00",
-  "text": "9 vessels lying at Piraeus anchorage at 14:52 UTC (down 2 since the previous snapshot)."
- },
- {
-  "id": "2026-10-05T14:52:56+00:00-census-Elefsis Bay anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Elefsis Bay anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-10-05T14:52:56+00:00",
-  "text": "8 vessels lying at Elefsis Bay anchorage at 14:52 UTC (down 1 since the previous snapshot)."
- },
- {
-  "id": "2026-10-05T15:09:09+00:00-210746000-departure",
-  "type": "departure",
-  "mmsi": 210746000,
-  "name": "AERO 5 HIGHSPEED",
-  "lat": 37.921573333333335,
-  "lon": 23.61148166666667,
-  "time_utc": "2026-10-05T15:09:09+00:00",
-  "text": "AERO 5 HIGHSPEED (high-speed craft) departed Piraeus at 15:09 UTC, making 29.1 knots."
- },
- {
-  "id": "2026-10-05T15:09:09+00:00-215731000-arrival",
-  "type": "arrival",
-  "mmsi": 215731000,
-  "name": "LUNA BLU",
-  "lat": 37.96176166666667,
-  "lon": 23.56699166666667,
-  "time_utc": "2026-10-05T15:09:09+00:00",
-  "text": "LUNA BLU arrived at Perama at 15:09 UTC."
- },
- {
-  "id": "2026-10-05T15:09:09+00:00-237808200-departure",
-  "type": "departure",
-  "mmsi": 237808200,
-  "name": "PHIVOS",
-  "lat": 37.895833333333336,
-  "lon": 23.578500000000002,
-  "time_utc": "2026-10-05T15:09:09+00:00",
-  "text": "PHIVOS (passenger) departed Piraeus at 15:09 UTC, making 14.6 knots."
- },
- {
-  "id": "2026-10-05T15:09:09+00:00-237955000-departure",
-  "type": "departure",
-  "mmsi": 237955000,
-  "name": "FAST FERRIES ANDROS",
-  "lat": 38.00751833333334,
-  "lon": 24.098253333333332,
-  "time_utc": "2026-10-05T15:09:09+00:00",
-  "text": "FAST FERRIES ANDROS (passenger) departed Rafina at 15:09 UTC, making 19.3 knots."
- },
- {
-  "id": "2026-10-05T15:09:09+00:00-240191100-arrival",
-  "type": "arrival",
-  "mmsi": 240191100,
-  "name": "GLYKOFILOUSA VIII",
-  "lat": 37.96594,
-  "lon": 23.53075,
-  "time_utc": "2026-10-05T15:09:09+00:00",
-  "text": "GLYKOFILOUSA VIII (passenger) arrived at Salamina (Paloukia) at 15:09 UTC."
- },
- {
-  "id": "2026-10-05T15:09:09+00:00-240491200-anchoring",
-  "type": "anchoring",
-  "mmsi": 240491200,
-  "name": "VALIUM 55",
-  "lat": 37.30285,
-  "lon": 23.139701666666667,
-  "time_utc": "2026-10-05T15:09:09+00:00",
-  "text": "VALIUM 55 (sailing) anchored at 2 km off Porto Heli at 15:09 UTC."
- },
- {
-  "id": "2026-10-05T15:09:09+00:00-240623200-arrival",
-  "type": "arrival",
-  "mmsi": 240623200,
-  "name": "SEABARIT LX",
-  "lat": 37.261473333333335,
-  "lon": 23.165043333333333,
-  "time_utc": "2026-10-05T15:09:09+00:00",
-  "text": "SEABARIT LX (sailing) arrived at Spetses at 15:09 UTC."
- },
- {
-  "id": "2026-10-05T15:09:09+00:00-240676200-arrival",
-  "type": "arrival",
-  "mmsi": 240676200,
-  "name": "NERIDA",
-  "lat": 37.38367166666667,
-  "lon": 23.245456666666666,
-  "time_utc": "2026-10-05T15:09:09+00:00",
-  "text": "NERIDA (sailing) arrived at Ermioni at 15:09 UTC."
- },
- {
-  "id": "2026-10-05T15:09:09+00:00-256972000-arrival",
-  "type": "arrival",
-  "mmsi": 256972000,
-  "name": "PROMETHEUS I",
-  "lat": 37.26175666666666,
-  "lon": 23.164628333333333,
-  "time_utc": "2026-10-05T15:09:09+00:00",
-  "text": "PROMETHEUS I (pleasure) arrived at Spetses at 15:09 UTC."
- },
- {
-  "id": "2026-10-05T15:09:09+00:00-319260300-departure",
-  "type": "departure",
-  "mmsi": 319260300,
-  "name": "SEE FORWARD",
-  "lat": 37.741841666666666,
-  "lon": 23.427265,
-  "time_utc": "2026-10-05T15:09:09+00:00",
-  "text": "SEE FORWARD (pleasure) departed Aegina at 15:09 UTC, making 2.9 knots."
- },
- {
-  "id": "2026-10-05T15:09:09+00:00-census-Piraeus anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Piraeus anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-10-05T15:09:09+00:00",
-  "text": "8 vessels lying at Piraeus anchorage at 15:09 UTC (down 1 since the previous snapshot)."
- },
- {
-  "id": "2026-10-05T15:09:09+00:00-census-Elefsis Bay anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Elefsis Bay anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-10-05T15:09:09+00:00",
-  "text": "11 vessels lying at Elefsis Bay anchorage at 15:09 UTC (up 3 since the previous snapshot)."
- },
- {
-  "id": "2026-10-05T15:35:26+00:00-237955000-arrival",
-  "type": "arrival",
-  "mmsi": 237955000,
-  "name": "FAST FERRIES ANDROS",
-  "lat": 38.02395,
-  "lon": 24.012133333333335,
-  "time_utc": "2026-10-05T15:35:26+00:00",
-  "text": "FAST FERRIES ANDROS (passenger) arrived at Rafina at 15:35 UTC."
- },
- {
-  "id": "2026-10-05T15:35:26+00:00-239710000-departure",
-  "type": "departure",
-  "mmsi": 239710000,
-  "name": "BLUE STAR 1",
-  "lat": 37.821000000000005,
-  "lon": 23.622166666666665,
-  "time_utc": "2026-10-05T15:35:26+00:00",
-  "text": "BLUE STAR 1 (passenger) departed Piraeus at 15:35 UTC, making 23.0 knots."
- },
- {
-  "id": "2026-10-05T15:35:26+00:00-239808200-arrival",
-  "type": "arrival",
-  "mmsi": 239808200,
-  "name": "LEON",
-  "lat": 38.033348333333336,
-  "lon": 23.54117,
-  "time_utc": "2026-10-05T15:35:26+00:00",
-  "text": "LEON (special craft) arrived at Elefsina at 15:35 UTC."
- },
- {
-  "id": "2026-10-05T15:35:26+00:00-240191100-departure",
-  "type": "departure",
-  "mmsi": 240191100,
-  "name": "GLYKOFILOUSA VIII",
-  "lat": 37.95995333333334,
-  "lon": 23.535913333333333,
-  "time_utc": "2026-10-05T15:35:26+00:00",
-  "text": "GLYKOFILOUSA VIII (passenger) departed Salamina (Paloukia) at 15:35 UTC, making 7.3 knots."
- },
- {
-  "id": "2026-10-05T15:35:26+00:00-240445700-arrival",
-  "type": "arrival",
-  "mmsi": 240445700,
-  "name": "AGIO",
-  "lat": 37.259985,
-  "lon": 23.165795,
-  "time_utc": "2026-10-05T15:35:26+00:00",
-  "text": "AGIO arrived at Spetses at 15:35 UTC."
- },
- {
-  "id": "2026-10-05T15:35:26+00:00-240671400-arrival",
-  "type": "arrival",
-  "mmsi": 240671400,
-  "name": "OKIALOS",
-  "lat": 37.74518666666667,
-  "lon": 23.424950000000003,
-  "time_utc": "2026-10-05T15:35:26+00:00",
-  "text": "OKIALOS (passenger) arrived at Aegina at 15:35 UTC."
- },
- {
-  "id": "2026-10-05T15:35:26+00:00-240673500-arrival",
-  "type": "arrival",
-  "mmsi": 240673500,
-  "name": "ZALINA",
-  "lat": 37.74521333333333,
-  "lon": 23.428086666666665,
-  "time_utc": "2026-10-05T15:35:26+00:00",
-  "text": "ZALINA arrived at Aegina at 15:35 UTC."
- },
- {
-  "id": "2026-10-05T15:35:26+00:00-241133000-departure",
-  "type": "departure",
-  "mmsi": 241133000,
-  "name": "PANORAMA",
-  "lat": 38.02527833333333,
-  "lon": 24.019545,
-  "time_utc": "2026-10-05T15:35:26+00:00",
-  "text": "PANORAMA (passenger) departed Rafina at 15:35 UTC, making 13.0 knots."
- },
- {
-  "id": "2026-10-05T15:35:26+00:00-241803000-arrival",
-  "type": "arrival",
-  "mmsi": 241803000,
-  "name": "AERO 2 HIGHSPEED",
-  "lat": 37.94286666666667,
-  "lon": 23.641869999999997,
-  "time_utc": "2026-10-05T15:35:26+00:00",
-  "text": "AERO 2 HIGHSPEED (high-speed craft) arrived at Piraeus at 15:35 UTC."
- },
- {
-  "id": "2026-10-05T15:35:26+00:00-241873000-weighed_anchor",
-  "type": "weighed_anchor",
-  "mmsi": 241873000,
-  "name": "SEAMMETRY",
-  "lat": 37.31173,
-  "lon": 23.130445,
-  "time_utc": "2026-10-05T15:35:26+00:00",
-  "text": "SEAMMETRY weighed anchor at 2 km off Porto Heli at 15:35 UTC and is underway at 7.4 knots."
- },
- {
-  "id": "2026-10-05T15:35:26+00:00-256424000-departure",
-  "type": "departure",
-  "mmsi": 256424000,
-  "name": "ATHENA",
-  "lat": 37.77312833333334,
-  "lon": 23.40666333333333,
-  "time_utc": "2026-10-05T15:35:26+00:00",
-  "text": "ATHENA (passenger) departed Aegina at 15:35 UTC, making 10.3 knots."
- },
- {
-  "id": "2026-10-05T15:35:26+00:00-259044200-arrival",
-  "type": "arrival",
-  "mmsi": 259044200,
-  "name": "S/Y AMARONE",
-  "lat": 37.38556166666667,
-  "lon": 23.249546666666667,
-  "time_utc": "2026-10-05T15:35:26+00:00",
-  "text": "S/Y AMARONE arrived at Ermioni at 15:35 UTC."
- },
- {
-  "id": "2026-10-05T15:35:26+00:00-261000478-arrival",
-  "type": "arrival",
-  "mmsi": 261000478,
-  "name": "HORIZON",
-  "lat": 37.74520833333334,
-  "lon": 23.429236666666668,
-  "time_utc": "2026-10-05T15:35:26+00:00",
-  "text": "HORIZON arrived at Aegina at 15:35 UTC."
- },
- {
-  "id": "2026-10-05T15:35:26+00:00-census-Piraeus anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Piraeus anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-10-05T15:35:26+00:00",
-  "text": "10 vessels lying at Piraeus anchorage at 15:35 UTC (up 2 since the previous snapshot)."
- },
- {
-  "id": "2026-10-05T15:35:26+00:00-census-Elefsis Bay anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Elefsis Bay anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-10-05T15:35:26+00:00",
-  "text": "12 vessels lying at Elefsis Bay anchorage at 15:35 UTC (up 1 since the previous snapshot)."
- },
- {
   "id": "2026-10-05T15:50:51+00:00-210658000-arrival",
   "type": "arrival",
   "mmsi": 210658000,
@@ -12388,5 +11988,195 @@
   "lon": null,
   "time_utc": "2026-10-07T14:49:56+00:00",
   "text": "20 vessels lying at Elefsis Bay anchorage at 14:49 UTC (up 1 since the previous snapshot)."
+ },
+ {
+  "id": "2026-10-07T15:42:02+00:00-229104000-arrival",
+  "type": "arrival",
+  "mmsi": 229104000,
+  "name": "ANTHEYA III",
+  "lat": 37.745545,
+  "lon": 23.428576666666668,
+  "time_utc": "2026-10-07T15:42:02+00:00",
+  "text": "ANTHEYA III arrived at Aegina at 15:42 UTC."
+ },
+ {
+  "id": "2026-10-07T15:42:02+00:00-232914949-arrival",
+  "type": "arrival",
+  "mmsi": 232914949,
+  "name": "ELENTARI",
+  "lat": 37.261786666666666,
+  "lon": 23.166016666666668,
+  "time_utc": "2026-10-07T15:42:02+00:00",
+  "text": "ELENTARI (pleasure) arrived at Spetses at 15:42 UTC."
+ },
+ {
+  "id": "2026-10-07T15:42:02+00:00-237013400-departure",
+  "type": "departure",
+  "mmsi": 237013400,
+  "name": "COSMOS",
+  "lat": 37.77121666666667,
+  "lon": 23.424801666666667,
+  "time_utc": "2026-10-07T15:42:02+00:00",
+  "text": "COSMOS (passenger) departed Aegina at 15:42 UTC, making 12.3 knots."
+ },
+ {
+  "id": "2026-10-07T15:42:02+00:00-237019100-departure",
+  "type": "departure",
+  "mmsi": 237019100,
+  "name": "ANNA II",
+  "lat": 37.854164999999995,
+  "lon": 23.30689,
+  "time_utc": "2026-10-07T15:42:02+00:00",
+  "text": "ANNA II (passenger) departed Aegina at 15:42 UTC, making 10.7 knots."
+ },
+ {
+  "id": "2026-10-07T15:42:02+00:00-239710000-departure",
+  "type": "departure",
+  "mmsi": 239710000,
+  "name": "BLUE STAR 1",
+  "lat": 37.767500000000005,
+  "lon": 23.6515,
+  "time_utc": "2026-10-07T15:42:02+00:00",
+  "text": "BLUE STAR 1 (passenger) departed Piraeus at 15:42 UTC, making 22.5 knots."
+ },
+ {
+  "id": "2026-10-07T15:42:02+00:00-240043800-weighed_anchor",
+  "type": "weighed_anchor",
+  "mmsi": 240043800,
+  "name": "ARCHON MICHAIL",
+  "lat": 38.01301,
+  "lon": 23.530428333333337,
+  "time_utc": "2026-10-07T15:42:02+00:00",
+  "text": "ARCHON MICHAIL (tanker) weighed anchor at Elefsis Bay anchorage at 15:42 UTC and is underway at 6.8 knots."
+ },
+ {
+  "id": "2026-10-07T15:42:02+00:00-240186100-arrival",
+  "type": "arrival",
+  "mmsi": 240186100,
+  "name": "THALASSA",
+  "lat": 37.262370000000004,
+  "lon": 23.16574166666667,
+  "time_utc": "2026-10-07T15:42:02+00:00",
+  "text": "THALASSA (pleasure) arrived at Spetses at 15:42 UTC."
+ },
+ {
+  "id": "2026-10-07T15:42:02+00:00-240235400-departure",
+  "type": "departure",
+  "mmsi": 240235400,
+  "name": "OMIROS 2",
+  "lat": 37.40749,
+  "lon": 22.971981666666668,
+  "time_utc": "2026-10-07T15:42:02+00:00",
+  "text": "OMIROS 2 (sailing) departed Porto Heli at 15:42 UTC, making 7.9 knots."
+ },
+ {
+  "id": "2026-10-07T15:42:02+00:00-240313300-arrival",
+  "type": "arrival",
+  "mmsi": 240313300,
+  "name": "SPEED CAT 1",
+  "lat": 37.943025,
+  "lon": 23.642703333333333,
+  "time_utc": "2026-10-07T15:42:02+00:00",
+  "text": "SPEED CAT 1 (high-speed craft) arrived at Piraeus at 15:42 UTC."
+ },
+ {
+  "id": "2026-10-07T15:42:02+00:00-240584500-weighed_anchor",
+  "type": "weighed_anchor",
+  "mmsi": 240584500,
+  "name": "CHRISTOS XXXI",
+  "lat": 37.980199999999996,
+  "lon": 23.545133333333336,
+  "time_utc": "2026-10-07T15:42:02+00:00",
+  "text": "CHRISTOS XXXI (special craft) weighed anchor at Elefsis Bay anchorage at 15:42 UTC and is underway at 6.4 knots."
+ },
+ {
+  "id": "2026-10-07T15:42:02+00:00-240671400-arrival",
+  "type": "arrival",
+  "mmsi": 240671400,
+  "name": "OKIALOS",
+  "lat": 37.74520666666667,
+  "lon": 23.424965,
+  "time_utc": "2026-10-07T15:42:02+00:00",
+  "text": "OKIALOS (passenger) arrived at Aegina at 15:42 UTC."
+ },
+ {
+  "id": "2026-10-07T15:42:02+00:00-240871000-arrival",
+  "type": "arrival",
+  "mmsi": 240871000,
+  "name": "ECOBREEZE",
+  "lat": 38.03725333333333,
+  "lon": 23.53313166666667,
+  "time_utc": "2026-10-07T15:42:02+00:00",
+  "text": "ECOBREEZE (tanker) arrived at Elefsina at 15:42 UTC."
+ },
+ {
+  "id": "2026-10-07T15:42:02+00:00-241863000-anchoring",
+  "type": "anchoring",
+  "mmsi": 241863000,
+  "name": "KEDROS",
+  "lat": 37.909663333333334,
+  "lon": 23.080381666666664,
+  "time_utc": "2026-10-07T15:42:02+00:00",
+  "text": "KEDROS (special craft) anchored at 7 km off Corinth Canal (Isthmia) at 15:42 UTC."
+ },
+ {
+  "id": "2026-10-07T15:42:02+00:00-257944000-departure",
+  "type": "departure",
+  "mmsi": 257944000,
+  "name": "VIKING VESTA",
+  "lat": 37.89297,
+  "lon": 23.608615,
+  "time_utc": "2026-10-07T15:42:02+00:00",
+  "text": "VIKING VESTA (passenger) departed Piraeus at 15:42 UTC, making 12.2 knots."
+ },
+ {
+  "id": "2026-10-07T15:42:02+00:00-268253704-departure",
+  "type": "departure",
+  "mmsi": 268253704,
+  "name": "CELINE",
+  "lat": 38.020734999999995,
+  "lon": 23.54324,
+  "time_utc": "2026-10-07T15:42:02+00:00",
+  "text": "CELINE (cargo) departed Elefsina at 15:42 UTC, making 8.0 knots."
+ },
+ {
+  "id": "2026-10-07T15:42:02+00:00-308908000-departure",
+  "type": "departure",
+  "mmsi": 308908000,
+  "name": "SEADREAM 1",
+  "lat": 37.857906666666665,
+  "lon": 23.608836666666665,
+  "time_utc": "2026-10-07T15:42:02+00:00",
+  "text": "SEADREAM 1 (passenger) departed Piraeus at 15:42 UTC, making 8.6 knots."
+ },
+ {
+  "id": "2026-10-07T15:42:02+00:00-311002056-anchoring",
+  "type": "anchoring",
+  "mmsi": 311002056,
+  "name": "LEMANIA",
+  "lat": 38.019553333333334,
+  "lon": 23.530593333333336,
+  "time_utc": "2026-10-07T15:42:02+00:00",
+  "text": "LEMANIA (tanker) anchored at 2 km off Elefsina at 15:42 UTC."
+ },
+ {
+  "id": "2026-10-07T15:42:02+00:00-census-Piraeus anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Piraeus anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-10-07T15:42:02+00:00",
+  "text": "5 vessels lying at Piraeus anchorage at 15:42 UTC (down 3 since the previous snapshot)."
+ },
+ {
+  "id": "2026-10-07T15:42:02+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-10-07T15:42:02+00:00",
+  "text": "13 vessels lying at Elefsis Bay anchorage at 15:42 UTC (down 7 since the previous snapshot)."
  }
 ]
