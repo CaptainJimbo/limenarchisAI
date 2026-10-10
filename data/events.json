@@ -1,55 +1,5 @@
 [
  {
-  "id": "2026-10-08T19:31:37+00:00-239780000-departure",
-  "type": "departure",
-  "mmsi": 239780000,
-  "name": "HARMONY G",
-  "lat": 37.78956,
-  "lon": 23.445185,
-  "time_utc": "2026-10-08T19:31:37+00:00",
-  "text": "HARMONY G (passenger) departed Aegina at 19:31 UTC, making 7.9 knots."
- },
- {
-  "id": "2026-10-08T19:31:37+00:00-240042300-arrival",
-  "type": "arrival",
-  "mmsi": 240042300,
-  "name": "PROTOPOROS XIII",
-  "lat": 37.965450000000004,
-  "lon": 23.5301,
-  "time_utc": "2026-10-08T19:31:37+00:00",
-  "text": "PROTOPOROS XIII (passenger) arrived at Salamina (Paloukia) at 19:31 UTC."
- },
- {
-  "id": "2026-10-08T19:31:37+00:00-240787100-arrival",
-  "type": "arrival",
-  "mmsi": 240787100,
-  "name": "AUGUST",
-  "lat": 37.504176666666666,
-  "lon": 23.461975,
-  "time_utc": "2026-10-08T19:31:37+00:00",
-  "text": "AUGUST (sailing) arrived at Poros at 19:31 UTC."
- },
- {
-  "id": "2026-10-08T19:31:37+00:00-241442000-anchoring",
-  "type": "anchoring",
-  "mmsi": 241442000,
-  "name": "PANTANASSA",
-  "lat": 38.03592666666667,
-  "lon": 23.506668333333334,
-  "time_utc": "2026-10-08T19:31:37+00:00",
-  "text": "PANTANASSA (special craft) anchored at Elefsis Bay anchorage at 19:31 UTC."
- },
- {
-  "id": "2026-10-08T19:31:37+00:00-census-Elefsis Bay anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Elefsis Bay anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-10-08T19:31:37+00:00",
-  "text": "21 vessels lying at Elefsis Bay anchorage at 19:31 UTC (down 1 since the previous snapshot)."
- },
- {
   "id": "2026-10-08T19:48:43+00:00-240042300-departure",
   "type": "departure",
   "mmsi": 240042300,
@@ -12828,5 +12778,65 @@
   "lon": null,
   "time_utc": "2026-10-10T19:28:05+00:00",
   "text": "15 vessels lying at Elefsis Bay anchorage at 19:28 UTC (down 3 since the previous snapshot)."
+ },
+ {
+  "id": "2026-10-10T19:45:23+00:00-240029700-arrival",
+  "type": "arrival",
+  "mmsi": 240029700,
+  "name": "ALPHA",
+  "lat": 37.744881666666664,
+  "lon": 23.428281666666667,
+  "time_utc": "2026-10-10T19:45:23+00:00",
+  "text": "ALPHA (sailing) arrived at Aegina at 19:45 UTC."
+ },
+ {
+  "id": "2026-10-10T19:45:23+00:00-240053300-arrival",
+  "type": "arrival",
+  "mmsi": 240053300,
+  "name": "STAVROS N",
+  "lat": 37.965628333333335,
+  "lon": 23.530465,
+  "time_utc": "2026-10-10T19:45:23+00:00",
+  "text": "STAVROS N (passenger) arrived at Salamina (Paloukia) at 19:45 UTC."
+ },
+ {
+  "id": "2026-10-10T19:45:23+00:00-241911000-weighed_anchor",
+  "type": "weighed_anchor",
+  "mmsi": 241911000,
+  "name": "CAPTAIN GIANNIS P.",
+  "lat": 38.02314166666667,
+  "lon": 23.572433333333333,
+  "time_utc": "2026-10-10T19:45:23+00:00",
+  "text": "CAPTAIN GIANNIS P. (special craft) weighed anchor at Elefsis Bay anchorage at 19:45 UTC and is underway at 3.6 knots."
+ },
+ {
+  "id": "2026-10-10T19:45:23+00:00-248217000-anchoring",
+  "type": "anchoring",
+  "mmsi": 248217000,
+  "name": "O'MATHILDE",
+  "lat": 37.8018,
+  "lon": 23.780366666666666,
+  "time_utc": "2026-10-10T19:45:23+00:00",
+  "text": "O'MATHILDE (pleasure) anchored at open water (37.802, 23.780) at 19:45 UTC."
+ },
+ {
+  "id": "2026-10-10T19:45:23+00:00-249069000-departure",
+  "type": "departure",
+  "mmsi": 249069000,
+  "name": "ARETHUSA",
+  "lat": 37.88684666666666,
+  "lon": 23.598791666666667,
+  "time_utc": "2026-10-10T19:45:23+00:00",
+  "text": "ARETHUSA (passenger) departed Piraeus at 19:45 UTC, making 10.6 knots."
+ },
+ {
+  "id": "2026-10-10T19:45:23+00:00-census-Piraeus anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Piraeus anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-10-10T19:45:23+00:00",
+  "text": "10 vessels lying at Piraeus anchorage at 19:45 UTC (up 3 since the previous snapshot)."
  }
 ]
