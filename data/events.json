@@ -1,25 +1,5 @@
 [
  {
-  "id": "2026-10-08T23:08:17+00:00-240042300-departure",
-  "type": "departure",
-  "mmsi": 240042300,
-  "name": "PROTOPOROS XIII",
-  "lat": 37.960233333333335,
-  "lon": 23.550316666666667,
-  "time_utc": "2026-10-08T23:08:17+00:00",
-  "text": "PROTOPOROS XIII (passenger) departed Salamina (Paloukia) at 23:08 UTC, making 7.5 knots."
- },
- {
-  "id": "2026-10-08T23:08:17+00:00-census-Piraeus anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Piraeus anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-10-08T23:08:17+00:00",
-  "text": "6 vessels lying at Piraeus anchorage at 23:08 UTC (down 2 since the previous snapshot)."
- },
- {
   "id": "2026-10-08T23:31:11+00:00-210746000-arrival",
   "type": "arrival",
   "mmsi": 210746000,
@@ -12928,5 +12908,45 @@
   "lon": null,
   "time_utc": "2026-10-10T23:07:49+00:00",
   "text": "18 vessels lying at Elefsis Bay anchorage at 23:07 UTC (up 3 since the previous snapshot)."
+ },
+ {
+  "id": "2026-10-10T23:30:01+00:00-237818200-departure",
+  "type": "departure",
+  "mmsi": 237818200,
+  "name": "FANEROMENI",
+  "lat": 37.96489999999999,
+  "lon": 23.529948333333333,
+  "time_utc": "2026-10-10T23:30:01+00:00",
+  "text": "FANEROMENI (passenger) departed Salamina (Paloukia) at 23:30 UTC, making 3.2 knots."
+ },
+ {
+  "id": "2026-10-10T23:30:01+00:00-241192800-weighed_anchor",
+  "type": "weighed_anchor",
+  "mmsi": 241192800,
+  "name": "CAPTAIN VAGGELIS Z",
+  "lat": 38.03566,
+  "lon": 23.508678333333332,
+  "time_utc": "2026-10-10T23:30:01+00:00",
+  "text": "CAPTAIN VAGGELIS Z (tug/tow) weighed anchor at Elefsis Bay anchorage at 23:30 UTC and is underway at 3.6 knots."
+ },
+ {
+  "id": "2026-10-10T23:30:01+00:00-census-Piraeus anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Piraeus anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-10-10T23:30:01+00:00",
+  "text": "9 vessels lying at Piraeus anchorage at 23:30 UTC (up 1 since the previous snapshot)."
+ },
+ {
+  "id": "2026-10-10T23:30:01+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-10-10T23:30:01+00:00",
+  "text": "17 vessels lying at Elefsis Bay anchorage at 23:30 UTC (down 1 since the previous snapshot)."
  }
 ]
