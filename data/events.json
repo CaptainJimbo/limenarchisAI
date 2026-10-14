@@ -1,75 +1,5 @@
 [
  {
-  "id": "2026-10-12T18:40:34+00:00-237296900-departure",
-  "type": "departure",
-  "mmsi": 237296900,
-  "name": "EVGENIA",
-  "lat": 37.284305,
-  "lon": 23.13139333333333,
-  "time_utc": "2026-10-12T18:40:34+00:00",
-  "text": "EVGENIA departed Spetses at 18:40 UTC, making 7.6 knots."
- },
- {
-  "id": "2026-10-12T18:40:34+00:00-237453600-arrival",
-  "type": "arrival",
-  "mmsi": 237453600,
-  "name": "DIMITRIOS P",
-  "lat": 37.963013333333336,
-  "lon": 23.525801666666666,
-  "time_utc": "2026-10-12T18:40:34+00:00",
-  "text": "DIMITRIOS P (passenger) arrived at Salamina (Paloukia) at 18:40 UTC."
- },
- {
-  "id": "2026-10-12T18:40:34+00:00-237622300-departure",
-  "type": "departure",
-  "mmsi": 237622300,
-  "name": "THEOTOKOS",
-  "lat": 37.961371666666665,
-  "lon": 23.550933333333333,
-  "time_utc": "2026-10-12T18:40:34+00:00",
-  "text": "THEOTOKOS (passenger) departed Salamina (Paloukia) at 18:40 UTC, making 4.7 knots."
- },
- {
-  "id": "2026-10-12T18:40:34+00:00-241527000-arrival",
-  "type": "arrival",
-  "mmsi": 241527000,
-  "name": "MEGALOCHARI  VII",
-  "lat": 38.03267166666667,
-  "lon": 23.54099666666667,
-  "time_utc": "2026-10-12T18:40:34+00:00",
-  "text": "MEGALOCHARI  VII (special craft) arrived at Elefsina at 18:40 UTC."
- },
- {
-  "id": "2026-10-12T18:40:34+00:00-241803000-arrival",
-  "type": "arrival",
-  "mmsi": 241803000,
-  "name": "AERO 2 HIGHSPEED",
-  "lat": 37.94295666666667,
-  "lon": 23.641336666666668,
-  "time_utc": "2026-10-12T18:40:34+00:00",
-  "text": "AERO 2 HIGHSPEED (high-speed craft) arrived at Piraeus at 18:40 UTC."
- },
- {
-  "id": "2026-10-12T18:40:34+00:00-census-Piraeus anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Piraeus anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-10-12T18:40:34+00:00",
-  "text": "10 vessels lying at Piraeus anchorage at 18:40 UTC (down 1 since the previous snapshot)."
- },
- {
-  "id": "2026-10-12T18:40:34+00:00-census-Elefsis Bay anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Elefsis Bay anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-10-12T18:40:34+00:00",
-  "text": "13 vessels lying at Elefsis Bay anchorage at 18:40 UTC (down 3 since the previous snapshot)."
- },
- {
   "id": "2026-10-12T18:56:45+00:00-240053300-arrival",
   "type": "arrival",
   "mmsi": 240053300,
@@ -9048,5 +8978,55 @@
   "lon": null,
   "time_utc": "2026-10-14T18:38:40+00:00",
   "text": "14 vessels lying at Elefsis Bay anchorage at 18:38 UTC (down 6 since the previous snapshot)."
+ },
+ {
+  "id": "2026-10-14T18:51:55+00:00-237365500-departure",
+  "type": "departure",
+  "mmsi": 237365500,
+  "name": "ALEXANDROS M",
+  "lat": 37.959363333333336,
+  "lon": 23.547978333333333,
+  "time_utc": "2026-10-14T18:51:55+00:00",
+  "text": "ALEXANDROS M (passenger) departed Salamina (Paloukia) at 18:51 UTC, making 6.2 knots."
+ },
+ {
+  "id": "2026-10-14T18:51:55+00:00-239546200-departure",
+  "type": "departure",
+  "mmsi": 239546200,
+  "name": "KONSTANTINOS K",
+  "lat": 37.960474999999995,
+  "lon": 23.550588333333334,
+  "time_utc": "2026-10-14T18:51:55+00:00",
+  "text": "KONSTANTINOS K (passenger) departed Salamina (Paloukia) at 18:51 UTC, making 9.5 knots."
+ },
+ {
+  "id": "2026-10-14T18:51:55+00:00-314300000-weighed_anchor",
+  "type": "weighed_anchor",
+  "mmsi": 314300000,
+  "name": "SAN LUKA",
+  "lat": 37.863974999999996,
+  "lon": 23.55453333333333,
+  "time_utc": "2026-10-14T18:51:55+00:00",
+  "text": "SAN LUKA (cargo) weighed anchor at Piraeus anchorage at 18:51 UTC and is underway at 5.5 knots."
+ },
+ {
+  "id": "2026-10-14T18:51:55+00:00-census-Piraeus anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Piraeus anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-10-14T18:51:55+00:00",
+  "text": "12 vessels lying at Piraeus anchorage at 18:51 UTC (up 1 since the previous snapshot)."
+ },
+ {
+  "id": "2026-10-14T18:51:55+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-10-14T18:51:55+00:00",
+  "text": "16 vessels lying at Elefsis Bay anchorage at 18:51 UTC (up 2 since the previous snapshot)."
  }
 ]
