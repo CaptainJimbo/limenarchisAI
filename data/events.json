@@ -1,25 +1,5 @@
 [
  {
-  "id": "2026-10-13T20:08:56+00:00-240053300-departure",
-  "type": "departure",
-  "mmsi": 240053300,
-  "name": "STAVROS N",
-  "lat": 37.96028166666667,
-  "lon": 23.549543333333336,
-  "time_utc": "2026-10-13T20:08:56+00:00",
-  "text": "STAVROS N (passenger) departed Salamina (Paloukia) at 20:08 UTC, making 6.2 knots."
- },
- {
-  "id": "2026-10-13T20:08:56+00:00-240584500-arrival",
-  "type": "arrival",
-  "mmsi": 240584500,
-  "name": "CHRISTOS XXXI",
-  "lat": 38.03535,
-  "lon": 23.538583333333335,
-  "time_utc": "2026-10-13T20:08:56+00:00",
-  "text": "CHRISTOS XXXI (special craft) arrived at Elefsina at 20:08 UTC."
- },
- {
   "id": "2026-10-13T20:34:01+00:00-237453600-departure",
   "type": "departure",
   "mmsi": 237453600,
@@ -8828,5 +8808,45 @@
   "lon": null,
   "time_utc": "2026-10-15T20:07:57+00:00",
   "text": "12 vessels lying at Elefsis Bay anchorage at 20:07 UTC (down 3 since the previous snapshot)."
+ },
+ {
+  "id": "2026-10-15T20:29:39+00:00-239617600-departure",
+  "type": "departure",
+  "mmsi": 239617600,
+  "name": "APOSTOLOS M",
+  "lat": 37.961005,
+  "lon": 23.55104,
+  "time_utc": "2026-10-15T20:29:39+00:00",
+  "text": "APOSTOLOS M (passenger) departed Salamina (Paloukia) at 20:29 UTC, making 7.5 knots."
+ },
+ {
+  "id": "2026-10-15T20:29:39+00:00-239672000-departure",
+  "type": "departure",
+  "mmsi": 239672000,
+  "name": "KISSAMOS",
+  "lat": 37.93738333333333,
+  "lon": 23.620316666666668,
+  "time_utc": "2026-10-15T20:29:39+00:00",
+  "text": "KISSAMOS (passenger) departed Piraeus at 20:29 UTC, making 12.0 knots."
+ },
+ {
+  "id": "2026-10-15T20:29:39+00:00-538013188-weighed_anchor",
+  "type": "weighed_anchor",
+  "mmsi": 538013188,
+  "name": "CHIOS SPIRIT",
+  "lat": 37.88845,
+  "lon": 23.53155,
+  "time_utc": "2026-10-15T20:29:39+00:00",
+  "text": "CHIOS SPIRIT (cargo) weighed anchor at Piraeus anchorage at 20:29 UTC and is underway at 4.0 knots."
+ },
+ {
+  "id": "2026-10-15T20:29:39+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-10-15T20:29:39+00:00",
+  "text": "10 vessels lying at Elefsis Bay anchorage at 20:29 UTC (down 2 since the previous snapshot)."
  }
 ]
