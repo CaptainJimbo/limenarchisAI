@@ -1,65 +1,5 @@
 [
  {
-  "id": "2026-10-14T03:50:08+00:00-237592700-departure",
-  "type": "departure",
-  "mmsi": 237592700,
-  "name": "AIAKOS",
-  "lat": 37.95928833333333,
-  "lon": 23.540239999999997,
-  "time_utc": "2026-10-14T03:50:08+00:00",
-  "text": "AIAKOS (passenger) departed Salamina (Paloukia) at 03:50 UTC, making 8.0 knots."
- },
- {
-  "id": "2026-10-14T03:50:08+00:00-237818200-departure",
-  "type": "departure",
-  "mmsi": 237818200,
-  "name": "FANEROMENI",
-  "lat": 37.96019166666667,
-  "lon": 23.550463333333333,
-  "time_utc": "2026-10-14T03:50:08+00:00",
-  "text": "FANEROMENI (passenger) departed Salamina (Paloukia) at 03:50 UTC, making 6.9 knots."
- },
- {
-  "id": "2026-10-14T03:50:08+00:00-240711800-arrival",
-  "type": "arrival",
-  "mmsi": 240711800,
-  "name": "PARALOS III",
-  "lat": 37.96572666666667,
-  "lon": 23.530531666666665,
-  "time_utc": "2026-10-14T03:50:08+00:00",
-  "text": "PARALOS III (passenger) arrived at Salamina (Paloukia) at 03:50 UTC."
- },
- {
-  "id": "2026-10-14T03:50:08+00:00-241872000-departure",
-  "type": "departure",
-  "mmsi": 241872000,
-  "name": "VERNICOS SCAFI III",
-  "lat": 37.93561833333333,
-  "lon": 23.62308,
-  "time_utc": "2026-10-14T03:50:08+00:00",
-  "text": "VERNICOS SCAFI III (special craft) departed Piraeus at 03:50 UTC, making 8.2 knots."
- },
- {
-  "id": "2026-10-14T03:50:08+00:00-census-Piraeus anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Piraeus anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-10-14T03:50:08+00:00",
-  "text": "7 vessels lying at Piraeus anchorage at 03:50 UTC (down 2 since the previous snapshot)."
- },
- {
-  "id": "2026-10-14T03:50:08+00:00-census-Elefsis Bay anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Elefsis Bay anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-10-14T03:50:08+00:00",
-  "text": "15 vessels lying at Elefsis Bay anchorage at 03:50 UTC (up 2 since the previous snapshot)."
- },
- {
   "id": "2026-10-14T04:09:42+00:00-237008100-arrival",
   "type": "arrival",
   "mmsi": 237008100,
@@ -8508,5 +8448,75 @@
   "lon": null,
   "time_utc": "2026-10-16T03:36:27+00:00",
   "text": "16 vessels lying at Elefsis Bay anchorage at 03:36 UTC (up 1 since the previous snapshot)."
+ },
+ {
+  "id": "2026-10-16T03:50:14+00:00-239414100-departure",
+  "type": "departure",
+  "mmsi": 239414100,
+  "name": "SALAMINOMAHOS",
+  "lat": 37.959786666666666,
+  "lon": 23.537363333333335,
+  "time_utc": "2026-10-16T03:50:14+00:00",
+  "text": "SALAMINOMAHOS departed Salamina (Paloukia) at 03:50 UTC, making 7.1 knots."
+ },
+ {
+  "id": "2026-10-16T03:50:14+00:00-239981000-arrival",
+  "type": "arrival",
+  "mmsi": 239981000,
+  "name": "AQUA JEWEL",
+  "lat": 37.94804666666666,
+  "lon": 23.638191666666668,
+  "time_utc": "2026-10-16T03:50:14+00:00",
+  "text": "AQUA JEWEL (passenger) arrived at Piraeus at 03:50 UTC."
+ },
+ {
+  "id": "2026-10-16T03:50:14+00:00-240917000-departure",
+  "type": "departure",
+  "mmsi": 240917000,
+  "name": "VERNICOS MASTER",
+  "lat": 37.940630000000006,
+  "lon": 23.629788333333334,
+  "time_utc": "2026-10-16T03:50:14+00:00",
+  "text": "VERNICOS MASTER (special craft) departed Piraeus at 03:50 UTC, making 7.1 knots."
+ },
+ {
+  "id": "2026-10-16T03:50:14+00:00-241585000-departure",
+  "type": "departure",
+  "mmsi": 241585000,
+  "name": "CH.GEMITZOGLOU",
+  "lat": 37.95136166666667,
+  "lon": 23.579558333333335,
+  "time_utc": "2026-10-16T03:50:14+00:00",
+  "text": "CH.GEMITZOGLOU (special craft) departed Piraeus at 03:50 UTC, making 11.1 knots."
+ },
+ {
+  "id": "2026-10-16T03:50:14+00:00-241925000-departure",
+  "type": "departure",
+  "mmsi": 241925000,
+  "name": "CHRISTOS 73",
+  "lat": 37.95733,
+  "lon": 23.55844666666667,
+  "time_utc": "2026-10-16T03:50:14+00:00",
+  "text": "CHRISTOS 73 (special craft) departed Perama at 03:50 UTC, making 6.0 knots."
+ },
+ {
+  "id": "2026-10-16T03:50:14+00:00-352006985-weighed_anchor",
+  "type": "weighed_anchor",
+  "mmsi": 352006985,
+  "name": "SEAVEN DREAM",
+  "lat": 37.90642666666667,
+  "lon": 23.59212,
+  "time_utc": "2026-10-16T03:50:14+00:00",
+  "text": "SEAVEN DREAM weighed anchor at Piraeus anchorage at 03:50 UTC and is underway at 4.2 knots."
+ },
+ {
+  "id": "2026-10-16T03:50:14+00:00-census-Piraeus anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Piraeus anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-10-16T03:50:14+00:00",
+  "text": "13 vessels lying at Piraeus anchorage at 03:50 UTC (up 2 since the previous snapshot)."
  }
 ]
