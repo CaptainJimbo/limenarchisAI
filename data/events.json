@@ -1,15 +1,5 @@
 [
  {
-  "id": "2026-10-15T22:07:52+00:00-239780000-arrival",
-  "type": "arrival",
-  "mmsi": 239780000,
-  "name": "HARMONY G",
-  "lat": 37.93319833333333,
-  "lon": 23.650238333333334,
-  "time_utc": "2026-10-15T22:07:52+00:00",
-  "text": "HARMONY G (passenger) arrived at Piraeus at 22:07 UTC."
- },
- {
   "id": "2026-10-15T22:30:10+00:00-210052000-arrival",
   "type": "arrival",
   "mmsi": 210052000,
@@ -11228,5 +11218,35 @@
   "lon": null,
   "time_utc": "2026-10-17T22:07:07+00:00",
   "text": "19 vessels lying at Piraeus anchorage at 22:07 UTC (up 1 since the previous snapshot)."
+ },
+ {
+  "id": "2026-10-17T22:26:57+00:00-237296900-arrival",
+  "type": "arrival",
+  "mmsi": 237296900,
+  "name": "EVGENIA",
+  "lat": 37.26824,
+  "lon": 23.15697,
+  "time_utc": "2026-10-17T22:26:57+00:00",
+  "text": "EVGENIA (cargo) arrived at Spetses at 22:26 UTC."
+ },
+ {
+  "id": "2026-10-17T22:26:57+00:00-354198000-anchoring",
+  "type": "anchoring",
+  "mmsi": 354198000,
+  "name": "EPSILON SEA",
+  "lat": 38.02187,
+  "lon": 23.521951666666666,
+  "time_utc": "2026-10-17T22:26:57+00:00",
+  "text": "EPSILON SEA (tanker) anchored at 2 km off Elefsina at 22:26 UTC."
+ },
+ {
+  "id": "2026-10-17T22:26:57+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-10-17T22:26:57+00:00",
+  "text": "20 vessels lying at Elefsis Bay anchorage at 22:26 UTC (up 6 since the previous snapshot)."
  }
 ]
