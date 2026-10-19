@@ -1,75 +1,5 @@
 [
  {
-  "id": "2026-10-17T18:45:44+00:00-240711800-arrival",
-  "type": "arrival",
-  "mmsi": 240711800,
-  "name": "PARALOS III",
-  "lat": 37.965156666666665,
-  "lon": 23.529576666666667,
-  "time_utc": "2026-10-17T18:45:44+00:00",
-  "text": "PARALOS III (passenger) arrived at Salamina (Paloukia) at 18:45 UTC."
- },
- {
-  "id": "2026-10-17T18:45:44+00:00-240752500-arrival",
-  "type": "arrival",
-  "mmsi": 240752500,
-  "name": "CHRISTIANNA XV",
-  "lat": 37.745305,
-  "lon": 23.42921,
-  "time_utc": "2026-10-17T18:45:44+00:00",
-  "text": "CHRISTIANNA XV (pleasure) arrived at Aegina at 18:45 UTC."
- },
- {
-  "id": "2026-10-17T18:45:44+00:00-240897000-departure",
-  "type": "departure",
-  "mmsi": 240897000,
-  "name": "AEGEAN ACE",
-  "lat": 37.942465,
-  "lon": 23.60907166666667,
-  "time_utc": "2026-10-17T18:45:44+00:00",
-  "text": "AEGEAN ACE (tanker) departed Piraeus at 18:45 UTC, making 9.5 knots."
- },
- {
-  "id": "2026-10-17T18:45:44+00:00-518100927-anchoring",
-  "type": "anchoring",
-  "mmsi": 518100927,
-  "name": "PHOTON",
-  "lat": 37.294025000000005,
-  "lon": 23.20034666666667,
-  "time_utc": "2026-10-17T18:45:44+00:00",
-  "text": "PHOTON (pleasure) anchored at 5 km off Spetses at 18:45 UTC."
- },
- {
-  "id": "2026-10-17T18:45:44+00:00-538011715-anchoring",
-  "type": "anchoring",
-  "mmsi": 538011715,
-  "name": "PACIFIC PRIDE",
-  "lat": 38.01616166666667,
-  "lon": 23.52903,
-  "time_utc": "2026-10-17T18:45:44+00:00",
-  "text": "PACIFIC PRIDE (tanker) anchored at 2 km off Elefsina at 18:45 UTC."
- },
- {
-  "id": "2026-10-17T18:45:44+00:00-636025917-weighed_anchor",
-  "type": "weighed_anchor",
-  "mmsi": 636025917,
-  "name": "LOUROS",
-  "lat": 37.885353333333335,
-  "lon": 23.537595,
-  "time_utc": "2026-10-17T18:45:44+00:00",
-  "text": "LOUROS (tanker) weighed anchor at Piraeus anchorage at 18:45 UTC and is underway at 2.1 knots."
- },
- {
-  "id": "2026-10-17T18:45:44+00:00-census-Piraeus anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Piraeus anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-10-17T18:45:44+00:00",
-  "text": "15 vessels lying at Piraeus anchorage at 18:45 UTC (up 1 since the previous snapshot)."
- },
- {
   "id": "2026-10-17T19:06:38+00:00-240711800-departure",
   "type": "departure",
   "mmsi": 240711800,
@@ -10718,5 +10648,45 @@
   "lon": null,
   "time_utc": "2026-10-19T18:39:10+00:00",
   "text": "11 vessels lying at Elefsis Bay anchorage at 18:39 UTC (up 2 since the previous snapshot)."
+ },
+ {
+  "id": "2026-10-19T18:53:28+00:00-240804100-departure",
+  "type": "departure",
+  "mmsi": 240804100,
+  "name": "ORION IV",
+  "lat": 37.95905166666667,
+  "lon": 23.542261666666665,
+  "time_utc": "2026-10-19T18:53:28+00:00",
+  "text": "ORION IV (passenger) departed Salamina (Paloukia) at 18:53 UTC, making 6.6 knots."
+ },
+ {
+  "id": "2026-10-19T18:53:28+00:00-319015100-anchoring",
+  "type": "anchoring",
+  "mmsi": 319015100,
+  "name": "SUNRAYS",
+  "lat": 37.79913166666667,
+  "lon": 23.782085,
+  "time_utc": "2026-10-19T18:53:28+00:00",
+  "text": "SUNRAYS anchored at open water (37.799, 23.782) at 18:53 UTC."
+ },
+ {
+  "id": "2026-10-19T18:53:28+00:00-census-Piraeus anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Piraeus anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-10-19T18:53:28+00:00",
+  "text": "10 vessels lying at Piraeus anchorage at 18:53 UTC (up 4 since the previous snapshot)."
+ },
+ {
+  "id": "2026-10-19T18:53:28+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-10-19T18:53:28+00:00",
+  "text": "14 vessels lying at Elefsis Bay anchorage at 18:53 UTC (up 3 since the previous snapshot)."
  }
 ]
