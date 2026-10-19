@@ -1,75 +1,5 @@
 [
  {
-  "id": "2026-10-17T14:43:41+00:00-232054531-departure",
-  "type": "departure",
-  "mmsi": 232054531,
-  "name": "NOW",
-  "lat": 37.778475,
-  "lon": 23.445085,
-  "time_utc": "2026-10-17T14:43:41+00:00",
-  "text": "NOW departed Aegina at 14:43 UTC, making 9.0 knots."
- },
- {
-  "id": "2026-10-17T14:43:41+00:00-237247600-arrival",
-  "type": "arrival",
-  "mmsi": 237247600,
-  "name": "F/D ATHINA",
-  "lat": 37.94433333333333,
-  "lon": 23.643166666666666,
-  "time_utc": "2026-10-17T14:43:41+00:00",
-  "text": "F/D ATHINA (high-speed craft) arrived at Piraeus at 14:43 UTC."
- },
- {
-  "id": "2026-10-17T14:43:41+00:00-237562900-arrival",
-  "type": "arrival",
-  "mmsi": 237562900,
-  "name": "AGIOS ELEFTHERIOS IV",
-  "lat": 37.96573333333333,
-  "lon": 23.530416666666667,
-  "time_utc": "2026-10-17T14:43:41+00:00",
-  "text": "AGIOS ELEFTHERIOS IV (passenger) arrived at Salamina (Paloukia) at 14:43 UTC."
- },
- {
-  "id": "2026-10-17T14:43:41+00:00-239617600-departure",
-  "type": "departure",
-  "mmsi": 239617600,
-  "name": "APOSTOLOS M",
-  "lat": 37.963523333333335,
-  "lon": 23.555451666666666,
-  "time_utc": "2026-10-17T14:43:41+00:00",
-  "text": "APOSTOLOS M (passenger) departed Salamina (Paloukia) at 14:43 UTC, making 3.0 knots."
- },
- {
-  "id": "2026-10-17T14:43:41+00:00-241803000-arrival",
-  "type": "arrival",
-  "mmsi": 241803000,
-  "name": "AERO 2 HIGHSPEED",
-  "lat": 37.74563333333333,
-  "lon": 23.427116666666667,
-  "time_utc": "2026-10-17T14:43:41+00:00",
-  "text": "AERO 2 HIGHSPEED (high-speed craft) arrived at Aegina at 14:43 UTC."
- },
- {
-  "id": "2026-10-17T14:43:41+00:00-census-Piraeus anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Piraeus anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-10-17T14:43:41+00:00",
-  "text": "15 vessels lying at Piraeus anchorage at 14:43 UTC (up 1 since the previous snapshot)."
- },
- {
-  "id": "2026-10-17T14:43:41+00:00-census-Elefsis Bay anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Elefsis Bay anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-10-17T14:43:41+00:00",
-  "text": "14 vessels lying at Elefsis Bay anchorage at 14:43 UTC (down 3 since the previous snapshot)."
- },
- {
   "id": "2026-10-17T15:06:52+00:00-210741000-departure",
   "type": "departure",
   "mmsi": 210741000,
@@ -10818,5 +10748,65 @@
   "lon": null,
   "time_utc": "2026-10-19T14:33:43+00:00",
   "text": "12 vessels lying at Elefsis Bay anchorage at 14:33 UTC (up 1 since the previous snapshot)."
+ },
+ {
+  "id": "2026-10-19T14:49:35+00:00-210658000-departure",
+  "type": "departure",
+  "mmsi": 210658000,
+  "name": "MAGIC 5",
+  "lat": 37.79496833333334,
+  "lon": 23.462208333333333,
+  "time_utc": "2026-10-19T14:49:35+00:00",
+  "text": "MAGIC 5 (high-speed craft) departed Aegina at 14:49 UTC, making 27.5 knots."
+ },
+ {
+  "id": "2026-10-19T14:49:35+00:00-235088641-weighed_anchor",
+  "type": "weighed_anchor",
+  "mmsi": 235088641,
+  "name": "REVE D'OR",
+  "lat": 37.640633333333334,
+  "lon": 23.186658333333334,
+  "time_utc": "2026-10-19T14:49:35+00:00",
+  "text": "REVE D'OR (pleasure) weighed anchor at open water (37.641, 23.163) at 14:49 UTC and is underway at 10.3 knots."
+ },
+ {
+  "id": "2026-10-19T14:49:35+00:00-239056300-departure",
+  "type": "departure",
+  "mmsi": 239056300,
+  "name": "ACHAEOS",
+  "lat": 37.75549,
+  "lon": 23.415763333333334,
+  "time_utc": "2026-10-19T14:49:35+00:00",
+  "text": "ACHAEOS (passenger) departed Aegina at 14:49 UTC, making 13.6 knots."
+ },
+ {
+  "id": "2026-10-19T14:49:35+00:00-240381000-arrival",
+  "type": "arrival",
+  "mmsi": 240381000,
+  "name": "PANDION",
+  "lat": 37.35126,
+  "lon": 23.465875,
+  "time_utc": "2026-10-19T14:49:35+00:00",
+  "text": "PANDION (pleasure) arrived at Hydra at 14:49 UTC."
+ },
+ {
+  "id": "2026-10-19T14:49:35+00:00-240871000-weighed_anchor",
+  "type": "weighed_anchor",
+  "mmsi": 240871000,
+  "name": "ECOBREEZE",
+  "lat": 38.032711666666664,
+  "lon": 23.530618333333333,
+  "time_utc": "2026-10-19T14:49:35+00:00",
+  "text": "ECOBREEZE (tanker) weighed anchor at Elefsis Bay anchorage at 14:49 UTC and is underway at 4.6 knots."
+ },
+ {
+  "id": "2026-10-19T14:49:35+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-10-19T14:49:35+00:00",
+  "text": "11 vessels lying at Elefsis Bay anchorage at 14:49 UTC (down 1 since the previous snapshot)."
  }
 ]
