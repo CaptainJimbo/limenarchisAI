@@ -1,75 +1,5 @@
 [
  {
-  "id": "2026-10-18T17:26:43+00:00-239005400-departure",
-  "type": "departure",
-  "mmsi": 239005400,
-  "name": "MATOULA K",
-  "lat": 37.96360833333333,
-  "lon": 23.556171666666668,
-  "time_utc": "2026-10-18T17:26:43+00:00",
-  "text": "MATOULA K (passenger) departed Salamina (Paloukia) at 17:26 UTC, making 2.4 knots."
- },
- {
-  "id": "2026-10-18T17:26:43+00:00-239924000-arrival",
-  "type": "arrival",
-  "mmsi": 239924000,
-  "name": "BLUE STAR PAROS",
-  "lat": 37.94683333333333,
-  "lon": 23.64046666666667,
-  "time_utc": "2026-10-18T17:26:43+00:00",
-  "text": "BLUE STAR PAROS (passenger) arrived at Piraeus at 17:26 UTC."
- },
- {
-  "id": "2026-10-18T17:26:43+00:00-240098600-arrival",
-  "type": "arrival",
-  "mmsi": 240098600,
-  "name": "PROTOPOROS XIV",
-  "lat": 37.965133333333334,
-  "lon": 23.529666666666667,
-  "time_utc": "2026-10-18T17:26:43+00:00",
-  "text": "PROTOPOROS XIV (passenger) arrived at Salamina (Paloukia) at 17:26 UTC."
- },
- {
-  "id": "2026-10-18T17:26:43+00:00-241972000-arrival",
-  "type": "arrival",
-  "mmsi": 241972000,
-  "name": "REA",
-  "lat": 38.03541,
-  "lon": 23.53855666666667,
-  "time_utc": "2026-10-18T17:26:43+00:00",
-  "text": "REA (special craft) arrived at Elefsina at 17:26 UTC."
- },
- {
-  "id": "2026-10-18T17:26:43+00:00-255806155-anchoring",
-  "type": "anchoring",
-  "mmsi": 255806155,
-  "name": "NORDROSE",
-  "lat": 37.85853833333333,
-  "lon": 23.516056666666667,
-  "time_utc": "2026-10-18T17:26:43+00:00",
-  "text": "NORDROSE (tanker) anchored at open water (37.859, 23.516) at 17:26 UTC."
- },
- {
-  "id": "2026-10-18T17:26:43+00:00-271050337-weighed_anchor",
-  "type": "weighed_anchor",
-  "mmsi": 271050337,
-  "name": "CUMHURIYET",
-  "lat": 37.88045,
-  "lon": 23.511796666666665,
-  "time_utc": "2026-10-18T17:26:43+00:00",
-  "text": "CUMHURIYET (tanker) weighed anchor at Piraeus anchorage at 17:26 UTC and is underway at 7.7 knots."
- },
- {
-  "id": "2026-10-18T17:26:43+00:00-census-Piraeus anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Piraeus anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-10-18T17:26:43+00:00",
-  "text": "11 vessels lying at Piraeus anchorage at 17:26 UTC (up 1 since the previous snapshot)."
- },
- {
   "id": "2026-10-18T17:43:20+00:00-237247600-arrival",
   "type": "arrival",
   "mmsi": 237247600,
@@ -10798,5 +10728,45 @@
   "lon": null,
   "time_utc": "2026-10-20T17:10:13+00:00",
   "text": "14 vessels lying at Elefsis Bay anchorage at 17:10 UTC (up 2 since the previous snapshot)."
+ },
+ {
+  "id": "2026-10-20T17:30:32+00:00-240191100-arrival",
+  "type": "arrival",
+  "mmsi": 240191100,
+  "name": "GLYKOFILOUSA VIII",
+  "lat": 37.96597666666666,
+  "lon": 23.530733333333334,
+  "time_utc": "2026-10-20T17:30:32+00:00",
+  "text": "GLYKOFILOUSA VIII (passenger) arrived at Salamina (Paloukia) at 17:30 UTC."
+ },
+ {
+  "id": "2026-10-20T17:30:32+00:00-241597000-anchoring",
+  "type": "anchoring",
+  "mmsi": 241597000,
+  "name": "VASILIKI",
+  "lat": 37.919108333333334,
+  "lon": 23.56289,
+  "time_utc": "2026-10-20T17:30:32+00:00",
+  "text": "VASILIKI (tanker) anchored at Piraeus anchorage at 17:30 UTC."
+ },
+ {
+  "id": "2026-10-20T17:30:32+00:00-census-Piraeus anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Piraeus anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-10-20T17:30:32+00:00",
+  "text": "12 vessels lying at Piraeus anchorage at 17:30 UTC (up 3 since the previous snapshot)."
+ },
+ {
+  "id": "2026-10-20T17:30:32+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-10-20T17:30:32+00:00",
+  "text": "12 vessels lying at Elefsis Bay anchorage at 17:30 UTC (down 2 since the previous snapshot)."
  }
 ]
