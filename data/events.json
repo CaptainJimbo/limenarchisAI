@@ -1,45 +1,5 @@
 [
  {
-  "id": "2026-10-19T23:07:21+00:00-237687000-arrival",
-  "type": "arrival",
-  "mmsi": 237687000,
-  "name": "PANAGIA",
-  "lat": 38.024885000000005,
-  "lon": 24.010931666666668,
-  "time_utc": "2026-10-19T23:07:21+00:00",
-  "text": "PANAGIA (fishing) arrived at Rafina at 23:07 UTC."
- },
- {
-  "id": "2026-10-19T23:07:21+00:00-240599600-anchoring",
-  "type": "anchoring",
-  "mmsi": 240599600,
-  "name": "MYKONOS V",
-  "lat": 38.02495333333333,
-  "lon": 23.513293333333333,
-  "time_utc": "2026-10-19T23:07:21+00:00",
-  "text": "MYKONOS V (cargo) anchored at Elefsis Bay anchorage at 23:07 UTC."
- },
- {
-  "id": "2026-10-19T23:07:21+00:00-241951000-weighed_anchor",
-  "type": "weighed_anchor",
-  "mmsi": 241951000,
-  "name": "SVS II",
-  "lat": 37.943084999999996,
-  "lon": 23.581194999999997,
-  "time_utc": "2026-10-19T23:07:21+00:00",
-  "text": "SVS II (tug/tow) weighed anchor at Piraeus anchorage at 23:07 UTC and is underway at 5.9 knots."
- },
- {
-  "id": "2026-10-19T23:07:21+00:00-census-Piraeus anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Piraeus anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-10-19T23:07:21+00:00",
-  "text": "4 vessels lying at Piraeus anchorage at 23:07 UTC (down 2 since the previous snapshot)."
- },
- {
   "id": "2026-10-19T23:29:38+00:00-census-Piraeus anchorage",
   "type": "anchorage_census",
   "mmsi": null,
@@ -10808,5 +10768,45 @@
   "lon": null,
   "time_utc": "2026-10-21T23:07:13+00:00",
   "text": "9 vessels lying at Piraeus anchorage at 23:07 UTC (down 2 since the previous snapshot)."
+ },
+ {
+  "id": "2026-10-21T23:29:29+00:00-237562900-departure",
+  "type": "departure",
+  "mmsi": 237562900,
+  "name": "AGIOS ELEFTHERIOS IV",
+  "lat": 37.96478333333334,
+  "lon": 23.53035,
+  "time_utc": "2026-10-21T23:29:29+00:00",
+  "text": "AGIOS ELEFTHERIOS IV (passenger) departed Salamina (Paloukia) at 23:29 UTC, making 4.2 knots."
+ },
+ {
+  "id": "2026-10-21T23:29:29+00:00-237818200-arrival",
+  "type": "arrival",
+  "mmsi": 237818200,
+  "name": "FANEROMENI",
+  "lat": 37.96555166666667,
+  "lon": 23.530078333333332,
+  "time_utc": "2026-10-21T23:29:29+00:00",
+  "text": "FANEROMENI (passenger) arrived at Salamina (Paloukia) at 23:29 UTC."
+ },
+ {
+  "id": "2026-10-21T23:29:29+00:00-census-Piraeus anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Piraeus anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-10-21T23:29:29+00:00",
+  "text": "10 vessels lying at Piraeus anchorage at 23:29 UTC (up 1 since the previous snapshot)."
+ },
+ {
+  "id": "2026-10-21T23:29:29+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-10-21T23:29:29+00:00",
+  "text": "16 vessels lying at Elefsis Bay anchorage at 23:29 UTC (up 2 since the previous snapshot)."
  }
 ]
