@@ -1,85 +1,5 @@
 [
  {
-  "id": "2026-10-22T21:29:10+00:00-240075800-arrival",
-  "type": "arrival",
-  "mmsi": 240075800,
-  "name": "MICHAIL N",
-  "lat": 37.96571166666667,
-  "lon": 23.530478333333335,
-  "time_utc": "2026-10-22T21:29:10+00:00",
-  "text": "MICHAIL N (passenger) arrived at Salamina (Paloukia) at 21:29 UTC."
- },
- {
-  "id": "2026-10-22T21:29:10+00:00-241872000-arrival",
-  "type": "arrival",
-  "mmsi": 241872000,
-  "name": "VERNICOS SCAFI III",
-  "lat": 37.93461166666667,
-  "lon": 23.622993333333334,
-  "time_utc": "2026-10-22T21:29:10+00:00",
-  "text": "VERNICOS SCAFI III (special craft) arrived at Piraeus at 21:29 UTC."
- },
- {
-  "id": "2026-10-22T21:29:10+00:00-241972000-departure",
-  "type": "departure",
-  "mmsi": 241972000,
-  "name": "REA",
-  "lat": 38.03077333333333,
-  "lon": 23.525543333333335,
-  "time_utc": "2026-10-22T21:29:10+00:00",
-  "text": "REA (special craft) departed Elefsina at 21:29 UTC, making 5.9 knots."
- },
- {
-  "id": "2026-10-22T21:29:10+00:00-249278000-departure",
-  "type": "departure",
-  "mmsi": 249278000,
-  "name": "GRACE XI",
-  "lat": 37.93915333333334,
-  "lon": 23.65678666666667,
-  "time_utc": "2026-10-22T21:29:10+00:00",
-  "text": "GRACE XI (pleasure) departed Piraeus at 21:29 UTC, making 43.5 knots."
- },
- {
-  "id": "2026-10-22T21:29:10+00:00-249278000-speed_anomaly",
-  "type": "speed_anomaly",
-  "mmsi": 249278000,
-  "name": "GRACE XI",
-  "lat": 37.93915333333334,
-  "lon": 23.65678666666667,
-  "time_utc": "2026-10-22T21:29:10+00:00",
-  "text": "Speed anomaly: GRACE XI (pleasure) recorded at 43.5 knots near 2 km off Piraeus at 21:29 UTC."
- },
- {
-  "id": "2026-10-22T21:29:10+00:00-636025097-weighed_anchor",
-  "type": "weighed_anchor",
-  "mmsi": 636025097,
-  "name": "TROPHY",
-  "lat": 38.012903333333334,
-  "lon": 23.545931666666668,
-  "time_utc": "2026-10-22T21:29:10+00:00",
-  "text": "TROPHY (tanker) weighed anchor at 3 km off Elefsina at 21:29 UTC and is underway at 3.1 knots."
- },
- {
-  "id": "2026-10-22T21:29:10+00:00-census-Piraeus anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Piraeus anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-10-22T21:29:10+00:00",
-  "text": "5 vessels lying at Piraeus anchorage at 21:29 UTC (up 2 since the previous snapshot)."
- },
- {
-  "id": "2026-10-22T21:29:10+00:00-census-Elefsis Bay anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Elefsis Bay anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-10-22T21:29:10+00:00",
-  "text": "13 vessels lying at Elefsis Bay anchorage at 21:29 UTC (up 2 since the previous snapshot)."
- },
- {
   "id": "2026-10-22T21:45:39+00:00-211109450-arrival",
   "type": "arrival",
   "mmsi": 211109450,
@@ -11488,5 +11408,45 @@
   "lon": null,
   "time_utc": "2026-10-24T21:28:42+00:00",
   "text": "17 vessels lying at Elefsis Bay anchorage at 21:28 UTC (up 2 since the previous snapshot)."
+ },
+ {
+  "id": "2026-10-24T21:44:51+00:00-229383000-anchoring",
+  "type": "anchoring",
+  "mmsi": 229383000,
+  "name": "RUNNING ON WAVES",
+  "lat": 37.71882166666667,
+  "lon": 23.435206666666666,
+  "time_utc": "2026-10-24T21:44:51+00:00",
+  "text": "RUNNING ON WAVES (passenger) anchored at 3 km off Aegina at 21:44 UTC."
+ },
+ {
+  "id": "2026-10-24T21:44:51+00:00-241872000-arrival",
+  "type": "arrival",
+  "mmsi": 241872000,
+  "name": "VERNICOS SCAFI III",
+  "lat": 37.93463333333333,
+  "lon": 23.62301666666667,
+  "time_utc": "2026-10-24T21:44:51+00:00",
+  "text": "VERNICOS SCAFI III (special craft) arrived at Piraeus at 21:44 UTC."
+ },
+ {
+  "id": "2026-10-24T21:44:51+00:00-census-Piraeus anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Piraeus anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-10-24T21:44:51+00:00",
+  "text": "10 vessels lying at Piraeus anchorage at 21:44 UTC (up 1 since the previous snapshot)."
+ },
+ {
+  "id": "2026-10-24T21:44:51+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-10-24T21:44:51+00:00",
+  "text": "16 vessels lying at Elefsis Bay anchorage at 21:44 UTC (down 1 since the previous snapshot)."
  }
 ]
