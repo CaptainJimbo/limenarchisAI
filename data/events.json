@@ -1,45 +1,5 @@
 [
  {
-  "id": "2026-10-22T21:08:00+00:00-239710000-arrival",
-  "type": "arrival",
-  "mmsi": 239710000,
-  "name": "BLUE STAR 1",
-  "lat": 37.94116666666666,
-  "lon": 23.631333333333334,
-  "time_utc": "2026-10-22T21:08:00+00:00",
-  "text": "BLUE STAR 1 (passenger) arrived at Piraeus at 21:08 UTC."
- },
- {
-  "id": "2026-10-22T21:08:00+00:00-240042300-departure",
-  "type": "departure",
-  "mmsi": 240042300,
-  "name": "PROTOPOROS XIII",
-  "lat": 37.95973333333333,
-  "lon": 23.547166666666666,
-  "time_utc": "2026-10-22T21:08:00+00:00",
-  "text": "PROTOPOROS XIII (passenger) departed Salamina (Paloukia) at 21:08 UTC, making 7.2 knots."
- },
- {
-  "id": "2026-10-22T21:08:00+00:00-240560000-weighed_anchor",
-  "type": "weighed_anchor",
-  "mmsi": 240560000,
-  "name": "ARCADIA",
-  "lat": 37.406600000000005,
-  "lon": 23.549498333333336,
-  "time_utc": "2026-10-22T21:08:00+00:00",
-  "text": "ARCADIA (tanker) weighed anchor at open water (37.424, 23.513) at 21:08 UTC and is underway at 7.8 knots."
- },
- {
-  "id": "2026-10-22T21:08:00+00:00-census-Piraeus anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Piraeus anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-10-22T21:08:00+00:00",
-  "text": "3 vessels lying at Piraeus anchorage at 21:08 UTC (down 2 since the previous snapshot)."
- },
- {
   "id": "2026-10-22T21:29:10+00:00-240075800-arrival",
   "type": "arrival",
   "mmsi": 240075800,
@@ -11488,5 +11448,45 @@
   "lon": null,
   "time_utc": "2026-10-24T21:07:08+00:00",
   "text": "15 vessels lying at Elefsis Bay anchorage at 21:07 UTC (down 1 since the previous snapshot)."
+ },
+ {
+  "id": "2026-10-24T21:28:42+00:00-240706900-arrival",
+  "type": "arrival",
+  "mmsi": 240706900,
+  "name": "PILOT BOAT PY73",
+  "lat": 37.93787333333333,
+  "lon": 23.626338333333333,
+  "time_utc": "2026-10-24T21:28:42+00:00",
+  "text": "PILOT BOAT PY73 (special craft) arrived at Piraeus at 21:28 UTC."
+ },
+ {
+  "id": "2026-10-24T21:28:42+00:00-538011715-anchoring",
+  "type": "anchoring",
+  "mmsi": 538011715,
+  "name": "PACIFIC PRIDE",
+  "lat": 37.853926666666666,
+  "lon": 23.520635000000002,
+  "time_utc": "2026-10-24T21:28:42+00:00",
+  "text": "PACIFIC PRIDE (tanker) anchored at open water (37.854, 23.521) at 21:28 UTC."
+ },
+ {
+  "id": "2026-10-24T21:28:42+00:00-census-Piraeus anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Piraeus anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-10-24T21:28:42+00:00",
+  "text": "9 vessels lying at Piraeus anchorage at 21:28 UTC (up 2 since the previous snapshot)."
+ },
+ {
+  "id": "2026-10-24T21:28:42+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-10-24T21:28:42+00:00",
+  "text": "17 vessels lying at Elefsis Bay anchorage at 21:28 UTC (up 2 since the previous snapshot)."
  }
 ]
