@@ -1,25 +1,5 @@
 [
  {
-  "id": "2026-10-23T19:29:08+00:00-239672000-departure",
-  "type": "departure",
-  "mmsi": 239672000,
-  "name": "KISSAMOS",
-  "lat": 37.88923333333333,
-  "lon": 23.613733333333336,
-  "time_utc": "2026-10-23T19:29:08+00:00",
-  "text": "KISSAMOS (passenger) departed Piraeus at 19:29 UTC, making 17.3 knots."
- },
- {
-  "id": "2026-10-23T19:29:08+00:00-538012518-anchoring",
-  "type": "anchoring",
-  "mmsi": 538012518,
-  "name": "CHARA",
-  "lat": 38.00942,
-  "lon": 23.579075,
-  "time_utc": "2026-10-23T19:29:08+00:00",
-  "text": "CHARA (tanker) anchored at 5 km off Elefsina at 19:29 UTC."
- },
- {
   "id": "2026-10-23T19:45:32+00:00-240804100-arrival",
   "type": "arrival",
   "mmsi": 240804100,
@@ -11388,5 +11368,15 @@
   "lon": null,
   "time_utc": "2026-10-25T19:25:55+00:00",
   "text": "8 vessels lying at Elefsis Bay anchorage at 19:25 UTC (down 1 since the previous snapshot)."
+ },
+ {
+  "id": "2026-10-25T19:43:22+00:00-census-Piraeus anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Piraeus anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-10-25T19:43:22+00:00",
+  "text": "6 vessels lying at Piraeus anchorage at 19:43 UTC (down 1 since the previous snapshot)."
  }
 ]
