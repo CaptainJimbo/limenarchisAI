@@ -1,55 +1,5 @@
 [
  {
-  "id": "2026-10-23T23:28:53+00:00-240804100-departure",
-  "type": "departure",
-  "mmsi": 240804100,
-  "name": "ORION IV",
-  "lat": 37.964955,
-  "lon": 23.530626666666667,
-  "time_utc": "2026-10-23T23:28:53+00:00",
-  "text": "ORION IV (passenger) departed Salamina (Paloukia) at 23:28 UTC, making 4.8 knots."
- },
- {
-  "id": "2026-10-23T23:28:53+00:00-241442000-anchoring",
-  "type": "anchoring",
-  "mmsi": 241442000,
-  "name": "PANTANASSA",
-  "lat": 38.03592833333333,
-  "lon": 23.506651666666667,
-  "time_utc": "2026-10-23T23:28:53+00:00",
-  "text": "PANTANASSA (special craft) anchored at Elefsis Bay anchorage at 23:28 UTC."
- },
- {
-  "id": "2026-10-23T23:28:53+00:00-248940000-anchoring",
-  "type": "anchoring",
-  "mmsi": 248940000,
-  "name": "SONGA SAPPHIRE",
-  "lat": 37.894506666666665,
-  "lon": 23.553378333333335,
-  "time_utc": "2026-10-23T23:28:53+00:00",
-  "text": "SONGA SAPPHIRE (tanker) anchored at Piraeus anchorage at 23:28 UTC."
- },
- {
-  "id": "2026-10-23T23:28:53+00:00-census-Piraeus anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Piraeus anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-10-23T23:28:53+00:00",
-  "text": "7 vessels lying at Piraeus anchorage at 23:28 UTC (up 1 since the previous snapshot)."
- },
- {
-  "id": "2026-10-23T23:28:53+00:00-census-Elefsis Bay anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Elefsis Bay anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-10-23T23:28:53+00:00",
-  "text": "17 vessels lying at Elefsis Bay anchorage at 23:28 UTC (up 4 since the previous snapshot)."
- },
- {
   "id": "2026-10-23T23:44:41+00:00-239617600-arrival",
   "type": "arrival",
   "mmsi": 239617600,
@@ -11358,5 +11308,35 @@
   "lon": null,
   "time_utc": "2026-10-25T23:27:09+00:00",
   "text": "12 vessels lying at Elefsis Bay anchorage at 23:27 UTC (up 2 since the previous snapshot)."
+ },
+ {
+  "id": "2026-10-25T23:43:25+00:00-238066000-weighed_anchor",
+  "type": "weighed_anchor",
+  "mmsi": 238066000,
+  "name": "IDASSA",
+  "lat": 37.87472833333334,
+  "lon": 23.508963333333334,
+  "time_utc": "2026-10-25T23:43:25+00:00",
+  "text": "IDASSA (tanker) weighed anchor at open water (37.871, 23.513) at 23:43 UTC and is underway at 2.1 knots."
+ },
+ {
+  "id": "2026-10-25T23:43:25+00:00-census-Piraeus anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Piraeus anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-10-25T23:43:25+00:00",
+  "text": "7 vessels lying at Piraeus anchorage at 23:43 UTC (down 1 since the previous snapshot)."
+ },
+ {
+  "id": "2026-10-25T23:43:25+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-10-25T23:43:25+00:00",
+  "text": "13 vessels lying at Elefsis Bay anchorage at 23:43 UTC (up 1 since the previous snapshot)."
  }
 ]
