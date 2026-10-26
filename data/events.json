@@ -1,55 +1,5 @@
 [
  {
-  "id": "2026-10-24T17:27:25+00:00-229383000-departure",
-  "type": "departure",
-  "mmsi": 229383000,
-  "name": "RUNNING ON WAVES",
-  "lat": 37.936915,
-  "lon": 23.617748333333335,
-  "time_utc": "2026-10-24T17:27:25+00:00",
-  "text": "RUNNING ON WAVES (passenger) departed Piraeus at 17:27 UTC, making 7.0 knots."
- },
- {
-  "id": "2026-10-24T17:27:25+00:00-237816200-arrival",
-  "type": "arrival",
-  "mmsi": 237816200,
-  "name": "IOANNIS THIRESIA",
-  "lat": 37.965445,
-  "lon": 23.530123333333332,
-  "time_utc": "2026-10-24T17:27:25+00:00",
-  "text": "IOANNIS THIRESIA (passenger) arrived at Salamina (Paloukia) at 17:27 UTC."
- },
- {
-  "id": "2026-10-24T17:27:25+00:00-240671400-arrival",
-  "type": "arrival",
-  "mmsi": 240671400,
-  "name": "OKIALOS",
-  "lat": 37.944795,
-  "lon": 23.641685,
-  "time_utc": "2026-10-24T17:27:25+00:00",
-  "text": "OKIALOS (passenger) arrived at Piraeus at 17:27 UTC."
- },
- {
-  "id": "2026-10-24T17:27:25+00:00-241972000-arrival",
-  "type": "arrival",
-  "mmsi": 241972000,
-  "name": "REA",
-  "lat": 38.035176666666665,
-  "lon": 23.53688833333333,
-  "time_utc": "2026-10-24T17:27:25+00:00",
-  "text": "REA (special craft) arrived at Elefsina at 17:27 UTC."
- },
- {
-  "id": "2026-10-24T17:27:25+00:00-367176000-anchoring",
-  "type": "anchoring",
-  "mmsi": 367176000,
-  "name": "STENA POLARIS",
-  "lat": 37.88961166666666,
-  "lon": 23.537831666666666,
-  "time_utc": "2026-10-24T17:27:25+00:00",
-  "text": "STENA POLARIS (tanker) anchored at Piraeus anchorage at 17:27 UTC."
- },
- {
   "id": "2026-10-24T17:43:31+00:00-237562900-departure",
   "type": "departure",
   "mmsi": 237562900,
@@ -9698,5 +9648,65 @@
   "lon": null,
   "time_utc": "2026-10-26T17:08:23+00:00",
   "text": "11 vessels lying at Elefsis Bay anchorage at 17:08 UTC (up 1 since the previous snapshot)."
+ },
+ {
+  "id": "2026-10-26T17:31:03+00:00-210741000-departure",
+  "type": "departure",
+  "mmsi": 210741000,
+  "name": "AERO 4 HIGHSPEED",
+  "lat": 37.445575,
+  "lon": 23.55445166666667,
+  "time_utc": "2026-10-26T17:31:03+00:00",
+  "text": "AERO 4 HIGHSPEED (high-speed craft) departed Poros at 17:31 UTC, making 31.6 knots."
+ },
+ {
+  "id": "2026-10-26T17:31:03+00:00-237296900-arrival",
+  "type": "arrival",
+  "mmsi": 237296900,
+  "name": "EVGENIA",
+  "lat": 37.268346666666666,
+  "lon": 23.157073333333337,
+  "time_utc": "2026-10-26T17:31:03+00:00",
+  "text": "EVGENIA (cargo) arrived at Spetses at 17:31 UTC."
+ },
+ {
+  "id": "2026-10-26T17:31:03+00:00-240042300-departure",
+  "type": "departure",
+  "mmsi": 240042300,
+  "name": "PROTOPOROS XIII",
+  "lat": 37.96201666666666,
+  "lon": 23.533133333333335,
+  "time_utc": "2026-10-26T17:31:03+00:00",
+  "text": "PROTOPOROS XIII (passenger) departed Salamina (Paloukia) at 17:31 UTC, making 7.0 knots."
+ },
+ {
+  "id": "2026-10-26T17:31:03+00:00-241835000-arrival",
+  "type": "arrival",
+  "mmsi": 241835000,
+  "name": "ANDROS QUEEN",
+  "lat": 38.024348333333336,
+  "lon": 24.012158333333332,
+  "time_utc": "2026-10-26T17:31:03+00:00",
+  "text": "ANDROS QUEEN (passenger) arrived at Rafina at 17:31 UTC."
+ },
+ {
+  "id": "2026-10-26T17:31:03+00:00-319314800-anchoring",
+  "type": "anchoring",
+  "mmsi": 319314800,
+  "name": "R.DARENBEN",
+  "lat": 37.812733333333334,
+  "lon": 23.809876666666664,
+  "time_utc": "2026-10-26T17:31:03+00:00",
+  "text": "R.DARENBEN (pleasure) anchored at open water (37.813, 23.810) at 17:31 UTC."
+ },
+ {
+  "id": "2026-10-26T17:31:03+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-10-26T17:31:03+00:00",
+  "text": "8 vessels lying at Elefsis Bay anchorage at 17:31 UTC (down 3 since the previous snapshot)."
  }
 ]
