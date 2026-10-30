@@ -1,75 +1,5 @@
 [
  {
-  "id": "2026-10-28T17:06:36+00:00-237001000-arrival",
-  "type": "arrival",
-  "mmsi": 237001000,
-  "name": "SUPERSTAR",
-  "lat": 38.02382,
-  "lon": 24.012091666666667,
-  "time_utc": "2026-10-28T17:06:36+00:00",
-  "text": "SUPERSTAR (passenger) arrived at Rafina at 17:06 UTC."
- },
- {
-  "id": "2026-10-28T17:06:36+00:00-239430000-arrival",
-  "type": "arrival",
-  "mmsi": 239430000,
-  "name": "SUPER JET",
-  "lat": 37.94535166666667,
-  "lon": 23.639511666666667,
-  "time_utc": "2026-10-28T17:06:36+00:00",
-  "text": "SUPER JET (passenger) arrived at Piraeus at 17:06 UTC."
- },
- {
-  "id": "2026-10-28T17:06:36+00:00-241506000-departure",
-  "type": "departure",
-  "mmsi": 241506000,
-  "name": "LYBOUSSAKIS LEON",
-  "lat": 37.940515,
-  "lon": 23.630088333333333,
-  "time_utc": "2026-10-28T17:06:36+00:00",
-  "text": "LYBOUSSAKIS LEON (special craft) departed Piraeus at 17:06 UTC, making 3.9 knots."
- },
- {
-  "id": "2026-10-28T17:06:36+00:00-241527000-arrival",
-  "type": "arrival",
-  "mmsi": 241527000,
-  "name": "MEGALOCHARI  VII",
-  "lat": 37.93837333333333,
-  "lon": 23.634825,
-  "time_utc": "2026-10-28T17:06:36+00:00",
-  "text": "MEGALOCHARI  VII (special craft) arrived at Piraeus at 17:06 UTC."
- },
- {
-  "id": "2026-10-28T17:06:36+00:00-241675000-departure",
-  "type": "departure",
-  "mmsi": 241675000,
-  "name": "KOHYLI",
-  "lat": 38.02754,
-  "lon": 23.5367,
-  "time_utc": "2026-10-28T17:06:36+00:00",
-  "text": "KOHYLI (tanker) departed Elefsina at 17:06 UTC, making 9.2 knots."
- },
- {
-  "id": "2026-10-28T17:06:36+00:00-census-Piraeus anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Piraeus anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-10-28T17:06:36+00:00",
-  "text": "3 vessels lying at Piraeus anchorage at 17:06 UTC (down 2 since the previous snapshot)."
- },
- {
-  "id": "2026-10-28T17:06:36+00:00-census-Elefsis Bay anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Elefsis Bay anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-10-28T17:06:36+00:00",
-  "text": "11 vessels lying at Elefsis Bay anchorage at 17:06 UTC (up 3 since the previous snapshot)."
- },
- {
   "id": "2026-10-28T17:25:06+00:00-239056300-arrival",
   "type": "arrival",
   "mmsi": 239056300,
@@ -7908,5 +7838,45 @@
   "lon": null,
   "time_utc": "2026-10-30T17:05:38+00:00",
   "text": "7 vessels lying at Elefsis Bay anchorage at 17:05 UTC (up 1 since the previous snapshot)."
+ },
+ {
+  "id": "2026-10-30T17:23:58+00:00-239430000-arrival",
+  "type": "arrival",
+  "mmsi": 239430000,
+  "name": "SUPER JET",
+  "lat": 37.94533166666667,
+  "lon": 23.639506666666666,
+  "time_utc": "2026-10-30T17:23:58+00:00",
+  "text": "SUPER JET (passenger) arrived at Piraeus at 17:23 UTC."
+ },
+ {
+  "id": "2026-10-30T17:23:58+00:00-241953000-anchoring",
+  "type": "anchoring",
+  "mmsi": 241953000,
+  "name": "SEAVEN CREST",
+  "lat": 38.02723,
+  "lon": 23.51695,
+  "time_utc": "2026-10-30T17:23:58+00:00",
+  "text": "SEAVEN CREST (tanker) anchored at Elefsis Bay anchorage at 17:23 UTC."
+ },
+ {
+  "id": "2026-10-30T17:23:58+00:00-census-Piraeus anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Piraeus anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-10-30T17:23:58+00:00",
+  "text": "13 vessels lying at Piraeus anchorage at 17:23 UTC (up 4 since the previous snapshot)."
+ },
+ {
+  "id": "2026-10-30T17:23:58+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-10-30T17:23:58+00:00",
+  "text": "8 vessels lying at Elefsis Bay anchorage at 17:23 UTC (up 1 since the previous snapshot)."
  }
 ]
