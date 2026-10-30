@@ -1,15 +1,5 @@
 [
  {
-  "id": "2026-10-28T00:50:26+00:00-237001000-arrival",
-  "type": "arrival",
-  "mmsi": 237001000,
-  "name": "SUPERSTAR",
-  "lat": 38.02393333333334,
-  "lon": 24.012095,
-  "time_utc": "2026-10-28T00:50:26+00:00",
-  "text": "SUPERSTAR (passenger) arrived at Rafina at 00:50 UTC."
- },
- {
   "id": "2026-10-28T01:07:21+00:00-240707100-arrival",
   "type": "arrival",
   "mmsi": 240707100,
@@ -8298,5 +8288,35 @@
   "lon": null,
   "time_utc": "2026-10-30T00:15:10+00:00",
   "text": "4 vessels lying at Elefsis Bay anchorage at 00:15 UTC (down 4 since the previous snapshot)."
+ },
+ {
+  "id": "2026-10-30T00:51:26+00:00-311000706-anchoring",
+  "type": "anchoring",
+  "mmsi": 311000706,
+  "name": "IRINI",
+  "lat": 38.02818666666667,
+  "lon": 23.528071666666666,
+  "time_utc": "2026-10-30T00:51:26+00:00",
+  "text": "IRINI (tanker) anchored at Elefsina at 00:51 UTC."
+ },
+ {
+  "id": "2026-10-30T00:51:26+00:00-census-Piraeus anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Piraeus anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-10-30T00:51:26+00:00",
+  "text": "6 vessels lying at Piraeus anchorage at 00:51 UTC (up 1 since the previous snapshot)."
+ },
+ {
+  "id": "2026-10-30T00:51:26+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-10-30T00:51:26+00:00",
+  "text": "5 vessels lying at Elefsis Bay anchorage at 00:51 UTC (up 1 since the previous snapshot)."
  }
 ]
