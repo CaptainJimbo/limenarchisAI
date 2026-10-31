@@ -1,35 +1,5 @@
 [
  {
-  "id": "2026-10-29T19:06:24+00:00-237932700-arrival",
-  "type": "arrival",
-  "mmsi": 237932700,
-  "name": "ATHINA P",
-  "lat": 37.96566666666667,
-  "lon": 23.530406666666668,
-  "time_utc": "2026-10-29T19:06:24+00:00",
-  "text": "ATHINA P (passenger) arrived at Salamina (Paloukia) at 19:06 UTC."
- },
- {
-  "id": "2026-10-29T19:06:24+00:00-239981000-arrival",
-  "type": "arrival",
-  "mmsi": 239981000,
-  "name": "AQUA JEWEL",
-  "lat": 37.94802,
-  "lon": 23.638205000000003,
-  "time_utc": "2026-10-29T19:06:24+00:00",
-  "text": "AQUA JEWEL arrived at Piraeus at 19:06 UTC."
- },
- {
-  "id": "2026-10-29T19:06:24+00:00-352006985-weighed_anchor",
-  "type": "weighed_anchor",
-  "mmsi": 352006985,
-  "name": "SEAVEN DREAM",
-  "lat": 37.914028333333334,
-  "lon": 23.577263333333335,
-  "time_utc": "2026-10-29T19:06:24+00:00",
-  "text": "SEAVEN DREAM (cargo) weighed anchor at Piraeus anchorage at 19:06 UTC and is underway at 5.0 knots."
- },
- {
   "id": "2026-10-29T19:24:41+00:00-239458100-arrival",
   "type": "arrival",
   "mmsi": 239458100,
@@ -8058,5 +8028,45 @@
   "lon": null,
   "time_utc": "2026-10-31T19:05:00+00:00",
   "text": "7 vessels lying at Elefsis Bay anchorage at 19:05 UTC (up 1 since the previous snapshot)."
+ },
+ {
+  "id": "2026-10-31T19:23:31+00:00-209262000-departure",
+  "type": "departure",
+  "mmsi": 209262000,
+  "name": "ASTERION II",
+  "lat": 37.937021666666666,
+  "lon": 23.618458333333333,
+  "time_utc": "2026-10-31T19:23:31+00:00",
+  "text": "ASTERION II departed Piraeus at 19:23 UTC, making 12.4 knots."
+ },
+ {
+  "id": "2026-10-31T19:23:31+00:00-240075800-arrival",
+  "type": "arrival",
+  "mmsi": 240075800,
+  "name": "MICHAIL N",
+  "lat": 37.965848333333334,
+  "lon": 23.53060833333333,
+  "time_utc": "2026-10-31T19:23:31+00:00",
+  "text": "MICHAIL N (passenger) arrived at Salamina (Paloukia) at 19:23 UTC."
+ },
+ {
+  "id": "2026-10-31T19:23:31+00:00-241617000-departure",
+  "type": "departure",
+  "mmsi": 241617000,
+  "name": "FESTOS PALACE",
+  "lat": 37.862923333333335,
+  "lon": 23.609688333333334,
+  "time_utc": "2026-10-31T19:23:31+00:00",
+  "text": "FESTOS PALACE (passenger) departed Piraeus at 19:23 UTC, making 23.5 knots."
+ },
+ {
+  "id": "2026-10-31T19:23:31+00:00-census-Piraeus anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Piraeus anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-10-31T19:23:31+00:00",
+  "text": "8 vessels lying at Piraeus anchorage at 19:23 UTC (up 1 since the previous snapshot)."
  }
 ]
