@@ -1,65 +1,5 @@
 [
  {
-  "id": "2026-10-29T03:29:34+00:00-237622300-arrival",
-  "type": "arrival",
-  "mmsi": 237622300,
-  "name": "THEOTOKOS",
-  "lat": 37.96545833333333,
-  "lon": 23.530124999999998,
-  "time_utc": "2026-10-29T03:29:34+00:00",
-  "text": "THEOTOKOS (passenger) arrived at Salamina (Paloukia) at 03:29 UTC."
- },
- {
-  "id": "2026-10-29T03:29:34+00:00-237746400-arrival",
-  "type": "arrival",
-  "mmsi": 237746400,
-  "name": "THEOMITOR",
-  "lat": 37.96577166666667,
-  "lon": 23.530568333333335,
-  "time_utc": "2026-10-29T03:29:34+00:00",
-  "text": "THEOMITOR (passenger) arrived at Salamina (Paloukia) at 03:29 UTC."
- },
- {
-  "id": "2026-10-29T03:29:34+00:00-240584500-arrival",
-  "type": "arrival",
-  "mmsi": 240584500,
-  "name": "CHRISTOS XXXI",
-  "lat": 37.958200000000005,
-  "lon": 23.561983333333334,
-  "time_utc": "2026-10-29T03:29:34+00:00",
-  "text": "CHRISTOS XXXI (special craft) arrived at Perama at 03:29 UTC."
- },
- {
-  "id": "2026-10-29T03:29:34+00:00-240752600-weighed_anchor",
-  "type": "weighed_anchor",
-  "mmsi": 240752600,
-  "name": "ALEXANDRA G",
-  "lat": 37.984791666666666,
-  "lon": 23.544781666666665,
-  "time_utc": "2026-10-29T03:29:34+00:00",
-  "text": "ALEXANDRA G (tanker) weighed anchor at Elefsis Bay anchorage at 03:29 UTC and is underway at 6.2 knots."
- },
- {
-  "id": "2026-10-29T03:29:34+00:00-census-Piraeus anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Piraeus anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-10-29T03:29:34+00:00",
-  "text": "6 vessels lying at Piraeus anchorage at 03:29 UTC (down 1 since the previous snapshot)."
- },
- {
-  "id": "2026-10-29T03:29:34+00:00-census-Elefsis Bay anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Elefsis Bay anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-10-29T03:29:34+00:00",
-  "text": "9 vessels lying at Elefsis Bay anchorage at 03:29 UTC (up 2 since the previous snapshot)."
- },
- {
   "id": "2026-10-29T03:43:58+00:00-237070600-arrival",
   "type": "arrival",
   "mmsi": 237070600,
@@ -8138,5 +8078,55 @@
   "lon": null,
   "time_utc": "2026-10-31T03:24:45+00:00",
   "text": "3 vessels lying at Elefsis Bay anchorage at 03:24 UTC (down 1 since the previous snapshot)."
+ },
+ {
+  "id": "2026-10-31T03:43:34+00:00-237818200-departure",
+  "type": "departure",
+  "mmsi": 237818200,
+  "name": "FANEROMENI",
+  "lat": 37.961685,
+  "lon": 23.553785,
+  "time_utc": "2026-10-31T03:43:34+00:00",
+  "text": "FANEROMENI (passenger) departed Salamina (Paloukia) at 03:43 UTC, making 7.3 knots."
+ },
+ {
+  "id": "2026-10-31T03:43:34+00:00-241192800-weighed_anchor",
+  "type": "weighed_anchor",
+  "mmsi": 241192800,
+  "name": "CAPTAIN VAGGELIS Z",
+  "lat": 38.03429833333333,
+  "lon": 23.51078,
+  "time_utc": "2026-10-31T03:43:34+00:00",
+  "text": "CAPTAIN VAGGELIS Z (tug/tow) weighed anchor at Elefsis Bay anchorage at 03:43 UTC and is underway at 6.5 knots."
+ },
+ {
+  "id": "2026-10-31T03:43:34+00:00-241442000-arrival",
+  "type": "arrival",
+  "mmsi": 241442000,
+  "name": "PANTANASSA",
+  "lat": 38.03532333333333,
+  "lon": 23.536745,
+  "time_utc": "2026-10-31T03:43:34+00:00",
+  "text": "PANTANASSA (special craft) arrived at Elefsina at 03:43 UTC."
+ },
+ {
+  "id": "2026-10-31T03:43:34+00:00-241442000-anchoring",
+  "type": "anchoring",
+  "mmsi": 241442000,
+  "name": "PANTANASSA",
+  "lat": 38.03532333333333,
+  "lon": 23.536745,
+  "time_utc": "2026-10-31T03:43:34+00:00",
+  "text": "PANTANASSA (special craft) anchored at Elefsina at 03:43 UTC."
+ },
+ {
+  "id": "2026-10-31T03:43:34+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-10-31T03:43:34+00:00",
+  "text": "5 vessels lying at Elefsis Bay anchorage at 03:43 UTC (up 2 since the previous snapshot)."
  }
 ]
