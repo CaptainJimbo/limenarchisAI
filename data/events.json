@@ -1,55 +1,5 @@
 [
  {
-  "id": "2026-10-30T19:23:48+00:00-237453600-departure",
-  "type": "departure",
-  "mmsi": 237453600,
-  "name": "DIMITRIOS P",
-  "lat": 37.95995833333333,
-  "lon": 23.542486666666665,
-  "time_utc": "2026-10-30T19:23:48+00:00",
-  "text": "DIMITRIOS P (passenger) departed Salamina (Paloukia) at 19:23 UTC, making 6.0 knots."
- },
- {
-  "id": "2026-10-30T19:23:48+00:00-237829800-arrival",
-  "type": "arrival",
-  "mmsi": 237829800,
-  "name": "AGIOS NIKOLAOS",
-  "lat": 38.032648333333334,
-  "lon": 23.524915,
-  "time_utc": "2026-10-30T19:23:48+00:00",
-  "text": "AGIOS NIKOLAOS (tanker) arrived at Elefsina at 19:23 UTC."
- },
- {
-  "id": "2026-10-30T19:23:48+00:00-237829800-anchoring",
-  "type": "anchoring",
-  "mmsi": 237829800,
-  "name": "AGIOS NIKOLAOS",
-  "lat": 38.032648333333334,
-  "lon": 23.524915,
-  "time_utc": "2026-10-30T19:23:48+00:00",
-  "text": "AGIOS NIKOLAOS (tanker) anchored at Elefsina at 19:23 UTC."
- },
- {
-  "id": "2026-10-30T19:23:48+00:00-240098600-arrival",
-  "type": "arrival",
-  "mmsi": 240098600,
-  "name": "PROTOPOROS XIV",
-  "lat": 37.96565,
-  "lon": 23.53056666666667,
-  "time_utc": "2026-10-30T19:23:48+00:00",
-  "text": "PROTOPOROS XIV (passenger) arrived at Salamina (Paloukia) at 19:23 UTC."
- },
- {
-  "id": "2026-10-30T19:23:48+00:00-255915916-weighed_anchor",
-  "type": "weighed_anchor",
-  "mmsi": 255915916,
-  "name": "JANE",
-  "lat": 37.835813333333334,
-  "lon": 23.592573333333334,
-  "time_utc": "2026-10-30T19:23:48+00:00",
-  "text": "JANE (tanker) weighed anchor at Piraeus anchorage at 19:23 UTC and is underway at 10.3 knots."
- },
- {
   "id": "2026-10-30T19:43:43+00:00-237365500-departure",
   "type": "departure",
   "mmsi": 237365500,
@@ -8968,5 +8918,55 @@
   "lon": null,
   "time_utc": "2026-11-01T19:23:30+00:00",
   "text": "11 vessels lying at Elefsis Bay anchorage at 19:23 UTC (down 1 since the previous snapshot)."
+ },
+ {
+  "id": "2026-11-01T19:43:29+00:00-239627000-arrival",
+  "type": "arrival",
+  "mmsi": 239627000,
+  "name": "DIONISIOS SOLOMOS",
+  "lat": 37.942591666666665,
+  "lon": 23.63993333333333,
+  "time_utc": "2026-11-01T19:43:29+00:00",
+  "text": "DIONISIOS SOLOMOS arrived at Piraeus at 19:43 UTC."
+ },
+ {
+  "id": "2026-11-01T19:43:29+00:00-239627000-anchoring",
+  "type": "anchoring",
+  "mmsi": 239627000,
+  "name": "DIONISIOS SOLOMOS",
+  "lat": 37.942591666666665,
+  "lon": 23.63993333333333,
+  "time_utc": "2026-11-01T19:43:29+00:00",
+  "text": "DIONISIOS SOLOMOS anchored at Piraeus at 19:43 UTC."
+ },
+ {
+  "id": "2026-11-01T19:43:29+00:00-240580000-departure",
+  "type": "departure",
+  "mmsi": 240580000,
+  "name": "ARIADNE",
+  "lat": 37.7836,
+  "lon": 23.641615,
+  "time_utc": "2026-11-01T19:43:29+00:00",
+  "text": "ARIADNE (passenger) departed Piraeus at 19:43 UTC, making 20.9 knots."
+ },
+ {
+  "id": "2026-11-01T19:43:29+00:00-241911000-departure",
+  "type": "departure",
+  "mmsi": 241911000,
+  "name": "CAPTAIN GIANNIS P.",
+  "lat": 37.93813333333333,
+  "lon": 23.624771666666668,
+  "time_utc": "2026-11-01T19:43:29+00:00",
+  "text": "CAPTAIN GIANNIS P. (special craft) departed Piraeus at 19:43 UTC, making 2.8 knots."
+ },
+ {
+  "id": "2026-11-01T19:43:29+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-11-01T19:43:29+00:00",
+  "text": "12 vessels lying at Elefsis Bay anchorage at 19:43 UTC (up 1 since the previous snapshot)."
  }
 ]
