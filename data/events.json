@@ -1,45 +1,5 @@
 [
  {
-  "id": "2026-11-02T01:06:41+00:00-240075800-departure",
-  "type": "departure",
-  "mmsi": 240075800,
-  "name": "MICHAIL N",
-  "lat": 37.95914166666667,
-  "lon": 23.540785000000003,
-  "time_utc": "2026-11-02T01:06:41+00:00",
-  "text": "MICHAIL N (passenger) departed Salamina (Paloukia) at 01:06 UTC, making 6.5 knots."
- },
- {
-  "id": "2026-11-02T01:06:41+00:00-240560000-anchoring",
-  "type": "anchoring",
-  "mmsi": 240560000,
-  "name": "ARCADIA",
-  "lat": 37.91046666666667,
-  "lon": 23.1044,
-  "time_utc": "2026-11-02T01:06:41+00:00",
-  "text": "ARCADIA anchored at open water (37.910, 23.104) at 01:06 UTC."
- },
- {
-  "id": "2026-11-02T01:06:41+00:00-240925000-weighed_anchor",
-  "type": "weighed_anchor",
-  "mmsi": 240925000,
-  "name": "KARAPIPERIS NEW GENE",
-  "lat": 37.93321666666667,
-  "lon": 23.579333333333334,
-  "time_utc": "2026-11-02T01:06:41+00:00",
-  "text": "KARAPIPERIS NEW GENE (special craft) weighed anchor at 2 km off Perama at 01:06 UTC and is underway at 2.8 knots."
- },
- {
-  "id": "2026-11-02T01:06:41+00:00-census-Elefsis Bay anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Elefsis Bay anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-11-02T01:06:41+00:00",
-  "text": "7 vessels lying at Elefsis Bay anchorage at 01:06 UTC (up 2 since the previous snapshot)."
- },
- {
   "id": "2026-11-02T01:23:41+00:00-census-Piraeus anchorage",
   "type": "anchorage_census",
   "mmsi": null,
@@ -7718,5 +7678,55 @@
   "lon": null,
   "time_utc": "2026-11-04T01:05:25+00:00",
   "text": "8 vessels lying at Elefsis Bay anchorage at 01:05 UTC (up 1 since the previous snapshot)."
+ },
+ {
+  "id": "2026-11-04T01:23:38+00:00-240098600-arrival",
+  "type": "arrival",
+  "mmsi": 240098600,
+  "name": "PROTOPOROS XIV",
+  "lat": 37.9654,
+  "lon": 23.530233333333335,
+  "time_utc": "2026-11-04T01:23:38+00:00",
+  "text": "PROTOPOROS XIV (passenger) arrived at Salamina (Paloukia) at 01:23 UTC."
+ },
+ {
+  "id": "2026-11-04T01:23:38+00:00-240643500-anchoring",
+  "type": "anchoring",
+  "mmsi": 240643500,
+  "name": "MASTRONIKOS II",
+  "lat": 38.03212499999999,
+  "lon": 23.520208333333336,
+  "time_utc": "2026-11-04T01:23:38+00:00",
+  "text": "MASTRONIKOS II (cargo) anchored at 2 km off Elefsina at 01:23 UTC."
+ },
+ {
+  "id": "2026-11-04T01:23:38+00:00-240706900-departure",
+  "type": "departure",
+  "mmsi": 240706900,
+  "name": "PILOT BOAT PY73",
+  "lat": 37.93769666666667,
+  "lon": 23.623396666666668,
+  "time_utc": "2026-11-04T01:23:38+00:00",
+  "text": "PILOT BOAT PY73 (special craft) departed Piraeus at 01:23 UTC, making 13.1 knots."
+ },
+ {
+  "id": "2026-11-04T01:23:38+00:00-census-Piraeus anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Piraeus anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-11-04T01:23:38+00:00",
+  "text": "11 vessels lying at Piraeus anchorage at 01:23 UTC (up 3 since the previous snapshot)."
+ },
+ {
+  "id": "2026-11-04T01:23:38+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-11-04T01:23:38+00:00",
+  "text": "10 vessels lying at Elefsis Bay anchorage at 01:23 UTC (up 2 since the previous snapshot)."
  }
 ]
