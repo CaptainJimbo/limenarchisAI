@@ -1,35 +1,5 @@
 [
  {
-  "id": "2026-11-02T03:43:47+00:00-237365500-arrival",
-  "type": "arrival",
-  "mmsi": 237365500,
-  "name": "ALEXANDROS M",
-  "lat": 37.96516999999999,
-  "lon": 23.529335,
-  "time_utc": "2026-11-02T03:43:47+00:00",
-  "text": "ALEXANDROS M (passenger) arrived at Salamina (Paloukia) at 03:43 UTC."
- },
- {
-  "id": "2026-11-02T03:43:47+00:00-241794000-arrival",
-  "type": "arrival",
-  "mmsi": 241794000,
-  "name": "AKTEA II OSRV",
-  "lat": 38.02912833333333,
-  "lon": 23.535205,
-  "time_utc": "2026-11-02T03:43:47+00:00",
-  "text": "AKTEA II OSRV (tanker) arrived at Elefsina at 03:43 UTC."
- },
- {
-  "id": "2026-11-02T03:43:47+00:00-241794000-anchoring",
-  "type": "anchoring",
-  "mmsi": 241794000,
-  "name": "AKTEA II OSRV",
-  "lat": 38.02912833333333,
-  "lon": 23.535205,
-  "time_utc": "2026-11-02T03:43:47+00:00",
-  "text": "AKTEA II OSRV (tanker) anchored at Elefsina at 03:43 UTC."
- },
- {
   "id": "2026-11-02T04:07:06+00:00-235612000-weighed_anchor",
   "type": "weighed_anchor",
   "mmsi": 235612000,
@@ -7658,5 +7628,75 @@
   "lon": 23.525966666666665,
   "time_utc": "2026-11-04T03:43:36+00:00",
   "text": "ORION IV (passenger) arrived at Salamina (Paloukia) at 03:43 UTC."
+ },
+ {
+  "id": "2026-11-04T04:06:48+00:00-239005400-departure",
+  "type": "departure",
+  "mmsi": 239005400,
+  "name": "MATOULA K",
+  "lat": 37.95986833333333,
+  "lon": 23.542483333333333,
+  "time_utc": "2026-11-04T04:06:48+00:00",
+  "text": "MATOULA K (passenger) departed Salamina (Paloukia) at 04:06 UTC, making 7.7 knots."
+ },
+ {
+  "id": "2026-11-04T04:06:48+00:00-239532100-arrival",
+  "type": "arrival",
+  "mmsi": 239532100,
+  "name": "GEORGIOS",
+  "lat": 37.96513,
+  "lon": 23.52968333333333,
+  "time_utc": "2026-11-04T04:06:48+00:00",
+  "text": "GEORGIOS (passenger) arrived at Salamina (Paloukia) at 04:06 UTC."
+ },
+ {
+  "id": "2026-11-04T04:06:48+00:00-239719900-departure",
+  "type": "departure",
+  "mmsi": 239719900,
+  "name": "ANTIGONE",
+  "lat": 37.94009166666667,
+  "lon": 23.62897,
+  "time_utc": "2026-11-04T04:06:48+00:00",
+  "text": "ANTIGONE (passenger) departed Piraeus at 04:06 UTC, making 9.0 knots."
+ },
+ {
+  "id": "2026-11-04T04:06:48+00:00-239982900-arrival",
+  "type": "arrival",
+  "mmsi": 239982900,
+  "name": "PARALOS",
+  "lat": 37.965331666666664,
+  "lon": 23.53015,
+  "time_utc": "2026-11-04T04:06:48+00:00",
+  "text": "PARALOS (cargo) arrived at Salamina (Paloukia) at 04:06 UTC."
+ },
+ {
+  "id": "2026-11-04T04:06:48+00:00-240601900-departure",
+  "type": "departure",
+  "mmsi": 240601900,
+  "name": "PROTOPOROS XVII",
+  "lat": 37.96239666666667,
+  "lon": 23.55442833333333,
+  "time_utc": "2026-11-04T04:06:48+00:00",
+  "text": "PROTOPOROS XVII (passenger) departed Salamina (Paloukia) at 04:06 UTC, making 4.9 knots."
+ },
+ {
+  "id": "2026-11-04T04:06:48+00:00-census-Piraeus anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Piraeus anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-11-04T04:06:48+00:00",
+  "text": "10 vessels lying at Piraeus anchorage at 04:06 UTC (up 2 since the previous snapshot)."
+ },
+ {
+  "id": "2026-11-04T04:06:48+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-11-04T04:06:48+00:00",
+  "text": "8 vessels lying at Elefsis Bay anchorage at 04:06 UTC (up 3 since the previous snapshot)."
  }
 ]
