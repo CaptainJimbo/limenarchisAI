@@ -1,55 +1,5 @@
 [
  {
-  "id": "2026-11-03T17:06:12+00:00-239056300-departure",
-  "type": "departure",
-  "mmsi": 239056300,
-  "name": "ACHAEOS",
-  "lat": 37.800446666666666,
-  "lon": 23.477708333333332,
-  "time_utc": "2026-11-03T17:06:12+00:00",
-  "text": "ACHAEOS (passenger) departed Aegina at 17:06 UTC, making 13.9 knots."
- },
- {
-  "id": "2026-11-03T17:06:12+00:00-239923000-departure",
-  "type": "departure",
-  "mmsi": 239923000,
-  "name": "BLUE STAR NAXOS",
-  "lat": 37.57814666666666,
-  "lon": 23.862455,
-  "time_utc": "2026-11-03T17:06:12+00:00",
-  "text": "BLUE STAR NAXOS (passenger) departed Piraeus at 17:06 UTC, making 21.0 knots."
- },
- {
-  "id": "2026-11-03T17:06:12+00:00-241802000-arrival",
-  "type": "arrival",
-  "mmsi": 241802000,
-  "name": "AERO 1 HIGHSPEED",
-  "lat": 37.94286666666667,
-  "lon": 23.641869999999997,
-  "time_utc": "2026-11-03T17:06:12+00:00",
-  "text": "AERO 1 HIGHSPEED (high-speed craft) arrived at Piraeus at 17:06 UTC."
- },
- {
-  "id": "2026-11-03T17:06:12+00:00-256837000-weighed_anchor",
-  "type": "weighed_anchor",
-  "mmsi": 256837000,
-  "name": "SAN BIAGIO",
-  "lat": 38.028749999999995,
-  "lon": 23.508818333333334,
-  "time_utc": "2026-11-03T17:06:12+00:00",
-  "text": "SAN BIAGIO (tanker) weighed anchor at Elefsis Bay anchorage at 17:06 UTC and is underway at 5.8 knots."
- },
- {
-  "id": "2026-11-03T17:06:12+00:00-census-Elefsis Bay anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Elefsis Bay anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-11-03T17:06:12+00:00",
-  "text": "10 vessels lying at Elefsis Bay anchorage at 17:06 UTC (up 1 since the previous snapshot)."
- },
- {
   "id": "2026-11-03T17:24:09+00:00-237021400-departure",
   "type": "departure",
   "mmsi": 237021400,
@@ -8288,5 +8238,35 @@
   "lon": null,
   "time_utc": "2026-11-05T17:05:41+00:00",
   "text": "12 vessels lying at Elefsis Bay anchorage at 17:05 UTC (up 2 since the previous snapshot)."
+ },
+ {
+  "id": "2026-11-05T17:23:51+00:00-237002600-arrival",
+  "type": "arrival",
+  "mmsi": 237002600,
+  "name": "APOLLON HELLAS",
+  "lat": 37.74529333333333,
+  "lon": 23.424703333333333,
+  "time_utc": "2026-11-05T17:23:51+00:00",
+  "text": "APOLLON HELLAS (passenger) arrived at Aegina at 17:23 UTC."
+ },
+ {
+  "id": "2026-11-05T17:23:51+00:00-census-Piraeus anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Piraeus anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-11-05T17:23:51+00:00",
+  "text": "9 vessels lying at Piraeus anchorage at 17:23 UTC (down 2 since the previous snapshot)."
+ },
+ {
+  "id": "2026-11-05T17:23:51+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-11-05T17:23:51+00:00",
+  "text": "10 vessels lying at Elefsis Bay anchorage at 17:23 UTC (down 2 since the previous snapshot)."
  }
 ]
