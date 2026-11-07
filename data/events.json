@@ -1,55 +1,5 @@
 [
  {
-  "id": "2026-11-05T17:43:32+00:00-237002600-departure",
-  "type": "departure",
-  "mmsi": 237002600,
-  "name": "APOLLON HELLAS",
-  "lat": 37.772929999999995,
-  "lon": 23.420824999999997,
-  "time_utc": "2026-11-05T17:43:32+00:00",
-  "text": "APOLLON HELLAS (passenger) departed Aegina at 17:43 UTC, making 13.2 knots."
- },
- {
-  "id": "2026-11-05T17:43:32+00:00-240897000-arrival",
-  "type": "arrival",
-  "mmsi": 240897000,
-  "name": "AEGEAN ACE",
-  "lat": 38.037434999999995,
-  "lon": 23.533603333333335,
-  "time_utc": "2026-11-05T17:43:32+00:00",
-  "text": "AEGEAN ACE (tanker) arrived at Elefsina at 17:43 UTC."
- },
- {
-  "id": "2026-11-05T17:43:32+00:00-248551000-anchoring",
-  "type": "anchoring",
-  "mmsi": 248551000,
-  "name": "ADELE",
-  "lat": 37.646256666666666,
-  "lon": 23.978675,
-  "time_utc": "2026-11-05T17:43:32+00:00",
-  "text": "ADELE anchored at open water (37.646, 23.979) at 17:43 UTC."
- },
- {
-  "id": "2026-11-05T17:43:32+00:00-636017845-weighed_anchor",
-  "type": "weighed_anchor",
-  "mmsi": 636017845,
-  "name": "AQUADISIAC",
-  "lat": 37.76634166666667,
-  "lon": 23.639886666666666,
-  "time_utc": "2026-11-05T17:43:32+00:00",
-  "text": "AQUADISIAC (tanker) weighed anchor at Piraeus anchorage at 17:43 UTC and is underway at 13.0 knots."
- },
- {
-  "id": "2026-11-05T17:43:32+00:00-census-Piraeus anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Piraeus anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-11-05T17:43:32+00:00",
-  "text": "10 vessels lying at Piraeus anchorage at 17:43 UTC (up 1 since the previous snapshot)."
- },
- {
   "id": "2026-11-05T18:06:10+00:00-237829800-weighed_anchor",
   "type": "weighed_anchor",
   "mmsi": 237829800,
@@ -8138,5 +8088,65 @@
   "lon": null,
   "time_utc": "2026-11-07T17:23:53+00:00",
   "text": "8 vessels lying at Elefsis Bay anchorage at 17:23 UTC (down 3 since the previous snapshot)."
+ },
+ {
+  "id": "2026-11-07T17:43:44+00:00-237008100-arrival",
+  "type": "arrival",
+  "mmsi": 237008100,
+  "name": "POSEIDONAS",
+  "lat": 37.74500666666667,
+  "lon": 23.425135,
+  "time_utc": "2026-11-07T17:43:44+00:00",
+  "text": "POSEIDONAS (passenger) arrived at Aegina at 17:43 UTC."
+ },
+ {
+  "id": "2026-11-07T17:43:44+00:00-237296900-arrival",
+  "type": "arrival",
+  "mmsi": 237296900,
+  "name": "EVGENIA",
+  "lat": 37.26831833333333,
+  "lon": 23.157065,
+  "time_utc": "2026-11-07T17:43:44+00:00",
+  "text": "EVGENIA (cargo) arrived at Spetses at 17:43 UTC."
+ },
+ {
+  "id": "2026-11-07T17:43:44+00:00-240098600-arrival",
+  "type": "arrival",
+  "mmsi": 240098600,
+  "name": "PROTOPOROS XIV",
+  "lat": 37.965183333333336,
+  "lon": 23.52985,
+  "time_utc": "2026-11-07T17:43:44+00:00",
+  "text": "PROTOPOROS XIV (passenger) arrived at Salamina (Paloukia) at 17:43 UTC."
+ },
+ {
+  "id": "2026-11-07T17:43:44+00:00-240205400-departure",
+  "type": "departure",
+  "mmsi": 240205400,
+  "name": "KALLIOPI G",
+  "lat": 37.975685,
+  "lon": 23.547193333333333,
+  "time_utc": "2026-11-07T17:43:44+00:00",
+  "text": "KALLIOPI G (tanker) departed Piraeus at 17:43 UTC, making 5.5 knots."
+ },
+ {
+  "id": "2026-11-07T17:43:44+00:00-240699400-departure",
+  "type": "departure",
+  "mmsi": 240699400,
+  "name": "PROTOPOROS XIX",
+  "lat": 37.963258333333336,
+  "lon": 23.555468333333334,
+  "time_utc": "2026-11-07T17:43:44+00:00",
+  "text": "PROTOPOROS XIX (passenger) departed Salamina (Paloukia) at 17:43 UTC, making 3.6 knots."
+ },
+ {
+  "id": "2026-11-07T17:43:44+00:00-census-Piraeus anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Piraeus anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-11-07T17:43:44+00:00",
+  "text": "3 vessels lying at Piraeus anchorage at 17:43 UTC (down 2 since the previous snapshot)."
  }
 ]
