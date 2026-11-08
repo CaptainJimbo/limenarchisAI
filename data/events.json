@@ -1,75 +1,5 @@
 [
  {
-  "id": "2026-11-06T04:25:38+00:00-237040100-arrival",
-  "type": "arrival",
-  "mmsi": 237040100,
-  "name": "ELENI",
-  "lat": 37.9449,
-  "lon": 23.641458333333333,
-  "time_utc": "2026-11-06T04:25:38+00:00",
-  "text": "ELENI (passenger) arrived at Piraeus at 04:25 UTC."
- },
- {
-  "id": "2026-11-06T04:25:38+00:00-239672200-arrival",
-  "type": "arrival",
-  "mmsi": 239672200,
-  "name": "DIMITRIOS S",
-  "lat": 37.965735,
-  "lon": 23.530586666666668,
-  "time_utc": "2026-11-06T04:25:38+00:00",
-  "text": "DIMITRIOS S (passenger) arrived at Salamina (Paloukia) at 04:25 UTC."
- },
- {
-  "id": "2026-11-06T04:25:38+00:00-240191100-arrival",
-  "type": "arrival",
-  "mmsi": 240191100,
-  "name": "GLYKOFILOUSA VIII",
-  "lat": 37.965109999999996,
-  "lon": 23.529366666666665,
-  "time_utc": "2026-11-06T04:25:38+00:00",
-  "text": "GLYKOFILOUSA VIII (passenger) arrived at Salamina (Paloukia) at 04:25 UTC."
- },
- {
-  "id": "2026-11-06T04:25:38+00:00-240601900-arrival",
-  "type": "arrival",
-  "mmsi": 240601900,
-  "name": "PROTOPOROS XVII",
-  "lat": 37.963748333333335,
-  "lon": 23.526121666666665,
-  "time_utc": "2026-11-06T04:25:38+00:00",
-  "text": "PROTOPOROS XVII (passenger) arrived at Salamina (Paloukia) at 04:25 UTC."
- },
- {
-  "id": "2026-11-06T04:25:38+00:00-240671400-arrival",
-  "type": "arrival",
-  "mmsi": 240671400,
-  "name": "OKIALOS",
-  "lat": 37.94503666666667,
-  "lon": 23.64126,
-  "time_utc": "2026-11-06T04:25:38+00:00",
-  "text": "OKIALOS (passenger) arrived at Piraeus at 04:25 UTC."
- },
- {
-  "id": "2026-11-06T04:25:38+00:00-241911000-departure",
-  "type": "departure",
-  "mmsi": 241911000,
-  "name": "CAPTAIN GIANNIS P.",
-  "lat": 37.946821666666665,
-  "lon": 23.59842666666667,
-  "time_utc": "2026-11-06T04:25:38+00:00",
-  "text": "CAPTAIN GIANNIS P. (special craft) departed Piraeus at 04:25 UTC, making 9.2 knots."
- },
- {
-  "id": "2026-11-06T04:25:38+00:00-census-Piraeus anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Piraeus anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-11-06T04:25:38+00:00",
-  "text": "12 vessels lying at Piraeus anchorage at 04:25 UTC (down 2 since the previous snapshot)."
- },
- {
   "id": "2026-11-06T04:44:18+00:00-237002600-arrival",
   "type": "arrival",
   "mmsi": 237002600,
@@ -7958,5 +7888,55 @@
   "lon": null,
   "time_utc": "2026-11-08T04:25:08+00:00",
   "text": "5 vessels lying at Elefsis Bay anchorage at 04:25 UTC (down 1 since the previous snapshot)."
+ },
+ {
+  "id": "2026-11-08T04:43:40+00:00-237040100-arrival",
+  "type": "arrival",
+  "mmsi": 237040100,
+  "name": "ELENI",
+  "lat": 37.94440833333333,
+  "lon": 23.642376666666667,
+  "time_utc": "2026-11-08T04:43:40+00:00",
+  "text": "ELENI (passenger) arrived at Piraeus at 04:43 UTC."
+ },
+ {
+  "id": "2026-11-08T04:43:40+00:00-237448400-arrival",
+  "type": "arrival",
+  "mmsi": 237448400,
+  "name": "KATERINA STAR",
+  "lat": 37.26072833333333,
+  "lon": 23.165446666666664,
+  "time_utc": "2026-11-08T04:43:40+00:00",
+  "text": "KATERINA STAR (passenger) arrived at Spetses at 04:43 UTC."
+ },
+ {
+  "id": "2026-11-08T04:43:40+00:00-240071300-arrival",
+  "type": "arrival",
+  "mmsi": 240071300,
+  "name": "PAN.PARAVOUNIOTISSA",
+  "lat": 38.035653333333336,
+  "lon": 23.551993333333332,
+  "time_utc": "2026-11-08T04:43:40+00:00",
+  "text": "PAN.PARAVOUNIOTISSA arrived at Elefsina at 04:43 UTC."
+ },
+ {
+  "id": "2026-11-08T04:43:40+00:00-census-Piraeus anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Piraeus anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-11-08T04:43:40+00:00",
+  "text": "7 vessels lying at Piraeus anchorage at 04:43 UTC (up 2 since the previous snapshot)."
+ },
+ {
+  "id": "2026-11-08T04:43:40+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-11-08T04:43:40+00:00",
+  "text": "8 vessels lying at Elefsis Bay anchorage at 04:43 UTC (up 3 since the previous snapshot)."
  }
 ]
