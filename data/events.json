@@ -1,25 +1,5 @@
 [
  {
-  "id": "2026-11-06T15:43:53+00:00-239056300-departure",
-  "type": "departure",
-  "mmsi": 239056300,
-  "name": "ACHAEOS",
-  "lat": 37.94390166666667,
-  "lon": 23.64059166666667,
-  "time_utc": "2026-11-06T15:43:53+00:00",
-  "text": "ACHAEOS (passenger) departed Piraeus at 15:43 UTC, making 9.5 knots."
- },
- {
-  "id": "2026-11-06T15:43:53+00:00-241927000-arrival",
-  "type": "arrival",
-  "mmsi": 241927000,
-  "name": "SVS I",
-  "lat": 38.03472166666666,
-  "lon": 23.540585,
-  "time_utc": "2026-11-06T15:43:53+00:00",
-  "text": "SVS I (special craft) arrived at Elefsina at 15:43 UTC."
- },
- {
   "id": "2026-11-06T16:06:04+00:00-210741000-arrival",
   "type": "arrival",
   "mmsi": 210741000,
@@ -8068,5 +8048,45 @@
   "lon": null,
   "time_utc": "2026-11-08T15:43:23+00:00",
   "text": "9 vessels lying at Elefsis Bay anchorage at 15:43 UTC (down 1 since the previous snapshot)."
+ },
+ {
+  "id": "2026-11-08T16:05:13+00:00-212769000-arrival",
+  "type": "arrival",
+  "mmsi": 212769000,
+  "name": "MAGIC 3",
+  "lat": 37.94353833333333,
+  "lon": 23.643116666666668,
+  "time_utc": "2026-11-08T16:05:13+00:00",
+  "text": "MAGIC 3 (high-speed craft) arrived at Piraeus at 16:05 UTC."
+ },
+ {
+  "id": "2026-11-08T16:05:13+00:00-237955000-arrival",
+  "type": "arrival",
+  "mmsi": 237955000,
+  "name": "FAST FERRIES ANDROS",
+  "lat": 38.024364999999996,
+  "lon": 24.012151666666668,
+  "time_utc": "2026-11-08T16:05:13+00:00",
+  "text": "FAST FERRIES ANDROS (passenger) arrived at Rafina at 16:05 UTC."
+ },
+ {
+  "id": "2026-11-08T16:05:13+00:00-241804000-departure",
+  "type": "departure",
+  "mmsi": 241804000,
+  "name": "AERO 3 HIGHSPEED",
+  "lat": 37.80136666666667,
+  "lon": 23.473665,
+  "time_utc": "2026-11-08T16:05:13+00:00",
+  "text": "AERO 3 HIGHSPEED (high-speed craft) departed Aegina at 16:05 UTC, making 28.4 knots."
+ },
+ {
+  "id": "2026-11-08T16:05:13+00:00-census-Piraeus anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Piraeus anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-11-08T16:05:13+00:00",
+  "text": "5 vessels lying at Piraeus anchorage at 16:05 UTC (down 1 since the previous snapshot)."
  }
 ]
