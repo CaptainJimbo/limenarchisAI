@@ -1,25 +1,5 @@
 [
  {
-  "id": "2026-11-06T21:43:52+00:00-237562900-arrival",
-  "type": "arrival",
-  "mmsi": 237562900,
-  "name": "AGIOS ELEFTHERIOS IV",
-  "lat": 37.965466666666664,
-  "lon": 23.530133333333332,
-  "time_utc": "2026-11-06T21:43:52+00:00",
-  "text": "AGIOS ELEFTHERIOS IV (passenger) arrived at Salamina (Paloukia) at 21:43 UTC."
- },
- {
-  "id": "2026-11-06T21:43:52+00:00-239672200-departure",
-  "type": "departure",
-  "mmsi": 239672200,
-  "name": "DIMITRIOS S",
-  "lat": 37.96117166666667,
-  "lon": 23.553833333333333,
-  "time_utc": "2026-11-06T21:43:52+00:00",
-  "text": "DIMITRIOS S (passenger) departed Salamina (Paloukia) at 21:43 UTC, making 7.9 knots."
- },
- {
   "id": "2026-11-06T22:05:42+00:00-241926000-weighed_anchor",
   "type": "weighed_anchor",
   "mmsi": 241926000,
@@ -7998,5 +7978,45 @@
   "lon": null,
   "time_utc": "2026-11-08T21:43:37+00:00",
   "text": "8 vessels lying at Elefsis Bay anchorage at 21:43 UTC (down 1 since the previous snapshot)."
+ },
+ {
+  "id": "2026-11-08T22:05:16+00:00-239981000-arrival",
+  "type": "arrival",
+  "mmsi": 239981000,
+  "name": "AQUA JEWEL",
+  "lat": 37.94802666666667,
+  "lon": 23.638061666666665,
+  "time_utc": "2026-11-08T22:05:16+00:00",
+  "text": "AQUA JEWEL (passenger) arrived at Piraeus at 22:05 UTC."
+ },
+ {
+  "id": "2026-11-08T22:05:16+00:00-240485000-weighed_anchor",
+  "type": "weighed_anchor",
+  "mmsi": 240485000,
+  "name": "ZEFYROS",
+  "lat": 37.684395,
+  "lon": 23.635123333333336,
+  "time_utc": "2026-11-08T22:05:16+00:00",
+  "text": "ZEFYROS (tanker) weighed anchor at open water (37.736, 23.551) at 22:05 UTC and is underway at 10.6 knots."
+ },
+ {
+  "id": "2026-11-08T22:05:16+00:00-census-Piraeus anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Piraeus anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-11-08T22:05:16+00:00",
+  "text": "6 vessels lying at Piraeus anchorage at 22:05 UTC (up 2 since the previous snapshot)."
+ },
+ {
+  "id": "2026-11-08T22:05:16+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-11-08T22:05:16+00:00",
+  "text": "7 vessels lying at Elefsis Bay anchorage at 22:05 UTC (down 1 since the previous snapshot)."
  }
 ]
