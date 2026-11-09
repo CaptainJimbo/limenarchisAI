@@ -1,75 +1,5 @@
 [
  {
-  "id": "2026-11-06T23:43:22+00:00-237296900-arrival",
-  "type": "arrival",
-  "mmsi": 237296900,
-  "name": "EVGENIA",
-  "lat": 37.26834833333333,
-  "lon": 23.157069999999997,
-  "time_utc": "2026-11-06T23:43:22+00:00",
-  "text": "EVGENIA (cargo) arrived at Spetses at 23:43 UTC."
- },
- {
-  "id": "2026-11-06T23:43:22+00:00-237562900-departure",
-  "type": "departure",
-  "mmsi": 237562900,
-  "name": "AGIOS ELEFTHERIOS IV",
-  "lat": 37.96185,
-  "lon": 23.5473,
-  "time_utc": "2026-11-06T23:43:22+00:00",
-  "text": "AGIOS ELEFTHERIOS IV (passenger) departed Salamina (Paloukia) at 23:43 UTC, making 7.1 knots."
- },
- {
-  "id": "2026-11-06T23:43:22+00:00-311002056-weighed_anchor",
-  "type": "weighed_anchor",
-  "mmsi": 311002056,
-  "name": "LEMANIA",
-  "lat": 38.009415,
-  "lon": 23.537398333333332,
-  "time_utc": "2026-11-06T23:43:22+00:00",
-  "text": "LEMANIA (tanker) weighed anchor at 2 km off Elefsina at 23:43 UTC and is underway at 7.6 knots."
- },
- {
-  "id": "2026-11-06T23:43:22+00:00-357388000-anchoring",
-  "type": "anchoring",
-  "mmsi": 357388000,
-  "name": "NIKOLAS",
-  "lat": 37.87041833333333,
-  "lon": 23.548035000000002,
-  "time_utc": "2026-11-06T23:43:22+00:00",
-  "text": "NIKOLAS (cargo) anchored at Piraeus anchorage at 23:43 UTC."
- },
- {
-  "id": "2026-11-06T23:43:22+00:00-census-Elefsis Bay anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Elefsis Bay anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-11-06T23:43:22+00:00",
-  "text": "7 vessels lying at Elefsis Bay anchorage at 23:43 UTC (up 1 since the previous snapshot)."
- },
- {
-  "id": "2026-11-07T00:11:42+00:00-538010356-anchoring",
-  "type": "anchoring",
-  "mmsi": 538010356,
-  "name": "ANGELA GLORY",
-  "lat": 38.00817666666667,
-  "lon": 23.533885,
-  "time_utc": "2026-11-07T00:11:42+00:00",
-  "text": "ANGELA GLORY (tanker) anchored at 3 km off Elefsina at 00:11 UTC."
- },
- {
-  "id": "2026-11-07T00:11:42+00:00-census-Piraeus anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Piraeus anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-11-07T00:11:42+00:00",
-  "text": "4 vessels lying at Piraeus anchorage at 00:11 UTC (down 3 since the previous snapshot)."
- },
- {
   "id": "2026-11-07T00:41:00+00:00-241585000-arrival",
   "type": "arrival",
   "mmsi": 241585000,
@@ -8068,5 +7998,55 @@
   "lon": null,
   "time_utc": "2026-11-08T23:43:17+00:00",
   "text": "7 vessels lying at Elefsis Bay anchorage at 23:43 UTC (down 1 since the previous snapshot)."
+ },
+ {
+  "id": "2026-11-09T00:14:15+00:00-241585000-weighed_anchor",
+  "type": "weighed_anchor",
+  "mmsi": 241585000,
+  "name": "CH.GEMITZOGLOU",
+  "lat": 38.014615000000006,
+  "lon": 23.53411,
+  "time_utc": "2026-11-09T00:14:15+00:00",
+  "text": "CH.GEMITZOGLOU (special craft) weighed anchor at Elefsis Bay anchorage at 00:14 UTC and is underway at 9.5 knots."
+ },
+ {
+  "id": "2026-11-09T00:14:15+00:00-241982000-arrival",
+  "type": "arrival",
+  "mmsi": 241982000,
+  "name": "ARGO II",
+  "lat": 38.033175,
+  "lon": 23.52682666666667,
+  "time_utc": "2026-11-09T00:14:15+00:00",
+  "text": "ARGO II (cargo) arrived at Elefsina at 00:14 UTC."
+ },
+ {
+  "id": "2026-11-09T00:14:15+00:00-241982000-anchoring",
+  "type": "anchoring",
+  "mmsi": 241982000,
+  "name": "ARGO II",
+  "lat": 38.033175,
+  "lon": 23.52682666666667,
+  "time_utc": "2026-11-09T00:14:15+00:00",
+  "text": "ARGO II (cargo) anchored at Elefsina at 00:14 UTC."
+ },
+ {
+  "id": "2026-11-09T00:14:15+00:00-census-Piraeus anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Piraeus anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-11-09T00:14:15+00:00",
+  "text": "3 vessels lying at Piraeus anchorage at 00:14 UTC (down 3 since the previous snapshot)."
+ },
+ {
+  "id": "2026-11-09T00:14:15+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-11-09T00:14:15+00:00",
+  "text": "6 vessels lying at Elefsis Bay anchorage at 00:14 UTC (down 1 since the previous snapshot)."
  }
 ]
