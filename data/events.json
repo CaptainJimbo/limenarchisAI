@@ -1,75 +1,5 @@
 [
  {
-  "id": "2026-11-07T13:43:29+00:00-237453600-departure",
-  "type": "departure",
-  "mmsi": 237453600,
-  "name": "DIMITRIOS P",
-  "lat": 37.96198666666667,
-  "lon": 23.553535,
-  "time_utc": "2026-11-07T13:43:29+00:00",
-  "text": "DIMITRIOS P (passenger) departed Salamina (Paloukia) at 13:43 UTC, making 4.9 knots."
- },
- {
-  "id": "2026-11-07T13:43:29+00:00-240098600-arrival",
-  "type": "arrival",
-  "mmsi": 240098600,
-  "name": "PROTOPOROS XIV",
-  "lat": 37.965151666666664,
-  "lon": 23.529615,
-  "time_utc": "2026-11-07T13:43:29+00:00",
-  "text": "PROTOPOROS XIV (passenger) arrived at Salamina (Paloukia) at 13:43 UTC."
- },
- {
-  "id": "2026-11-07T13:43:29+00:00-240671400-departure",
-  "type": "departure",
-  "mmsi": 240671400,
-  "name": "OKIALOS",
-  "lat": 37.85907833333333,
-  "lon": 23.545698333333334,
-  "time_utc": "2026-11-07T13:43:29+00:00",
-  "text": "OKIALOS (passenger) departed Piraeus at 13:43 UTC, making 13.0 knots."
- },
- {
-  "id": "2026-11-07T13:43:29+00:00-240897000-arrival",
-  "type": "arrival",
-  "mmsi": 240897000,
-  "name": "AEGEAN ACE",
-  "lat": 38.03742833333333,
-  "lon": 23.533603333333335,
-  "time_utc": "2026-11-07T13:43:29+00:00",
-  "text": "AEGEAN ACE (tanker) arrived at Elefsina at 13:43 UTC."
- },
- {
-  "id": "2026-11-07T13:43:29+00:00-240966000-anchoring",
-  "type": "anchoring",
-  "mmsi": 240966000,
-  "name": "PROVIDENCE",
-  "lat": 37.91081666666666,
-  "lon": 23.11273333333333,
-  "time_utc": "2026-11-07T13:43:29+00:00",
-  "text": "PROVIDENCE anchored at open water (37.911, 23.113) at 13:43 UTC."
- },
- {
-  "id": "2026-11-07T13:43:29+00:00-241133000-arrival",
-  "type": "arrival",
-  "mmsi": 241133000,
-  "name": "PANORAMA",
-  "lat": 37.94479666666667,
-  "lon": 23.640911666666668,
-  "time_utc": "2026-11-07T13:43:29+00:00",
-  "text": "PANORAMA (passenger) arrived at Piraeus at 13:43 UTC."
- },
- {
-  "id": "2026-11-07T13:43:29+00:00-241775000-anchoring",
-  "type": "anchoring",
-  "mmsi": 241775000,
-  "name": "ITANOS",
-  "lat": 37.909265,
-  "lon": 23.080666666666666,
-  "time_utc": "2026-11-07T13:43:29+00:00",
-  "text": "ITANOS (special craft) anchored at 7 km off Corinth Canal (Isthmia) at 13:43 UTC."
- },
- {
   "id": "2026-11-07T14:05:27+00:00-237955000-departure",
   "type": "departure",
   "mmsi": 237955000,
@@ -8078,5 +8008,35 @@
   "lon": null,
   "time_utc": "2026-11-09T13:25:03+00:00",
   "text": "12 vessels lying at Elefsis Bay anchorage at 13:25 UTC (up 1 since the previous snapshot)."
+ },
+ {
+  "id": "2026-11-09T13:43:31+00:00-241087000-arrival",
+  "type": "arrival",
+  "mmsi": 241087000,
+  "name": "BLUE STAR DELOS",
+  "lat": 37.946895000000005,
+  "lon": 23.640278333333335,
+  "time_utc": "2026-11-09T13:43:31+00:00",
+  "text": "BLUE STAR DELOS (passenger) arrived at Piraeus at 13:43 UTC."
+ },
+ {
+  "id": "2026-11-09T13:43:31+00:00-census-Piraeus anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Piraeus anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-11-09T13:43:31+00:00",
+  "text": "7 vessels lying at Piraeus anchorage at 13:43 UTC (up 1 since the previous snapshot)."
+ },
+ {
+  "id": "2026-11-09T13:43:31+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-11-09T13:43:31+00:00",
+  "text": "9 vessels lying at Elefsis Bay anchorage at 13:43 UTC (down 3 since the previous snapshot)."
  }
 ]
