@@ -1,45 +1,5 @@
 [
  {
-  "id": "2026-11-07T20:23:45+00:00-241803000-arrival",
-  "type": "arrival",
-  "mmsi": 241803000,
-  "name": "AERO 2 HIGHSPEED",
-  "lat": 37.32434333333333,
-  "lon": 23.144356666666667,
-  "time_utc": "2026-11-07T20:23:45+00:00",
-  "text": "AERO 2 HIGHSPEED (high-speed craft) arrived at Porto Heli at 20:23 UTC."
- },
- {
-  "id": "2026-11-07T20:23:45+00:00-578001100-arrival",
-  "type": "arrival",
-  "mmsi": 578001100,
-  "name": "LE CHAMPLAIN",
-  "lat": 37.939094999999995,
-  "lon": 23.636701666666667,
-  "time_utc": "2026-11-07T20:23:45+00:00",
-  "text": "LE CHAMPLAIN (passenger) arrived at Piraeus at 20:23 UTC."
- },
- {
-  "id": "2026-11-07T20:23:45+00:00-census-Piraeus anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Piraeus anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-11-07T20:23:45+00:00",
-  "text": "1 vessels lying at Piraeus anchorage at 20:23 UTC (down 2 since the previous snapshot)."
- },
- {
-  "id": "2026-11-07T20:23:45+00:00-census-Elefsis Bay anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Elefsis Bay anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-11-07T20:23:45+00:00",
-  "text": "6 vessels lying at Elefsis Bay anchorage at 20:23 UTC (down 1 since the previous snapshot)."
- },
- {
   "id": "2026-11-07T20:43:31+00:00-228475800-anchoring",
   "type": "anchoring",
   "mmsi": 228475800,
@@ -8198,5 +8158,45 @@
   "lon": null,
   "time_utc": "2026-11-09T20:05:29+00:00",
   "text": "7 vessels lying at Elefsis Bay anchorage at 20:05 UTC (up 3 since the previous snapshot)."
+ },
+ {
+  "id": "2026-11-09T20:24:25+00:00-237592700-departure",
+  "type": "departure",
+  "mmsi": 237592700,
+  "name": "AIAKOS",
+  "lat": 37.95940666666667,
+  "lon": 23.537840000000003,
+  "time_utc": "2026-11-09T20:24:25+00:00",
+  "text": "AIAKOS (passenger) departed Salamina (Paloukia) at 20:24 UTC, making 7.4 knots."
+ },
+ {
+  "id": "2026-11-09T20:24:25+00:00-305695000-departure",
+  "type": "departure",
+  "mmsi": 305695000,
+  "name": "MOLPADIA",
+  "lat": 37.953875000000004,
+  "lon": 23.56425833333333,
+  "time_utc": "2026-11-09T20:24:25+00:00",
+  "text": "MOLPADIA (cargo) departed Elefsina at 20:24 UTC, making 4.6 knots."
+ },
+ {
+  "id": "2026-11-09T20:24:25+00:00-census-Piraeus anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Piraeus anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-11-09T20:24:25+00:00",
+  "text": "6 vessels lying at Piraeus anchorage at 20:24 UTC (down 4 since the previous snapshot)."
+ },
+ {
+  "id": "2026-11-09T20:24:25+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-11-09T20:24:25+00:00",
+  "text": "8 vessels lying at Elefsis Bay anchorage at 20:24 UTC (up 1 since the previous snapshot)."
  }
 ]
