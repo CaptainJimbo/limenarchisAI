@@ -1,35 +1,5 @@
 [
  {
-  "id": "2026-11-07T03:25:15+00:00-237365500-arrival",
-  "type": "arrival",
-  "mmsi": 237365500,
-  "name": "ALEXANDROS M",
-  "lat": 37.965275,
-  "lon": 23.529635,
-  "time_utc": "2026-11-07T03:25:15+00:00",
-  "text": "ALEXANDROS M (passenger) arrived at Salamina (Paloukia) at 03:25 UTC."
- },
- {
-  "id": "2026-11-07T03:25:15+00:00-237562900-arrival",
-  "type": "arrival",
-  "mmsi": 237562900,
-  "name": "AGIOS ELEFTHERIOS IV",
-  "lat": 37.96548333333333,
-  "lon": 23.530133333333332,
-  "time_utc": "2026-11-07T03:25:15+00:00",
-  "text": "AGIOS ELEFTHERIOS IV (passenger) arrived at Salamina (Paloukia) at 03:25 UTC."
- },
- {
-  "id": "2026-11-07T03:25:15+00:00-240489900-arrival",
-  "type": "arrival",
-  "mmsi": 240489900,
-  "name": "UTOPIA",
-  "lat": 37.74531666666667,
-  "lon": 23.429228333333334,
-  "time_utc": "2026-11-07T03:25:15+00:00",
-  "text": "UTOPIA (sailing) arrived at Aegina at 03:25 UTC."
- },
- {
   "id": "2026-11-07T03:43:53+00:00-237562900-departure",
   "type": "departure",
   "mmsi": 237562900,
@@ -8008,5 +7978,25 @@
   "lon": null,
   "time_utc": "2026-11-09T03:07:09+00:00",
   "text": "11 vessels lying at Elefsis Bay anchorage at 03:07 UTC (up 1 since the previous snapshot)."
+ },
+ {
+  "id": "2026-11-09T03:28:18+00:00-census-Piraeus anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Piraeus anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-11-09T03:28:18+00:00",
+  "text": "4 vessels lying at Piraeus anchorage at 03:28 UTC (down 4 since the previous snapshot)."
+ },
+ {
+  "id": "2026-11-09T03:28:18+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-11-09T03:28:18+00:00",
+  "text": "5 vessels lying at Elefsis Bay anchorage at 03:28 UTC (down 6 since the previous snapshot)."
  }
 ]
