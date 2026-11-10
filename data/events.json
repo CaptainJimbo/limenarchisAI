@@ -1,35 +1,5 @@
 [
  {
-  "id": "2026-11-08T02:07:21+00:00-240191100-departure",
-  "type": "departure",
-  "mmsi": 240191100,
-  "name": "GLYKOFILOUSA VIII",
-  "lat": 37.959966666666666,
-  "lon": 23.544198333333334,
-  "time_utc": "2026-11-08T02:07:21+00:00",
-  "text": "GLYKOFILOUSA VIII (passenger) departed Salamina (Paloukia) at 02:07 UTC, making 7.0 knots."
- },
- {
-  "id": "2026-11-08T02:27:05+00:00-237005900-anchoring",
-  "type": "anchoring",
-  "mmsi": 237005900,
-  "name": "NAFTILOS",
-  "lat": 37.288646666666665,
-  "lon": 23.15999833333333,
-  "time_utc": "2026-11-08T02:27:05+00:00",
-  "text": "NAFTILOS anchored at 2 km off Spetses at 02:27 UTC."
- },
- {
-  "id": "2026-11-08T02:27:05+00:00-239672200-arrival",
-  "type": "arrival",
-  "mmsi": 239672200,
-  "name": "DIMITRIOS S",
-  "lat": 37.965225000000004,
-  "lon": 23.529866666666667,
-  "time_utc": "2026-11-08T02:27:05+00:00",
-  "text": "DIMITRIOS S (passenger) arrived at Salamina (Paloukia) at 02:27 UTC."
- },
- {
   "id": "2026-11-08T02:43:38+00:00-census-Piraeus anchorage",
   "type": "anchorage_census",
   "mmsi": null,
@@ -8238,5 +8208,25 @@
   "lon": null,
   "time_utc": "2026-11-10T02:07:04+00:00",
   "text": "8 vessels lying at Elefsis Bay anchorage at 02:07 UTC (up 3 since the previous snapshot)."
+ },
+ {
+  "id": "2026-11-10T02:27:39+00:00-census-Piraeus anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Piraeus anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-11-10T02:27:39+00:00",
+  "text": "11 vessels lying at Piraeus anchorage at 02:27 UTC (up 1 since the previous snapshot)."
+ },
+ {
+  "id": "2026-11-10T02:27:39+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-11-10T02:27:39+00:00",
+  "text": "9 vessels lying at Elefsis Bay anchorage at 02:27 UTC (up 1 since the previous snapshot)."
  }
 ]
