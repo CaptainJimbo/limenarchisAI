@@ -1,65 +1,5 @@
 [
  {
-  "id": "2026-11-08T23:05:04+00:00-237296900-arrival",
-  "type": "arrival",
-  "mmsi": 237296900,
-  "name": "EVGENIA",
-  "lat": 37.268299999999996,
-  "lon": 23.15705,
-  "time_utc": "2026-11-08T23:05:04+00:00",
-  "text": "EVGENIA (cargo) arrived at Spetses at 23:05 UTC."
- },
- {
-  "id": "2026-11-08T23:05:04+00:00-241802000-arrival",
-  "type": "arrival",
-  "mmsi": 241802000,
-  "name": "AERO 1 HIGHSPEED",
-  "lat": 37.32438666666667,
-  "lon": 23.144356666666667,
-  "time_utc": "2026-11-08T23:05:04+00:00",
-  "text": "AERO 1 HIGHSPEED (high-speed craft) arrived at Porto Heli at 23:05 UTC."
- },
- {
-  "id": "2026-11-08T23:05:04+00:00-538005389-anchoring",
-  "type": "anchoring",
-  "mmsi": 538005389,
-  "name": "STI VENETO",
-  "lat": 37.865723333333335,
-  "lon": 23.545971666666667,
-  "time_utc": "2026-11-08T23:05:04+00:00",
-  "text": "STI VENETO (tanker) anchored at Piraeus anchorage at 23:05 UTC."
- },
- {
-  "id": "2026-11-08T23:05:04+00:00-636020898-weighed_anchor",
-  "type": "weighed_anchor",
-  "mmsi": 636020898,
-  "name": "MSC DORINE V",
-  "lat": 37.875658333333334,
-  "lon": 23.574481666666667,
-  "time_utc": "2026-11-08T23:05:04+00:00",
-  "text": "MSC DORINE V (cargo) weighed anchor at Piraeus anchorage at 23:05 UTC and is underway at 3.8 knots."
- },
- {
-  "id": "2026-11-08T23:05:04+00:00-census-Piraeus anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Piraeus anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-11-08T23:05:04+00:00",
-  "text": "8 vessels lying at Piraeus anchorage at 23:05 UTC (up 1 since the previous snapshot)."
- },
- {
-  "id": "2026-11-08T23:05:04+00:00-census-Elefsis Bay anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Elefsis Bay anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-11-08T23:05:04+00:00",
-  "text": "12 vessels lying at Elefsis Bay anchorage at 23:05 UTC (up 2 since the previous snapshot)."
- },
- {
   "id": "2026-11-08T23:23:48+00:00-237592700-arrival",
   "type": "arrival",
   "mmsi": 237592700,
@@ -8178,5 +8118,55 @@
   "lon": null,
   "time_utc": "2026-11-10T22:43:58+00:00",
   "text": "9 vessels lying at Elefsis Bay anchorage at 22:43 UTC (up 1 since the previous snapshot)."
+ },
+ {
+  "id": "2026-11-10T23:05:07+00:00-239546200-arrival",
+  "type": "arrival",
+  "mmsi": 239546200,
+  "name": "KONSTANTINOS K",
+  "lat": 37.965334999999996,
+  "lon": 23.53024,
+  "time_utc": "2026-11-10T23:05:07+00:00",
+  "text": "KONSTANTINOS K (passenger) arrived at Salamina (Paloukia) at 23:05 UTC."
+ },
+ {
+  "id": "2026-11-10T23:05:07+00:00-240000500-departure",
+  "type": "departure",
+  "mmsi": 240000500,
+  "name": "CHRYSA",
+  "lat": 37.96058333333334,
+  "lon": 23.534116666666666,
+  "time_utc": "2026-11-10T23:05:07+00:00",
+  "text": "CHRYSA (passenger) departed Salamina (Paloukia) at 23:05 UTC, making 5.6 knots."
+ },
+ {
+  "id": "2026-11-10T23:05:07+00:00-241972000-arrival",
+  "type": "arrival",
+  "mmsi": 241972000,
+  "name": "REA",
+  "lat": 38.03527166666667,
+  "lon": 23.536865,
+  "time_utc": "2026-11-10T23:05:07+00:00",
+  "text": "REA (special craft) arrived at Elefsina at 23:05 UTC."
+ },
+ {
+  "id": "2026-11-10T23:05:07+00:00-census-Piraeus anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Piraeus anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-11-10T23:05:07+00:00",
+  "text": "4 vessels lying at Piraeus anchorage at 23:05 UTC (down 4 since the previous snapshot)."
+ },
+ {
+  "id": "2026-11-10T23:05:07+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-11-10T23:05:07+00:00",
+  "text": "7 vessels lying at Elefsis Bay anchorage at 23:05 UTC (down 2 since the previous snapshot)."
  }
 ]
