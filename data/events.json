@@ -1,45 +1,5 @@
 [
  {
-  "id": "2026-11-08T19:43:14+00:00-209262000-departure",
-  "type": "departure",
-  "mmsi": 209262000,
-  "name": "ASTERION II",
-  "lat": 37.77673666666667,
-  "lon": 23.645658333333333,
-  "time_utc": "2026-11-08T19:43:14+00:00",
-  "text": "ASTERION II departed Piraeus at 19:43 UTC, making 20.5 knots."
- },
- {
-  "id": "2026-11-08T19:43:14+00:00-237818200-departure",
-  "type": "departure",
-  "mmsi": 237818200,
-  "name": "FANEROMENI",
-  "lat": 37.96145,
-  "lon": 23.55282,
-  "time_utc": "2026-11-08T19:43:14+00:00",
-  "text": "FANEROMENI (passenger) departed Salamina (Paloukia) at 19:43 UTC, making 6.3 knots."
- },
- {
-  "id": "2026-11-08T19:43:14+00:00-239924000-arrival",
-  "type": "arrival",
-  "mmsi": 239924000,
-  "name": "BLUE STAR PAROS",
-  "lat": 37.94688333333333,
-  "lon": 23.6405,
-  "time_utc": "2026-11-08T19:43:14+00:00",
-  "text": "BLUE STAR PAROS (passenger) arrived at Piraeus at 19:43 UTC."
- },
- {
-  "id": "2026-11-08T19:43:14+00:00-240718000-departure",
-  "type": "departure",
-  "mmsi": 240718000,
-  "name": "EKO 1",
-  "lat": 38.03056333333333,
-  "lon": 23.5367,
-  "time_utc": "2026-11-08T19:43:14+00:00",
-  "text": "EKO 1 (cargo) departed Elefsina at 19:43 UTC, making 7.3 knots."
- },
- {
   "id": "2026-11-08T20:05:19+00:00-239005400-departure",
   "type": "departure",
   "mmsi": 239005400,
@@ -8178,5 +8138,55 @@
   "lon": null,
   "time_utc": "2026-11-10T19:23:54+00:00",
   "text": "8 vessels lying at Elefsis Bay anchorage at 19:23 UTC (down 2 since the previous snapshot)."
+ },
+ {
+  "id": "2026-11-10T19:43:42+00:00-237453600-departure",
+  "type": "departure",
+  "mmsi": 237453600,
+  "name": "DIMITRIOS P",
+  "lat": 37.96462833333333,
+  "lon": 23.531388333333332,
+  "time_utc": "2026-11-10T19:43:42+00:00",
+  "text": "DIMITRIOS P (passenger) departed Salamina (Paloukia) at 19:43 UTC, making 6.3 knots."
+ },
+ {
+  "id": "2026-11-10T19:43:42+00:00-241617000-departure",
+  "type": "departure",
+  "mmsi": 241617000,
+  "name": "FESTOS PALACE",
+  "lat": 37.74464666666667,
+  "lon": 23.661116666666665,
+  "time_utc": "2026-11-10T19:43:42+00:00",
+  "text": "FESTOS PALACE (passenger) departed Piraeus at 19:43 UTC, making 23.7 knots."
+ },
+ {
+  "id": "2026-11-10T19:43:42+00:00-620999933-weighed_anchor",
+  "type": "weighed_anchor",
+  "mmsi": 620999933,
+  "name": "CHELSEA-4",
+  "lat": 37.88539333333333,
+  "lon": 23.56584666666667,
+  "time_utc": "2026-11-10T19:43:42+00:00",
+  "text": "CHELSEA-4 (cargo) weighed anchor at Piraeus anchorage at 19:43 UTC and is underway at 6.4 knots."
+ },
+ {
+  "id": "2026-11-10T19:43:42+00:00-census-Piraeus anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Piraeus anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-11-10T19:43:42+00:00",
+  "text": "7 vessels lying at Piraeus anchorage at 19:43 UTC (up 2 since the previous snapshot)."
+ },
+ {
+  "id": "2026-11-10T19:43:42+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-11-10T19:43:42+00:00",
+  "text": "4 vessels lying at Elefsis Bay anchorage at 19:43 UTC (down 4 since the previous snapshot)."
  }
 ]
