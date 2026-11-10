@@ -1,15 +1,5 @@
 [
  {
-  "id": "2026-11-08T01:43:21+00:00-241527000-arrival",
-  "type": "arrival",
-  "mmsi": 241527000,
-  "name": "MEGALOCHARI  VII",
-  "lat": 37.93934,
-  "lon": 23.632638333333333,
-  "time_utc": "2026-11-08T01:43:21+00:00",
-  "text": "MEGALOCHARI  VII (special craft) arrived at Piraeus at 01:43 UTC."
- },
- {
   "id": "2026-11-08T02:07:21+00:00-240191100-departure",
   "type": "departure",
   "mmsi": 240191100,
@@ -8188,5 +8178,35 @@
   "lon": null,
   "time_utc": "2026-11-10T01:24:05+00:00",
   "text": "12 vessels lying at Piraeus anchorage at 01:24 UTC (up 2 since the previous snapshot)."
+ },
+ {
+  "id": "2026-11-10T01:43:42+00:00-241611000-anchoring",
+  "type": "anchoring",
+  "mmsi": 241611000,
+  "name": "KALIKRATIS",
+  "lat": 37.914485,
+  "lon": 23.550085000000003,
+  "time_utc": "2026-11-10T01:43:42+00:00",
+  "text": "KALIKRATIS (tanker) anchored at Piraeus anchorage at 01:43 UTC."
+ },
+ {
+  "id": "2026-11-10T01:43:42+00:00-census-Piraeus anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Piraeus anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-11-10T01:43:42+00:00",
+  "text": "11 vessels lying at Piraeus anchorage at 01:43 UTC (down 1 since the previous snapshot)."
+ },
+ {
+  "id": "2026-11-10T01:43:42+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-11-10T01:43:42+00:00",
+  "text": "5 vessels lying at Elefsis Bay anchorage at 01:43 UTC (down 2 since the previous snapshot)."
  }
 ]
