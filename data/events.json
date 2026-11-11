@@ -1,55 +1,5 @@
 [
  {
-  "id": "2026-11-09T05:43:40+00:00-239924000-departure",
-  "type": "departure",
-  "mmsi": 239924000,
-  "name": "BLUE STAR PAROS",
-  "lat": 37.923750000000005,
-  "lon": 23.612450000000003,
-  "time_utc": "2026-11-09T05:43:40+00:00",
-  "text": "BLUE STAR PAROS (passenger) departed Piraeus at 05:43 UTC, making 19.5 knots."
- },
- {
-  "id": "2026-11-09T05:43:40+00:00-240493000-anchoring",
-  "type": "anchoring",
-  "mmsi": 240493000,
-  "name": "EVIAPETROL II",
-  "lat": 38.02650333333334,
-  "lon": 23.544763333333332,
-  "time_utc": "2026-11-09T05:43:40+00:00",
-  "text": "EVIAPETROL II (tanker) anchored at Elefsina at 05:43 UTC."
- },
- {
-  "id": "2026-11-09T05:43:40+00:00-240580000-arrival",
-  "type": "arrival",
-  "mmsi": 240580000,
-  "name": "ARIADNE",
-  "lat": 37.94576666666667,
-  "lon": 23.636665,
-  "time_utc": "2026-11-09T05:43:40+00:00",
-  "text": "ARIADNE (passenger) arrived at Piraeus at 05:43 UTC."
- },
- {
-  "id": "2026-11-09T05:43:40+00:00-241133000-departure",
-  "type": "departure",
-  "mmsi": 241133000,
-  "name": "PANORAMA",
-  "lat": 37.77899,
-  "lon": 23.43213666666667,
-  "time_utc": "2026-11-09T05:43:40+00:00",
-  "text": "PANORAMA (passenger) departed Aegina at 05:43 UTC, making 13.8 knots."
- },
- {
-  "id": "2026-11-09T05:43:40+00:00-241804000-departure",
-  "type": "departure",
-  "mmsi": 241804000,
-  "name": "AERO 3 HIGHSPEED",
-  "lat": 37.81184,
-  "lon": 23.488895,
-  "time_utc": "2026-11-09T05:43:40+00:00",
-  "text": "AERO 3 HIGHSPEED (high-speed craft) departed Aegina at 05:43 UTC, making 28.6 knots."
- },
- {
   "id": "2026-11-09T06:11:37+00:00-237008100-departure",
   "type": "departure",
   "mmsi": 237008100,
@@ -8208,5 +8158,75 @@
   "lon": null,
   "time_utc": "2026-11-11T05:43:24+00:00",
   "text": "6 vessels lying at Piraeus anchorage at 05:43 UTC (down 2 since the previous snapshot)."
+ },
+ {
+  "id": "2026-11-11T06:08:52+00:00-237363700-arrival",
+  "type": "arrival",
+  "mmsi": 237363700,
+  "name": "EVIA STAR",
+  "lat": 38.02247833333333,
+  "lon": 24.01132,
+  "time_utc": "2026-11-11T06:08:52+00:00",
+  "text": "EVIA STAR (passenger) arrived at Rafina at 06:08 UTC."
+ },
+ {
+  "id": "2026-11-11T06:08:52+00:00-237611000-arrival",
+  "type": "arrival",
+  "mmsi": 237611000,
+  "name": "KYDON PALACE",
+  "lat": 37.94354333333333,
+  "lon": 23.635063333333335,
+  "time_utc": "2026-11-11T06:08:52+00:00",
+  "text": "KYDON PALACE (passenger) arrived at Piraeus at 06:08 UTC."
+ },
+ {
+  "id": "2026-11-11T06:08:52+00:00-241216000-weighed_anchor",
+  "type": "weighed_anchor",
+  "mmsi": 241216000,
+  "name": "NAOUSSA",
+  "lat": 37.91223333333333,
+  "lon": 23.580966666666665,
+  "time_utc": "2026-11-11T06:08:52+00:00",
+  "text": "NAOUSSA (tanker) weighed anchor at Piraeus anchorage at 06:08 UTC and is underway at 2.1 knots."
+ },
+ {
+  "id": "2026-11-11T06:08:52+00:00-241470000-arrival",
+  "type": "arrival",
+  "mmsi": 241470000,
+  "name": "NISSOS SAMOS",
+  "lat": 37.94272,
+  "lon": 23.62852333333333,
+  "time_utc": "2026-11-11T06:08:52+00:00",
+  "text": "NISSOS SAMOS (passenger) arrived at Piraeus at 06:08 UTC."
+ },
+ {
+  "id": "2026-11-11T06:08:52+00:00-636020663-anchoring",
+  "type": "anchoring",
+  "mmsi": 636020663,
+  "name": "SC PHOENIX",
+  "lat": 37.90161666666667,
+  "lon": 23.546415000000003,
+  "time_utc": "2026-11-11T06:08:52+00:00",
+  "text": "SC PHOENIX (cargo) anchored at Piraeus anchorage at 06:08 UTC."
+ },
+ {
+  "id": "2026-11-11T06:08:52+00:00-census-Piraeus anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Piraeus anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-11-11T06:08:52+00:00",
+  "text": "8 vessels lying at Piraeus anchorage at 06:08 UTC (up 2 since the previous snapshot)."
+ },
+ {
+  "id": "2026-11-11T06:08:52+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-11-11T06:08:52+00:00",
+  "text": "7 vessels lying at Elefsis Bay anchorage at 06:08 UTC (down 1 since the previous snapshot)."
  }
 ]
