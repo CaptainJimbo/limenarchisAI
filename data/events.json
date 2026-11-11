@@ -1,75 +1,5 @@
 [
  {
-  "id": "2026-11-09T14:06:19+00:00-232068413-departure",
-  "type": "departure",
-  "mmsi": 232068413,
-  "name": "AHRS 888",
-  "lat": 37.87069666666666,
-  "lon": 23.70003,
-  "time_utc": "2026-11-09T14:06:19+00:00",
-  "text": "AHRS 888 (pleasure) departed Piraeus at 14:06 UTC, making 10.3 knots."
- },
- {
-  "id": "2026-11-09T14:06:19+00:00-237002600-arrival",
-  "type": "arrival",
-  "mmsi": 237002600,
-  "name": "APOLLON HELLAS",
-  "lat": 37.94422,
-  "lon": 23.642176666666668,
-  "time_utc": "2026-11-09T14:06:19+00:00",
-  "text": "APOLLON HELLAS (passenger) arrived at Piraeus at 14:06 UTC."
- },
- {
-  "id": "2026-11-09T14:06:19+00:00-240000500-departure",
-  "type": "departure",
-  "mmsi": 240000500,
-  "name": "CHRYSA",
-  "lat": 37.95956666666667,
-  "lon": 23.545466666666666,
-  "time_utc": "2026-11-09T14:06:19+00:00",
-  "text": "CHRYSA (passenger) departed Salamina (Paloukia) at 14:06 UTC, making 5.9 knots."
- },
- {
-  "id": "2026-11-09T14:06:19+00:00-240389000-departure",
-  "type": "departure",
-  "mmsi": 240389000,
-  "name": "BLUE STAR MYCONOS",
-  "lat": 37.94028333333333,
-  "lon": 23.629815,
-  "time_utc": "2026-11-09T14:06:19+00:00",
-  "text": "BLUE STAR MYCONOS (passenger) departed Piraeus at 14:06 UTC, making 8.8 knots."
- },
- {
-  "id": "2026-11-09T14:06:19+00:00-241370000-arrival",
-  "type": "arrival",
-  "mmsi": 241370000,
-  "name": "AGONISTIS",
-  "lat": 38.035545,
-  "lon": 23.537316666666666,
-  "time_utc": "2026-11-09T14:06:19+00:00",
-  "text": "AGONISTIS (special craft) arrived at Elefsina at 14:06 UTC."
- },
- {
-  "id": "2026-11-09T14:06:19+00:00-241926000-weighed_anchor",
-  "type": "weighed_anchor",
-  "mmsi": 241926000,
-  "name": "LYBOUSSAKIS ATLAS",
-  "lat": 38.03064333333334,
-  "lon": 23.510636666666667,
-  "time_utc": "2026-11-09T14:06:19+00:00",
-  "text": "LYBOUSSAKIS ATLAS (special craft) weighed anchor at Elefsis Bay anchorage at 14:06 UTC and is underway at 3.6 knots."
- },
- {
-  "id": "2026-11-09T14:06:19+00:00-census-Elefsis Bay anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Elefsis Bay anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-11-09T14:06:19+00:00",
-  "text": "6 vessels lying at Elefsis Bay anchorage at 14:06 UTC (down 3 since the previous snapshot)."
- },
- {
   "id": "2026-11-09T14:24:53+00:00-237005900-weighed_anchor",
   "type": "weighed_anchor",
   "mmsi": 237005900,
@@ -8128,5 +8058,25 @@
   "lon": null,
   "time_utc": "2026-11-11T13:43:34+00:00",
   "text": "4 vessels lying at Piraeus anchorage at 13:43 UTC (down 3 since the previous snapshot)."
+ },
+ {
+  "id": "2026-11-11T14:06:32+00:00-census-Piraeus anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Piraeus anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-11-11T14:06:32+00:00",
+  "text": "5 vessels lying at Piraeus anchorage at 14:06 UTC (up 1 since the previous snapshot)."
+ },
+ {
+  "id": "2026-11-11T14:06:32+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-11-11T14:06:32+00:00",
+  "text": "12 vessels lying at Elefsis Bay anchorage at 14:06 UTC (down 1 since the previous snapshot)."
  }
 ]
