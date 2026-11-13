@@ -1,35 +1,5 @@
 [
  {
-  "id": "2026-11-11T23:24:17+00:00-237453600-arrival",
-  "type": "arrival",
-  "mmsi": 237453600,
-  "name": "DIMITRIOS P",
-  "lat": 37.96528,
-  "lon": 23.529771666666665,
-  "time_utc": "2026-11-11T23:24:17+00:00",
-  "text": "DIMITRIOS P (passenger) arrived at Salamina (Paloukia) at 23:24 UTC."
- },
- {
-  "id": "2026-11-11T23:24:17+00:00-241911000-arrival",
-  "type": "arrival",
-  "mmsi": 241911000,
-  "name": "CAPTAIN GIANNIS P.",
-  "lat": 37.93889166666667,
-  "lon": 23.63370666666667,
-  "time_utc": "2026-11-11T23:24:17+00:00",
-  "text": "CAPTAIN GIANNIS P. (special craft) arrived at Piraeus at 23:24 UTC."
- },
- {
-  "id": "2026-11-11T23:24:17+00:00-census-Piraeus anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Piraeus anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-11-11T23:24:17+00:00",
-  "text": "6 vessels lying at Piraeus anchorage at 23:24 UTC (up 1 since the previous snapshot)."
- },
- {
   "id": "2026-11-11T23:43:42+00:00-220129000-weighed_anchor",
   "type": "weighed_anchor",
   "mmsi": 220129000,
@@ -7098,5 +7068,55 @@
   "lon": null,
   "time_utc": "2026-11-13T23:24:02+00:00",
   "text": "9 vessels lying at Elefsis Bay anchorage at 23:24 UTC (up 1 since the previous snapshot)."
+ },
+ {
+  "id": "2026-11-13T23:43:29+00:00-237592700-departure",
+  "type": "departure",
+  "mmsi": 237592700,
+  "name": "AIAKOS",
+  "lat": 37.962805,
+  "lon": 23.555523333333333,
+  "time_utc": "2026-11-13T23:43:29+00:00",
+  "text": "AIAKOS (passenger) departed Salamina (Paloukia) at 23:43 UTC, making 5.5 knots."
+ },
+ {
+  "id": "2026-11-13T23:43:29+00:00-237829800-anchoring",
+  "type": "anchoring",
+  "mmsi": 237829800,
+  "name": "AGIOS NIKOLAOS",
+  "lat": 38.025185,
+  "lon": 23.520971666666664,
+  "time_utc": "2026-11-13T23:43:29+00:00",
+  "text": "AGIOS NIKOLAOS (tanker) anchored at 2 km off Elefsina at 23:43 UTC."
+ },
+ {
+  "id": "2026-11-13T23:43:29+00:00-241495000-departure",
+  "type": "departure",
+  "mmsi": 241495000,
+  "name": "KAPETAN CHRISTOS",
+  "lat": 38.024366666666666,
+  "lon": 23.543425,
+  "time_utc": "2026-11-13T23:43:29+00:00",
+  "text": "KAPETAN CHRISTOS departed Elefsina at 23:43 UTC, making 9.3 knots."
+ },
+ {
+  "id": "2026-11-13T23:43:29+00:00-census-Piraeus anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Piraeus anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-11-13T23:43:29+00:00",
+  "text": "12 vessels lying at Piraeus anchorage at 23:43 UTC (up 1 since the previous snapshot)."
+ },
+ {
+  "id": "2026-11-13T23:43:29+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-11-13T23:43:29+00:00",
+  "text": "7 vessels lying at Elefsis Bay anchorage at 23:43 UTC (down 2 since the previous snapshot)."
  }
 ]
