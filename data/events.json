@@ -1,65 +1,5 @@
 [
  {
-  "id": "2026-11-13T19:23:44+00:00-229546000-anchoring",
-  "type": "anchoring",
-  "mmsi": 229546000,
-  "name": "SEYMA",
-  "lat": 37.916215,
-  "lon": 23.555251666666667,
-  "time_utc": "2026-11-13T19:23:44+00:00",
-  "text": "SEYMA (tanker) anchored at Piraeus anchorage at 19:23 UTC."
- },
- {
-  "id": "2026-11-13T19:23:44+00:00-237453600-departure",
-  "type": "departure",
-  "mmsi": 237453600,
-  "name": "DIMITRIOS P",
-  "lat": 37.959015,
-  "lon": 23.543405,
-  "time_utc": "2026-11-13T19:23:44+00:00",
-  "text": "DIMITRIOS P (passenger) departed Salamina (Paloukia) at 19:23 UTC, making 6.7 knots."
- },
- {
-  "id": "2026-11-13T19:23:44+00:00-239710000-departure",
-  "type": "departure",
-  "mmsi": 239710000,
-  "name": "BLUE STAR 1",
-  "lat": 37.904333333333334,
-  "lon": 23.60983333333333,
-  "time_utc": "2026-11-13T19:23:44+00:00",
-  "text": "BLUE STAR 1 (passenger) departed Piraeus at 19:23 UTC, making 18.8 knots."
- },
- {
-  "id": "2026-11-13T19:23:44+00:00-240601900-arrival",
-  "type": "arrival",
-  "mmsi": 240601900,
-  "name": "PROTOPOROS XVII",
-  "lat": 37.96291166666666,
-  "lon": 23.525815,
-  "time_utc": "2026-11-13T19:23:44+00:00",
-  "text": "PROTOPOROS XVII (passenger) arrived at Salamina (Paloukia) at 19:23 UTC."
- },
- {
-  "id": "2026-11-13T19:23:44+00:00-248870000-anchoring",
-  "type": "anchoring",
-  "mmsi": 248870000,
-  "name": "LOUTRO",
-  "lat": 37.919675,
-  "lon": 23.567173333333336,
-  "time_utc": "2026-11-13T19:23:44+00:00",
-  "text": "LOUTRO (tanker) anchored at Piraeus anchorage at 19:23 UTC."
- },
- {
-  "id": "2026-11-13T19:23:44+00:00-census-Piraeus anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Piraeus anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-11-13T19:23:44+00:00",
-  "text": "10 vessels lying at Piraeus anchorage at 19:23 UTC (up 5 since the previous snapshot)."
- },
- {
   "id": "2026-11-13T19:44:01+00:00-237021400-arrival",
   "type": "arrival",
   "mmsi": 237021400,
@@ -7528,5 +7468,45 @@
   "lon": null,
   "time_utc": "2026-11-15T19:23:28+00:00",
   "text": "8 vessels lying at Elefsis Bay anchorage at 19:23 UTC (up 2 since the previous snapshot)."
+ },
+ {
+  "id": "2026-11-15T19:43:53+00:00-240388000-weighed_anchor",
+  "type": "weighed_anchor",
+  "mmsi": 240388000,
+  "name": "VERONIKI III",
+  "lat": 38.02861333333333,
+  "lon": 23.538670000000003,
+  "time_utc": "2026-11-15T19:43:53+00:00",
+  "text": "VERONIKI III (tanker) weighed anchor at Elefsis Bay anchorage at 19:43 UTC and is underway at 6.8 knots."
+ },
+ {
+  "id": "2026-11-15T19:43:53+00:00-636025274-weighed_anchor",
+  "type": "weighed_anchor",
+  "mmsi": 636025274,
+  "name": "CONTSHIP PEP II",
+  "lat": 37.911413333333336,
+  "lon": 23.576725,
+  "time_utc": "2026-11-15T19:43:53+00:00",
+  "text": "CONTSHIP PEP II (cargo) weighed anchor at Piraeus anchorage at 19:43 UTC and is underway at 6.8 knots."
+ },
+ {
+  "id": "2026-11-15T19:43:53+00:00-census-Piraeus anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Piraeus anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-11-15T19:43:53+00:00",
+  "text": "9 vessels lying at Piraeus anchorage at 19:43 UTC (down 2 since the previous snapshot)."
+ },
+ {
+  "id": "2026-11-15T19:43:53+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-11-15T19:43:53+00:00",
+  "text": "9 vessels lying at Elefsis Bay anchorage at 19:43 UTC (up 1 since the previous snapshot)."
  }
 ]
