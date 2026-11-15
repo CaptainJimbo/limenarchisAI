@@ -1,25 +1,5 @@
 [
  {
-  "id": "2026-11-13T19:44:01+00:00-237021400-arrival",
-  "type": "arrival",
-  "mmsi": 237021400,
-  "name": "AG NEKTARIOS AIGINAS",
-  "lat": 37.94467833333333,
-  "lon": 23.641463333333334,
-  "time_utc": "2026-11-13T19:44:01+00:00",
-  "text": "AG NEKTARIOS AIGINAS arrived at Piraeus at 19:44 UTC."
- },
- {
-  "id": "2026-11-13T19:44:01+00:00-240000500-departure",
-  "type": "departure",
-  "mmsi": 240000500,
-  "name": "CHRYSA",
-  "lat": 37.96386666666667,
-  "lon": 23.531033333333333,
-  "time_utc": "2026-11-13T19:44:01+00:00",
-  "text": "CHRYSA (passenger) departed Salamina (Paloukia) at 19:44 UTC, making 5.6 knots."
- },
- {
   "id": "2026-11-13T20:05:23+00:00-240000500-arrival",
   "type": "arrival",
   "mmsi": 240000500,
@@ -7508,5 +7488,35 @@
   "lon": null,
   "time_utc": "2026-11-15T19:43:53+00:00",
   "text": "9 vessels lying at Elefsis Bay anchorage at 19:43 UTC (up 1 since the previous snapshot)."
+ },
+ {
+  "id": "2026-11-15T20:05:20+00:00-239617600-arrival",
+  "type": "arrival",
+  "mmsi": 239617600,
+  "name": "APOSTOLOS M",
+  "lat": 37.96519,
+  "lon": 23.529903333333333,
+  "time_utc": "2026-11-15T20:05:20+00:00",
+  "text": "APOSTOLOS M (passenger) arrived at Salamina (Paloukia) at 20:05 UTC."
+ },
+ {
+  "id": "2026-11-15T20:05:20+00:00-311001768-weighed_anchor",
+  "type": "weighed_anchor",
+  "mmsi": 311001768,
+  "name": "CMA CGM WEST",
+  "lat": 37.88876666666667,
+  "lon": 23.585316666666664,
+  "time_utc": "2026-11-15T20:05:20+00:00",
+  "text": "CMA CGM WEST (cargo) weighed anchor at Piraeus anchorage at 20:05 UTC and is underway at 2.9 knots."
+ },
+ {
+  "id": "2026-11-15T20:05:20+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-11-15T20:05:20+00:00",
+  "text": "8 vessels lying at Elefsis Bay anchorage at 20:05 UTC (down 1 since the previous snapshot)."
  }
 ]
