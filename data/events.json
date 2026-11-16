@@ -1,35 +1,5 @@
 [
  {
-  "id": "2026-11-14T21:43:29+00:00-237816200-arrival",
-  "type": "arrival",
-  "mmsi": 237816200,
-  "name": "IOANNIS THIRESIA",
-  "lat": 37.96598166666667,
-  "lon": 23.530771666666666,
-  "time_utc": "2026-11-14T21:43:29+00:00",
-  "text": "IOANNIS THIRESIA (passenger) arrived at Salamina (Paloukia) at 21:43 UTC."
- },
- {
-  "id": "2026-11-14T21:43:29+00:00-240042300-arrival",
-  "type": "arrival",
-  "mmsi": 240042300,
-  "name": "PROTOPOROS XIII",
-  "lat": 37.96528333333333,
-  "lon": 23.52988333333333,
-  "time_utc": "2026-11-14T21:43:29+00:00",
-  "text": "PROTOPOROS XIII (passenger) arrived at Salamina (Paloukia) at 21:43 UTC."
- },
- {
-  "id": "2026-11-14T21:43:29+00:00-636016017-anchoring",
-  "type": "anchoring",
-  "mmsi": 636016017,
-  "name": "HISTRIA  AMBRA",
-  "lat": 38.01015333333333,
-  "lon": 23.53110666666667,
-  "time_utc": "2026-11-14T21:43:29+00:00",
-  "text": "HISTRIA  AMBRA (tanker) anchored at 3 km off Elefsina at 21:43 UTC."
- },
- {
   "id": "2026-11-14T22:04:53+00:00-239672200-departure",
   "type": "departure",
   "mmsi": 239672200,
@@ -6788,5 +6758,55 @@
   "lon": null,
   "time_utc": "2026-11-16T21:24:32+00:00",
   "text": "3 vessels lying at Elefsis Bay anchorage at 21:24 UTC (down 2 since the previous snapshot)."
+ },
+ {
+  "id": "2026-11-16T21:43:38+00:00-237746400-arrival",
+  "type": "arrival",
+  "mmsi": 237746400,
+  "name": "THEOMITOR",
+  "lat": 37.96546,
+  "lon": 23.530131666666666,
+  "time_utc": "2026-11-16T21:43:38+00:00",
+  "text": "THEOMITOR (passenger) arrived at Salamina (Paloukia) at 21:43 UTC."
+ },
+ {
+  "id": "2026-11-16T21:43:38+00:00-237829800-anchoring",
+  "type": "anchoring",
+  "mmsi": 237829800,
+  "name": "AGIOS NIKOLAOS",
+  "lat": 38.02629666666667,
+  "lon": 23.581841666666666,
+  "time_utc": "2026-11-16T21:43:38+00:00",
+  "text": "AGIOS NIKOLAOS (tanker) anchored at 4 km off Elefsina at 21:43 UTC."
+ },
+ {
+  "id": "2026-11-16T21:43:38+00:00-413058000-weighed_anchor",
+  "type": "weighed_anchor",
+  "mmsi": 413058000,
+  "name": "XIN LIAN YUN GANG",
+  "lat": 37.88288166666667,
+  "lon": 23.587636666666665,
+  "time_utc": "2026-11-16T21:43:38+00:00",
+  "text": "XIN LIAN YUN GANG (cargo) weighed anchor at Piraeus anchorage at 21:43 UTC and is underway at 5.9 knots."
+ },
+ {
+  "id": "2026-11-16T21:43:38+00:00-census-Piraeus anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Piraeus anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-11-16T21:43:38+00:00",
+  "text": "6 vessels lying at Piraeus anchorage at 21:43 UTC (down 2 since the previous snapshot)."
+ },
+ {
+  "id": "2026-11-16T21:43:38+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-11-16T21:43:38+00:00",
+  "text": "5 vessels lying at Elefsis Bay anchorage at 21:43 UTC (up 2 since the previous snapshot)."
  }
 ]
