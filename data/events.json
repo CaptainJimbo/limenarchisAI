@@ -1,65 +1,5 @@
 [
  {
-  "id": "2026-11-15T09:43:24+00:00-240191100-arrival",
-  "type": "arrival",
-  "mmsi": 240191100,
-  "name": "GLYKOFILOUSA VIII",
-  "lat": 37.965203333333335,
-  "lon": 23.529578333333333,
-  "time_utc": "2026-11-15T09:43:24+00:00",
-  "text": "GLYKOFILOUSA VIII (passenger) arrived at Salamina (Paloukia) at 09:43 UTC."
- },
- {
-  "id": "2026-11-15T09:43:24+00:00-240707200-departure",
-  "type": "departure",
-  "mmsi": 240707200,
-  "name": "",
-  "lat": 37.90915333333333,
-  "lon": 23.599506666666667,
-  "time_utc": "2026-11-15T09:43:24+00:00",
-  "text": "MMSI 240707200 departed Piraeus at 09:43 UTC, making 22.9 knots."
- },
- {
-  "id": "2026-11-15T09:43:24+00:00-241611000-weighed_anchor",
-  "type": "weighed_anchor",
-  "mmsi": 241611000,
-  "name": "KALIKRATIS",
-  "lat": 37.88759166666667,
-  "lon": 23.55461,
-  "time_utc": "2026-11-15T09:43:24+00:00",
-  "text": "KALIKRATIS (tanker) weighed anchor at Piraeus anchorage at 09:43 UTC and is underway at 5.7 knots."
- },
- {
-  "id": "2026-11-15T09:43:24+00:00-241728000-departure",
-  "type": "departure",
-  "mmsi": 241728000,
-  "name": "PANORMITIS",
-  "lat": 38.03107,
-  "lon": 23.546723333333333,
-  "time_utc": "2026-11-15T09:43:24+00:00",
-  "text": "PANORMITIS (special craft) departed Elefsina at 09:43 UTC, making 6.4 knots."
- },
- {
-  "id": "2026-11-15T09:43:24+00:00-census-Piraeus anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Piraeus anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-11-15T09:43:24+00:00",
-  "text": "6 vessels lying at Piraeus anchorage at 09:43 UTC (up 1 since the previous snapshot)."
- },
- {
-  "id": "2026-11-15T09:43:24+00:00-census-Elefsis Bay anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Elefsis Bay anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-11-15T09:43:24+00:00",
-  "text": "8 vessels lying at Elefsis Bay anchorage at 09:43 UTC (down 1 since the previous snapshot)."
- },
- {
   "id": "2026-11-15T10:05:45+00:00-240707200-arrival",
   "type": "arrival",
   "mmsi": 240707200,
@@ -6818,5 +6758,35 @@
   "lon": null,
   "time_utc": "2026-11-17T09:25:47+00:00",
   "text": "10 vessels lying at Elefsis Bay anchorage at 09:25 UTC (down 1 since the previous snapshot)."
+ },
+ {
+  "id": "2026-11-17T09:43:36+00:00-241751000-anchoring",
+  "type": "anchoring",
+  "mmsi": 241751000,
+  "name": "KRITI ADMIRAL",
+  "lat": 38.01671833333333,
+  "lon": 23.518156666666666,
+  "time_utc": "2026-11-17T09:43:36+00:00",
+  "text": "KRITI ADMIRAL (tanker) anchored at Elefsis Bay anchorage at 09:43 UTC."
+ },
+ {
+  "id": "2026-11-17T09:43:36+00:00-241951000-weighed_anchor",
+  "type": "weighed_anchor",
+  "mmsi": 241951000,
+  "name": "SVS II",
+  "lat": 38.03190666666667,
+  "lon": 23.54041,
+  "time_utc": "2026-11-17T09:43:36+00:00",
+  "text": "SVS II (tug/tow) weighed anchor at Elefsis Bay anchorage at 09:43 UTC and is underway at 6.5 knots."
+ },
+ {
+  "id": "2026-11-17T09:43:36+00:00-636021826-weighed_anchor",
+  "type": "weighed_anchor",
+  "mmsi": 636021826,
+  "name": "ORIS MARINE",
+  "lat": 38.03565666666667,
+  "lon": 23.510506666666668,
+  "time_utc": "2026-11-17T09:43:36+00:00",
+  "text": "ORIS MARINE (tanker) weighed anchor at 2 km off Elefsina at 09:43 UTC and is underway at 2.9 knots."
  }
 ]
