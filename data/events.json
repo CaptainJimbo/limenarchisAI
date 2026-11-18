@@ -1,85 +1,5 @@
 [
  {
-  "id": "2026-11-16T18:27:48+00:00-215013000-anchoring",
-  "type": "anchoring",
-  "mmsi": 215013000,
-  "name": "DELTA SEA",
-  "lat": 38.02196333333333,
-  "lon": 23.533736666666666,
-  "time_utc": "2026-11-16T18:27:48+00:00",
-  "text": "DELTA SEA (tanker) anchored at 2 km off Elefsina at 18:27 UTC."
- },
- {
-  "id": "2026-11-16T18:27:48+00:00-237592700-arrival",
-  "type": "arrival",
-  "mmsi": 237592700,
-  "name": "AIAKOS",
-  "lat": 37.965205,
-  "lon": 23.529675,
-  "time_utc": "2026-11-16T18:27:48+00:00",
-  "text": "AIAKOS (passenger) arrived at Salamina (Paloukia) at 18:27 UTC."
- },
- {
-  "id": "2026-11-16T18:27:48+00:00-241470000-departure",
-  "type": "departure",
-  "mmsi": 241470000,
-  "name": "NISSOS SAMOS",
-  "lat": 37.85750666666667,
-  "lon": 23.614201666666666,
-  "time_utc": "2026-11-16T18:27:48+00:00",
-  "text": "NISSOS SAMOS (passenger) departed Piraeus at 18:27 UTC, making 18.9 knots."
- },
- {
-  "id": "2026-11-16T18:27:48+00:00-241600000-departure",
-  "type": "departure",
-  "mmsi": 241600000,
-  "name": "PLATYTERA",
-  "lat": 38.034146666666665,
-  "lon": 23.536776666666665,
-  "time_utc": "2026-11-16T18:27:48+00:00",
-  "text": "PLATYTERA (special craft) departed Elefsina at 18:27 UTC, making 3.9 knots."
- },
- {
-  "id": "2026-11-16T18:27:48+00:00-241872000-departure",
-  "type": "departure",
-  "mmsi": 241872000,
-  "name": "VERNICOS SCAFI III",
-  "lat": 38.026915,
-  "lon": 23.582543333333334,
-  "time_utc": "2026-11-16T18:27:48+00:00",
-  "text": "VERNICOS SCAFI III (special craft) departed Elefsina at 18:27 UTC, making 11.2 knots."
- },
- {
-  "id": "2026-11-16T18:27:48+00:00-241927000-weighed_anchor",
-  "type": "weighed_anchor",
-  "mmsi": 241927000,
-  "name": "SVS I",
-  "lat": 38.02424166666666,
-  "lon": 23.591433333333335,
-  "time_utc": "2026-11-16T18:27:48+00:00",
-  "text": "SVS I (special craft) weighed anchor at Elefsis Bay anchorage at 18:27 UTC and is underway at 3.2 knots."
- },
- {
-  "id": "2026-11-16T18:27:48+00:00-census-Piraeus anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Piraeus anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-11-16T18:27:48+00:00",
-  "text": "7 vessels lying at Piraeus anchorage at 18:27 UTC (up 2 since the previous snapshot)."
- },
- {
-  "id": "2026-11-16T18:27:48+00:00-census-Elefsis Bay anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Elefsis Bay anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-11-16T18:27:48+00:00",
-  "text": "9 vessels lying at Elefsis Bay anchorage at 18:27 UTC (up 2 since the previous snapshot)."
- },
- {
   "id": "2026-11-16T19:43:32+00:00-241349000-anchoring",
   "type": "anchoring",
   "mmsi": 241349000,
@@ -5028,5 +4948,55 @@
   "lon": null,
   "time_utc": "2026-11-18T18:25:46+00:00",
   "text": "10 vessels lying at Elefsis Bay anchorage at 18:25 UTC (up 3 since the previous snapshot)."
+ },
+ {
+  "id": "2026-11-18T18:43:22+00:00-237021400-arrival",
+  "type": "arrival",
+  "mmsi": 237021400,
+  "name": "AG NEKTARIOS AIGINAS",
+  "lat": 37.944493333333334,
+  "lon": 23.64187666666667,
+  "time_utc": "2026-11-18T18:43:22+00:00",
+  "text": "AG NEKTARIOS AIGINAS arrived at Piraeus at 18:43 UTC."
+ },
+ {
+  "id": "2026-11-18T18:43:22+00:00-241699000-weighed_anchor",
+  "type": "weighed_anchor",
+  "mmsi": 241699000,
+  "name": "ZAKROS",
+  "lat": 37.90468833333333,
+  "lon": 23.537609999999997,
+  "time_utc": "2026-11-18T18:43:22+00:00",
+  "text": "ZAKROS (tanker) weighed anchor at Piraeus anchorage at 18:43 UTC and is underway at 4.8 knots."
+ },
+ {
+  "id": "2026-11-18T18:43:22+00:00-241929000-weighed_anchor",
+  "type": "weighed_anchor",
+  "mmsi": 241929000,
+  "name": "SAMPATIKI",
+  "lat": 37.840453333333336,
+  "lon": 23.468376666666664,
+  "time_utc": "2026-11-18T18:43:22+00:00",
+  "text": "SAMPATIKI weighed anchor at 3 km off Corinth Canal (Isthmia) at 18:43 UTC and is underway at 10.3 knots."
+ },
+ {
+  "id": "2026-11-18T18:43:22+00:00-census-Piraeus anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Piraeus anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-11-18T18:43:22+00:00",
+  "text": "6 vessels lying at Piraeus anchorage at 18:43 UTC (down 1 since the previous snapshot)."
+ },
+ {
+  "id": "2026-11-18T18:43:22+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-11-18T18:43:22+00:00",
+  "text": "11 vessels lying at Elefsis Bay anchorage at 18:43 UTC (up 1 since the previous snapshot)."
  }
 ]
