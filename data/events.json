@@ -1,35 +1,5 @@
 [
  {
-  "id": "2026-11-17T02:27:59+00:00-237932700-arrival",
-  "type": "arrival",
-  "mmsi": 237932700,
-  "name": "ATHINA P",
-  "lat": 37.96544666666667,
-  "lon": 23.530105,
-  "time_utc": "2026-11-17T02:27:59+00:00",
-  "text": "ATHINA P (passenger) arrived at Salamina (Paloukia) at 02:27 UTC."
- },
- {
-  "id": "2026-11-17T02:27:59+00:00-240706900-departure",
-  "type": "departure",
-  "mmsi": 240706900,
-  "name": "PILOT BOAT PY73",
-  "lat": 37.91513,
-  "lon": 23.61706333333333,
-  "time_utc": "2026-11-17T02:27:59+00:00",
-  "text": "PILOT BOAT PY73 (special craft) departed Piraeus at 02:27 UTC, making 7.4 knots."
- },
- {
-  "id": "2026-11-17T02:27:59+00:00-census-Elefsis Bay anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Elefsis Bay anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-11-17T02:27:59+00:00",
-  "text": "9 vessels lying at Elefsis Bay anchorage at 02:27 UTC (up 1 since the previous snapshot)."
- },
- {
   "id": "2026-11-17T02:43:33+00:00-239710000-departure",
   "type": "departure",
   "mmsi": 239710000,
@@ -5118,5 +5088,55 @@
   "lon": null,
   "time_utc": "2026-11-19T02:27:28+00:00",
   "text": "12 vessels lying at Elefsis Bay anchorage at 02:27 UTC (up 4 since the previous snapshot)."
+ },
+ {
+  "id": "2026-11-19T02:43:30+00:00-240707100-arrival",
+  "type": "arrival",
+  "mmsi": 240707100,
+  "name": "PILOT BOAT PY74",
+  "lat": 37.93788166666666,
+  "lon": 23.626331666666665,
+  "time_utc": "2026-11-19T02:43:30+00:00",
+  "text": "PILOT BOAT PY74 (special craft) arrived at Piraeus at 02:43 UTC."
+ },
+ {
+  "id": "2026-11-19T02:43:30+00:00-241699000-anchoring",
+  "type": "anchoring",
+  "mmsi": 241699000,
+  "name": "ZAKROS",
+  "lat": 37.91733333333333,
+  "lon": 23.549111666666665,
+  "time_utc": "2026-11-19T02:43:30+00:00",
+  "text": "ZAKROS (tanker) anchored at Piraeus anchorage at 02:43 UTC."
+ },
+ {
+  "id": "2026-11-19T02:43:30+00:00-241951000-arrival",
+  "type": "arrival",
+  "mmsi": 241951000,
+  "name": "SVS II",
+  "lat": 37.959134999999996,
+  "lon": 23.562078333333332,
+  "time_utc": "2026-11-19T02:43:30+00:00",
+  "text": "SVS II (tug/tow) arrived at Perama at 02:43 UTC."
+ },
+ {
+  "id": "2026-11-19T02:43:30+00:00-census-Piraeus anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Piraeus anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-11-19T02:43:30+00:00",
+  "text": "10 vessels lying at Piraeus anchorage at 02:43 UTC (up 2 since the previous snapshot)."
+ },
+ {
+  "id": "2026-11-19T02:43:30+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-11-19T02:43:30+00:00",
+  "text": "11 vessels lying at Elefsis Bay anchorage at 02:43 UTC (down 1 since the previous snapshot)."
  }
 ]
