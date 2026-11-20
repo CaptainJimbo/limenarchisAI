@@ -1,45 +1,5 @@
 [
  {
-  "id": "2026-11-18T23:43:29+00:00-239005400-departure",
-  "type": "departure",
-  "mmsi": 239005400,
-  "name": "MATOULA K",
-  "lat": 37.963181666666664,
-  "lon": 23.555771666666665,
-  "time_utc": "2026-11-18T23:43:29+00:00",
-  "text": "MATOULA K (passenger) departed Salamina (Paloukia) at 23:43 UTC, making 3.9 knots."
- },
- {
-  "id": "2026-11-18T23:43:29+00:00-239923000-arrival",
-  "type": "arrival",
-  "mmsi": 239923000,
-  "name": "BLUE STAR NAXOS",
-  "lat": 37.94860333333334,
-  "lon": 23.64047,
-  "time_utc": "2026-11-18T23:43:29+00:00",
-  "text": "BLUE STAR NAXOS (passenger) arrived at Piraeus at 23:43 UTC."
- },
- {
-  "id": "2026-11-18T23:43:29+00:00-census-Piraeus anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Piraeus anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-11-18T23:43:29+00:00",
-  "text": "4 vessels lying at Piraeus anchorage at 23:43 UTC (down 2 since the previous snapshot)."
- },
- {
-  "id": "2026-11-18T23:43:29+00:00-census-Elefsis Bay anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Elefsis Bay anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-11-18T23:43:29+00:00",
-  "text": "11 vessels lying at Elefsis Bay anchorage at 23:43 UTC (down 1 since the previous snapshot)."
- },
- {
   "id": "2026-11-19T00:44:28+00:00-240707100-departure",
   "type": "departure",
   "mmsi": 240707100,
@@ -5378,5 +5338,55 @@
   "lon": null,
   "time_utc": "2026-11-20T23:24:21+00:00",
   "text": "3 vessels lying at Elefsis Bay anchorage at 23:24 UTC (down 7 since the previous snapshot)."
+ },
+ {
+  "id": "2026-11-20T23:43:43+00:00-240078300-arrival",
+  "type": "arrival",
+  "mmsi": 240078300,
+  "name": "LUISE",
+  "lat": 37.74477,
+  "lon": 23.428659999999997,
+  "time_utc": "2026-11-20T23:43:43+00:00",
+  "text": "LUISE (pleasure) arrived at Aegina at 23:43 UTC."
+ },
+ {
+  "id": "2026-11-20T23:43:43+00:00-241751000-anchoring",
+  "type": "anchoring",
+  "mmsi": 241751000,
+  "name": "KRITI ADMIRAL",
+  "lat": 38.021968333333334,
+  "lon": 23.512696666666667,
+  "time_utc": "2026-11-20T23:43:43+00:00",
+  "text": "KRITI ADMIRAL (tanker) anchored at Elefsis Bay anchorage at 23:43 UTC."
+ },
+ {
+  "id": "2026-11-20T23:43:43+00:00-249286000-anchoring",
+  "type": "anchoring",
+  "mmsi": 249286000,
+  "name": "",
+  "lat": 38.008183333333335,
+  "lon": 23.535055,
+  "time_utc": "2026-11-20T23:43:43+00:00",
+  "text": "MMSI 249286000 anchored at 3 km off Elefsina at 23:43 UTC."
+ },
+ {
+  "id": "2026-11-20T23:43:43+00:00-538003431-weighed_anchor",
+  "type": "weighed_anchor",
+  "mmsi": 538003431,
+  "name": "HISTRIA PRINCE",
+  "lat": 37.52314833333333,
+  "lon": 23.708871666666667,
+  "time_utc": "2026-11-20T23:43:43+00:00",
+  "text": "HISTRIA PRINCE weighed anchor at Piraeus anchorage at 23:43 UTC and is underway at 11.3 knots."
+ },
+ {
+  "id": "2026-11-20T23:43:43+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-11-20T23:43:43+00:00",
+  "text": "7 vessels lying at Elefsis Bay anchorage at 23:43 UTC (up 4 since the previous snapshot)."
  }
 ]
