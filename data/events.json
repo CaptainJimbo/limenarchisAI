@@ -1,45 +1,5 @@
 [
  {
-  "id": "2026-11-19T02:27:28+00:00-240707100-departure",
-  "type": "departure",
-  "mmsi": 240707100,
-  "name": "PILOT BOAT PY74",
-  "lat": 37.930265,
-  "lon": 23.609735,
-  "time_utc": "2026-11-19T02:27:28+00:00",
-  "text": "PILOT BOAT PY74 (special craft) departed Piraeus at 02:27 UTC, making 17.6 knots."
- },
- {
-  "id": "2026-11-19T02:27:28+00:00-241367000-anchoring",
-  "type": "anchoring",
-  "mmsi": 241367000,
-  "name": "KRITI VERANO",
-  "lat": 37.83849,
-  "lon": 23.509394999999998,
-  "time_utc": "2026-11-19T02:27:28+00:00",
-  "text": "KRITI VERANO (tanker) anchored at open water (37.838, 23.509) at 02:27 UTC."
- },
- {
-  "id": "2026-11-19T02:27:28+00:00-258121000-weighed_anchor",
-  "type": "weighed_anchor",
-  "mmsi": 258121000,
-  "name": "FLOYEN",
-  "lat": 37.79137,
-  "lon": 23.62989,
-  "time_utc": "2026-11-19T02:27:28+00:00",
-  "text": "FLOYEN (tanker) weighed anchor at Piraeus anchorage at 02:27 UTC and is underway at 13.5 knots."
- },
- {
-  "id": "2026-11-19T02:27:28+00:00-census-Elefsis Bay anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Elefsis Bay anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-11-19T02:27:28+00:00",
-  "text": "12 vessels lying at Elefsis Bay anchorage at 02:27 UTC (up 4 since the previous snapshot)."
- },
- {
   "id": "2026-11-19T02:43:30+00:00-240707100-arrival",
   "type": "arrival",
   "mmsi": 240707100,
@@ -5298,5 +5258,35 @@
   "lon": null,
   "time_utc": "2026-11-21T02:26:59+00:00",
   "text": "10 vessels lying at Elefsis Bay anchorage at 02:26 UTC (down 2 since the previous snapshot)."
+ },
+ {
+  "id": "2026-11-21T02:43:14+00:00-240075800-departure",
+  "type": "departure",
+  "mmsi": 240075800,
+  "name": "MICHAIL N",
+  "lat": 37.96101833333333,
+  "lon": 23.551373333333334,
+  "time_utc": "2026-11-21T02:43:14+00:00",
+  "text": "MICHAIL N (passenger) departed Salamina (Paloukia) at 02:43 UTC, making 6.7 knots."
+ },
+ {
+  "id": "2026-11-21T02:43:14+00:00-census-Piraeus anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Piraeus anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-11-21T02:43:14+00:00",
+  "text": "8 vessels lying at Piraeus anchorage at 02:43 UTC (down 1 since the previous snapshot)."
+ },
+ {
+  "id": "2026-11-21T02:43:14+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-11-21T02:43:14+00:00",
+  "text": "9 vessels lying at Elefsis Bay anchorage at 02:43 UTC (down 1 since the previous snapshot)."
  }
 ]
