@@ -1,195 +1,5 @@
 [
  {
-  "id": "2026-11-19T22:43:40+00:00-239982900-departure",
-  "type": "departure",
-  "mmsi": 239982900,
-  "name": "PARALOS",
-  "lat": 37.961533333333335,
-  "lon": 23.553183333333333,
-  "time_utc": "2026-11-19T22:43:40+00:00",
-  "text": "PARALOS (passenger) departed Salamina (Paloukia) at 22:43 UTC, making 6.6 knots."
- },
- {
-  "id": "2026-11-19T22:43:40+00:00-240871000-weighed_anchor",
-  "type": "weighed_anchor",
-  "mmsi": 240871000,
-  "name": "ECOBREEZE",
-  "lat": 37.944494999999996,
-  "lon": 23.637135,
-  "time_utc": "2026-11-19T22:43:40+00:00",
-  "text": "ECOBREEZE (tanker) weighed anchor at Piraeus anchorage at 22:43 UTC and is underway at 4.1 knots."
- },
- {
-  "id": "2026-11-19T22:43:40+00:00-241761000-departure",
-  "type": "departure",
-  "mmsi": 241761000,
-  "name": "SEAVEN HORIZON",
-  "lat": 37.56843333333334,
-  "lon": 24.032500000000002,
-  "time_utc": "2026-11-19T22:43:40+00:00",
-  "text": "SEAVEN HORIZON (tanker) departed Elefsina at 22:43 UTC, making 10.4 knots."
- },
- {
-  "id": "2026-11-19T22:43:40+00:00-538010147-weighed_anchor",
-  "type": "weighed_anchor",
-  "mmsi": 538010147,
-  "name": "YALOUSSA",
-  "lat": 37.692368333333334,
-  "lon": 23.68322,
-  "time_utc": "2026-11-19T22:43:40+00:00",
-  "text": "YALOUSSA (cargo) weighed anchor at Piraeus anchorage at 22:43 UTC and is underway at 12.4 knots."
- },
- {
-  "id": "2026-11-19T22:43:40+00:00-census-Piraeus anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Piraeus anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-11-19T22:43:40+00:00",
-  "text": "1 vessels lying at Piraeus anchorage at 22:43 UTC (down 5 since the previous snapshot)."
- },
- {
-  "id": "2026-11-19T22:43:40+00:00-census-Elefsis Bay anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Elefsis Bay anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-11-19T22:43:40+00:00",
-  "text": "4 vessels lying at Elefsis Bay anchorage at 22:43 UTC (down 1 since the previous snapshot)."
- },
- {
-  "id": "2026-11-19T23:05:01+00:00-237296900-arrival",
-  "type": "arrival",
-  "mmsi": 237296900,
-  "name": "EVGENIA",
-  "lat": 37.268315,
-  "lon": 23.157051666666668,
-  "time_utc": "2026-11-19T23:05:01+00:00",
-  "text": "EVGENIA (cargo) arrived at Spetses at 23:05 UTC."
- },
- {
-  "id": "2026-11-19T23:05:01+00:00-240871000-arrival",
-  "type": "arrival",
-  "mmsi": 240871000,
-  "name": "ECOBREEZE",
-  "lat": 37.94853333333333,
-  "lon": 23.64099333333333,
-  "time_utc": "2026-11-19T23:05:01+00:00",
-  "text": "ECOBREEZE (tanker) arrived at Piraeus at 23:05 UTC."
- },
- {
-  "id": "2026-11-19T23:05:01+00:00-538011262-anchoring",
-  "type": "anchoring",
-  "mmsi": 538011262,
-  "name": "IPANEMA",
-  "lat": 37.490705000000005,
-  "lon": 23.878286666666668,
-  "time_utc": "2026-11-19T23:05:01+00:00",
-  "text": "IPANEMA (tanker) anchored at open water (37.491, 23.878) at 23:05 UTC."
- },
- {
-  "id": "2026-11-19T23:05:01+00:00-census-Piraeus anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Piraeus anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-11-19T23:05:01+00:00",
-  "text": "2 vessels lying at Piraeus anchorage at 23:05 UTC (up 1 since the previous snapshot)."
- },
- {
-  "id": "2026-11-19T23:05:01+00:00-census-Elefsis Bay anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Elefsis Bay anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-11-19T23:05:01+00:00",
-  "text": "6 vessels lying at Elefsis Bay anchorage at 23:05 UTC (up 2 since the previous snapshot)."
- },
- {
-  "id": "2026-11-19T23:23:38+00:00-237818200-arrival",
-  "type": "arrival",
-  "mmsi": 237818200,
-  "name": "FANEROMENI",
-  "lat": 37.965336666666666,
-  "lon": 23.529780000000002,
-  "time_utc": "2026-11-19T23:23:38+00:00",
-  "text": "FANEROMENI (passenger) arrived at Salamina (Paloukia) at 23:23 UTC."
- },
- {
-  "id": "2026-11-19T23:23:38+00:00-239923000-arrival",
-  "type": "arrival",
-  "mmsi": 239923000,
-  "name": "BLUE STAR NAXOS",
-  "lat": 37.948586666666664,
-  "lon": 23.64047,
-  "time_utc": "2026-11-19T23:23:38+00:00",
-  "text": "BLUE STAR NAXOS (passenger) arrived at Piraeus at 23:23 UTC."
- },
- {
-  "id": "2026-11-19T23:23:38+00:00-240418200-arrival",
-  "type": "arrival",
-  "mmsi": 240418200,
-  "name": "SUPPORTER",
-  "lat": 37.94794666666667,
-  "lon": 23.64148833333333,
-  "time_utc": "2026-11-19T23:23:38+00:00",
-  "text": "SUPPORTER (special craft) arrived at Piraeus at 23:23 UTC."
- },
- {
-  "id": "2026-11-19T23:23:38+00:00-240485000-arrival",
-  "type": "arrival",
-  "mmsi": 240485000,
-  "name": "ZEFYROS",
-  "lat": 38.03150333333333,
-  "lon": 23.541006666666664,
-  "time_utc": "2026-11-19T23:23:38+00:00",
-  "text": "ZEFYROS (tanker) arrived at Elefsina at 23:23 UTC."
- },
- {
-  "id": "2026-11-19T23:23:38+00:00-241442000-anchoring",
-  "type": "anchoring",
-  "mmsi": 241442000,
-  "name": "PANTANASSA",
-  "lat": 38.03590166666667,
-  "lon": 23.51392666666667,
-  "time_utc": "2026-11-19T23:23:38+00:00",
-  "text": "PANTANASSA (special craft) anchored at Elefsis Bay anchorage at 23:23 UTC."
- },
- {
-  "id": "2026-11-19T23:23:38+00:00-241600000-arrival",
-  "type": "arrival",
-  "mmsi": 241600000,
-  "name": "PLATYTERA",
-  "lat": 37.93582333333333,
-  "lon": 23.62394,
-  "time_utc": "2026-11-19T23:23:38+00:00",
-  "text": "PLATYTERA (special craft) arrived at Piraeus at 23:23 UTC."
- },
- {
-  "id": "2026-11-19T23:23:38+00:00-census-Piraeus anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Piraeus anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-11-19T23:23:38+00:00",
-  "text": "4 vessels lying at Piraeus anchorage at 23:23 UTC (up 2 since the previous snapshot)."
- },
- {
-  "id": "2026-11-19T23:23:38+00:00-census-Elefsis Bay anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Elefsis Bay anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-11-19T23:23:38+00:00",
-  "text": "7 vessels lying at Elefsis Bay anchorage at 23:23 UTC (up 1 since the previous snapshot)."
- },
- {
   "id": "2026-11-19T23:43:06+00:00-237021400-arrival",
   "type": "arrival",
   "mmsi": 237021400,
@@ -5278,5 +5088,25 @@
   "lon": null,
   "time_utc": "2026-11-21T22:43:32+00:00",
   "text": "9 vessels lying at Elefsis Bay anchorage at 22:43 UTC (up 2 since the previous snapshot)."
+ },
+ {
+  "id": "2026-11-21T23:23:46+00:00-census-Piraeus anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Piraeus anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-11-21T23:23:46+00:00",
+  "text": "6 vessels lying at Piraeus anchorage at 23:23 UTC (up 1 since the previous snapshot)."
+ },
+ {
+  "id": "2026-11-21T23:23:46+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-11-21T23:23:46+00:00",
+  "text": "8 vessels lying at Elefsis Bay anchorage at 23:23 UTC (down 1 since the previous snapshot)."
  }
 ]
