@@ -1,55 +1,5 @@
 [
  {
-  "id": "2026-11-21T14:43:39+00:00-237040100-arrival",
-  "type": "arrival",
-  "mmsi": 237040100,
-  "name": "ELENI",
-  "lat": 37.74520333333333,
-  "lon": 23.425073333333334,
-  "time_utc": "2026-11-21T14:43:39+00:00",
-  "text": "ELENI (passenger) arrived at Aegina at 14:43 UTC."
- },
- {
-  "id": "2026-11-21T14:43:39+00:00-237365500-arrival",
-  "type": "arrival",
-  "mmsi": 237365500,
-  "name": "ALEXANDROS M",
-  "lat": 37.96484,
-  "lon": 23.529586666666667,
-  "time_utc": "2026-11-21T14:43:39+00:00",
-  "text": "ALEXANDROS M (passenger) arrived at Salamina (Paloukia) at 14:43 UTC."
- },
- {
-  "id": "2026-11-21T14:43:39+00:00-239056300-arrival",
-  "type": "arrival",
-  "mmsi": 239056300,
-  "name": "ACHAEOS",
-  "lat": 37.745,
-  "lon": 23.42445,
-  "time_utc": "2026-11-21T14:43:39+00:00",
-  "text": "ACHAEOS (passenger) arrived at Aegina at 14:43 UTC."
- },
- {
-  "id": "2026-11-21T14:43:39+00:00-240601900-departure",
-  "type": "departure",
-  "mmsi": 240601900,
-  "name": "PROTOPOROS XVII",
-  "lat": 37.963611666666665,
-  "lon": 23.555555000000002,
-  "time_utc": "2026-11-21T14:43:39+00:00",
-  "text": "PROTOPOROS XVII (passenger) departed Salamina (Paloukia) at 14:43 UTC, making 2.4 knots."
- },
- {
-  "id": "2026-11-21T14:43:39+00:00-census-Piraeus anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Piraeus anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-11-21T14:43:39+00:00",
-  "text": "7 vessels lying at Piraeus anchorage at 14:43 UTC (down 5 since the previous snapshot)."
- },
- {
   "id": "2026-11-21T15:43:28+00:00-212769000-arrival",
   "type": "arrival",
   "mmsi": 212769000,
@@ -4338,5 +4288,65 @@
   "lon": null,
   "time_utc": "2026-11-23T14:25:57+00:00",
   "text": "4 vessels lying at Elefsis Bay anchorage at 14:25 UTC (down 3 since the previous snapshot)."
+ },
+ {
+  "id": "2026-11-23T15:24:59+00:00-240672000-departure",
+  "type": "departure",
+  "mmsi": 240672000,
+  "name": "BLUE STAR CHIOS",
+  "lat": 37.851075,
+  "lon": 23.61514833333333,
+  "time_utc": "2026-11-23T15:24:59+00:00",
+  "text": "BLUE STAR CHIOS (passenger) departed Piraeus at 15:24 UTC, making 22.2 knots."
+ },
+ {
+  "id": "2026-11-23T15:24:59+00:00-241775000-anchoring",
+  "type": "anchoring",
+  "mmsi": 241775000,
+  "name": "ITANOS",
+  "lat": 37.90942166666667,
+  "lon": 23.081355,
+  "time_utc": "2026-11-23T15:24:59+00:00",
+  "text": "ITANOS (special craft) anchored at 7 km off Corinth Canal (Isthmia) at 15:24 UTC."
+ },
+ {
+  "id": "2026-11-23T15:24:59+00:00-241804000-departure",
+  "type": "departure",
+  "mmsi": 241804000,
+  "name": "AERO 3 HIGHSPEED",
+  "lat": 37.72861,
+  "lon": 23.371846666666666,
+  "time_utc": "2026-11-23T15:24:59+00:00",
+  "text": "AERO 3 HIGHSPEED (high-speed craft) departed Piraeus at 15:24 UTC, making 29.9 knots."
+ },
+ {
+  "id": "2026-11-23T15:24:59+00:00-370199000-anchoring",
+  "type": "anchoring",
+  "mmsi": 370199000,
+  "name": "MAYFAIR",
+  "lat": 38.02509666666666,
+  "lon": 23.525605,
+  "time_utc": "2026-11-23T15:24:59+00:00",
+  "text": "MAYFAIR (cargo) anchored at 2 km off Elefsina at 15:24 UTC."
+ },
+ {
+  "id": "2026-11-23T15:24:59+00:00-census-Piraeus anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Piraeus anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-11-23T15:24:59+00:00",
+  "text": "2 vessels lying at Piraeus anchorage at 15:24 UTC (down 3 since the previous snapshot)."
+ },
+ {
+  "id": "2026-11-23T15:24:59+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-11-23T15:24:59+00:00",
+  "text": "3 vessels lying at Elefsis Bay anchorage at 15:24 UTC (down 1 since the previous snapshot)."
  }
 ]
