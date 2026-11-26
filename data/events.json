@@ -1,55 +1,5 @@
 [
  {
-  "id": "2026-11-24T17:43:32+00:00-353657000-anchoring",
-  "type": "anchoring",
-  "mmsi": 353657000,
-  "name": "ALFA SEA",
-  "lat": 38.014845,
-  "lon": 23.530308333333334,
-  "time_utc": "2026-11-24T17:43:32+00:00",
-  "text": "ALFA SEA (tanker) anchored at 3 km off Elefsina at 17:43 UTC."
- },
- {
-  "id": "2026-11-24T17:43:32+00:00-354198000-departure",
-  "type": "departure",
-  "mmsi": 354198000,
-  "name": "EPSILON SEA",
-  "lat": 38.02336833333333,
-  "lon": 23.533468333333335,
-  "time_utc": "2026-11-24T17:43:32+00:00",
-  "text": "EPSILON SEA (tanker) departed Elefsina at 17:43 UTC, making 5.4 knots."
- },
- {
-  "id": "2026-11-24T17:43:32+00:00-538013371-anchoring",
-  "type": "anchoring",
-  "mmsi": 538013371,
-  "name": "ASTIPALEA",
-  "lat": 37.888083333333334,
-  "lon": 23.542903333333335,
-  "time_utc": "2026-11-24T17:43:32+00:00",
-  "text": "ASTIPALEA (tanker) anchored at Piraeus anchorage at 17:43 UTC."
- },
- {
-  "id": "2026-11-24T17:43:32+00:00-census-Piraeus anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Piraeus anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-11-24T17:43:32+00:00",
-  "text": "5 vessels lying at Piraeus anchorage at 17:43 UTC (up 1 since the previous snapshot)."
- },
- {
-  "id": "2026-11-24T17:43:32+00:00-census-Elefsis Bay anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Elefsis Bay anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-11-24T17:43:32+00:00",
-  "text": "8 vessels lying at Elefsis Bay anchorage at 17:43 UTC (up 2 since the previous snapshot)."
- },
- {
   "id": "2026-11-24T19:05:08+00:00-209262000-departure",
   "type": "departure",
   "mmsi": 209262000,
@@ -3308,5 +3258,25 @@
   "lon": null,
   "time_utc": "2026-11-26T17:25:02+00:00",
   "text": "4 vessels lying at Elefsis Bay anchorage at 17:25 UTC (down 5 since the previous snapshot)."
+ },
+ {
+  "id": "2026-11-26T17:43:47+00:00-241925000-arrival",
+  "type": "arrival",
+  "mmsi": 241925000,
+  "name": "CHRISTOS 73",
+  "lat": 37.970263333333335,
+  "lon": 23.536238333333333,
+  "time_utc": "2026-11-26T17:43:47+00:00",
+  "text": "CHRISTOS 73 (special craft) arrived at Salamina (Paloukia) at 17:43 UTC."
+ },
+ {
+  "id": "2026-11-26T17:43:47+00:00-census-Piraeus anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Piraeus anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-11-26T17:43:47+00:00",
+  "text": "4 vessels lying at Piraeus anchorage at 17:43 UTC (up 1 since the previous snapshot)."
  }
 ]
