@@ -1,45 +1,5 @@
 [
  {
-  "id": "2026-11-24T21:43:50+00:00-237296900-departure",
-  "type": "departure",
-  "mmsi": 237296900,
-  "name": "EVGENIA",
-  "lat": 37.30040333333333,
-  "lon": 23.039225,
-  "time_utc": "2026-11-24T21:43:50+00:00",
-  "text": "EVGENIA (cargo) departed Spetses at 21:43 UTC, making 7.4 knots."
- },
- {
-  "id": "2026-11-24T21:43:50+00:00-241611000-anchoring",
-  "type": "anchoring",
-  "mmsi": 241611000,
-  "name": "KALIKRATIS",
-  "lat": 37.91103,
-  "lon": 23.553166666666666,
-  "time_utc": "2026-11-24T21:43:50+00:00",
-  "text": "KALIKRATIS (tanker) anchored at Piraeus anchorage at 21:43 UTC."
- },
- {
-  "id": "2026-11-24T21:43:50+00:00-census-Piraeus anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Piraeus anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-11-24T21:43:50+00:00",
-  "text": "8 vessels lying at Piraeus anchorage at 21:43 UTC (up 4 since the previous snapshot)."
- },
- {
-  "id": "2026-11-24T21:43:50+00:00-census-Elefsis Bay anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Elefsis Bay anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-11-24T21:43:50+00:00",
-  "text": "11 vessels lying at Elefsis Bay anchorage at 21:43 UTC (up 7 since the previous snapshot)."
- },
- {
   "id": "2026-11-25T01:06:37+00:00-237365500-departure",
   "type": "departure",
   "mmsi": 237365500,
@@ -3508,5 +3468,45 @@
   "lon": null,
   "time_utc": "2026-11-26T21:43:32+00:00",
   "text": "7 vessels lying at Elefsis Bay anchorage at 21:43 UTC (up 3 since the previous snapshot)."
+ },
+ {
+  "id": "2026-11-26T22:05:42+00:00-237296900-arrival",
+  "type": "arrival",
+  "mmsi": 237296900,
+  "name": "EVGENIA",
+  "lat": 37.268315,
+  "lon": 23.15706,
+  "time_utc": "2026-11-26T22:05:42+00:00",
+  "text": "EVGENIA (cargo) arrived at Spetses at 22:05 UTC."
+ },
+ {
+  "id": "2026-11-26T22:05:42+00:00-237562900-departure",
+  "type": "departure",
+  "mmsi": 237562900,
+  "name": "AGIOS ELEFTHERIOS IV",
+  "lat": 37.959383333333335,
+  "lon": 23.537633333333336,
+  "time_utc": "2026-11-26T22:05:42+00:00",
+  "text": "AGIOS ELEFTHERIOS IV (passenger) departed Salamina (Paloukia) at 22:05 UTC, making 6.3 knots."
+ },
+ {
+  "id": "2026-11-26T22:05:42+00:00-census-Piraeus anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Piraeus anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-11-26T22:05:42+00:00",
+  "text": "7 vessels lying at Piraeus anchorage at 22:05 UTC (down 1 since the previous snapshot)."
+ },
+ {
+  "id": "2026-11-26T22:05:42+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-11-26T22:05:42+00:00",
+  "text": "9 vessels lying at Elefsis Bay anchorage at 22:05 UTC (up 2 since the previous snapshot)."
  }
 ]
