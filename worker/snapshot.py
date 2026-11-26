@@ -20,6 +20,12 @@ import websockets
 
 AISSTREAM_URL = "wss://stream.aisstream.io/v0/stream"
 
+# aisstream can take 10-35 s to answer the opening handshake (measured
+# 2026-11); the websockets default of 10 s failed most scheduled runs.
+CONNECT_TIMEOUT = 90   # seconds per attempt
+CONNECT_ATTEMPTS = 3
+CONNECT_RETRY_WAIT = 10  # seconds between attempts
+
 # Full Saronic + Argosaronic (CLAUDE.md scope, tuned at step 1):
 # lat 37.15-38.1 N, lon 22.9-24.1 E — includes Hydra/Spetses (ferry-delay
 # routes) and the Corinth Canal east entrance.
@@ -133,13 +139,27 @@ def handle_static(mtype, data, mmsi, static):
             entry["type_code"] = type_code
 
 
+async def open_stream():
+    """Connect to aisstream, retrying a slow or refused handshake."""
+    for attempt in range(1, CONNECT_ATTEMPTS + 1):
+        try:
+            return await websockets.connect(AISSTREAM_URL,
+                                            open_timeout=CONNECT_TIMEOUT)
+        except (TimeoutError, OSError, websockets.InvalidHandshake) as exc:
+            print(f"warning: connect attempt {attempt}/{CONNECT_ATTEMPTS} "
+                  f"failed: {exc!r}", file=sys.stderr)
+            if attempt == CONNECT_ATTEMPTS:
+                raise
+            await asyncio.sleep(CONNECT_RETRY_WAIT)
+
+
 async def collect(api_key: str, duration: float) -> dict:
     """Listen for `duration` seconds; return latest vessel state per MMSI."""
     vessels: dict[int, dict] = {}
     static: dict[int, dict] = {}
     message_count = 0
 
-    async with websockets.connect(AISSTREAM_URL) as ws:
+    async with await open_stream() as ws:
         await ws.send(json.dumps({
             "APIKey": api_key,
             "BoundingBoxes": BOUNDING_BOX,
