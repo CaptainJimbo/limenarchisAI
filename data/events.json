@@ -1,65 +1,5 @@
 [
  {
-  "id": "2026-11-24T07:06:53+00:00-210741000-departure",
-  "type": "departure",
-  "mmsi": 210741000,
-  "name": "AERO 4 HIGHSPEED",
-  "lat": 37.936375,
-  "lon": 23.61831833333333,
-  "time_utc": "2026-11-24T07:06:53+00:00",
-  "text": "AERO 4 HIGHSPEED (high-speed craft) departed Piraeus at 07:06 UTC, making 17.3 knots."
- },
- {
-  "id": "2026-11-24T07:06:53+00:00-212769000-departure",
-  "type": "departure",
-  "mmsi": 212769000,
-  "name": "MAGIC 3",
-  "lat": 37.9375,
-  "lon": 23.619145,
-  "time_utc": "2026-11-24T07:06:53+00:00",
-  "text": "MAGIC 3 (high-speed craft) departed Piraeus at 07:06 UTC, making 16.2 knots."
- },
- {
-  "id": "2026-11-24T07:06:53+00:00-240925000-anchoring",
-  "type": "anchoring",
-  "mmsi": 240925000,
-  "name": "KARAPIPERIS NEW GENE",
-  "lat": 37.960100000000004,
-  "lon": 23.56345,
-  "time_utc": "2026-11-24T07:06:53+00:00",
-  "text": "KARAPIPERIS NEW GENE (special craft) anchored at Perama at 07:06 UTC."
- },
- {
-  "id": "2026-11-24T07:06:53+00:00-367176000-weighed_anchor",
-  "type": "weighed_anchor",
-  "mmsi": 367176000,
-  "name": "STENA POLARIS",
-  "lat": 37.85451666666667,
-  "lon": 23.473771666666668,
-  "time_utc": "2026-11-24T07:06:53+00:00",
-  "text": "STENA POLARIS (tanker) weighed anchor at Piraeus anchorage at 07:06 UTC and is underway at 12.4 knots."
- },
- {
-  "id": "2026-11-24T07:06:53+00:00-census-Piraeus anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Piraeus anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-11-24T07:06:53+00:00",
-  "text": "4 vessels lying at Piraeus anchorage at 07:06 UTC (down 4 since the previous snapshot)."
- },
- {
-  "id": "2026-11-24T07:06:53+00:00-census-Elefsis Bay anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Elefsis Bay anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-11-24T07:06:53+00:00",
-  "text": "6 vessels lying at Elefsis Bay anchorage at 07:06 UTC (down 7 since the previous snapshot)."
- },
- {
   "id": "2026-11-24T08:43:57+00:00-237040100-arrival",
   "type": "arrival",
   "mmsi": 237040100,
@@ -1718,5 +1658,85 @@
   "lon": null,
   "time_utc": "2026-11-26T07:06:48+00:00",
   "text": "5 vessels lying at Elefsis Bay anchorage at 07:06 UTC (up 2 since the previous snapshot)."
+ },
+ {
+  "id": "2026-11-26T07:27:16+00:00-237002600-arrival",
+  "type": "arrival",
+  "mmsi": 237002600,
+  "name": "APOLLON HELLAS",
+  "lat": 37.74502,
+  "lon": 23.42446,
+  "time_utc": "2026-11-26T07:27:16+00:00",
+  "text": "APOLLON HELLAS (passenger) arrived at Aegina at 07:27 UTC."
+ },
+ {
+  "id": "2026-11-26T07:27:16+00:00-240042300-departure",
+  "type": "departure",
+  "mmsi": 240042300,
+  "name": "PROTOPOROS XIII",
+  "lat": 37.9633,
+  "lon": 23.555116666666667,
+  "time_utc": "2026-11-26T07:27:16+00:00",
+  "text": "PROTOPOROS XIII (passenger) departed Salamina (Paloukia) at 07:27 UTC, making 3.8 knots."
+ },
+ {
+  "id": "2026-11-26T07:27:16+00:00-240871000-departure",
+  "type": "departure",
+  "mmsi": 240871000,
+  "name": "ECOBREEZE",
+  "lat": 38.02663166666667,
+  "lon": 23.511215,
+  "time_utc": "2026-11-26T07:27:16+00:00",
+  "text": "ECOBREEZE (tanker) departed Elefsina at 07:27 UTC, making 6.9 knots."
+ },
+ {
+  "id": "2026-11-26T07:27:16+00:00-241159000-departure",
+  "type": "departure",
+  "mmsi": 241159000,
+  "name": "BLUE STAR PATMOS",
+  "lat": 37.69643166666666,
+  "lon": 23.752048333333335,
+  "time_utc": "2026-11-26T07:27:16+00:00",
+  "text": "BLUE STAR PATMOS (passenger) departed Piraeus at 07:27 UTC, making 19.4 knots."
+ },
+ {
+  "id": "2026-11-26T07:27:16+00:00-241469000-departure",
+  "type": "departure",
+  "mmsi": 241469000,
+  "name": "CHRISTOS XXX",
+  "lat": 37.951116666666664,
+  "lon": 23.589949999999998,
+  "time_utc": "2026-11-26T07:27:16+00:00",
+  "text": "CHRISTOS XXX (special craft) departed Perama at 07:27 UTC, making 9.6 knots."
+ },
+ {
+  "id": "2026-11-26T07:27:16+00:00-353657000-weighed_anchor",
+  "type": "weighed_anchor",
+  "mmsi": 353657000,
+  "name": "ALFA SEA",
+  "lat": 38.016775,
+  "lon": 23.53246,
+  "time_utc": "2026-11-26T07:27:16+00:00",
+  "text": "ALFA SEA (tanker) weighed anchor at 2 km off Elefsina at 07:27 UTC and is underway at 2.6 knots."
+ },
+ {
+  "id": "2026-11-26T07:27:16+00:00-census-Piraeus anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Piraeus anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-11-26T07:27:16+00:00",
+  "text": "5 vessels lying at Piraeus anchorage at 07:27 UTC (up 1 since the previous snapshot)."
+ },
+ {
+  "id": "2026-11-26T07:27:16+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-11-26T07:27:16+00:00",
+  "text": "10 vessels lying at Elefsis Bay anchorage at 07:27 UTC (up 5 since the previous snapshot)."
  }
 ]
