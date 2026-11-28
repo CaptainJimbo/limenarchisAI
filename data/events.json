@@ -1,75 +1,5 @@
 [
  {
-  "id": "2026-11-26T13:25:35+00:00-237038200-departure",
-  "type": "departure",
-  "mmsi": 237038200,
-  "name": "PLATYTERATONOURANON",
-  "lat": 37.629850000000005,
-  "lon": 23.439799999999998,
-  "time_utc": "2026-11-26T13:25:35+00:00",
-  "text": "PLATYTERATONOURANON (passenger) departed Aegina at 13:25 UTC, making 12.0 knots."
- },
- {
-  "id": "2026-11-26T13:25:35+00:00-239056300-departure",
-  "type": "departure",
-  "mmsi": 239056300,
-  "name": "ACHAEOS",
-  "lat": 37.748655,
-  "lon": 23.417638333333333,
-  "time_utc": "2026-11-26T13:25:35+00:00",
-  "text": "ACHAEOS (passenger) departed Aegina at 13:25 UTC, making 14.3 knots."
- },
- {
-  "id": "2026-11-26T13:25:35+00:00-240418200-departure",
-  "type": "departure",
-  "mmsi": 240418200,
-  "name": "SUPPORTER",
-  "lat": 37.94511333333333,
-  "lon": 23.61532,
-  "time_utc": "2026-11-26T13:25:35+00:00",
-  "text": "SUPPORTER (special craft) departed Piraeus at 13:25 UTC, making 2.7 knots."
- },
- {
-  "id": "2026-11-26T13:25:35+00:00-240493000-arrival",
-  "type": "arrival",
-  "mmsi": 240493000,
-  "name": "EVIAPETROL II",
-  "lat": 38.028164999999994,
-  "lon": 23.545378333333336,
-  "time_utc": "2026-11-26T13:25:35+00:00",
-  "text": "EVIAPETROL II arrived at Elefsina at 13:25 UTC."
- },
- {
-  "id": "2026-11-26T13:25:35+00:00-241802000-arrival",
-  "type": "arrival",
-  "mmsi": 241802000,
-  "name": "AERO 1 HIGHSPEED",
-  "lat": 37.745626666666666,
-  "lon": 23.427108333333333,
-  "time_utc": "2026-11-26T13:25:35+00:00",
-  "text": "AERO 1 HIGHSPEED (high-speed craft) arrived at Aegina at 13:25 UTC."
- },
- {
-  "id": "2026-11-26T13:25:35+00:00-census-Piraeus anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Piraeus anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-11-26T13:25:35+00:00",
-  "text": "3 vessels lying at Piraeus anchorage at 13:25 UTC (down 2 since the previous snapshot)."
- },
- {
-  "id": "2026-11-26T13:25:35+00:00-census-Elefsis Bay anchorage",
-  "type": "anchorage_census",
-  "mmsi": null,
-  "name": "Elefsis Bay anchorage",
-  "lat": null,
-  "lon": null,
-  "time_utc": "2026-11-26T13:25:35+00:00",
-  "text": "10 vessels lying at Elefsis Bay anchorage at 13:25 UTC (up 4 since the previous snapshot)."
- },
- {
   "id": "2026-11-26T13:43:57+00:00-241802000-departure",
   "type": "departure",
   "mmsi": 241802000,
@@ -6898,5 +6828,45 @@
   "lon": null,
   "time_utc": "2026-11-28T13:24:11+00:00",
   "text": "9 vessels lying at Elefsis Bay anchorage at 13:24 UTC (down 1 since the previous snapshot)."
+ },
+ {
+  "id": "2026-11-28T13:43:19+00:00-239982900-arrival",
+  "type": "arrival",
+  "mmsi": 239982900,
+  "name": "PARALOS",
+  "lat": 37.96515,
+  "lon": 23.529633333333333,
+  "time_utc": "2026-11-28T13:43:19+00:00",
+  "text": "PARALOS arrived at Salamina (Paloukia) at 13:43 UTC."
+ },
+ {
+  "id": "2026-11-28T13:43:19+00:00-240989000-anchoring",
+  "type": "anchoring",
+  "mmsi": 240989000,
+  "name": "SKALOTI",
+  "lat": 37.90753333333334,
+  "lon": 23.061766666666664,
+  "time_utc": "2026-11-28T13:43:19+00:00",
+  "text": "SKALOTI anchored at 5 km off Corinth Canal (Isthmia) at 13:43 UTC."
+ },
+ {
+  "id": "2026-11-28T13:43:19+00:00-241006000-weighed_anchor",
+  "type": "weighed_anchor",
+  "mmsi": 241006000,
+  "name": "ELIN POSEIDON",
+  "lat": 38.021404999999994,
+  "lon": 23.542291666666664,
+  "time_utc": "2026-11-28T13:43:19+00:00",
+  "text": "ELIN POSEIDON (tanker) weighed anchor at 2 km off Elefsina at 13:43 UTC and is underway at 3.9 knots."
+ },
+ {
+  "id": "2026-11-28T13:43:19+00:00-census-Elefsis Bay anchorage",
+  "type": "anchorage_census",
+  "mmsi": null,
+  "name": "Elefsis Bay anchorage",
+  "lat": null,
+  "lon": null,
+  "time_utc": "2026-11-28T13:43:19+00:00",
+  "text": "10 vessels lying at Elefsis Bay anchorage at 13:43 UTC (up 1 since the previous snapshot)."
  }
 ]
